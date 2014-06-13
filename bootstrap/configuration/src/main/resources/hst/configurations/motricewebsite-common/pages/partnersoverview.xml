@@ -5,7 +5,7 @@
   <sv:property sv:name="hst:parameternames" sv:type="String" sv:multiple="true"/>
   <sv:property sv:name="hst:parametervalues" sv:type="String" sv:multiple="true"/>
   <sv:property sv:name="hst:referencecomponent" sv:type="String">
-    <sv:value>hst:pages/standard</sv:value>
+    <sv:value>hst:abstractpages/base</sv:value>
   </sv:property>
   <sv:property sv:name="hst:referencename" sv:type="String">
     <sv:value/>

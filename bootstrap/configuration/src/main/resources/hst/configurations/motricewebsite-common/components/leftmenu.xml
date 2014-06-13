@@ -6,6 +6,6 @@
     <sv:value>se.inherit.components.Menu</sv:value>
   </sv:property>
   <sv:property sv:name="hst:template" sv:type="String">
-    <sv:value>standard.main.leftmenu</sv:value>
+    <sv:value>base.main.leftmenu</sv:value>
   </sv:property>
 </sv:node>

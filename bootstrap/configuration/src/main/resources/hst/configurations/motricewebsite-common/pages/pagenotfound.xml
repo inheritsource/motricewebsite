@@ -3,6 +3,6 @@
     <sv:value>hst:component</sv:value>
   </sv:property>
   <sv:property sv:name="hst:referencecomponent" sv:type="String">
-    <sv:value>hst:pages/standard</sv:value>
+    <sv:value>hst:abstractpages/base</sv:value>
   </sv:property>
 </sv:node>

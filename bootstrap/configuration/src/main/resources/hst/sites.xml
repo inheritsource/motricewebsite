@@ -7,7 +7,7 @@
       <sv:value>hst:site</sv:value>
     </sv:property>
     <sv:property sv:name="hst:content" sv:type="String">
-      <sv:value>/content/documents/motricewebsite</sv:value>
+      <sv:value>/content/documents/motricewebsite-sv</sv:value>
     </sv:property>
   </sv:node>
   <sv:node sv:name="motricewebsite-en-mobile">

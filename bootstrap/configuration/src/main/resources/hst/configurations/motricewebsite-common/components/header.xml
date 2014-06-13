@@ -6,6 +6,6 @@
     <sv:value>se.inherit.components.Header</sv:value>
   </sv:property>
   <sv:property sv:name="hst:template" sv:type="String">
-    <sv:value>standard.header</sv:value>
+    <sv:value>base.header</sv:value>
   </sv:property>
 </sv:node>
