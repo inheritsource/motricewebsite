@@ -8,6 +8,54 @@
   </c:when>
   <c:otherwise>
 
+  <div class="jumbotron">
+        <h1>Om Motrice</h1>
+
+        <p class="lead">
+	  Motrice är
+	</p>
+
+        <ul>
+          <li>
+	    <b>Ett källkodsöppet it-system</b>
+	    <p>
+	      Designat för att skapa "processmedvetna" eller "processdrivna"
+	      verksamhetssystem.
+	    </p>
+	  </li>
+
+          <li>
+	    <b>En "community" under uppbyggnad</b>
+
+	    <p>
+	      Systemets öppenhet innebär att flera aktörer kan delta i
+	      utvecklingen av systemet. En "aktör" kan i detta sammanhang vara t.ex:
+	    </p>
+
+            <ul>
+              <li>	
+		<p>En kommun eller offentlig etat</p>
+              </li>
+
+              <li>	
+		<p>Ett företag</p>
+              </li>
+
+              <li>	
+		<p>En privatperson</p>
+              </li>
+	    </ul>
+
+            <p>
+	      Typiskt vill "communityn" bestå både av "leverantörer" och
+              avnämare. På sikt kommer man att styra upp detta i någon form av
+              organisation, t.ex en stiftelse.
+	    </p>
+	</ul>
+      </div>
+
+      
+
     <c:if test="${not empty document.title}">
       <hst:element var="headTitle" name="title">
         <c:out value="${document.title}"/>
@@ -30,3 +78,8 @@
 </c:choose>
 
 <hst:include ref="container"/>
+
+
+<div class="footer">
+     <p>&copy; Motrice 2013</p>
+</div>

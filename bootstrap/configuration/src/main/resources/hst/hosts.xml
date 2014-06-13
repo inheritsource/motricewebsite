@@ -75,11 +75,22 @@
           <sv:value>hst:mount</sv:value>
         </sv:property>
         <sv:property sv:name="hst:channelpath" sv:type="String">
-          <sv:value>/hst:hst/hst:channels/motricewebsite-sv-web</sv:value>
+          <sv:value>/hst:hst/hst:channels/motricewebsite</sv:value>
         </sv:property>
         <sv:property sv:name="hst:mountpoint" sv:type="String">
-          <sv:value>/hst:hst/hst:sites/motricewebsite-sv-web</sv:value>
+          <sv:value>/hst:hst/hst:sites/motricewebsite</sv:value>
         </sv:property>
+        <sv:node sv:name="inherit">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hst:mount</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:channelpath" sv:type="String">
+            <sv:value>/hst:hst/hst:channels/motricewebsite-sv-web</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:mountpoint" sv:type="String">
+            <sv:value>/hst:hst/hst:sites/motricewebsite-sv-web</sv:value>
+          </sv:property>
+        </sv:node>
       </sv:node>
     </sv:node>
   </sv:node>
