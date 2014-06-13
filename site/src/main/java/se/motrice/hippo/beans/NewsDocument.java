@@ -9,14 +9,6 @@ import org.hippoecm.hst.content.beans.standard.HippoGalleryImageSetBean;
 @Node(jcrType="motricewebsite:newsdocument")
 public class NewsDocument extends BaseDocument{
 
-    public String getTitle() {
-        return getProperty("motricewebsite:title");
-    }
-    
-    public String getSummary() {
-        return getProperty("motricewebsite:summary");
-    }
-    
     public Calendar getDate() {
         return getProperty("motricewebsite:date");
     }

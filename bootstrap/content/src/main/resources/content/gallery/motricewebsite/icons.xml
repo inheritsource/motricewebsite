@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="icons">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>hippogallery:stdImageGallery</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+    <sv:value>hippo:harddocument</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:uuid" sv:type="String">
+    <sv:value>1c205d0a-c304-4553-9919-0b33bcfd0e16</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
+  <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+    <sv:value>new-image-folder</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippostd:gallerytype" sv:type="String" sv:multiple="true">
+    <sv:value>hippogallery:imageset</sv:value>
+  </sv:property>
+  <sv:node sv:name="retweet_16x16.png">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:handle</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>hippo:hardhandle</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>6ab8809f-f988-4381-8531-e89b459bbc88</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:discriminator" sv:type="String" sv:multiple="true"/>
+    <sv:node sv:name="retweet_16x16.png">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippogallery:imageset</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippo:harddocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>5d4a8624-99c3-4e42-ab30-60997366a91c</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>live</sv:value>
+        <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
+      <sv:property sv:name="hippogallery:filename" sv:type="String">
+        <sv:value>retweet_16x16.png</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippogallery:thumbnail">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogallery:image</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogallery:height" sv:type="Long">
+          <sv:value>16</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogallery:width" sv:type="Long">
+          <sv:value>16</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:data" sv:type="Binary">
+          <sv:value>iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAB5ElEQVR42pWQzUsUcRjHf//RhmSHNelFctt25uBuIR0kk96DXlYvuqfo0CGKwkCQavGwvYD40uJKZiktGULQUqm7k9OMru4ou2ZZx+Tb7/vAhJfAOXzg+T7z/Qwzj7qTzoQGRnLO6Js8gkCHrkoPjTm1H1v4s70dCDp01fCrt9jc+o2Nn78CQSc79Q5qPD8Lb2MTXi0g2qGrstMzKK/XhAXbhWGYAudr15PYEwphX329EA6H/3UJXTXyOg+3so4vli3ikaYmgXPpm4vOri4caGxENBLB4UMHpetDVw2+nMJi2UM0egx76+pgxGICZ+6W16oYn5hEpLlZYNeHrno2NonS0qr+pKpgGobg56K7Ivh7P9OhqzIvJiTM2UtCoqVF8PP/9nToqoHhHCwdPlmOcLK1VfBzMtmJ/Q0N6GhvFzibpikOXfV4MIuvyxV8LNrCqbY2XDx3HmbMwOUrV2GveOju7sGZ0x1CPB5HYcESh67qfz4KWx/kw5wlHNXX9ssn4gmcvXBJP68glUrheCKBwnxJenToqr4nQ3BX1zD7uShwLuvL74R7voTs7NFV99JPYemrFvTnzxTmdwW7dO4+ykDdfPDQyU2/x6L+J6/6fVewS4eu6rndG7pxv9+51ZdGEOjQ/Qu/zx9raGR+AQAAAABJRU5ErkJggg==</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:lastModified" sv:type="Date">
+          <sv:value>2011-10-04T19:03:10.471Z</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mimeType" sv:type="String">
+          <sv:value>image/png</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="hippogallery:original">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogallery:image</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogallery:height" sv:type="Long">
+          <sv:value>16</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogallery:width" sv:type="Long">
+          <sv:value>16</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:data" sv:type="Binary">
+          <sv:value>iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAB5ElEQVR42pWQzUsUcRjHf//RhmSHNelFctt25uBuIR0kk96DXlYvuqfo0CGKwkCQavGwvYD40uJKZiktGULQUqm7k9OMru4ou2ZZx+Tb7/vAhJfAOXzg+T7z/Qwzj7qTzoQGRnLO6Js8gkCHrkoPjTm1H1v4s70dCDp01fCrt9jc+o2Nn78CQSc79Q5qPD8Lb2MTXi0g2qGrstMzKK/XhAXbhWGYAudr15PYEwphX329EA6H/3UJXTXyOg+3so4vli3ikaYmgXPpm4vOri4caGxENBLB4UMHpetDVw2+nMJi2UM0egx76+pgxGICZ+6W16oYn5hEpLlZYNeHrno2NonS0qr+pKpgGobg56K7Ivh7P9OhqzIvJiTM2UtCoqVF8PP/9nToqoHhHCwdPlmOcLK1VfBzMtmJ/Q0N6GhvFzibpikOXfV4MIuvyxV8LNrCqbY2XDx3HmbMwOUrV2GveOju7sGZ0x1CPB5HYcESh67qfz4KWx/kw5wlHNXX9ssn4gmcvXBJP68glUrheCKBwnxJenToqr4nQ3BX1zD7uShwLuvL74R7voTs7NFV99JPYemrFvTnzxTmdwW7dO4+ykDdfPDQyU2/x6L+J6/6fVewS4eu6rndG7pxv9+51ZdGEOjQ/Qu/zx9raGR+AQAAAABJRU5ErkJggg==</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:lastModified" sv:type="Date">
+          <sv:value>2011-10-04T19:03:10.471Z</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mimeType" sv:type="String">
+          <sv:value>image/png</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+</sv:node>

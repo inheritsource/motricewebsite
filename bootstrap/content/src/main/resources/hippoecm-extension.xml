@@ -1,82 +1,358 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:ae="http://www.onehippo.org/jcr/autoexport/1.0" sv:name="hippo:initialize" ae:id="motricewebsite">
-  <sv:property sv:name="jcr:primaryType" sv:type="Name">
-    <sv:value>hippo:initializefolder</sv:value>
-  </sv:property>
-
-  <sv:node sv:name="motricewebsite-content">
+<sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:ae="http://www.onehippo.org/jcr/autoexport/1.0" sv:name="hippo:initialize" ae:id="motricewebsite">  
+  <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
+    <sv:value>hippo:initializefolder</sv:value> 
+  </sv:property>  
+  <sv:node sv:name="motricewebsite-content"> 
+    <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
+      <sv:value>hippo:initializeitem</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:sequence" sv:type="Double"> 
+      <sv:value>30053</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:contentresource" sv:type="String"> 
+      <sv:value>content.xml</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:contentroot" sv:type="String"> 
+      <sv:value>/</sv:value> 
+    </sv:property> 
+  </sv:node>  
+  <!-- Content -->  
+  <sv:node sv:name="motricewebsite-documents"> 
+    <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
+      <sv:value>hippo:initializeitem</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:sequence" sv:type="Double"> 
+      <sv:value>30400</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:contentresource" sv:type="String"> 
+      <sv:value>content/documents/motricewebsite.xml</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:contentroot" sv:type="String"> 
+      <sv:value>/content/documents</sv:value> 
+    </sv:property> 
+  </sv:node>  
+  <sv:node sv:name="motricewebsite-common"> 
+    <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
+      <sv:value>hippo:initializeitem</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:sequence" sv:type="Double"> 
+      <sv:value>30404</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:contentresource" sv:type="String"> 
+      <sv:value>content/documents/motricewebsite/common.xml</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:contentroot" sv:type="String"> 
+      <sv:value>/content/documents/motricewebsite</sv:value> 
+    </sv:property> 
+  </sv:node>  
+  <sv:node sv:name="motricewebsite-news"> 
+    <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
+      <sv:value>hippo:initializeitem</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:sequence" sv:type="Double"> 
+      <sv:value>30404.1</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:contentresource" sv:type="String"> 
+      <sv:value>content/documents/motricewebsite/news.xml</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:contentroot" sv:type="String"> 
+      <sv:value>/content/documents/motricewebsite</sv:value> 
+    </sv:property> 
+  </sv:node>  
+  <!-- Gallery -->  
+  <sv:node sv:name="motricewebsite-gallery"> 
+    <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
+      <sv:value>hippo:initializeitem</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:sequence" sv:type="Double"> 
+      <sv:value>30500</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:contentresource" sv:type="String"> 
+      <sv:value>content/gallery/motricewebsite.xml</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:contentroot" sv:type="String"> 
+      <sv:value>/content/gallery</sv:value> 
+    </sv:property> 
+  </sv:node>  
+  <sv:node sv:name="motricewebsite-content-documents-motricewebsite-sv-services"> 
+    <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
+      <sv:value>hippo:initializeitem</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:sequence" sv:type="Double"> 
+      <sv:value>30055.0</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:contentresource" sv:type="String"> 
+      <sv:value>content/documents/motricewebsite-sv/services.xml</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:contentroot" sv:type="String"> 
+      <sv:value>/content/documents/motricewebsite-sv</sv:value> 
+    </sv:property> 
+  </sv:node>  
+  <sv:node sv:name="motricewebsite-content-documents-motricewebsite-en-services"> 
+    <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
+      <sv:value>hippo:initializeitem</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:sequence" sv:type="Double"> 
+      <sv:value>30055.0</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:contentresource" sv:type="String"> 
+      <sv:value>content/documents/motricewebsite-en/services.xml</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:contentroot" sv:type="String"> 
+      <sv:value>/content/documents/motricewebsite-en</sv:value> 
+    </sv:property> 
+  </sv:node>  
+  <sv:node sv:name="motricewebsite-content-documents-motricewebsite-sv-common"> 
+    <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
+      <sv:value>hippo:initializeitem</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:sequence" sv:type="Double"> 
+      <sv:value>30055.0</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:contentresource" sv:type="String"> 
+      <sv:value>content/documents/motricewebsite-sv/common.xml</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:contentroot" sv:type="String"> 
+      <sv:value>/content/documents/motricewebsite-sv</sv:value> 
+    </sv:property> 
+  </sv:node>  
+  <sv:node sv:name="motricewebsite-content-documents-motricewebsite-en"> 
+    <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
+      <sv:value>hippo:initializeitem</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:sequence" sv:type="Double"> 
+      <sv:value>30054.0</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:contentresource" sv:type="String"> 
+      <sv:value>content/documents/motricewebsite-en.xml</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:contentroot" sv:type="String"> 
+      <sv:value>/content/documents</sv:value> 
+    </sv:property> 
+  </sv:node>  
+  <sv:node sv:name="motricewebsite-content-documents-motricewebsite-sv-news"> 
+    <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
+      <sv:value>hippo:initializeitem</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:sequence" sv:type="Double"> 
+      <sv:value>30055.0</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:contentresource" sv:type="String"> 
+      <sv:value>content/documents/motricewebsite-sv/news.xml</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:contentroot" sv:type="String"> 
+      <sv:value>/content/documents/motricewebsite-sv</sv:value> 
+    </sv:property> 
+  </sv:node>  
+  <sv:node sv:name="motricewebsite-content-documents-motricewebsite-en-news"> 
+    <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
+      <sv:value>hippo:initializeitem</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:sequence" sv:type="Double"> 
+      <sv:value>30055.0</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:contentresource" sv:type="String"> 
+      <sv:value>content/documents/motricewebsite-en/news.xml</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:contentroot" sv:type="String"> 
+      <sv:value>/content/documents/motricewebsite-en</sv:value> 
+    </sv:property> 
+  </sv:node>  
+  <sv:node sv:name="motricewebsite-content-documents-motricewebsite-sv-solutions"> 
+    <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
+      <sv:value>hippo:initializeitem</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:sequence" sv:type="Double"> 
+      <sv:value>30055.0</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:contentresource" sv:type="String"> 
+      <sv:value>content/documents/motricewebsite-sv/solutions.xml</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:contentroot" sv:type="String"> 
+      <sv:value>/content/documents/motricewebsite-sv</sv:value> 
+    </sv:property> 
+  </sv:node>  
+  <sv:node sv:name="motricewebsite-content-documents-motricewebsite-sv"> 
+    <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
+      <sv:value>hippo:initializeitem</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:sequence" sv:type="Double"> 
+      <sv:value>30054.0</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:contentresource" sv:type="String"> 
+      <sv:value>content/documents/motricewebsite-sv.xml</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:contentroot" sv:type="String"> 
+      <sv:value>/content/documents</sv:value> 
+    </sv:property> 
+  </sv:node>  
+  <sv:node sv:name="motricewebsite-content-documents-motricewebsite-sv-partners"> 
+    <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
+      <sv:value>hippo:initializeitem</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:sequence" sv:type="Double"> 
+      <sv:value>30055.0</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:contentresource" sv:type="String"> 
+      <sv:value>content/documents/motricewebsite-sv/partners.xml</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:contentroot" sv:type="String"> 
+      <sv:value>/content/documents/motricewebsite-sv</sv:value> 
+    </sv:property> 
+  </sv:node>  
+  <sv:node sv:name="motricewebsite-content-documents-motricewebsite-en-common"> 
+    <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
+      <sv:value>hippo:initializeitem</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:sequence" sv:type="Double"> 
+      <sv:value>30055.0</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:contentresource" sv:type="String"> 
+      <sv:value>content/documents/motricewebsite-en/common.xml</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:contentroot" sv:type="String"> 
+      <sv:value>/content/documents/motricewebsite-en</sv:value> 
+    </sv:property> 
+  </sv:node>  
+  <sv:node sv:name="motricewebsite-content-documents-motricewebsite-en-partners"> 
+    <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
+      <sv:value>hippo:initializeitem</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:sequence" sv:type="Double"> 
+      <sv:value>30055.0</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:contentresource" sv:type="String"> 
+      <sv:value>content/documents/motricewebsite-en/partners.xml</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:contentroot" sv:type="String"> 
+      <sv:value>/content/documents/motricewebsite-en</sv:value> 
+    </sv:property> 
+  </sv:node>  
+  <sv:node sv:name="motricewebsite-content-documents-motricewebsite-en-hippotranslation-translations"> 
+    <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
+      <sv:value>hippo:initializeitem</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:sequence" sv:type="Double"> 
+      <sv:value>30055.0</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:contentresource" sv:type="String"> 
+      <sv:value>content/documents/motricewebsite-en/translations.xml</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:contentroot" sv:type="String"> 
+      <sv:value>/content/documents/motricewebsite-en</sv:value> 
+    </sv:property> 
+  </sv:node>  
+  <sv:node sv:name="motricewebsite-content-documents-motricewebsite-en-solutions"> 
+    <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
+      <sv:value>hippo:initializeitem</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:sequence" sv:type="Double"> 
+      <sv:value>30055.0</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:contentresource" sv:type="String"> 
+      <sv:value>content/documents/motricewebsite-en/solutions.xml</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:contentroot" sv:type="String"> 
+      <sv:value>/content/documents/motricewebsite-en</sv:value> 
+    </sv:property> 
+  </sv:node>  
+  <sv:node sv:name="motricewebsite-content-documents-motricewebsite-sv-hippotranslation-translations"> 
+    <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
+      <sv:value>hippo:initializeitem</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:sequence" sv:type="Double"> 
+      <sv:value>30055.0</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:contentresource" sv:type="String"> 
+      <sv:value>content/documents/motricewebsite-sv/translations.xml</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:contentroot" sv:type="String"> 
+      <sv:value>/content/documents/motricewebsite-sv</sv:value> 
+    </sv:property> 
+  </sv:node>  
+  <sv:node sv:name="motricewebsite-content-assets-pdf-sambruk">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:sequence" sv:type="Double">
-      <sv:value>30053</sv:value>
+      <sv:value>30055.0</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentresource" sv:type="String">
-      <sv:value>content.xml</sv:value>
+      <sv:value>content/assets/pdf/sambruk.xml</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentroot" sv:type="String">
-      <sv:value>/</sv:value>
+      <sv:value>/content/assets/pdf</sv:value>
     </sv:property>
   </sv:node>
-
-  <!-- Content -->
-  <sv:node sv:name="motricewebsite-documents">
+  <sv:node sv:name="motricewebsite-content-gallery-motricewebsite-icons">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:sequence" sv:type="Double">
-      <sv:value>30400</sv:value>
+      <sv:value>30501.0</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentresource" sv:type="String">
-      <sv:value>content/documents/motricewebsite.xml</sv:value>
+      <sv:value>content/gallery/motricewebsite/icons.xml</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentroot" sv:type="String">
-      <sv:value>/content/documents</sv:value>
+      <sv:value>/content/gallery/motricewebsite</sv:value>
     </sv:property>
   </sv:node>
-  <sv:node sv:name="motricewebsite-common">
+  <sv:node sv:name="motricewebsite-content-gallery-motricewebsite-bpm">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:sequence" sv:type="Double">
-      <sv:value>30404</sv:value>
+      <sv:value>30501.0</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentresource" sv:type="String">
-      <sv:value>content/documents/motricewebsite/common.xml</sv:value>
+      <sv:value>content/gallery/motricewebsite/bpm.xml</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentroot" sv:type="String">
-      <sv:value>/content/documents/motricewebsite</sv:value>
+      <sv:value>/content/gallery/motricewebsite</sv:value>
     </sv:property>
   </sv:node>
-  <sv:node sv:name="motricewebsite-news">
+  <sv:node sv:name="motricewebsite-content-gallery-motricewebsite-hippo">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:sequence" sv:type="Double">
-      <sv:value>30404.1</sv:value>
+      <sv:value>30501.0</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentresource" sv:type="String">
-      <sv:value>content/documents/motricewebsite/news.xml</sv:value>
+      <sv:value>content/gallery/motricewebsite/hippo.xml</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentroot" sv:type="String">
-      <sv:value>/content/documents/motricewebsite</sv:value>
+      <sv:value>/content/gallery/motricewebsite</sv:value>
     </sv:property>
   </sv:node>
-
-  <!-- Gallery -->
-  <sv:node sv:name="motricewebsite-gallery">
+  <sv:node sv:name="motricewebsite-content-assets-pdf">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:sequence" sv:type="Double">
-      <sv:value>30500</sv:value>
+      <sv:value>30054.0</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentresource" sv:type="String">
-      <sv:value>content/gallery/motricewebsite.xml</sv:value>
+      <sv:value>content/assets/pdf.xml</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentroot" sv:type="String">
-      <sv:value>/content/gallery</sv:value>
+      <sv:value>/content/assets</sv:value>
     </sv:property>
   </sv:node>
-
+  <sv:node sv:name="motricewebsite-content-gallery-motricewebsite-logos">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:initializeitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:sequence" sv:type="Double">
+      <sv:value>30501.0</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentresource" sv:type="String">
+      <sv:value>content/gallery/motricewebsite/logos.xml</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentroot" sv:type="String">
+      <sv:value>/content/gallery/motricewebsite</sv:value>
+    </sv:property>
+  </sv:node>
 </sv:node>

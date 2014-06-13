@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="motricewebsite-en-mobile">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>hst:channel</sv:value>
+  </sv:property>
+  <sv:property sv:name="hst:channelinfoclass" sv:type="String">
+    <sv:value>se.inherit.channels.WebsiteInfo</sv:value>
+  </sv:property>
+  <sv:property sv:name="hst:name" sv:type="String">
+    <sv:value>Inherit Web Site Mobile English</sv:value>
+  </sv:property>
+  <sv:property sv:name="hst:type" sv:type="String">
+    <sv:value>mobile</sv:value>
+  </sv:property>
+  <sv:node sv:name="hst:channelinfo">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:channelinfo</sv:value>
+    </sv:property>
+    <sv:property sv:name="headerName" sv:type="String">
+      <sv:value>Inherit Website Mobile English</sv:value>
+    </sv:property>
+  </sv:node>
+</sv:node>

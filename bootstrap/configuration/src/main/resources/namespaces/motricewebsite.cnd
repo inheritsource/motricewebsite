@@ -1,10 +1,21 @@
-<'motricewebsite'='http://www.onehippo.org/motricewebsite/nt/1.0'>
-<'hippo'='http://www.onehippo.org/jcr/hippo/nt/2.0'>
+<'hippo'='http://www.onehippo.org/jcr/hippo/nt/2.0.4'>
 <'hippostd'='http://www.onehippo.org/jcr/hippostd/nt/2.0'>
 <'hippostdpubwf'='http://www.onehippo.org/jcr/hippostdpubwf/nt/1.0'>
+<'hippotranslation'='http://www.onehippo.org/jcr/hippotranslation/nt/1.0'>
+<'motricewebsite'='http://www.onehippo.org/motricewebsite/nt/1.0'>
 
-[motricewebsite:basedocument] > hippo:document, hippostd:publishableSummary, hippostdpubwf:document orderable
+[motricewebsite:basedocument] > hippo:document, hippostd:publishableSummary, hippostdpubwf:document
+  orderable
 
-[motricewebsite:textdocument] > motricewebsite:basedocument, hippostd:relaxed
+[motricewebsite:newsdocument] > hippostd:relaxed, motricewebsite:basedocument
+  orderable
 
-[motricewebsite:newsdocument] > motricewebsite:basedocument, hippostd:relaxed
+[motricewebsite:textdocument] > hippostd:relaxed, motricewebsite:basedocument
+  orderable
+
+[motricewebsite:textimagedocument] > hippostd:relaxed, hippotranslation:translated, motricewebsite:textdocument
+  orderable
+
+[motricewebsite:partnerdocument] > hippostd:relaxed, hippotranslation:translated, motricewebsite:textimagedocument
+  orderable
+
