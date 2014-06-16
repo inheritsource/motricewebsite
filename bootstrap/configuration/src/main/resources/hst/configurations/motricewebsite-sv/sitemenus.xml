@@ -238,7 +238,7 @@
         <sv:value>news</sv:value>
       </sv:property>
     </sv:node>
-    <sv:node sv:name="Om Inherit">
+    <sv:node sv:name="Om Motrice">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>hst:sitemenuitem</sv:value>
       </sv:property>

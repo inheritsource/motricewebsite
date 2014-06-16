@@ -14,14 +14,14 @@
         <sv:value>home</sv:value>
       </sv:property>
     </sv:node>
-    <sv:node sv:name="Tjänster">
+    <sv:node sv:name="Services">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>hst:sitemenuitem</sv:value>
       </sv:property>
       <sv:property sv:name="hst:referencesitemapitem" sv:type="String">
         <sv:value>services</sv:value>
       </sv:property>
-      <sv:node sv:name="Tjänster - Översikt">
+      <sv:node sv:name="Services - overview">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>hst:sitemenuitem</sv:value>
         </sv:property>
@@ -29,7 +29,7 @@
           <sv:value>services</sv:value>
         </sv:property>
       </sv:node>
-      <sv:node sv:name="Processhantering">
+      <sv:node sv:name="Process management">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>hst:sitemenuitem</sv:value>
         </sv:property>
@@ -37,7 +37,7 @@
           <sv:value>services/bpm.html</sv:value>
         </sv:property>
       </sv:node>
-      <sv:node sv:name="Innehållshantering">
+      <sv:node sv:name="Content management">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>hst:sitemenuitem</sv:value>
         </sv:property>
@@ -45,7 +45,7 @@
           <sv:value>services/cms.html</sv:value>
         </sv:property>
       </sv:node>
-      <sv:node sv:name="Utveckling - Arkitektur">
+      <sv:node sv:name="Development - Architecture">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>hst:sitemenuitem</sv:value>
         </sv:property>
@@ -62,7 +62,7 @@
         </sv:property>
       </sv:node>
     </sv:node>
-    <sv:node sv:name="Lösningar">
+    <sv:node sv:name="Solutions">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>hst:sitemenuitem</sv:value>
       </sv:property>
@@ -230,7 +230,7 @@
         <sv:value>partners</sv:value>
       </sv:property>
     </sv:node>
-    <sv:node sv:name="Nyheter">
+    <sv:node sv:name="News">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>hst:sitemenuitem</sv:value>
       </sv:property>
@@ -238,7 +238,7 @@
         <sv:value>news</sv:value>
       </sv:property>
     </sv:node>
-    <sv:node sv:name="Om Inherit">
+    <sv:node sv:name="About Motrice">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>hst:sitemenuitem</sv:value>
       </sv:property>

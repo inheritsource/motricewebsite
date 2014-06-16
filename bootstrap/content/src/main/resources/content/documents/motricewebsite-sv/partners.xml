@@ -42,7 +42,7 @@
       <sv:value>hippo:handle</sv:value>
     </sv:property>
     <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-      <sv:value>hippo:hardhandle</sv:value>
+      <sv:value>mix:referenceable</sv:value>
     </sv:property>
     <sv:property sv:name="jcr:uuid" sv:type="String">
       <sv:value>7389286d-6c44-4b13-b5a8-5b89b8ed557e</sv:value>
@@ -52,7 +52,7 @@
         <sv:value>motricewebsite:partnerdocument</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-        <sv:value>hippo:harddocument</sv:value>
+        <sv:value>mix:referenceable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>5e21cefe-b035-4061-9129-30e5f411c60d</sv:value>
@@ -164,7 +164,7 @@ av organisationer.&lt;/p&gt;
       <sv:value>hippo:handle</sv:value>
     </sv:property>
     <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-      <sv:value>hippo:hardhandle</sv:value>
+      <sv:value>mix:referenceable</sv:value>
     </sv:property>
     <sv:property sv:name="jcr:uuid" sv:type="String">
       <sv:value>402f2429-7835-49b0-874e-02bd031fcc38</sv:value>
@@ -174,7 +174,7 @@ av organisationer.&lt;/p&gt;
         <sv:value>motricewebsite:partnerdocument</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-        <sv:value>hippo:harddocument</sv:value>
+        <sv:value>mix:referenceable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>4fbf6913-d41c-4529-a907-287d741c105c</sv:value>
@@ -278,7 +278,7 @@ hälsovård återfinns kunder som Stockholms Läns Landsting och Inera.&lt;/p&gt
       <sv:value>hippo:handle</sv:value>
     </sv:property>
     <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-      <sv:value>hippo:hardhandle</sv:value>
+      <sv:value>mix:referenceable</sv:value>
       <sv:value>hippo:translated</sv:value>
     </sv:property>
     <sv:property sv:name="jcr:uuid" sv:type="String">
@@ -300,7 +300,7 @@ hälsovård återfinns kunder som Stockholms Läns Landsting och Inera.&lt;/p&gt
         <sv:value>motricewebsite:partnerdocument</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-        <sv:value>hippo:harddocument</sv:value>
+        <sv:value>mix:referenceable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>1cfe77f2-932e-4fa8-a556-1f0e68613624</sv:value>

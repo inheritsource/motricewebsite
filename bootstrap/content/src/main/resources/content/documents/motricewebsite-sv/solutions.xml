@@ -238,7 +238,7 @@ verksamhetsstödjande skiktet&lt;/a&gt;. Här har vi speciellt fokus på
         <sv:value>hippo:handle</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-        <sv:value>hippo:hardhandle</sv:value>
+        <sv:value>mix:referenceable</sv:value>
         <sv:value>hippo:translated</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
@@ -260,7 +260,7 @@ verksamhetsstödjande skiktet&lt;/a&gt;. Här har vi speciellt fokus på
           <sv:value>motricewebsite:textimagedocument</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-          <sv:value>hippo:harddocument</sv:value>
+          <sv:value>mix:referenceable</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>4c728ef6-8c01-423b-900c-b5d0ba0788be</sv:value>
@@ -397,7 +397,7 @@ genom reduktion av kostnad och komplexitet samt förbättrad användarupplevelse
         <sv:value>hippo:handle</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-        <sv:value>hippo:hardhandle</sv:value>
+        <sv:value>mix:referenceable</sv:value>
         <sv:value>hippo:translated</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
@@ -419,7 +419,7 @@ genom reduktion av kostnad och komplexitet samt förbättrad användarupplevelse
           <sv:value>motricewebsite:textimagedocument</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-          <sv:value>hippo:harddocument</sv:value>
+          <sv:value>mix:referenceable</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>8eb9eadb-a2b9-4969-9143-87291f910c2d</sv:value>
@@ -750,7 +750,7 @@ standarden&lt;a title="BPMN 2.0" target="_blank" href="http://www.bpmn.org/"&gt;
         <sv:value>hippo:handle</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-        <sv:value>hippo:hardhandle</sv:value>
+        <sv:value>mix:referenceable</sv:value>
         <sv:value>hippo:translated</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
@@ -772,7 +772,7 @@ standarden&lt;a title="BPMN 2.0" target="_blank" href="http://www.bpmn.org/"&gt;
           <sv:value>motricewebsite:textimagedocument</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-          <sv:value>hippo:harddocument</sv:value>
+          <sv:value>mix:referenceable</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>80b29d9f-e1a1-4d4a-bc6c-40b1461b1a14</sv:value>
@@ -895,7 +895,7 @@ av flera tusen användare&lt;/li&gt;
         <sv:value>hippo:handle</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-        <sv:value>hippo:hardhandle</sv:value>
+        <sv:value>mix:referenceable</sv:value>
         <sv:value>hippo:translated</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
@@ -917,7 +917,7 @@ av flera tusen användare&lt;/li&gt;
           <sv:value>motricewebsite:textimagedocument</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-          <sv:value>hippo:harddocument</sv:value>
+          <sv:value>mix:referenceable</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>ebaca6b1-0ad6-4252-97a1-d76aec1f59d9</sv:value>
@@ -1071,7 +1071,7 @@ av flera tusen användare&lt;/li&gt;
           <sv:value>motricewebsite:textimagedocument</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-          <sv:value>hippo:harddocument</sv:value>
+          <sv:value>mix:referenceable</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>23688d6a-696a-4ac4-990e-03b30627bf73</sv:value>
@@ -1080,9 +1080,6 @@ av flera tusen användare&lt;/li&gt;
         <sv:property sv:name="hippo:related___pathreference" sv:type="String">
           <sv:value>solutions/bpm/overview/overview[2]</sv:value>
           <sv:value>solutions/bpm/overview/overview</sv:value>
-        </sv:property>
-        <sv:property sv:name="hippostd:holder" sv:type="String">
-          <sv:value>admin</sv:value>
         </sv:property>
         <sv:property sv:name="hippostd:state" sv:type="String">
           <sv:value>draft</sv:value>
@@ -1509,7 +1506,7 @@ strukturerad och sökbar. Den kan med lätthet användas av andra system&lt;/p&g
         <sv:value>hippo:handle</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-        <sv:value>hippo:hardhandle</sv:value>
+        <sv:value>mix:referenceable</sv:value>
         <sv:value>hippo:translated</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
@@ -1531,7 +1528,7 @@ strukturerad och sökbar. Den kan med lätthet användas av andra system&lt;/p&g
           <sv:value>motricewebsite:textimagedocument</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-          <sv:value>hippo:harddocument</sv:value>
+          <sv:value>mix:referenceable</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>12a54a0e-080d-4811-8976-ed8d7e30c3aa</sv:value>

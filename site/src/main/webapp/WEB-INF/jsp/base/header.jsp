@@ -2,15 +2,25 @@
 <%--@elvariable id="headerName" type="java.lang.String"--%>
 
   <div class="header">
-    <ul class="nav nav-pills pull-right">
-      <li><a href="../index.html">Startsida</a></li>
-      <li class="active"><a href="#">Om Motrice</a></li>
-      <li><a href="kontakt.html">Kontakt</a></li>
-    </ul>
+     <ul class="nav nav-pills pull-right" id="topmenu-items">
+      <c:forEach var="item" items="${menu.siteMenuItems}">
+	<hst:link var="link" link="${item.hstLink}" />
+	<c:if test="${empty link}">
+	   <c:set var="link" value="${item.externalLink}" />
+	</c:if>
+	<c:choose>
+	  <c:when test="${item.selected or item.expanded}">
+	    <li class="active"><a href="${link}"> ${item.name}</a></li>
+	  </c:when>
+	  <c:otherwise>           
+	    <li><a href="${link}"> ${item.name}</a></li>
+	  </c:otherwise>
+        </c:choose>
+
+      </c:forEach>
+     </ul>
 
     <h3 class="text-muted">
      <hst:link var="motrice_logo" path="/assets/motrice_logo.png"/>
     <img src="${motrice_logo}"/> från kommun till kommun &#8212; <span style="color:#fc9200">p&aring;&nbsp;verksamhetens&nbsp;villkor</span></h3>
   </div>
-
-
