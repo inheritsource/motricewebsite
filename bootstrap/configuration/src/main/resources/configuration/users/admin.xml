@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:h="http://www.onehippo.org/jcr/xmlimport" sv:name="admin" h:merge="combine">
+  <sv:property sv:name="hipposys:previouspasswords" sv:type="String" sv:multiple="true">
+    <sv:value>$SHA-256$HIlytXwnqSU=$NqCi2sJoM4qAwQ8136GYueUVA/TSyidpAI3Evn+y/hc=</sv:value>
+  </sv:property>
+  <sv:property sv:name="hipposys:password" sv:type="String" h:merge="override">
+    <sv:value>$SHA-1$Jqm7t3wy91c=$kQN9lMdcYE9Qd3RSuK68YEu2MzQ=</sv:value>
+  </sv:property>
+  <sv:property sv:name="hipposys:passwordlastmodified" sv:type="Date">
+    <sv:value>2014-08-12T15:41:34.965+02:00</sv:value>
+  </sv:property>
+</sv:node>

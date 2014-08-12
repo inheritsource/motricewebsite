@@ -96,7 +96,7 @@
   </dependencies>
 
   <build>
-    <finalName>site</finalName>
+    <finalName>ROOT</finalName>
     <plugins>
       <plugin>
         <groupId>org.codehaus.cargo</groupId>

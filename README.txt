@@ -1,14 +1,14 @@
 Running locally
 ===============
 
-This project uses the Maven Cargo plugin to run the CMS and site locally in Tomcat.
-From the project root folder, execute:
+This project uses the Maven Cargo plugin to run the CMS and site locally in
+Tomcat.  From the project root folder, execute:
 
   $ mvn clean install
   $ mvn -P cargo.run
 
-Access the CMS at http://localhost:8080/cms, and the site at http://localhost:8080/site
-Logs are located in target/tomcat7x/logs
+Access the CMS at http://localhost:8080/cms, and the site at
+http://localhost:8080/site Logs are located in target/tomcat7x/logs
 
 Building distribution
 =====================
@@ -18,12 +18,14 @@ To build a Tomcat distribution tarball containing only deployable artifacts:
   $ mvn clean install
   $ mvn -P dist
 
-See also src/main/assembly/distribution.xml if you need to customize the distribution.
+See also src/main/assembly/distribution.xml if you need to customize the
+distribution.
 
 Using JRebel
 ============
 
-Set the environment variable REBEL_HOME to the directory containing jrebel.jar.
+Set the environment variable REBEL_HOME to the directory containing
+jrebel.jar.
 
 Build with:
 
@@ -36,8 +38,8 @@ Start with:
 Best Practice for development
 =============================
 
-Use the option -Drepo.path=/some/path/to/repository during start up. This will avoid
-your repository to be cleared when you do a mvn clean.
+Use the option -Drepo.path=/some/path/to/repository during start up. This will
+avoid your repository to be cleared when you do a mvn clean.
 
 For example start your project with:
 
@@ -58,9 +60,11 @@ To hot deploy, redeploy or undeploy the CMS or site:
 Automatic Export
 ================
 
-To have your repository changes automatically exported to filesystem during local development, log into
-http://localhost:8080/cms/console and press the "Enable Auto Export" button at the top right. To set this
-as the default for your project edit the file
+To have your repository changes automatically exported to filesystem during
+local development, log into http://localhost:8080/cms/console and press the
+"Enable Auto Export" button at the top right. To set this as the default for
+your project edit the file
+
 ./bootstrap/configuration/src/main/resources/configuration/modules/autoexport-module.xml
 
 Monitoring with JMX Console
@@ -70,3 +74,25 @@ You may run the following command:
   $ jconsole
 
 Now open the local process org.apache.catalina.startup.Bootstrap start
+
+=============================================================================
+ROL (20140808)
+
+To create a distribution mounted on / instead of on /site:
+
+Follow the instructions given on
+
+       http://www.onehippo.org/library/deployment/configuring/deploy-application-as-root_war.html
+
+and (OBS!) add the following from György Novák:
+
+    The cargo entry does not work with "<properties/>" for me. It needs
+
+    <properties>
+      <context>/</context>
+    </properties>
+
+    otherwise it does not deploy ROOT.war
+
+And if you plan to build distribution, you will also need to change the
+site.war to ROOT.war in src/main/assembly/distribution.xml

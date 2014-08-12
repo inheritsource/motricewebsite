@@ -11,14 +11,17 @@
 
   <context-param>
     <description>The address of the repository</description>
+
     <param-name>repository-address</param-name>
     <param-value>vm://</param-value>
+<!--
+    <param-name>repository-address</param-name>
+    <param-value>rmi://localhost:1099/hipporepository</param-value>
+-->
   </context-param>
-  <context-param>
-    <description>The (relative) location where to store files</description>
-    <param-name>repository-directory</param-name>
-    <param-value>WEB-INF/storage</param-value>
-  </context-param>
+
+<!--
+  ROL 2008-08-12 repository.xml not provided. Using default
   <context-param>
     <description>The location of the repository configuration file. Unless the location
     starts with file://, the location is retrieved from within the application package as
@@ -26,6 +29,23 @@
     <param-name>repository-config</param-name>
     <param-value>repository.xml</param-value>
   </context-param>
+-->
+
+<!--
+  ROL 2008-08-12 given in ${container.root}/bin/setenv.sh
+<context-param>
+  <description>The (relative) location where to store files</description>
+  <param-name>repository-directory</param-name>
+  <param-value>storage</param-value>
+</context-param>
+
+  ROL 2008-08-12 for RMI
+<context-param>
+  <description>The address of the repository</description>
+  <param-name>repository-address</param-name>
+  <param-value>rmi://localhost:1099/hipporepository</param-value>
+</context-param>
+-->
 
   <!--No concurrent logins-->
   <filter>
@@ -184,6 +204,13 @@
     <servlet-name>Repository</servlet-name>
     <servlet-class>org.hippoecm.repository.RepositoryServlet</servlet-class>
     <load-on-startup>4</load-on-startup>
+<!--
+  ROL 2008-08-12 for RMI access to repo
+    <init-param>
+      <param-name>start-remote-server</param-name>
+      <param-value>true</param-value>
+    </init-param>
+-->
   </servlet>
 
   <servlet> 

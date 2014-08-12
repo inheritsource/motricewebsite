@@ -246,11 +246,11 @@
                   <location>${project.basedir}/cms/target/cms.war</location>
                 </deployable>
                 <deployable>
-                  <location>${project.basedir}/site/target/site.war</location>
+                  <location>${project.basedir}/site/target/ROOT.war</location>
                   <type>war</type>
-                  <properties>
-                    <context>/site</context>
-                  </properties>
+		  <properties>
+		    <context>/</context>
+		  </properties>
                 </deployable>
               </deployables>
             </configuration>

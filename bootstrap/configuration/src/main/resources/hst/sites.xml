@@ -17,23 +17,9 @@
     <sv:property sv:name="hst:configurationpath" sv:type="String">
       <sv:value>/hst:hst/hst:configurations/motricewebsite-en-mobile</sv:value>
     </sv:property>
-    <sv:node sv:name="hst:content">
-      <sv:property sv:name="jcr:primaryType" sv:type="Name">
-        <sv:value>hippo:facetselect</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippo:docbase" sv:type="String">
-        <sv:value>475cd171-1244-4d6c-a52f-16a6d88c4ee1</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true">
-        <sv:value>hippo:availability</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true">
-        <sv:value>single</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true">
-        <sv:value>live</sv:value>
-      </sv:property>
-    </sv:node>
+    <sv:property sv:name="hst:content" sv:type="String">
+      <sv:value>/content/documents/motricewebsite-en</sv:value>
+    </sv:property>
   </sv:node>
   <sv:node sv:name="motricewebsite-sv-mobile">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -42,23 +28,9 @@
     <sv:property sv:name="hst:configurationpath" sv:type="String">
       <sv:value>/hst:hst/hst:configurations/motricewebsite-sv-mobile</sv:value>
     </sv:property>
-    <sv:node sv:name="hst:content">
-      <sv:property sv:name="jcr:primaryType" sv:type="Name">
-        <sv:value>hippo:facetselect</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippo:docbase" sv:type="String">
-        <sv:value>21252163-29c6-4af8-a1c1-71744187d5c3</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true">
-        <sv:value>hippo:availability</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true">
-        <sv:value>single</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true">
-        <sv:value>live</sv:value>
-      </sv:property>
-    </sv:node>
+    <sv:property sv:name="hst:content" sv:type="String">
+      <sv:value>/content/documents/motricewebsite-sv</sv:value>
+    </sv:property>
   </sv:node>
   <sv:node sv:name="motricewebsite-en-mobile-preview">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -67,23 +39,9 @@
     <sv:property sv:name="hst:configurationpath" sv:type="String">
       <sv:value>/hst:hst/hst:configurations/motricewebsite-en-mobile</sv:value>
     </sv:property>
-    <sv:node sv:name="hst:content">
-      <sv:property sv:name="jcr:primaryType" sv:type="Name">
-        <sv:value>hippo:facetselect</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippo:docbase" sv:type="String">
-        <sv:value>475cd171-1244-4d6c-a52f-16a6d88c4ee1</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true">
-        <sv:value>hippo:availability</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true">
-        <sv:value>single</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true">
-        <sv:value>preview</sv:value>
-      </sv:property>
-    </sv:node>
+    <sv:property sv:name="hst:content" sv:type="String">
+      <sv:value>/content/documents/motricewebsite-en</sv:value>
+    </sv:property>
   </sv:node>
   <sv:node sv:name="motricewebsite-sv-mobile-preview">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -92,23 +50,9 @@
     <sv:property sv:name="hst:configurationpath" sv:type="String">
       <sv:value>/hst:hst/hst:configurations/motricewebsite-sv-mobile</sv:value>
     </sv:property>
-    <sv:node sv:name="hst:content">
-      <sv:property sv:name="jcr:primaryType" sv:type="Name">
-        <sv:value>hippo:facetselect</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippo:docbase" sv:type="String">
-        <sv:value>21252163-29c6-4af8-a1c1-71744187d5c3</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true">
-        <sv:value>hippo:availability</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true">
-        <sv:value>single</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true">
-        <sv:value>preview</sv:value>
-      </sv:property>
-    </sv:node>
+    <sv:property sv:name="hst:content" sv:type="String">
+      <sv:value>/content/documents/motricewebsite-sv</sv:value>
+    </sv:property>
   </sv:node>
   <sv:node sv:name="motricewebsite-en-web">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -128,23 +72,9 @@
     <sv:property sv:name="hst:configurationpath" sv:type="String">
       <sv:value>/hst:hst/hst:configurations/motricewebsite-en-web</sv:value>
     </sv:property>
-    <sv:node sv:name="hst:content">
-      <sv:property sv:name="jcr:primaryType" sv:type="Name">
-        <sv:value>hippo:facetselect</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippo:docbase" sv:type="String">
-        <sv:value>475cd171-1244-4d6c-a52f-16a6d88c4ee1</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true">
-        <sv:value>hippo:availability</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true">
-        <sv:value>single</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true">
-        <sv:value>preview</sv:value>
-      </sv:property>
-    </sv:node>
+    <sv:property sv:name="hst:content" sv:type="String">
+      <sv:value>/content/documents/motricewebsite-en</sv:value>
+    </sv:property>
   </sv:node>
   <sv:node sv:name="motricewebsite-sv-web">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -164,22 +94,8 @@
     <sv:property sv:name="hst:configurationpath" sv:type="String">
       <sv:value>/hst:hst/hst:configurations/motricewebsite-sv-web</sv:value>
     </sv:property>
-    <sv:node sv:name="hst:content">
-      <sv:property sv:name="jcr:primaryType" sv:type="Name">
-        <sv:value>hippo:facetselect</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippo:docbase" sv:type="String">
-        <sv:value>21252163-29c6-4af8-a1c1-71744187d5c3</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true">
-        <sv:value>hippo:availability</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true">
-        <sv:value>single</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true">
-        <sv:value>preview</sv:value>
-      </sv:property>
-    </sv:node>
+    <sv:property sv:name="hst:content" sv:type="String">
+      <sv:value>/content/documents/motricewebsite-sv</sv:value>
+    </sv:property>
   </sv:node>
 </sv:node>
