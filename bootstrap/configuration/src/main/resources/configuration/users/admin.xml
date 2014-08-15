@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:h="http://www.onehippo.org/jcr/xmlimport" sv:name="admin" h:merge="combine">
+  <sv:property sv:name="hipposys:passkey" sv:type="String" h:merge="override">
+    <sv:value>MD5$IAin2J3RqwdwrkDX_z7t7A</sv:value>
+  </sv:property>
   <sv:property sv:name="hipposys:previouspasswords" sv:type="String" sv:multiple="true">
     <sv:value>$SHA-256$HIlytXwnqSU=$NqCi2sJoM4qAwQ8136GYueUVA/TSyidpAI3Evn+y/hc=</sv:value>
   </sv:property>

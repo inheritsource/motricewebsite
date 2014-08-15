@@ -3,7 +3,7 @@
     <sv:value>hst:component</sv:value>
   </sv:property>
   <sv:property sv:name="hst:componentclassname" sv:type="String">
-    <sv:value>se.inherit.components.Overview</sv:value>
+    <sv:value>se.motrice.hippo.components.Overview</sv:value>
   </sv:property>
   <sv:property sv:name="hst:parameternames" sv:type="String" sv:multiple="true">
     <sv:value>sortBy</sv:value>

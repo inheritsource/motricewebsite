@@ -126,6 +126,15 @@
           </mappings>
         </configuration>
       </plugin>
+      <plugin>
+	<groupId>org.apache.maven.plugins</groupId>
+	<artifactId>maven-compiler-plugin</artifactId>
+	<configuration>
+	  <excludes>
+	    <exclude>se/inherit/**</exclude>
+	  </excludes>
+	</configuration>
+      </plugin>
     </plugins>
 
     <resources>
@@ -135,6 +144,9 @@
         <includes>
           <include>**/*.properties</include>
         </includes>
+        <excludes>
+          <exclude>se/inherit/**/*.properties</exclude>
+        </excludes>
       </resource>
       <resource>
         <directory>src/main/resources</directory>

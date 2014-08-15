@@ -1,0 +1,17 @@
+
+package se.motrice.hippo.components;
+
+import org.hippoecm.hst.component.support.bean.BaseHstComponent;
+import org.hippoecm.hst.core.component.HstComponentException;
+import org.hippoecm.hst.core.component.HstRequest;
+import org.hippoecm.hst.core.component.HstResponse;
+
+public class Menu  extends BaseHstComponent{
+
+    @Override
+    public void doBeforeRender(final HstRequest request, final HstResponse response) throws HstComponentException {
+        
+        request.setAttribute("menu",request.getRequestContext().getHstSiteMenus().getSiteMenu("main"));
+    }
+
+}

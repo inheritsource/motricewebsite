@@ -3,10 +3,10 @@
     <sv:value>hst:channel</sv:value>
   </sv:property>
   <sv:property sv:name="hst:channelinfoclass" sv:type="String">
-    <sv:value>se.inherit.channels.WebsiteInfo</sv:value>
+    <sv:value>se.motrice.hippo.channels.WebsiteInfo</sv:value>
   </sv:property>
   <sv:property sv:name="hst:name" sv:type="String">
-    <sv:value>Inherit Web Site Mobil Svenska</sv:value>
+    <sv:value>Motrice Web Site Mobil Svenska</sv:value>
   </sv:property>
   <sv:property sv:name="hst:type" sv:type="String">
     <sv:value>mobile</sv:value>
@@ -16,7 +16,7 @@
       <sv:value>hst:channelinfo</sv:value>
     </sv:property>
     <sv:property sv:name="headerName" sv:type="String">
-      <sv:value>Inherit Website Mobil Svenska</sv:value>
+      <sv:value>Motrice Website Mobil Svenska</sv:value>
     </sv:property>
   </sv:node>
 </sv:node>

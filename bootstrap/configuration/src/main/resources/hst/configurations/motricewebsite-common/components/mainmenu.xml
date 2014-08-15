@@ -3,7 +3,7 @@
     <sv:value>hst:component</sv:value>
   </sv:property>
   <sv:property sv:name="hst:componentclassname" sv:type="String">
-    <sv:value>se.inherit.components.Menu</sv:value>
+    <sv:value>se.motrice.hippo.components.Menu</sv:value>
   </sv:property>
   <sv:property sv:name="hst:template" sv:type="String">
     <sv:value>standard.main.mainmenu</sv:value>

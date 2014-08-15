@@ -70,12 +70,9 @@
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>7168ab55-4bf5-4d6c-930e-5fec28c8c80a</sv:value>
       </sv:property>
-      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
-        <sv:value>live</sv:value>
-        <sv:value>preview</sv:value>
-      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
       <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-        <sv:value>common/about-us</sv:value>
+        <sv:value>common/about-us/about-us[2]</sv:value>
       </sv:property>
       <sv:property sv:name="hippostd:holder" sv:type="String">
         <sv:value>bjorn</sv:value>
@@ -84,7 +81,7 @@
         <sv:value>published</sv:value>
       </sv:property>
       <sv:property sv:name="hippostd:stateSummary" sv:type="String">
-        <sv:value>live</sv:value>
+        <sv:value>new</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
         <sv:value>admin</sv:value>
@@ -259,6 +256,254 @@ e-post: info _at_ inherit.se&lt;/p&gt;
         </sv:node>
       </sv:node>
     </sv:node>
+    <sv:node sv:name="about-us">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>motricewebsite:textdocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+        <sv:value>hippotranslation:translated</sv:value>
+        <sv:value>mix:versionable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>7916339c-03b4-4c1a-9f3f-23fd32d63b7b</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>common/about-us/about-us</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>unpublished</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>new</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2010-01-21T10:34:11.055Z</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2014-08-14T11:23:43.888+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>motricewebsite-common-about-us-id</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>sv</sv:value>
+      </sv:property>
+      <sv:property sv:name="motricewebsite:summary" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="motricewebsite:title" sv:type="String">
+        <sv:value>Om Inherit</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippotranslation:translations">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippotranslation:translations</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="motricewebsite:body">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;p&gt;&amp;nbsp;Inherit S AB &amp;auml;r ett it-konsultf&amp;ouml;retag som grundades 1995.&lt;/p&gt; 
+&lt;h2&gt;Aff&amp;auml;rsid&amp;eacute;&lt;/h2&gt; 
+&lt;p&gt;V&amp;aring;r aff&amp;auml;rsid&amp;eacute; &amp;auml;r att leverera kostnadseffektiva &amp;ouml;ppna IT-l&amp;ouml;sningar med n&amp;auml;ra koppling till verksamhetens behov.&lt;/p&gt; 
+&lt;p&gt;Vi fokuserar p&amp;aring; k&amp;auml;llkods&amp;ouml;ppna applikationer och system f&amp;ouml;r 
+&lt;a href="bpm"&gt;processhantering (BPM)&lt;/a&gt; och 
+&lt;a href="cms"&gt;inneh&amp;aring;llshantering (CMS)&lt;/a&gt;. Dessa systems starka verksamhetsanknytning och centrala roll inneb&amp;auml;r att de m&amp;aring;ste kunna samverka smidigt med befintligt it-st&amp;ouml;d. D&amp;auml;rf&amp;ouml;r har vi ocks&amp;aring; ett starkt fokus p&amp;aring; systemintegration, samt relaterade arkitektur- och utvecklingsfr&amp;aring;gor.&lt;/p&gt; 
+&lt;p&gt;F&amp;ouml;retagets satsning p&amp;aring; k&amp;auml;llkods&amp;ouml;ppen mjukvaruteknologi har sin grund i m&amp;aring;ng&amp;aring;rig erfarenhet fr&amp;aring;n olika it-milj&amp;ouml;er och l&amp;ouml;sningar. Detta har &amp;ouml;vertygat oss om de stora f&amp;ouml;rdelar genomt&amp;auml;nkt anv&amp;auml;ndande av &amp;ouml;ppen k&amp;auml;llkod har, b&amp;aring;de fr&amp;aring;n ett best&amp;auml;llar- och ett utvecklarperspektiv.&lt;/p&gt; 
+&lt;h2&gt;Om oss&lt;/h2&gt; 
+&lt;p&gt;&lt;strong&gt;Roland Hedayat&lt;/strong&gt; har 30 &amp;aring;rs fartstid inom it-branchen. Han har haft anst&amp;auml;llningar och uppdrag inom b&amp;aring;de privat och offentlig sektor, bland andra Statistisk Sentralbyr&amp;aring; (Oslo), AS SimTech (utvecklingsf&amp;ouml;retag, grafiska arbetsstationer), Ellemtel (Telecom/IT-utvecklingsbolag sam&amp;auml;gt av Ericsson och Telia) samt Pliktverket och flera landsting. De senare &amp;aring;rens uppdrag har haft anknytning till sjukv&amp;aring;rdsrelaterad it, med l&amp;ouml;sningar kring journalsystemintegration, infrastruktur och arkitektur.&lt;/p&gt; 
+&lt;p&gt;Roland &amp;auml;r utexaminerad B.Sc. och M.Sc. i datavetenskap fr&amp;aring;n Universitetet i Oslo och Uppsala Universitet.&lt;/p&gt; 
+&lt;p&gt;&lt;strong&gt;Bj&amp;ouml;rn Molin&lt;/strong&gt; har gedigen erfarenhet av utveckling av IT-system f&amp;ouml;r h&amp;auml;lsov&amp;aring;rd och l&amp;auml;kemedel. Huvudsakligen har Bj&amp;ouml;rn arbetat i utvecklar- eller arkitektroll med databasn&amp;auml;ra programmering men &amp;auml;ven med anv&amp;auml;ndargr&amp;auml;nssnitt. Bj&amp;ouml;rn har varit anst&amp;auml;lld eller haft konsultuppdrag p&amp;aring; Stockholms L&amp;auml;ns Landsting, Inid AB och Inera AB d&amp;auml;r han har gjort l&amp;ouml;sningar som anv&amp;auml;nds av alla landsting.&amp;nbsp; Bj&amp;ouml;rn &amp;auml;r medgrundare till Codeca AB (2000).&lt;/p&gt; 
+&lt;p&gt;Bj&amp;ouml;rn &amp;auml;r civilingenj&amp;ouml;r M.Sc.EE KTH.&lt;/p&gt; 
+&lt;h2&gt;Uppdrag&lt;/h2&gt; 
+&lt;p&gt;Vi har haft flera omfattande uppdrag inom v&amp;aring;rd-IT vilket har gett oss v&amp;auml;rdefull erfarenhet och inte minst insikter om fallgropar som m&amp;aring;ste undvikas vid IT-utveckling i stora organisationer med komplexa milj&amp;ouml;er.&lt;/p&gt; 
+&lt;p&gt;Expempel p&amp;aring; uppdrag som levererats &amp;auml;r:&lt;/p&gt; 
+&lt;ul&gt; 
+&lt;li&gt; 
+&lt;p&gt;&lt;a href="http://www.silinfo.se" target="_blank" title="SIL"&gt;Svensk informationsdatbas om l&amp;auml;kemedel (SIL)&lt;/a&gt;&lt;/p&gt; &lt;/li&gt; 
+&lt;li&gt; 
+&lt;p&gt;Databas och tj&amp;auml;nstegr&amp;auml;nssnitt samt automatiserade testverktyg&lt;/p&gt; &lt;/li&gt; 
+&lt;li&gt; 
+&lt;p&gt;&amp;nbsp;
+&lt;a href="http://www.webbhotell.sll.se/etjansterlakemedel/Janusfonster/" target="_blank" title="Janus Fönster"&gt;Janus f&amp;ouml;nster &lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;Webbapplikation, beslutsst&amp;ouml;d till allm&amp;auml;nl&amp;auml;kare i f&amp;ouml;rskrivnings&amp;ouml;gonblicket&lt;/p&gt; &lt;/li&gt; 
+&lt;li&gt; 
+&lt;p&gt;SFINX interaktionsdatabas&lt;/p&gt; 
+&lt;p&gt;Multi-spr&amp;aring;k inneh&amp;aring;llshantering och st&amp;ouml;d f&amp;ouml;r arbetsprocess. L&amp;ouml;sningen anv&amp;auml;nds av &amp;nbsp;
+&lt;a href="http://www.medbase.fi/index_uk.htm" target="_blank" title="Medbase"&gt;Medbase oy Ltd&lt;/a&gt; och 
+&lt;a href="http://www.webbhotell.sll.se/etjansterlakemedel/Kunskapsdatabaser/Sfinx/" target="_blank" title="SFINX"&gt;Stockholms L&amp;auml;ns Landsting&lt;/a&gt;&lt;/p&gt; &lt;/li&gt; 
+&lt;li&gt; 
+&lt;p&gt;&amp;nbsp;
+&lt;a href="http://www.slso.sll.se/upload/Gustavsberg/GLL%20ett%20faktum.pdf" target="_blank" title="GLL ett faktum"&gt;Gemensam L&amp;auml;kemedelslista&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;Pilotprojekt f&amp;ouml;r att tillhandah&amp;aring;lla en samlad bild av patientens l&amp;auml;kemedel till f&amp;ouml;rskrivande l&amp;auml;kare.&lt;/p&gt; &lt;/li&gt; &lt;/ul&gt; 
+&lt;h2&gt;N&amp;auml;tverkande kunskapsf&amp;ouml;retag&lt;/h2&gt; 
+&lt;p&gt;Inherit samarbetar med andra mindre konsultf&amp;ouml;retag med kompetens inom samma eller kompletterande teknikomr&amp;aring;den. Vid behov bildar vi en &amp;quot;virtuell projektorganisation&amp;quot;, d&amp;auml;r ett av de samarbetande f&amp;ouml;retagen tar rollen som frontf&amp;ouml;retag med juridiskt leverant&amp;ouml;rsansvar, och d&amp;auml;r de &amp;ouml;vriga tar ett solidariskt ansvar gentemot det f&amp;ouml;retaget som har det juridiska leverant&amp;ouml;rsansvaret. D&amp;auml;rmed kan en flexibel projektorganisation bildas.&amp;nbsp;&lt;/p&gt; 
+&lt;h2&gt;Kontakt&lt;/h2&gt; 
+&lt;p&gt;Inherit S AB
+&lt;br /&gt; L&amp;aring;ngsj&amp;ouml;v&amp;auml;gen 8
+&lt;br /&gt; 131 33 Nacka&lt;/p&gt; 
+&lt;p&gt;telefon: +46 8 641 64 14
+&lt;br /&gt; mobil: +46 708 18 07 69
+&lt;br /&gt; e-post: info _at_ inherit.se&lt;/p&gt;</sv:value>
+        </sv:property>
+        <sv:node sv:name="bpm">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:facetselect</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>ef9006be-9a8f-4da8-8dc9-17e655430603</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+        <sv:node sv:name="cms">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:facetselect</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>81445829-b141-422c-b467-89c77249d376</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="about-us">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>motricewebsite:textdocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+        <sv:value>hippotranslation:translated</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>43e8ef92-68c1-4f93-b349-9c55fc6d7851</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>common/about-us/about-us</sv:value>
+        <sv:value>common/about-us/about-us[2]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>draft</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>new</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2010-01-21T10:34:11.055Z</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2014-08-14T11:22:56.974+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>motricewebsite-common-about-us-id</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>sv</sv:value>
+      </sv:property>
+      <sv:property sv:name="motricewebsite:summary" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="motricewebsite:title" sv:type="String">
+        <sv:value>Om Inherit</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippotranslation:translations">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippotranslation:translations</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="motricewebsite:body">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;p&gt;&amp;nbsp;Inherit S AB &amp;auml;r ett it-konsultf&amp;ouml;retag som grundades 1995.&lt;/p&gt; 
+&lt;h2&gt;Aff&amp;auml;rsid&amp;eacute;&lt;/h2&gt; 
+&lt;p&gt;V&amp;aring;r aff&amp;auml;rsid&amp;eacute; &amp;auml;r att leverera kostnadseffektiva &amp;ouml;ppna IT-l&amp;ouml;sningar med n&amp;auml;ra koppling till verksamhetens behov.&lt;/p&gt; 
+&lt;p&gt;Vi fokuserar p&amp;aring; k&amp;auml;llkods&amp;ouml;ppna applikationer och system f&amp;ouml;r 
+&lt;a href="bpm"&gt;processhantering (BPM)&lt;/a&gt; och 
+&lt;a href="cms"&gt;inneh&amp;aring;llshantering (CMS)&lt;/a&gt;. Dessa systems starka verksamhetsanknytning och centrala roll inneb&amp;auml;r att de m&amp;aring;ste kunna samverka smidigt med befintligt it-st&amp;ouml;d. D&amp;auml;rf&amp;ouml;r har vi ocks&amp;aring; ett starkt fokus p&amp;aring; systemintegration, samt relaterade arkitektur- och utvecklingsfr&amp;aring;gor.&lt;/p&gt; 
+&lt;p&gt;F&amp;ouml;retagets satsning p&amp;aring; k&amp;auml;llkods&amp;ouml;ppen mjukvaruteknologi har sin grund i m&amp;aring;ng&amp;aring;rig erfarenhet fr&amp;aring;n olika it-milj&amp;ouml;er och l&amp;ouml;sningar. Detta har &amp;ouml;vertygat oss om de stora f&amp;ouml;rdelar genomt&amp;auml;nkt anv&amp;auml;ndande av &amp;ouml;ppen k&amp;auml;llkod har, b&amp;aring;de fr&amp;aring;n ett best&amp;auml;llar- och ett utvecklarperspektiv.&lt;/p&gt; 
+&lt;h2&gt;Om oss&lt;/h2&gt; 
+&lt;p&gt;&lt;strong&gt;Roland Hedayat&lt;/strong&gt; har 30 &amp;aring;rs fartstid inom it-branchen. Han har haft anst&amp;auml;llningar och uppdrag inom b&amp;aring;de privat och offentlig sektor, bland andra Statistisk Sentralbyr&amp;aring; (Oslo), AS SimTech (utvecklingsf&amp;ouml;retag, grafiska arbetsstationer), Ellemtel (Telecom/IT-utvecklingsbolag sam&amp;auml;gt av Ericsson och Telia) samt Pliktverket och flera landsting. De senare &amp;aring;rens uppdrag har haft anknytning till sjukv&amp;aring;rdsrelaterad it, med l&amp;ouml;sningar kring journalsystemintegration, infrastruktur och arkitektur.&lt;/p&gt; 
+&lt;p&gt;Roland &amp;auml;r utexaminerad B.Sc. och M.Sc. i datavetenskap fr&amp;aring;n Universitetet i Oslo och Uppsala Universitet.&lt;/p&gt; 
+&lt;p&gt;&lt;strong&gt;Bj&amp;ouml;rn Molin&lt;/strong&gt; har gedigen erfarenhet av utveckling av IT-system f&amp;ouml;r h&amp;auml;lsov&amp;aring;rd och l&amp;auml;kemedel. Huvudsakligen har Bj&amp;ouml;rn arbetat i utvecklar- eller arkitektroll med databasn&amp;auml;ra programmering men &amp;auml;ven med anv&amp;auml;ndargr&amp;auml;nssnitt. Bj&amp;ouml;rn har varit anst&amp;auml;lld eller haft konsultuppdrag p&amp;aring; Stockholms L&amp;auml;ns Landsting, Inid AB och Inera AB d&amp;auml;r han har gjort l&amp;ouml;sningar som anv&amp;auml;nds av alla landsting.&amp;nbsp; Bj&amp;ouml;rn &amp;auml;r medgrundare till Codeca AB (2000).&lt;/p&gt; 
+&lt;p&gt;Bj&amp;ouml;rn &amp;auml;r civilingenj&amp;ouml;r M.Sc.EE KTH.&lt;/p&gt; 
+&lt;h2&gt;Uppdrag&lt;/h2&gt; 
+&lt;p&gt;Vi har haft flera omfattande uppdrag inom v&amp;aring;rd-IT vilket har gett oss v&amp;auml;rdefull erfarenhet och inte minst insikter om fallgropar som m&amp;aring;ste undvikas vid IT-utveckling i stora organisationer med komplexa milj&amp;ouml;er.&lt;/p&gt; 
+&lt;p&gt;Expempel p&amp;aring; uppdrag som levererats &amp;auml;r:&lt;/p&gt; 
+&lt;ul&gt; 
+&lt;li&gt; 
+&lt;p&gt;&lt;a href="http://www.silinfo.se" target="_blank" title="SIL"&gt;Svensk informationsdatbas om l&amp;auml;kemedel (SIL)&lt;/a&gt;&lt;/p&gt; &lt;/li&gt; 
+&lt;li&gt; 
+&lt;p&gt;Databas och tj&amp;auml;nstegr&amp;auml;nssnitt samt automatiserade testverktyg&lt;/p&gt; &lt;/li&gt; 
+&lt;li&gt; 
+&lt;p&gt;&amp;nbsp;
+&lt;a href="http://www.webbhotell.sll.se/etjansterlakemedel/Janusfonster/" target="_blank" title="Janus Fönster"&gt;Janus f&amp;ouml;nster &lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;Webbapplikation, beslutsst&amp;ouml;d till allm&amp;auml;nl&amp;auml;kare i f&amp;ouml;rskrivnings&amp;ouml;gonblicket&lt;/p&gt; &lt;/li&gt; 
+&lt;li&gt; 
+&lt;p&gt;SFINX interaktionsdatabas&lt;/p&gt; 
+&lt;p&gt;Multi-spr&amp;aring;k inneh&amp;aring;llshantering och st&amp;ouml;d f&amp;ouml;r arbetsprocess. L&amp;ouml;sningen anv&amp;auml;nds av &amp;nbsp;
+&lt;a href="http://www.medbase.fi/index_uk.htm" target="_blank" title="Medbase"&gt;Medbase oy Ltd&lt;/a&gt; och 
+&lt;a href="http://www.webbhotell.sll.se/etjansterlakemedel/Kunskapsdatabaser/Sfinx/" target="_blank" title="SFINX"&gt;Stockholms L&amp;auml;ns Landsting&lt;/a&gt;&lt;/p&gt; &lt;/li&gt; 
+&lt;li&gt; 
+&lt;p&gt;&amp;nbsp;
+&lt;a href="http://www.slso.sll.se/upload/Gustavsberg/GLL%20ett%20faktum.pdf" target="_blank" title="GLL ett faktum"&gt;Gemensam L&amp;auml;kemedelslista&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;Pilotprojekt f&amp;ouml;r att tillhandah&amp;aring;lla en samlad bild av patientens l&amp;auml;kemedel till f&amp;ouml;rskrivande l&amp;auml;kare.&lt;/p&gt; &lt;/li&gt; &lt;/ul&gt; 
+&lt;h2&gt;N&amp;auml;tverkande kunskapsf&amp;ouml;retag&lt;/h2&gt; 
+&lt;p&gt;Inherit samarbetar med andra mindre konsultf&amp;ouml;retag med kompetens inom samma eller kompletterande teknikomr&amp;aring;den. Vid behov bildar vi en &amp;quot;virtuell projektorganisation&amp;quot;, d&amp;auml;r ett av de samarbetande f&amp;ouml;retagen tar rollen som frontf&amp;ouml;retag med juridiskt leverant&amp;ouml;rsansvar, och d&amp;auml;r de &amp;ouml;vriga tar ett solidariskt ansvar gentemot det f&amp;ouml;retaget som har det juridiska leverant&amp;ouml;rsansvaret. D&amp;auml;rmed kan en flexibel projektorganisation bildas.&amp;nbsp;&lt;/p&gt; 
+&lt;h2&gt;Kontakt&lt;/h2&gt; 
+&lt;p&gt;Inherit S AB
+&lt;br /&gt; L&amp;aring;ngsj&amp;ouml;v&amp;auml;gen 8
+&lt;br /&gt; 131 33 Nacka&lt;/p&gt; 
+&lt;p&gt;telefon: +46 8 641 64 14
+&lt;br /&gt; mobil: +46 708 18 07 69
+&lt;br /&gt; e-post: info _at_ inherit.se&lt;/p&gt;</sv:value>
+        </sv:property>
+        <sv:node sv:name="bpm">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:facetselect</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>ef9006be-9a8f-4da8-8dc9-17e655430603</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+        <sv:node sv:name="cms">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:facetselect</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>81445829-b141-422c-b467-89c77249d376</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+      </sv:node>
+    </sv:node>
   </sv:node>
   <sv:node sv:name="homepage">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -295,10 +540,9 @@ e-post: info _at_ inherit.se&lt;/p&gt;
       </sv:property>
       <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
         <sv:value>live</sv:value>
-        <sv:value>preview</sv:value>
       </sv:property>
       <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-        <sv:value>common/homepage</sv:value>
+        <sv:value>common/homepage/homepage[3]</sv:value>
       </sv:property>
       <sv:property sv:name="hippostd:holder" sv:type="String">
         <sv:value>admin</sv:value>
@@ -316,13 +560,13 @@ e-post: info _at_ inherit.se&lt;/p&gt;
         <sv:value>2010-01-21T11:34:11.055+01:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-        <sv:value>2011-10-02T17:30:48.098+02:00</sv:value>
+        <sv:value>2014-08-15T17:22:20.649+02:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
         <sv:value>admin</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-        <sv:value>2011-10-02T17:30:51.814+02:00</sv:value>
+        <sv:value>2014-08-15T17:48:58.016+02:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippotranslation:id" sv:type="String">
         <sv:value>motricewebsite-common-homepage-id</sv:value>
@@ -334,7 +578,7 @@ e-post: info _at_ inherit.se&lt;/p&gt;
         <sv:value/>
       </sv:property>
       <sv:property sv:name="motricewebsite:title" sv:type="String">
-        <sv:value>Välkommen till Inherit</sv:value>
+        <sv:value>Välkommen till Motrice</sv:value>
       </sv:property>
       <sv:node sv:name="hippotranslation:translations">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -346,44 +590,336 @@ e-post: info _at_ inherit.se&lt;/p&gt;
           <sv:value>hippostd:html</sv:value>
         </sv:property>
         <sv:property sv:name="hippostd:content" sv:type="String">
-          <sv:value>&lt;html&gt;
-&lt;body&gt;
-&lt;h2&gt;&lt;a title="BPM" href="bpm"&gt;Från Post-It lappar till körbara processer &lt;/a&gt;
-&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Rita processen&lt;/li&gt;
-&lt;li&gt;Koppla in omvärldssystemen&lt;/li&gt;
-&lt;li&gt;Kör process-applikationen med ett klick&lt;/li&gt;
-&lt;/ul&gt;
-&lt;strong&gt;Kontinuerlig processoptimering&lt;/strong&gt;
-&lt;p&gt;med prisbelönt källkodsöppet
-&lt;a title="Bonita Open Solution" href="bonita"&gt;processhanteringssystem&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;&lt;a title="CMS" href="cms"&gt;Kontroll och återanvändning av innehållet &lt;/a&gt;
-&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Över många siter&lt;/li&gt;
-&lt;li&gt;På många språk&lt;/li&gt;
-&lt;li&gt;Till många kanaler&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Med &lt;strong&gt;innovativt&lt;/strong&gt;, prisbelönt och källkodsöppet
-&lt;a title="Hippo CMS" href="hippo-cms"&gt;innehållshanteringssystem&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;&lt;a title="Utveckling och integration" href="dev-int"&gt;Integrera IT-systemen
-&lt;/a&gt; &lt;/h2&gt;
-&lt;p&gt;Med hjälp av komponenter som är&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Välbeprövade&lt;/li&gt;
-&lt;li&gt;Robusta&lt;/li&gt;
-&lt;li&gt;Källkodsöppna&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;för att skapa &lt;strong&gt;kostnadseffektiva&lt;/strong&gt;,
-&lt;a title="Open source" href="why-oss"&gt;högkvalitativa it-lösningar&lt;/a&gt;
-förankrade i &lt;strong&gt;verksamhetens behov&lt;/strong&gt;&lt;/p&gt;
-
-&lt;/body&gt;
-&lt;/html&gt;</sv:value>
+          <sv:value>&lt;h2&gt;&lt;a href="bpm" title="BPM"&gt;Fr&amp;aring;n Post-It lappar till k&amp;ouml;rbara processer &lt;/a&gt;&lt;/h2&gt; 
+&lt;ul&gt; 
+&lt;li&gt;Rita processen&lt;/li&gt; 
+&lt;li&gt;Koppla in omv&amp;auml;rldssystemen&lt;/li&gt; 
+&lt;li&gt;K&amp;ouml;r process-applikationen med ett klick&lt;/li&gt; &lt;/ul&gt; 
+&lt;p&gt;&lt;strong&gt;Kontinuerlig processoptimering&lt;/strong&gt;&lt;/p&gt; 
+&lt;p&gt;med prisbel&amp;ouml;nt k&amp;auml;llkods&amp;ouml;ppet 
+&lt;a href="bonita" title="Bonita Open Solution"&gt;processhanteringssystem&lt;/a&gt;&lt;/p&gt; 
+&lt;h2&gt;&lt;a href="cms" title="CMS"&gt;Kontroll och &amp;aring;teranv&amp;auml;ndning av inneh&amp;aring;llet &lt;/a&gt;&lt;/h2&gt; 
+&lt;ul&gt; 
+&lt;li&gt;&amp;Ouml;ver m&amp;aring;nga siter&lt;/li&gt; 
+&lt;li&gt;P&amp;aring; m&amp;aring;nga spr&amp;aring;k&lt;/li&gt; 
+&lt;li&gt;Till m&amp;aring;nga kanaler&lt;/li&gt; &lt;/ul&gt; 
+&lt;p&gt;Med 
+&lt;strong&gt;innovativt&lt;/strong&gt;, prisbel&amp;ouml;nt och k&amp;auml;llkods&amp;ouml;ppet 
+&lt;a href="hippo-cms" title="Hippo CMS"&gt;inneh&amp;aring;llshanteringssystem&lt;/a&gt;&lt;/p&gt; 
+&lt;h2&gt;&lt;a href="dev-int" title="Utveckling och integration"&gt;Integrera IT-systemen &lt;/a&gt;&lt;/h2&gt; 
+&lt;p&gt;Med hj&amp;auml;lp av komponenter som &amp;auml;r&lt;/p&gt; 
+&lt;ul&gt; 
+&lt;li&gt;V&amp;auml;lbepr&amp;ouml;vade&lt;/li&gt; 
+&lt;li&gt;Robusta&lt;/li&gt; 
+&lt;li&gt;K&amp;auml;llkods&amp;ouml;ppna&lt;/li&gt; &lt;/ul&gt; 
+&lt;p&gt;f&amp;ouml;r att skapa 
+&lt;strong&gt;kostnadseffektiva&lt;/strong&gt;, 
+&lt;a href="why-oss" title="Open source"&gt;h&amp;ouml;gkvalitativa it-l&amp;ouml;sningar&lt;/a&gt; f&amp;ouml;rankrade i 
+&lt;strong&gt;verksamhetens behov&lt;/strong&gt;&lt;/p&gt;</sv:value>
+        </sv:property>
+        <sv:node sv:name="bpm">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:facetselect</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>ef9006be-9a8f-4da8-8dc9-17e655430603</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+        <sv:node sv:name="cms">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:facetselect</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>81445829-b141-422c-b467-89c77249d376</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+        <sv:node sv:name="dev-int">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:facetselect</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>2c3ea9be-31aa-43fa-bfb4-9fae0a7b0ab3</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+        <sv:node sv:name="bonita">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:facetselect</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>cf58c35c-5967-4423-999b-196fcc75eb03</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+        <sv:node sv:name="hippo-cms">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:facetselect</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>87481d1c-da2a-4130-9f00-dbc666acf8cd</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+        <sv:node sv:name="why-oss">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:facetselect</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>8605a129-fa8f-4525-ba84-e0dc1b121bf5</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="homepage">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>motricewebsite:textdocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+        <sv:value>hippotranslation:translated</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>dc41837c-357f-4a66-9f11-5bd478816a43</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>common/homepage/homepage[3]</sv:value>
+        <sv:value>common/homepage/homepage</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>draft</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2010-01-21T11:34:11.055+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2014-08-15T17:22:05.048+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>motricewebsite-common-homepage-id</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>sv</sv:value>
+      </sv:property>
+      <sv:property sv:name="motricewebsite:summary" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="motricewebsite:title" sv:type="String">
+        <sv:value>Välkommen till Motrice</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippotranslation:translations">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippotranslation:translations</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="motricewebsite:body">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;h2&gt;&lt;a href="bpm" title="BPM"&gt;Fr&amp;aring;n Post-It lappar till k&amp;ouml;rbara processer &lt;/a&gt;&lt;/h2&gt; 
+&lt;ul&gt; 
+&lt;li&gt;Rita processen&lt;/li&gt; 
+&lt;li&gt;Koppla in omv&amp;auml;rldssystemen&lt;/li&gt; 
+&lt;li&gt;K&amp;ouml;r process-applikationen med ett klick&lt;/li&gt; &lt;/ul&gt; 
+&lt;p&gt;&lt;strong&gt;Kontinuerlig processoptimering&lt;/strong&gt;&lt;/p&gt; 
+&lt;p&gt;med prisbel&amp;ouml;nt k&amp;auml;llkods&amp;ouml;ppet 
+&lt;a href="bonita" title="Bonita Open Solution"&gt;processhanteringssystem&lt;/a&gt;&lt;/p&gt; 
+&lt;h2&gt;&lt;a href="cms" title="CMS"&gt;Kontroll och &amp;aring;teranv&amp;auml;ndning av inneh&amp;aring;llet &lt;/a&gt;&lt;/h2&gt; 
+&lt;ul&gt; 
+&lt;li&gt;&amp;Ouml;ver m&amp;aring;nga siter&lt;/li&gt; 
+&lt;li&gt;P&amp;aring; m&amp;aring;nga spr&amp;aring;k&lt;/li&gt; 
+&lt;li&gt;Till m&amp;aring;nga kanaler&lt;/li&gt; &lt;/ul&gt; 
+&lt;p&gt;Med 
+&lt;strong&gt;innovativt&lt;/strong&gt;, prisbel&amp;ouml;nt och k&amp;auml;llkods&amp;ouml;ppet 
+&lt;a href="hippo-cms" title="Hippo CMS"&gt;inneh&amp;aring;llshanteringssystem&lt;/a&gt;&lt;/p&gt; 
+&lt;h2&gt;&lt;a href="dev-int" title="Utveckling och integration"&gt;Integrera IT-systemen &lt;/a&gt;&lt;/h2&gt; 
+&lt;p&gt;Med hj&amp;auml;lp av komponenter som &amp;auml;r&lt;/p&gt; 
+&lt;ul&gt; 
+&lt;li&gt;V&amp;auml;lbepr&amp;ouml;vade&lt;/li&gt; 
+&lt;li&gt;Robusta&lt;/li&gt; 
+&lt;li&gt;K&amp;auml;llkods&amp;ouml;ppna&lt;/li&gt; &lt;/ul&gt; 
+&lt;p&gt;f&amp;ouml;r att skapa 
+&lt;strong&gt;kostnadseffektiva&lt;/strong&gt;, 
+&lt;a href="why-oss" title="Open source"&gt;h&amp;ouml;gkvalitativa it-l&amp;ouml;sningar&lt;/a&gt; f&amp;ouml;rankrade i 
+&lt;strong&gt;verksamhetens behov&lt;/strong&gt;&lt;/p&gt;</sv:value>
+        </sv:property>
+        <sv:node sv:name="bpm">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:facetselect</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>ef9006be-9a8f-4da8-8dc9-17e655430603</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+        <sv:node sv:name="cms">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:facetselect</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>81445829-b141-422c-b467-89c77249d376</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+        <sv:node sv:name="dev-int">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:facetselect</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>2c3ea9be-31aa-43fa-bfb4-9fae0a7b0ab3</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+        <sv:node sv:name="bonita">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:facetselect</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>cf58c35c-5967-4423-999b-196fcc75eb03</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+        <sv:node sv:name="hippo-cms">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:facetselect</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>87481d1c-da2a-4130-9f00-dbc666acf8cd</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+        <sv:node sv:name="why-oss">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:facetselect</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>8605a129-fa8f-4525-ba84-e0dc1b121bf5</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="homepage">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>motricewebsite:textdocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+        <sv:value>hippotranslation:translated</sv:value>
+        <sv:value>mix:versionable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>60069cf0-2ff6-4e01-a846-974ff9ceccbe</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>common/homepage/homepage</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>unpublished</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2010-01-21T11:34:11.055+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2014-08-15T17:22:20.649+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>motricewebsite-common-homepage-id</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>sv</sv:value>
+      </sv:property>
+      <sv:property sv:name="motricewebsite:summary" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="motricewebsite:title" sv:type="String">
+        <sv:value>Välkommen till Motrice</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippotranslation:translations">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippotranslation:translations</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="motricewebsite:body">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;h2&gt;&lt;a href="bpm" title="BPM"&gt;Fr&amp;aring;n Post-It lappar till k&amp;ouml;rbara processer &lt;/a&gt;&lt;/h2&gt; 
+&lt;ul&gt; 
+&lt;li&gt;Rita processen&lt;/li&gt; 
+&lt;li&gt;Koppla in omv&amp;auml;rldssystemen&lt;/li&gt; 
+&lt;li&gt;K&amp;ouml;r process-applikationen med ett klick&lt;/li&gt; &lt;/ul&gt; 
+&lt;p&gt;&lt;strong&gt;Kontinuerlig processoptimering&lt;/strong&gt;&lt;/p&gt; 
+&lt;p&gt;med prisbel&amp;ouml;nt k&amp;auml;llkods&amp;ouml;ppet 
+&lt;a href="bonita" title="Bonita Open Solution"&gt;processhanteringssystem&lt;/a&gt;&lt;/p&gt; 
+&lt;h2&gt;&lt;a href="cms" title="CMS"&gt;Kontroll och &amp;aring;teranv&amp;auml;ndning av inneh&amp;aring;llet &lt;/a&gt;&lt;/h2&gt; 
+&lt;ul&gt; 
+&lt;li&gt;&amp;Ouml;ver m&amp;aring;nga siter&lt;/li&gt; 
+&lt;li&gt;P&amp;aring; m&amp;aring;nga spr&amp;aring;k&lt;/li&gt; 
+&lt;li&gt;Till m&amp;aring;nga kanaler&lt;/li&gt; &lt;/ul&gt; 
+&lt;p&gt;Med 
+&lt;strong&gt;innovativt&lt;/strong&gt;, prisbel&amp;ouml;nt och k&amp;auml;llkods&amp;ouml;ppet 
+&lt;a href="hippo-cms" title="Hippo CMS"&gt;inneh&amp;aring;llshanteringssystem&lt;/a&gt;&lt;/p&gt; 
+&lt;h2&gt;&lt;a href="dev-int" title="Utveckling och integration"&gt;Integrera IT-systemen &lt;/a&gt;&lt;/h2&gt; 
+&lt;p&gt;Med hj&amp;auml;lp av komponenter som &amp;auml;r&lt;/p&gt; 
+&lt;ul&gt; 
+&lt;li&gt;V&amp;auml;lbepr&amp;ouml;vade&lt;/li&gt; 
+&lt;li&gt;Robusta&lt;/li&gt; 
+&lt;li&gt;K&amp;auml;llkods&amp;ouml;ppna&lt;/li&gt; &lt;/ul&gt; 
+&lt;p&gt;f&amp;ouml;r att skapa 
+&lt;strong&gt;kostnadseffektiva&lt;/strong&gt;, 
+&lt;a href="why-oss" title="Open source"&gt;h&amp;ouml;gkvalitativa it-l&amp;ouml;sningar&lt;/a&gt; f&amp;ouml;rankrade i 
+&lt;strong&gt;verksamhetens behov&lt;/strong&gt;&lt;/p&gt;</sv:value>
         </sv:property>
         <sv:node sv:name="bpm">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">

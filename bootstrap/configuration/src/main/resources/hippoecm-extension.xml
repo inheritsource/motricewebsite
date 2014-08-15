@@ -1096,20 +1096,6 @@
       <sv:value>/hippo:namespaces/motricewebsite</sv:value> 
     </sv:property> 
   </sv:node>  
-  <sv:node sv:name="motricewebsite-hippo-namespaces-motricewebsite-partnerdocument"> 
-    <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
-      <sv:value>hippo:initializeitem</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:sequence" sv:type="Double"> 
-      <sv:value>30052.0</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentresource" sv:type="String"> 
-      <sv:value>namespaces/motricewebsite/partnerdocument.xml</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentroot" sv:type="String"> 
-      <sv:value>/hippo:namespaces/motricewebsite</sv:value> 
-    </sv:property> 
-  </sv:node>  
   <sv:node sv:name="motricewebsite-hst-hst-hst-configurations-motricewebsite-common-hst-pages-textimagepage"> 
     <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
       <sv:value>hippo:initializeitem</sv:value> 
@@ -1670,18 +1656,18 @@
       <sv:value>/hippo:configuration/hippo:frontend</sv:value> 
     </sv:property> 
   </sv:node>  
-  <sv:node sv:name="motricewebsite-hippo-configuration-hippo-users-admin">
-    <sv:property sv:name="jcr:primaryType" sv:type="Name">
-      <sv:value>hippo:initializeitem</sv:value>
-    </sv:property>
-    <sv:property sv:name="hippo:sequence" sv:type="Double">
-      <sv:value>30000.3</sv:value>
-    </sv:property>
-    <sv:property sv:name="hippo:contentresource" sv:type="String">
-      <sv:value>configuration/users/admin.xml</sv:value>
-    </sv:property>
-    <sv:property sv:name="hippo:contentroot" sv:type="String">
-      <sv:value>/hippo:configuration/hippo:users</sv:value>
-    </sv:property>
-  </sv:node>
+  <sv:node sv:name="motricewebsite-hippo-configuration-hippo-users-admin"> 
+    <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
+      <sv:value>hippo:initializeitem</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:sequence" sv:type="Double"> 
+      <sv:value>30000.3</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:contentresource" sv:type="String"> 
+      <sv:value>configuration/users/admin.xml</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:contentroot" sv:type="String"> 
+      <sv:value>/hippo:configuration/hippo:users</sv:value> 
+    </sv:property> 
+  </sv:node> 
 </sv:node>
