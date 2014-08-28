@@ -22,5 +22,5 @@
 
     <h3 class="text-muted">
      <hst:link var="motrice_logo" path="/assets/motrice_logo.png"/>
-    <img src="${motrice_logo}"/><br/><span>p&aring;&nbsp;verksamhetens&nbsp;villkor</span></h3>
+    <img src="${motrice_logo}"/><br/><span>Verksamhetens processer p&aring;&nbsp;verksamhetens&nbsp;villkor</span></h3>
   </div>

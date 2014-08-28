@@ -11,8 +11,10 @@
     <hst:link var="link" path="/dist/css/bootstrap.css"/>
     <link rel="stylesheet" href="${link}" type="text/css"/>
 
-     <!-- Custom styles for this template -->
-    <link href="jumbotron-narrow.css" rel="stylesheet">
+     <!-- Custom styles for this template
+    <hst:link var="link2" path="/css/jumbotron-narrow.css"/>
+    <link rel="stylesheet" href="${link2}" type="text/css"/>
+    -->
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="description" content="">

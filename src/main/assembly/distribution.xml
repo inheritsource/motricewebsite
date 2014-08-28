@@ -13,9 +13,9 @@
       <destName>cms.war</destName>
     </file>
     <file>
-      <source>site/target/ROOT.war</source>
+      <source>site/target/site.war</source>
       <outputDirectory>/webapps</outputDirectory>
-      <destName>ROOT.war</destName>
+      <destName>site.war</destName>
     </file>
     <file>
       <source>conf/log4j-prod.xml</source>

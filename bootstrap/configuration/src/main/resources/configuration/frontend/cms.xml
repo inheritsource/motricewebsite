@@ -19,7 +19,10 @@
   <sv:node sv:name="cms-services" h:merge="combine">
     <sv:node sv:name="hstRestProxyService" h:merge="combine">
       <sv:property sv:name="rest.uri" sv:type="String" h:merge="override">
-        <sv:value>http://127.0.0.1:8080/_cmsrest</sv:value>
+        <sv:value>http://127.0.0.1:8080/site/_cmsrest</sv:value>
+      </sv:property>
+      <sv:property sv:name="context.path" sv:type="String">
+        <sv:value>/site</sv:value>
       </sv:property>
     </sv:node>
     <sv:node sv:name="localeProviderService" h:merge="combine">
@@ -46,19 +49,6 @@
           </sv:property>
           <sv:property sv:name="hippo:message" sv:type="String">
             <sv:value>Italian</sv:value>
-          </sv:property>
-        </sv:node>
-      </sv:node>
-      <sv:node sv:name="fr" h:merge="combine">
-        <sv:node sv:name="hippo:translation">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>frontend:pluginconfig</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:language" sv:type="String">
-            <sv:value>en</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:message" sv:type="String">
-            <sv:value>French</sv:value>
           </sv:property>
         </sv:node>
       </sv:node>
@@ -139,6 +129,19 @@
           </sv:property>
           <sv:property sv:name="hippo:message" sv:type="String">
             <sv:value>Svenska</sv:value>
+          </sv:property>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="fr" h:merge="combine">
+        <sv:node sv:name="hippo:translation">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>frontend:pluginconfig</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:language" sv:type="String">
+            <sv:value>en</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:message" sv:type="String">
+            <sv:value>French</sv:value>
           </sv:property>
         </sv:node>
       </sv:node>
