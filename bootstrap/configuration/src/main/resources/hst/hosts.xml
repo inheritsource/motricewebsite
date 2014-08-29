@@ -2,9 +2,6 @@
   <sv:property sv:name="jcr:primaryType" sv:type="Name">
     <sv:value>hst:virtualhosts</sv:value>
   </sv:property>
-  <sv:property sv:name="hst:channelmanagerhostgroup" sv:type="String">
-    <sv:value>dev-localhost</sv:value>
-  </sv:property>
   <sv:property sv:name="hst:channelmanagersiteauthenticationskipped" sv:type="Boolean">
     <sv:value>true</sv:value>
   </sv:property>
@@ -74,9 +71,6 @@
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>hst:mount</sv:value>
         </sv:property>
-        <sv:property sv:name="hst:channelpath" sv:type="String">
-          <sv:value>/hst:hst/hst:channels/motricewebsite</sv:value>
-        </sv:property>
         <sv:property sv:name="hst:mountpoint" sv:type="String">
           <sv:value>/hst:hst/hst:sites/motricewebsite-sv-web</sv:value>
         </sv:property>
@@ -84,22 +78,38 @@
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hst:mount</sv:value>
           </sv:property>
-          <sv:property sv:name="hst:channelpath" sv:type="String">
-            <sv:value>/hst:hst/hst:channels/motricewebsite-en-web</sv:value>
-          </sv:property>
           <sv:property sv:name="hst:locale" sv:type="String">
             <sv:value>en_UK</sv:value>
           </sv:property>
           <sv:property sv:name="hst:mountpoint" sv:type="String">
             <sv:value>/hst:hst/hst:sites/motricewebsite-en-web</sv:value>
           </sv:property>
+          <sv:node sv:name="web">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hst:mount</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:channelpath" sv:type="String">
+              <sv:value>/hst:hst/hst:channels/motricewebsite-en-web</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:mountpoint" sv:type="String">
+              <sv:value>/hst:hst/hst:sites/motricewebsite-en-web</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="mobile">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hst:mount</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:channelpath" sv:type="String">
+              <sv:value>/hst:hst/hst:channels/motricewebsite-en-mobile</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:mountpoint" sv:type="String">
+              <sv:value>/hst:hst/hst:sites/motricewebsite-en-mobile</sv:value>
+            </sv:property>
+          </sv:node>
         </sv:node>
         <sv:node sv:name="sv">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hst:mount</sv:value>
-          </sv:property>
-          <sv:property sv:name="hst:channelpath" sv:type="String">
-            <sv:value>/hst:hst/hst:channels/motricewebsite-sv-web</sv:value>
           </sv:property>
           <sv:property sv:name="hst:locale" sv:type="String">
             <sv:value>sv_SE</sv:value>
@@ -107,6 +117,28 @@
           <sv:property sv:name="hst:mountpoint" sv:type="String">
             <sv:value>/hst:hst/hst:sites/motricewebsite-sv-web</sv:value>
           </sv:property>
+          <sv:node sv:name="mobile">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hst:mount</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:channelpath" sv:type="String">
+              <sv:value>/hst:hst/hst:channels/motricewebsite-sv-mobile</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:mountpoint" sv:type="String">
+              <sv:value>/hst:hst/hst:sites/motricewebsite-sv-mobile</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="web">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hst:mount</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:channelpath" sv:type="String">
+              <sv:value>/hst:hst/hst:channels/motricewebsite-sv-web</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:mountpoint" sv:type="String">
+              <sv:value>/hst:hst/hst:sites/motricewebsite-sv-web</sv:value>
+            </sv:property>
+          </sv:node>
         </sv:node>
       </sv:node>
     </sv:node>
@@ -143,9 +175,6 @@
             <sv:property sv:name="jcr:primaryType" sv:type="Name">
               <sv:value>hst:mount</sv:value>
             </sv:property>
-            <sv:property sv:name="hst:channelpath" sv:type="String">
-              <sv:value>/hst:hst/hst:channels/motricewebsite-sv-web</sv:value>
-            </sv:property>
             <sv:property sv:name="hst:locale" sv:type="String">
               <sv:value>sv_SE</sv:value>
             </sv:property>
@@ -156,22 +185,38 @@
               <sv:property sv:name="jcr:primaryType" sv:type="Name">
                 <sv:value>hst:mount</sv:value>
               </sv:property>
-              <sv:property sv:name="hst:channelpath" sv:type="String">
-                <sv:value>/hst:hst/hst:channels/motricewebsite-en-web</sv:value>
-              </sv:property>
               <sv:property sv:name="hst:locale" sv:type="String">
                 <sv:value>en_UK</sv:value>
               </sv:property>
               <sv:property sv:name="hst:mountpoint" sv:type="String">
                 <sv:value>/hst:hst/hst:sites/motricewebsite-en-web</sv:value>
               </sv:property>
+              <sv:node sv:name="mobile">
+                <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                  <sv:value>hst:mount</sv:value>
+                </sv:property>
+                <sv:property sv:name="hst:channelpath" sv:type="String">
+                  <sv:value>/hst:hst/hst:channels/motricewebsite-en-mobile</sv:value>
+                </sv:property>
+                <sv:property sv:name="hst:mountpoint" sv:type="String">
+                  <sv:value>/hst:hst/hst:sites/motricewebsite-en-mobile</sv:value>
+                </sv:property>
+              </sv:node>
+              <sv:node sv:name="web">
+                <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                  <sv:value>hst:mount</sv:value>
+                </sv:property>
+                <sv:property sv:name="hst:channelpath" sv:type="String">
+                  <sv:value>/hst:hst/hst:channels/motricewebsite-en-web</sv:value>
+                </sv:property>
+                <sv:property sv:name="hst:mountpoint" sv:type="String">
+                  <sv:value>/hst:hst/hst:sites/motricewebsite-en-web</sv:value>
+                </sv:property>
+              </sv:node>
             </sv:node>
             <sv:node sv:name="sv">
               <sv:property sv:name="jcr:primaryType" sv:type="Name">
                 <sv:value>hst:mount</sv:value>
-              </sv:property>
-              <sv:property sv:name="hst:channelpath" sv:type="String">
-                <sv:value>/hst:hst/hst:channels/motricewebsite-sv-web</sv:value>
               </sv:property>
               <sv:property sv:name="hst:locale" sv:type="String">
                 <sv:value>sv_SE</sv:value>
@@ -179,15 +224,34 @@
               <sv:property sv:name="hst:mountpoint" sv:type="String">
                 <sv:value>/hst:hst/hst:sites/motricewebsite-sv-web</sv:value>
               </sv:property>
+              <sv:node sv:name="mobile">
+                <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                  <sv:value>hst:mount</sv:value>
+                </sv:property>
+                <sv:property sv:name="hst:channelpath" sv:type="String">
+                  <sv:value>/hst:hst/hst:channels/motricewebsite-sv-mobile</sv:value>
+                </sv:property>
+                <sv:property sv:name="hst:mountpoint" sv:type="String">
+                  <sv:value>/hst:hst/hst:sites/motricewebsite-sv-mobile</sv:value>
+                </sv:property>
+              </sv:node>
+              <sv:node sv:name="web">
+                <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                  <sv:value>hst:mount</sv:value>
+                </sv:property>
+                <sv:property sv:name="hst:channelpath" sv:type="String">
+                  <sv:value>/hst:hst/hst:channels/motricewebsite-sv-web</sv:value>
+                </sv:property>
+                <sv:property sv:name="hst:mountpoint" sv:type="String">
+                  <sv:value>/hst:hst/hst:sites/motricewebsite-sv-web</sv:value>
+                </sv:property>
+              </sv:node>
             </sv:node>
           </sv:node>
         </sv:node>
         <sv:node sv:name="hst:root">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hst:mount</sv:value>
-          </sv:property>
-          <sv:property sv:name="hst:channelpath" sv:type="String">
-            <sv:value>/hst:hst/hst:channels/motricewebsite-sv-web</sv:value>
           </sv:property>
           <sv:property sv:name="hst:locale" sv:type="String">
             <sv:value>sv_SE</sv:value>
@@ -199,22 +263,32 @@
             <sv:property sv:name="jcr:primaryType" sv:type="Name">
               <sv:value>hst:mount</sv:value>
             </sv:property>
-            <sv:property sv:name="hst:channelpath" sv:type="String">
-              <sv:value>/hst:hst/hst:channels/motricewebsite-en-web</sv:value>
-            </sv:property>
             <sv:property sv:name="hst:locale" sv:type="String">
               <sv:value>en_UK</sv:value>
             </sv:property>
             <sv:property sv:name="hst:mountpoint" sv:type="String">
               <sv:value>/hst:hst/hst:sites/motricewebsite-en-web</sv:value>
             </sv:property>
+            <sv:node sv:name="mobile">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>hst:mount</sv:value>
+              </sv:property>
+              <sv:property sv:name="hst:mountpoint" sv:type="String">
+                <sv:value>/hst:hst/hst:sites/motricewebsite-en-mobile</sv:value>
+              </sv:property>
+            </sv:node>
+            <sv:node sv:name="web">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>hst:mount</sv:value>
+              </sv:property>
+              <sv:property sv:name="hst:mountpoint" sv:type="String">
+                <sv:value>/hst:hst/hst:sites/motricewebsite-en-web</sv:value>
+              </sv:property>
+            </sv:node>
           </sv:node>
           <sv:node sv:name="sv">
             <sv:property sv:name="jcr:primaryType" sv:type="Name">
               <sv:value>hst:mount</sv:value>
-            </sv:property>
-            <sv:property sv:name="hst:channelpath" sv:type="String">
-              <sv:value>/hst:hst/hst:channels/motricewebsite-sv-web</sv:value>
             </sv:property>
             <sv:property sv:name="hst:locale" sv:type="String">
               <sv:value>sv_SE</sv:value>
@@ -222,6 +296,22 @@
             <sv:property sv:name="hst:mountpoint" sv:type="String">
               <sv:value>/hst:hst/hst:sites/motricewebsite-sv-web</sv:value>
             </sv:property>
+            <sv:node sv:name="mobile">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>hst:mount</sv:value>
+              </sv:property>
+              <sv:property sv:name="hst:mountpoint" sv:type="String">
+                <sv:value>/hst:hst/hst:sites/motricewebsite-sv-mobile</sv:value>
+              </sv:property>
+            </sv:node>
+            <sv:node sv:name="web">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>hst:mount</sv:value>
+              </sv:property>
+              <sv:property sv:name="hst:mountpoint" sv:type="String">
+                <sv:value>/hst:hst/hst:sites/motricewebsite-sv-web</sv:value>
+              </sv:property>
+            </sv:node>
           </sv:node>
         </sv:node>
       </sv:node>
