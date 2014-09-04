@@ -1,7 +1,6 @@
 package se.motrice.hippo.components;
 
 import se.motrice.hippo.channels.WebsiteInfo;
-import org.hippoecm.hst.component.support.bean.BaseHstComponent;
 import org.hippoecm.hst.configuration.hosting.Mount;
 import org.hippoecm.hst.core.component.HstComponentException;
 import org.hippoecm.hst.core.component.HstRequest;

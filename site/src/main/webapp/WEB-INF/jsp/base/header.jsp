@@ -1,7 +1,7 @@
 <%@ include file="/WEB-INF/jspf/htmlTags.jspf" %>
 <%--@elvariable id="headerName" type="java.lang.String"--%>
 
-  <div class="header">
+  <div class="header div_color">
      <ul class="nav nav-pills pull-right" id="topmenu-items">
       <c:forEach var="item" items="${menu.siteMenuItems}">
 	<hst:link var="link" link="${item.hstLink}" />
@@ -19,8 +19,10 @@
 
       </c:forEach>
      </ul>
-
+    </div>
+	<hr class="thick_border" />
+     <div class="header">
     <h3 class="text-muted">
      <hst:link var="motrice_logo" path="/assets/motrice_logo.png"/>
-    <img src="${motrice_logo}"/><br/><span>Verksamhetens processer p&aring;&nbsp;verksamhetens&nbsp;villkor</span></h3>
+    <img id="front-logo-id" src="${motrice_logo}"/><span>  Verksamhetens processer p&aring;&nbsp;verksamhetens&nbsp;villkor</span></h3>
   </div>
