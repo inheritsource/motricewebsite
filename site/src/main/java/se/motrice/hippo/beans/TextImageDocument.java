@@ -15,4 +15,20 @@ public class TextImageDocument extends TextDocument{
         return getLinkedBean("motricewebsite:icon", HippoGalleryImageSet.class);
     }
     
+    public String getImageCaption() {
+        return getProperty("motricewebsite:imagecaption");
+    }
+    
+    public String getSeqNumber() {
+        return getProperty("motricewebsite:seqnumber");
+    }
+
+    public String getButtonTxt() {
+        return getProperty("motricewebsite:buttontxt");
+    }
+
+    public String getButtonRef() {
+        return getProperty("motricewebsite:buttonref");
+    }
+
 }

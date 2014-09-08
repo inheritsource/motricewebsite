@@ -23,7 +23,7 @@ public class MenuBasedDetail extends BaseHstComponent {
 	public void doBeforeRender(final HstRequest request,
 			final HstResponse response) throws HstComponentException {
 
-		HippoBean doc = getContentBean(request);
+        HippoBean doc = request.getRequestContext().getContentBean();
 
 		if (doc == null) {
 			log.warn(

@@ -10,7 +10,8 @@
 
 	<div class="yui3-u" id="main">
 		<div class="content-home">
-		<hst:include ref="content"/>
+		<hst:include ref="headcontent"/>
+		<hst:include ref="hilightcontent"/>
 		</div>
 	</div>
 

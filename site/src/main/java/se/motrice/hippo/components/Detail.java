@@ -14,7 +14,6 @@ public class Detail extends BaseHstComponent {
 
     @Override
     public void doBeforeRender(final HstRequest request, final HstResponse response) throws HstComponentException {
-
         HippoBean doc = request.getRequestContext().getContentBean();
 
         if (doc == null) {
@@ -25,7 +24,6 @@ public class Detail extends BaseHstComponent {
             return;
         }
         request.setAttribute("document",doc);
-
     }
 
 }
