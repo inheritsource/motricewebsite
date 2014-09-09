@@ -19,7 +19,7 @@ public class TextImageDocument extends TextDocument{
         return getProperty("motricewebsite:imagecaption");
     }
     
-    public String getSeqNumber() {
+    public long getSeqNumber() {
         return getProperty("motricewebsite:seqnumber");
     }
 

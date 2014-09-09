@@ -4,42 +4,41 @@
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
 <%@ taglib uri="http://www.hippoecm.org/jsp/hst/core" prefix='hst'%>
 
-<c:if test="${not empty document.title}">
-  <hst:element var="headTitle" name="title">
-    <c:out value="${document.title}"/>
-  </hst:element>
-  <hst:headContribution keyHint="headTitle" element="${headTitle}" />
-</c:if>
-
 <!-- 
-<h2>${document.title}</h2>
-<p>I18n key example: <fmt:message key="home.title"/></p>
-<p>${document.summary}</p>
-  
-<div class="jumbotron">  
-<hst:html hippohtml="${document.html}"/> 
-</div>
- -->
+ <c:if test="${not empty document.title}">
+	<hst:element var="headTitle" name="title">
+		<c:out value="${document.title}" />
+	</hst:element>
+	<hst:headContribution keyHint="headTitle" element="${headTitle}" />
+</c:if>
+-->
 
-<div class="jumbotron">
-  <div class="container">
-  <h1>Motrice processplattform</h1>
-  <p>
-    En web-baserad processplattform som koordinerar anv&auml;ndarna och s&auml;krar organisationens arbetsfl&ouml;den.
-  </p>
-  </div>
+<div class="container marketing" style="margin-top:30px;">
+	<div class="row">
+		<c:forEach var="item" items="${result.hippoBeans}">
+			<hst:link var="link" hippobean="${item}" />
+			<!--  	<h3>
+				<a href="${link}">${item.title}</a>
+			</h3>
+			<p class="document-summary">
+				${item.summary}<a href="${link}"><fmt:message key="readmore" /></a>
+			</p> -->
+			<div class="col-lg-4">
+				<hst:link var="img" hippobean="${item.image.original}" />
+				<img class="img-circle" src="${img}" alt="hallo"
+					style="width: 140px; height: 140px;">
+				<h2>${item.title}</h2>
+				<hst:html hippohtml="${item.html}" fullyQualifiedLinks="true" />
+				<p>
+					<a class="btn btn-default" href="#" role="button">${item.buttonTxt} &raquo;</a>
+				</p>
+			</div>
+			<!-- /.col-lg-4 -->
+		</c:forEach>
+	</div>
+	<!-- /.row -->
 </div>
-<p>hilightcontent</p>
-<div class="container">
- <c:forEach var="item" items="${result.hippoBeans}">
-    <hst:link var="link" hippobean="${item}"/>
 
-    <h3><a href="${link}">${item.title}</a></h3>
-    <p class="document-summary">${item.summary}<a href="${link}"><fmt:message key="readmore"/></a></p>
-  </c:forEach>
-<!--  <hst:html hippohtml="${document.html}"/> --> 
-  <footer>
-    <p>&copy; Motrice AB 2014</p>
-  </footer>
-</div>
-      
+<footer>
+	<p>&copy; Motrice AB 2014</p>
+</footer>

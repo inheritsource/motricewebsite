@@ -1,44 +1,45 @@
 <!doctype html>
-<%@ include file="/WEB-INF/jspf/htmlTags.jspf" %>
+<%@ include file="/WEB-INF/jspf/htmlTags.jspf"%>
 <html lang="en">
-  <head>
-    <meta charset="utf-8"/>
-    <hst:headContributions categoryExcludes="scripts" xhtml="true"/>
-    <!--[if lt IE 9]>
+<head>
+<meta charset="utf-8" />
+<hst:headContributions categoryExcludes="scripts" xhtml="true" />
+<!--[if lt IE 9]>
         <hst:link var="html4shiv" path="/js/html5shiv.js"/>
         <script type="text/javascript" src="${html4shiv}"></script>
     <![endif]-->
-    <hst:link var="link" path="/dist/css/bootstrap.css"/>
-    <link rel="stylesheet" href="${link}" type="text/css"/>
+<hst:link var="link" path="/dist/css/bootstrap.css" />
+<link rel="stylesheet" href="${link}" type="text/css" />
 
-     <!-- Custom styles for this template -->
-    <hst:link var="link2" path="/css/motrice_style.css"/>
-    <link rel="stylesheet" href="${link2}" type="text/css"/>
-	
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <meta name="description" content="">
-    <meta name="author" content="">
+<!-- Custom styles for this template -->
+<hst:link var="link2" path="/css/motrice_style.css" />
+<link rel="stylesheet" href="${link2}" type="text/css" />
 
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="">
+<meta name="author" content="">
+
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
       <script src="../../assets/js/html5shiv.js"></script>
       <script src="../../assets/js/respond.min.js"></script>
     <![endif]-->
-  </head>
-  <body>
-    <div class="container">
-    <hst:include ref="header"/>
-    <hst:include ref="main"/>
-    <hst:headContributions categoryIncludes="scripts" xhtml="true"/>
-    </div>
-        <!-- Bootstrap core JavaScript
+</head>
+<body>
+	<div class="container">
+		<hst:include ref="header" />
+		<hst:include ref="main" />
+		<hst:headContributions categoryIncludes="scripts" xhtml="true" />
+	</div>
+	<!-- Bootstrap core JavaScript
     ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="../../dist/js/bootstrap.min.js"></script>
-    <script src="../../assets/js/docs.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
-    
-  </body>
+	<!-- Placed at the end of the document so the pages load faster -->
+	<script
+		src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="/site/dist/js/bootstrap.min.js"></script>
+	<script src="/site/assets/js/docs.min.js"></script>
+	<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+	<script src="/site/assets/js/ie10-viewport-bug-workaround.js"></script>
+
+</body>
 </html>

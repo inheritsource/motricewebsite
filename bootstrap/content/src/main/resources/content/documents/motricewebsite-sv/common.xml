@@ -1150,7 +1150,7 @@ e-post: info _at_ inherit.se&lt;/p&gt;
     <sv:property sv:name="hippotranslation:locale" sv:type="String">
       <sv:value>sv</sv:value>
     </sv:property>
-    <sv:node sv:name="jhead">
+    <sv:node sv:name="chead">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>hippostd:folder</sv:value>
       </sv:property>
@@ -1180,10 +1180,10 @@ e-post: info _at_ inherit.se&lt;/p&gt;
           <sv:value/>
         </sv:property>
         <sv:property sv:name="hippo:message" sv:type="String">
-          <sv:value>Jhead</sv:value>
+          <sv:value>Chead</sv:value>
         </sv:property>
       </sv:node>
-      <sv:node sv:name="chead-1">
+      <sv:node sv:name="chead1">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>hippo:handle</sv:value>
         </sv:property>
@@ -1192,748 +1192,364 @@ e-post: info _at_ inherit.se&lt;/p&gt;
           <sv:value>hippo:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
-          <sv:value>7ce5e456-590d-4a54-957d-b9ab2dea326a</sv:value>
+          <sv:value>e61791e3-00b9-46d3-a7dc-8e418d1e8201</sv:value>
         </sv:property>
-        <sv:node sv:name="hippo:translation">
+        <sv:node sv:name="chead1">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippo:translation</sv:value>
+            <sv:value>motricewebsite:textimagedocument</sv:value>
           </sv:property>
-          <sv:property sv:name="hippo:language" sv:type="String">
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>97c51947-2919-4b73-8ff2-34da7d3a4aaf</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>common/home/chead/chead1/chead1[3]</sv:value>
+            <sv:value>common/home/chead/chead1/chead1[2]</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>draft</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2014-09-09T15:31:03.042+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2014-09-09T15:31:03.208+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>57e6b6aa-87f6-4167-a9a9-350d72a063a4</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>sv</sv:value>
+          </sv:property>
+          <sv:property sv:name="motricewebsite:buttonref" sv:type="String">
             <sv:value/>
           </sv:property>
-          <sv:property sv:name="hippo:message" sv:type="String">
-            <sv:value>Chead-1</sv:value>
+          <sv:property sv:name="motricewebsite:buttontxt" sv:type="String">
+            <sv:value>Anslut nu</sv:value>
           </sv:property>
-        </sv:node>
-        <sv:node sv:name="chead-1">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>motricewebsite:textdocument</sv:value>
+          <sv:property sv:name="motricewebsite:imagecaption" sv:type="String">
+            <sv:value>Nice Heaven Caption</sv:value>
           </sv:property>
-          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-            <sv:value>mix:referenceable</sv:value>
-            <sv:value>hippotranslation:translated</sv:value>
-          </sv:property>
-          <sv:property sv:name="jcr:uuid" sv:type="String">
-            <sv:value>b564a015-e447-445d-921d-4b4ac252f542</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
-          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-            <sv:value>common/home/jhead/chead-1/chead-1[3]</sv:value>
-            <sv:value>common/home/jhead/chead-1/chead-1[2]</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostd:state" sv:type="String">
-            <sv:value>draft</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
-            <sv:value>new</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
-            <sv:value>admin</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
-            <sv:value>2014-09-05T08:27:01.695+02:00</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2014-09-08T16:08:53.062+02:00</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
-            <sv:value>admin</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippotranslation:id" sv:type="String">
-            <sv:value>5761213e-d3cb-4c8e-9175-2d477ed95f04</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippotranslation:locale" sv:type="String">
-            <sv:value>sv</sv:value>
-          </sv:property>
-          <sv:property sv:name="motricewebsite:summary" sv:type="String">
-            <sv:value>jumbotron huvud ett</sv:value>
-          </sv:property>
-          <sv:property sv:name="motricewebsite:title" sv:type="String">
-            <sv:value>CHead1</sv:value>
-          </sv:property>
-          <sv:node sv:name="motricewebsite:body">
-            <sv:property sv:name="jcr:primaryType" sv:type="Name">
-              <sv:value>hippostd:html</sv:value>
-            </sv:property>
-            <sv:property sv:name="hippostd:content" sv:type="String">
-              <sv:value>&lt;html&gt;&lt;body/&gt;&lt;/html&gt;</sv:value>
-            </sv:property>
-          </sv:node>
-        </sv:node>
-        <sv:node sv:name="chead-1">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>motricewebsite:textdocument</sv:value>
-          </sv:property>
-          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-            <sv:value>mix:referenceable</sv:value>
-            <sv:value>hippotranslation:translated</sv:value>
-            <sv:value>mix:versionable</sv:value>
-          </sv:property>
-          <sv:property sv:name="jcr:uuid" sv:type="String">
-            <sv:value>a1ad7925-30c8-4f06-b5e9-418ad194ff2a</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
-            <sv:value>preview</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-            <sv:value>common/home/jhead/chead-1/chead-1[3]</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostd:state" sv:type="String">
-            <sv:value>unpublished</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
-            <sv:value>new</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
-            <sv:value>admin</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
-            <sv:value>2014-09-05T08:27:01.695+02:00</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2014-09-05T10:02:18.958+02:00</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
-            <sv:value>admin</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippotranslation:id" sv:type="String">
-            <sv:value>5761213e-d3cb-4c8e-9175-2d477ed95f04</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippotranslation:locale" sv:type="String">
-            <sv:value>sv</sv:value>
-          </sv:property>
-          <sv:property sv:name="motricewebsite:summary" sv:type="String">
-            <sv:value>jumbotron huvud ett</sv:value>
-          </sv:property>
-          <sv:property sv:name="motricewebsite:title" sv:type="String">
-            <sv:value>CHead1</sv:value>
-          </sv:property>
-          <sv:node sv:name="motricewebsite:body">
-            <sv:property sv:name="jcr:primaryType" sv:type="Name">
-              <sv:value>hippostd:html</sv:value>
-            </sv:property>
-            <sv:property sv:name="hippostd:content" sv:type="String">
-              <sv:value>&lt;html&gt;&lt;body/&gt;&lt;/html&gt;</sv:value>
-            </sv:property>
-          </sv:node>
-        </sv:node>
-        <sv:node sv:name="chead-1">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>motricewebsite:textdocument</sv:value>
-          </sv:property>
-          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-            <sv:value>mix:referenceable</sv:value>
-            <sv:value>hippotranslation:translated</sv:value>
-          </sv:property>
-          <sv:property sv:name="jcr:uuid" sv:type="String">
-            <sv:value>7e2278f3-9e2d-40e0-8d18-38c37aee77c3</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
-          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-            <sv:value>common/home/jhead/chead-1/chead-1[2]</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostd:state" sv:type="String">
-            <sv:value>published</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
-            <sv:value>new</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
-            <sv:value>admin</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
-            <sv:value>2014-09-05T08:27:01.695+02:00</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2014-09-05T10:02:18.958+02:00</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
-            <sv:value>admin</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-            <sv:value>2014-09-08T15:48:07.384+02:00</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippotranslation:id" sv:type="String">
-            <sv:value>5761213e-d3cb-4c8e-9175-2d477ed95f04</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippotranslation:locale" sv:type="String">
-            <sv:value>sv</sv:value>
-          </sv:property>
-          <sv:property sv:name="motricewebsite:summary" sv:type="String">
-            <sv:value>jumbotron huvud ett</sv:value>
-          </sv:property>
-          <sv:property sv:name="motricewebsite:title" sv:type="String">
-            <sv:value>CHead1</sv:value>
-          </sv:property>
-          <sv:node sv:name="motricewebsite:body">
-            <sv:property sv:name="jcr:primaryType" sv:type="Name">
-              <sv:value>hippostd:html</sv:value>
-            </sv:property>
-            <sv:property sv:name="hippostd:content" sv:type="String">
-              <sv:value>&lt;html&gt;&lt;body/&gt;&lt;/html&gt;</sv:value>
-            </sv:property>
-          </sv:node>
-        </sv:node>
-      </sv:node>
-      <sv:node sv:name="chead-2">
-        <sv:property sv:name="jcr:primaryType" sv:type="Name">
-          <sv:value>hippo:handle</sv:value>
-        </sv:property>
-        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-          <sv:value>mix:referenceable</sv:value>
-          <sv:value>hippo:translated</sv:value>
-        </sv:property>
-        <sv:property sv:name="jcr:uuid" sv:type="String">
-          <sv:value>40877b29-1c4a-47e5-bfea-0756bdc113ca</sv:value>
-        </sv:property>
-        <sv:node sv:name="chead-2">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>motricewebsite:textdocument</sv:value>
-          </sv:property>
-          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-            <sv:value>mix:referenceable</sv:value>
-            <sv:value>hippotranslation:translated</sv:value>
-            <sv:value>mix:versionable</sv:value>
-          </sv:property>
-          <sv:property sv:name="jcr:uuid" sv:type="String">
-            <sv:value>802f60d7-3c49-44ad-8759-ad485bf44b42</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
-            <sv:value>preview</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-            <sv:value>common/home/jhead/chead-2/chead-2[3]</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostd:state" sv:type="String">
-            <sv:value>unpublished</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
-            <sv:value>new</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
-            <sv:value>admin</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
-            <sv:value>2014-09-05T08:27:01.695+02:00</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2014-09-05T10:02:44.700+02:00</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
-            <sv:value>admin</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippotranslation:id" sv:type="String">
-            <sv:value>1853974e-a5b0-4cfc-8601-4bbdc981a94c</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippotranslation:locale" sv:type="String">
-            <sv:value>sv</sv:value>
-          </sv:property>
-          <sv:property sv:name="motricewebsite:summary" sv:type="String">
-            <sv:value>Jumbotron huvud två</sv:value>
-          </sv:property>
-          <sv:property sv:name="motricewebsite:title" sv:type="String">
-            <sv:value>CHead2</sv:value>
-          </sv:property>
-          <sv:node sv:name="motricewebsite:body">
-            <sv:property sv:name="jcr:primaryType" sv:type="Name">
-              <sv:value>hippostd:html</sv:value>
-            </sv:property>
-            <sv:property sv:name="hippostd:content" sv:type="String">
-              <sv:value>&lt;html&gt;&lt;body/&gt;&lt;/html&gt;</sv:value>
-            </sv:property>
-          </sv:node>
-        </sv:node>
-        <sv:node sv:name="hippo:translation">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippo:translation</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:language" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippo:message" sv:type="String">
-            <sv:value>Chead-2</sv:value>
-          </sv:property>
-        </sv:node>
-        <sv:node sv:name="chead-2">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>motricewebsite:textdocument</sv:value>
-          </sv:property>
-          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-            <sv:value>mix:referenceable</sv:value>
-            <sv:value>hippotranslation:translated</sv:value>
-          </sv:property>
-          <sv:property sv:name="jcr:uuid" sv:type="String">
-            <sv:value>c8243e61-1c26-457a-92a8-a16cb9ac741a</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
-          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-            <sv:value>common/home/jhead/chead-2/chead-2</sv:value>
-            <sv:value>common/home/jhead/chead-2/chead-2[3]</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostd:state" sv:type="String">
-            <sv:value>draft</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
-            <sv:value>new</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
-            <sv:value>admin</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
-            <sv:value>2014-09-05T08:27:01.695+02:00</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2014-09-05T10:02:24.433+02:00</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
-            <sv:value>admin</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippotranslation:id" sv:type="String">
-            <sv:value>1853974e-a5b0-4cfc-8601-4bbdc981a94c</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippotranslation:locale" sv:type="String">
-            <sv:value>sv</sv:value>
-          </sv:property>
-          <sv:property sv:name="motricewebsite:summary" sv:type="String">
-            <sv:value>Jumbotron huvud två</sv:value>
-          </sv:property>
-          <sv:property sv:name="motricewebsite:title" sv:type="String">
-            <sv:value>CHead2</sv:value>
-          </sv:property>
-          <sv:node sv:name="motricewebsite:body">
-            <sv:property sv:name="jcr:primaryType" sv:type="Name">
-              <sv:value>hippostd:html</sv:value>
-            </sv:property>
-            <sv:property sv:name="hippostd:content" sv:type="String">
-              <sv:value>&lt;html&gt;&lt;body/&gt;&lt;/html&gt;</sv:value>
-            </sv:property>
-          </sv:node>
-        </sv:node>
-        <sv:node sv:name="chead-2">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>motricewebsite:textdocument</sv:value>
-          </sv:property>
-          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-            <sv:value>mix:referenceable</sv:value>
-            <sv:value>hippotranslation:translated</sv:value>
-          </sv:property>
-          <sv:property sv:name="jcr:uuid" sv:type="String">
-            <sv:value>f3ffb19b-4ebb-4878-b781-e0b92fd45111</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
-          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-            <sv:value>common/home/jhead/chead-2/chead-2</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostd:state" sv:type="String">
-            <sv:value>published</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
-            <sv:value>new</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
-            <sv:value>admin</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
-            <sv:value>2014-09-05T08:27:01.695+02:00</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2014-09-05T10:02:44.700+02:00</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
-            <sv:value>admin</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-            <sv:value>2014-09-08T15:48:13.171+02:00</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippotranslation:id" sv:type="String">
-            <sv:value>1853974e-a5b0-4cfc-8601-4bbdc981a94c</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippotranslation:locale" sv:type="String">
-            <sv:value>sv</sv:value>
-          </sv:property>
-          <sv:property sv:name="motricewebsite:summary" sv:type="String">
-            <sv:value>Jumbotron huvud två</sv:value>
-          </sv:property>
-          <sv:property sv:name="motricewebsite:title" sv:type="String">
-            <sv:value>CHead2</sv:value>
-          </sv:property>
-          <sv:node sv:name="motricewebsite:body">
-            <sv:property sv:name="jcr:primaryType" sv:type="Name">
-              <sv:value>hippostd:html</sv:value>
-            </sv:property>
-            <sv:property sv:name="hippostd:content" sv:type="String">
-              <sv:value>&lt;html&gt;&lt;body/&gt;&lt;/html&gt;</sv:value>
-            </sv:property>
-          </sv:node>
-        </sv:node>
-      </sv:node>
-      <sv:node sv:name="jhead-1">
-        <sv:property sv:name="jcr:primaryType" sv:type="Name">
-          <sv:value>hippo:handle</sv:value>
-        </sv:property>
-        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-          <sv:value>mix:referenceable</sv:value>
-          <sv:value>hippo:translated</sv:value>
-        </sv:property>
-        <sv:property sv:name="jcr:uuid" sv:type="String">
-          <sv:value>fff29fbe-ac6b-4688-83cb-f7724eb6d0ac</sv:value>
-        </sv:property>
-        <sv:node sv:name="jhead-1">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>motricewebsite:textimagedocument</sv:value>
-          </sv:property>
-          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-            <sv:value>mix:referenceable</sv:value>
-          </sv:property>
-          <sv:property sv:name="jcr:uuid" sv:type="String">
-            <sv:value>51cf69c1-b939-433f-910f-40e131e68600</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
-          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-            <sv:value>common/home/jhead/jhead-1/jhead-1[2]</sv:value>
-            <sv:value>common/home/jhead/jhead-1/jhead-1[3]</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostd:state" sv:type="String">
-            <sv:value>draft</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
-            <sv:value>live</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
-            <sv:value>admin</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
-            <sv:value>2014-09-08T17:26:14.223+02:00</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2014-09-08T17:26:14.326+02:00</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
-            <sv:value>admin</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippotranslation:id" sv:type="String">
-            <sv:value>53507aeb-cb74-4eb3-9199-373255d896f6</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippotranslation:locale" sv:type="String">
-            <sv:value>sv</sv:value>
-          </sv:property>
-          <sv:property sv:name="motricewebsite:long" sv:type="Long">
-            <sv:value>1</sv:value>
-          </sv:property>
-          <sv:property sv:name="motricewebsite:string" sv:type="String">
-            <sv:value>Blue sky</sv:value>
-          </sv:property>
-          <sv:property sv:name="motricewebsite:string_" sv:type="String">
-            <sv:value>Tryck här</sv:value>
-          </sv:property>
-          <sv:property sv:name="motricewebsite:string__" sv:type="String">
-            <sv:value>gå vidare</sv:value>
-          </sv:property>
-          <sv:property sv:name="motricewebsite:summary" sv:type="String">
-            <sv:value>Blue sky summering</sv:value>
-          </sv:property>
-          <sv:property sv:name="motricewebsite:title" sv:type="String">
-            <sv:value>Nice heaven</sv:value>
-          </sv:property>
-          <sv:node sv:name="motricewebsite:body">
-            <sv:property sv:name="jcr:primaryType" sv:type="Name">
-              <sv:value>hippostd:html</sv:value>
-            </sv:property>
-            <sv:property sv:name="hippostd:content" sv:type="String">
-              <sv:value>&lt;p&gt;Detta &amp;auml;r en bild som visar....&lt;/p&gt;</sv:value>
-            </sv:property>
-          </sv:node>
-          <sv:node sv:name="motricewebsite:icon">
-            <sv:property sv:name="jcr:primaryType" sv:type="Name">
-              <sv:value>hippogallerypicker:imagelink</sv:value>
-            </sv:property>
-            <sv:property sv:name="hippo:docbase" sv:type="String">
-              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
-            </sv:property>
-            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
-            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
-            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
-          </sv:node>
-          <sv:node sv:name="motricewebsite:image">
-            <sv:property sv:name="jcr:primaryType" sv:type="Name">
-              <sv:value>hippogallerypicker:imagelink</sv:value>
-            </sv:property>
-            <sv:property sv:name="hippo:docbase" sv:type="String">
-              <sv:value>6974531d-9b1a-4408-b1aa-5da753747df8</sv:value>
-            </sv:property>
-            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
-            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
-            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
-          </sv:node>
-        </sv:node>
-        <sv:node sv:name="hippo:translation">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippo:translation</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:language" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippo:message" sv:type="String">
-            <sv:value>Jhead-1</sv:value>
-          </sv:property>
-        </sv:node>
-        <sv:node sv:name="jhead-1">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>motricewebsite:textimagedocument</sv:value>
-          </sv:property>
-          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-            <sv:value>mix:referenceable</sv:value>
-            <sv:value>mix:versionable</sv:value>
-          </sv:property>
-          <sv:property sv:name="jcr:uuid" sv:type="String">
-            <sv:value>42be5b4b-c232-4a00-8944-1c60ecfb5695</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
-            <sv:value>preview</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-            <sv:value>common/home/jhead/jhead-1/jhead-1[3]</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostd:state" sv:type="String">
-            <sv:value>unpublished</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
-            <sv:value>live</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
-            <sv:value>admin</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
-            <sv:value>2014-09-08T17:26:14.223+02:00</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2014-09-08T17:29:40.668+02:00</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
-            <sv:value>admin</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippotranslation:id" sv:type="String">
-            <sv:value>53507aeb-cb74-4eb3-9199-373255d896f6</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippotranslation:locale" sv:type="String">
-            <sv:value>sv</sv:value>
-          </sv:property>
-          <sv:property sv:name="motricewebsite:long" sv:type="Long">
-            <sv:value>1</sv:value>
-          </sv:property>
-          <sv:property sv:name="motricewebsite:string" sv:type="String">
-            <sv:value>Blue sky</sv:value>
-          </sv:property>
-          <sv:property sv:name="motricewebsite:string_" sv:type="String">
-            <sv:value>Tryck här</sv:value>
-          </sv:property>
-          <sv:property sv:name="motricewebsite:string__" sv:type="String">
-            <sv:value>gå vidare</sv:value>
-          </sv:property>
-          <sv:property sv:name="motricewebsite:summary" sv:type="String">
-            <sv:value>Blue sky summering</sv:value>
-          </sv:property>
-          <sv:property sv:name="motricewebsite:title" sv:type="String">
-            <sv:value>Nice heaven</sv:value>
-          </sv:property>
-          <sv:node sv:name="motricewebsite:body">
-            <sv:property sv:name="jcr:primaryType" sv:type="Name">
-              <sv:value>hippostd:html</sv:value>
-            </sv:property>
-            <sv:property sv:name="hippostd:content" sv:type="String">
-              <sv:value>&lt;p&gt;Detta &amp;auml;r en bild som visar....&lt;/p&gt;</sv:value>
-            </sv:property>
-          </sv:node>
-          <sv:node sv:name="motricewebsite:icon">
-            <sv:property sv:name="jcr:primaryType" sv:type="Name">
-              <sv:value>hippogallerypicker:imagelink</sv:value>
-            </sv:property>
-            <sv:property sv:name="hippo:docbase" sv:type="String">
-              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
-            </sv:property>
-            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
-            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
-            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
-          </sv:node>
-          <sv:node sv:name="motricewebsite:image">
-            <sv:property sv:name="jcr:primaryType" sv:type="Name">
-              <sv:value>hippogallerypicker:imagelink</sv:value>
-            </sv:property>
-            <sv:property sv:name="hippo:docbase" sv:type="String">
-              <sv:value>6974531d-9b1a-4408-b1aa-5da753747df8</sv:value>
-            </sv:property>
-            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
-            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
-            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
-          </sv:node>
-        </sv:node>
-        <sv:node sv:name="jhead-1">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>motricewebsite:textimagedocument</sv:value>
-          </sv:property>
-          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-            <sv:value>mix:referenceable</sv:value>
-          </sv:property>
-          <sv:property sv:name="jcr:uuid" sv:type="String">
-            <sv:value>d745f5d5-eb64-4033-aa27-cfc81f525f2f</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
-            <sv:value>live</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-            <sv:value>common/home/jhead/jhead-1/jhead-1[2]</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostd:state" sv:type="String">
-            <sv:value>published</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
-            <sv:value>live</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
-            <sv:value>admin</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
-            <sv:value>2014-09-08T17:26:14.223+02:00</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2014-09-08T17:29:40.668+02:00</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
-            <sv:value>admin</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-            <sv:value>2014-09-08T17:48:46.499+02:00</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippotranslation:id" sv:type="String">
-            <sv:value>53507aeb-cb74-4eb3-9199-373255d896f6</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippotranslation:locale" sv:type="String">
-            <sv:value>sv</sv:value>
-          </sv:property>
-          <sv:property sv:name="motricewebsite:long" sv:type="Long">
-            <sv:value>1</sv:value>
-          </sv:property>
-          <sv:property sv:name="motricewebsite:string" sv:type="String">
-            <sv:value>Blue sky</sv:value>
-          </sv:property>
-          <sv:property sv:name="motricewebsite:string_" sv:type="String">
-            <sv:value>Tryck här</sv:value>
-          </sv:property>
-          <sv:property sv:name="motricewebsite:string__" sv:type="String">
-            <sv:value>gå vidare</sv:value>
-          </sv:property>
-          <sv:property sv:name="motricewebsite:summary" sv:type="String">
-            <sv:value>Blue sky summering</sv:value>
-          </sv:property>
-          <sv:property sv:name="motricewebsite:title" sv:type="String">
-            <sv:value>Nice heaven</sv:value>
-          </sv:property>
-          <sv:node sv:name="motricewebsite:body">
-            <sv:property sv:name="jcr:primaryType" sv:type="Name">
-              <sv:value>hippostd:html</sv:value>
-            </sv:property>
-            <sv:property sv:name="hippostd:content" sv:type="String">
-              <sv:value>&lt;p&gt;Detta &amp;auml;r en bild som visar....&lt;/p&gt;</sv:value>
-            </sv:property>
-          </sv:node>
-          <sv:node sv:name="motricewebsite:icon">
-            <sv:property sv:name="jcr:primaryType" sv:type="Name">
-              <sv:value>hippogallerypicker:imagelink</sv:value>
-            </sv:property>
-            <sv:property sv:name="hippo:docbase" sv:type="String">
-              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
-            </sv:property>
-            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
-            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
-            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
-          </sv:node>
-          <sv:node sv:name="motricewebsite:image">
-            <sv:property sv:name="jcr:primaryType" sv:type="Name">
-              <sv:value>hippogallerypicker:imagelink</sv:value>
-            </sv:property>
-            <sv:property sv:name="hippo:docbase" sv:type="String">
-              <sv:value>6974531d-9b1a-4408-b1aa-5da753747df8</sv:value>
-            </sv:property>
-            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
-            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
-            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
-          </sv:node>
-        </sv:node>
-      </sv:node>
-      <sv:node sv:name="jhead-2">
-        <sv:property sv:name="jcr:primaryType" sv:type="Name">
-          <sv:value>hippo:handle</sv:value>
-        </sv:property>
-        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-          <sv:value>mix:referenceable</sv:value>
-          <sv:value>hippo:translated</sv:value>
-        </sv:property>
-        <sv:property sv:name="jcr:uuid" sv:type="String">
-          <sv:value>f432e034-51cf-4126-b293-31de92dceec1</sv:value>
-        </sv:property>
-        <sv:node sv:name="jhead-2">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>motricewebsite:textimagedocument</sv:value>
-          </sv:property>
-          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-            <sv:value>mix:referenceable</sv:value>
-          </sv:property>
-          <sv:property sv:name="jcr:uuid" sv:type="String">
-            <sv:value>7c7b9c44-ab26-4ea5-a580-934b45456c89</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
-          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-            <sv:value>common/home/jhead/jhead-2/jhead-2[3]</sv:value>
-            <sv:value>common/home/jhead/jhead-2/jhead-2[2]</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostd:state" sv:type="String">
-            <sv:value>draft</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
-            <sv:value>live</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
-            <sv:value>admin</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
-            <sv:value>2014-09-08T17:32:31.448+02:00</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2014-09-08T17:32:31.567+02:00</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
-            <sv:value>admin</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippotranslation:id" sv:type="String">
-            <sv:value>d6053116-83af-4a85-a1ea-9ddbce141267</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippotranslation:locale" sv:type="String">
-            <sv:value>sv</sv:value>
-          </sv:property>
-          <sv:property sv:name="motricewebsite:long" sv:type="Long">
+          <sv:property sv:name="motricewebsite:seqnumber" sv:type="Long">
             <sv:value>0</sv:value>
           </sv:property>
-          <sv:property sv:name="motricewebsite:string" sv:type="String">
-            <sv:value>Miljövänllgt med solpaneler</sv:value>
-          </sv:property>
-          <sv:property sv:name="motricewebsite:string_" sv:type="String">
-            <sv:value>Klicka</sv:value>
-          </sv:property>
-          <sv:property sv:name="motricewebsite:string__" sv:type="String">
-            <sv:value>länka vidare</sv:value>
-          </sv:property>
           <sv:property sv:name="motricewebsite:summary" sv:type="String">
-            <sv:value>Detta är framtidens melodi</sv:value>
+            <sv:value>Nice heaven summary</sv:value>
           </sv:property>
           <sv:property sv:name="motricewebsite:title" sv:type="String">
-            <sv:value>Solpanelhuset</sv:value>
+            <sv:value>Nice Heaven Title</sv:value>
           </sv:property>
           <sv:node sv:name="motricewebsite:body">
             <sv:property sv:name="jcr:primaryType" sv:type="Name">
               <sv:value>hippostd:html</sv:value>
             </sv:property>
             <sv:property sv:name="hippostd:content" sv:type="String">
-              <sv:value>&lt;p&gt;Speciellt intressant &amp;auml;r det att se...&lt;/p&gt;</sv:value>
+              <sv:value>&lt;p&gt;Very nice indeed...&lt;/p&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="motricewebsite:icon">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogallerypicker:imagelink</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>6ab8809f-f988-4381-8531-e89b459bbc88</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+          <sv:node sv:name="motricewebsite:image">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogallerypicker:imagelink</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>6974531d-9b1a-4408-b1aa-5da753747df8</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="hippo:translation">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:translation</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:language" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="hippo:message" sv:type="String">
+            <sv:value>Chead1</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="chead1">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>motricewebsite:textimagedocument</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:referenceable</sv:value>
+            <sv:value>mix:versionable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>cae5001b-8d1e-438b-9d99-938eb1a385c0</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+            <sv:value>preview</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>common/home/chead/chead1/chead1[3]</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>unpublished</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2014-09-09T15:31:03.042+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2014-09-09T15:32:57.100+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>57e6b6aa-87f6-4167-a9a9-350d72a063a4</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>sv</sv:value>
+          </sv:property>
+          <sv:property sv:name="motricewebsite:buttonref" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="motricewebsite:buttontxt" sv:type="String">
+            <sv:value>Anslut nu</sv:value>
+          </sv:property>
+          <sv:property sv:name="motricewebsite:imagecaption" sv:type="String">
+            <sv:value>Nice Heaven Caption</sv:value>
+          </sv:property>
+          <sv:property sv:name="motricewebsite:seqnumber" sv:type="Long">
+            <sv:value>0</sv:value>
+          </sv:property>
+          <sv:property sv:name="motricewebsite:summary" sv:type="String">
+            <sv:value>Nice heaven summary</sv:value>
+          </sv:property>
+          <sv:property sv:name="motricewebsite:title" sv:type="String">
+            <sv:value>Nice Heaven Title</sv:value>
+          </sv:property>
+          <sv:node sv:name="motricewebsite:body">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p&gt;Very nice indeed...&lt;/p&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="motricewebsite:icon">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogallerypicker:imagelink</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>6ab8809f-f988-4381-8531-e89b459bbc88</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+          <sv:node sv:name="motricewebsite:image">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogallerypicker:imagelink</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>6974531d-9b1a-4408-b1aa-5da753747df8</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="chead1">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>motricewebsite:textimagedocument</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>c69a479e-6d90-40ee-8e10-9cd398999e2f</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>common/home/chead/chead1/chead1[2]</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>published</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2014-09-09T15:31:03.042+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2014-09-09T15:32:57.100+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+            <sv:value>2014-09-09T15:36:23.580+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>57e6b6aa-87f6-4167-a9a9-350d72a063a4</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>sv</sv:value>
+          </sv:property>
+          <sv:property sv:name="motricewebsite:buttonref" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="motricewebsite:buttontxt" sv:type="String">
+            <sv:value>Anslut nu</sv:value>
+          </sv:property>
+          <sv:property sv:name="motricewebsite:imagecaption" sv:type="String">
+            <sv:value>Nice Heaven Caption</sv:value>
+          </sv:property>
+          <sv:property sv:name="motricewebsite:seqnumber" sv:type="Long">
+            <sv:value>0</sv:value>
+          </sv:property>
+          <sv:property sv:name="motricewebsite:summary" sv:type="String">
+            <sv:value>Nice heaven summary</sv:value>
+          </sv:property>
+          <sv:property sv:name="motricewebsite:title" sv:type="String">
+            <sv:value>Nice Heaven Title</sv:value>
+          </sv:property>
+          <sv:node sv:name="motricewebsite:body">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p&gt;Very nice indeed...&lt;/p&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="motricewebsite:icon">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogallerypicker:imagelink</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>6ab8809f-f988-4381-8531-e89b459bbc88</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+          <sv:node sv:name="motricewebsite:image">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogallerypicker:imagelink</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>6974531d-9b1a-4408-b1aa-5da753747df8</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="chead2">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:handle</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:referenceable</sv:value>
+          <sv:value>hippo:translated</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>49a44ef1-c46f-4008-9984-891306960748</sv:value>
+        </sv:property>
+        <sv:node sv:name="chead2">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>motricewebsite:textimagedocument</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>73350069-1312-42c2-a447-64b9d62bccff</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>common/home/chead/chead2/chead2[2]</sv:value>
+            <sv:value>common/home/chead/chead2/chead2[3]</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>draft</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2014-09-09T15:33:30.895+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2014-09-09T15:33:30.955+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>34b84589-23f5-46e4-85cc-3c1226cc19c5</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>sv</sv:value>
+          </sv:property>
+          <sv:property sv:name="motricewebsite:buttonref" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="motricewebsite:buttontxt" sv:type="String">
+            <sv:value>Köp</sv:value>
+          </sv:property>
+          <sv:property sv:name="motricewebsite:imagecaption" sv:type="String">
+            <sv:value>solarcaption</sv:value>
+          </sv:property>
+          <sv:property sv:name="motricewebsite:seqnumber" sv:type="Long">
+            <sv:value>0</sv:value>
+          </sv:property>
+          <sv:property sv:name="motricewebsite:summary" sv:type="String">
+            <sv:value>Summary Solar</sv:value>
+          </sv:property>
+          <sv:property sv:name="motricewebsite:title" sv:type="String">
+            <sv:value>Solar Title</sv:value>
+          </sv:property>
+          <sv:node sv:name="motricewebsite:body">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p&gt;Milj&amp;ouml;v&amp;auml;nligare kan det ej bli&lt;/p&gt;</sv:value>
             </sv:property>
           </sv:node>
           <sv:node sv:name="motricewebsite:icon">
@@ -1967,10 +1583,10 @@ e-post: info _at_ inherit.se&lt;/p&gt;
             <sv:value/>
           </sv:property>
           <sv:property sv:name="hippo:message" sv:type="String">
-            <sv:value>Jhead-2</sv:value>
+            <sv:value>Chead2</sv:value>
           </sv:property>
         </sv:node>
-        <sv:node sv:name="jhead-2">
+        <sv:node sv:name="chead2">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>motricewebsite:textimagedocument</sv:value>
           </sv:property>
@@ -1979,13 +1595,13 @@ e-post: info _at_ inherit.se&lt;/p&gt;
             <sv:value>mix:versionable</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:uuid" sv:type="String">
-            <sv:value>f535024b-e357-42c3-b067-2247ebbe07f3</sv:value>
+            <sv:value>2dcf8620-c87e-4556-a010-ca5c8c5ccf09</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
             <sv:value>preview</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-            <sv:value>common/home/jhead/jhead-2/jhead-2[3]</sv:value>
+            <sv:value>common/home/chead/chead2/chead2[3]</sv:value>
           </sv:property>
           <sv:property sv:name="hippostd:state" sv:type="String">
             <sv:value>unpublished</sv:value>
@@ -1997,44 +1613,44 @@ e-post: info _at_ inherit.se&lt;/p&gt;
             <sv:value>admin</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
-            <sv:value>2014-09-08T17:32:31.448+02:00</sv:value>
+            <sv:value>2014-09-09T15:33:30.895+02:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2014-09-08T17:39:41.568+02:00</sv:value>
+            <sv:value>2014-09-09T15:34:24.295+02:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
             <sv:value>admin</sv:value>
           </sv:property>
           <sv:property sv:name="hippotranslation:id" sv:type="String">
-            <sv:value>d6053116-83af-4a85-a1ea-9ddbce141267</sv:value>
+            <sv:value>34b84589-23f5-46e4-85cc-3c1226cc19c5</sv:value>
           </sv:property>
           <sv:property sv:name="hippotranslation:locale" sv:type="String">
             <sv:value>sv</sv:value>
           </sv:property>
-          <sv:property sv:name="motricewebsite:long" sv:type="Long">
+          <sv:property sv:name="motricewebsite:buttonref" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="motricewebsite:buttontxt" sv:type="String">
+            <sv:value>Köp</sv:value>
+          </sv:property>
+          <sv:property sv:name="motricewebsite:imagecaption" sv:type="String">
+            <sv:value>solarcaption</sv:value>
+          </sv:property>
+          <sv:property sv:name="motricewebsite:seqnumber" sv:type="Long">
             <sv:value>0</sv:value>
           </sv:property>
-          <sv:property sv:name="motricewebsite:string" sv:type="String">
-            <sv:value>Miljövänllgt med solpaneler</sv:value>
-          </sv:property>
-          <sv:property sv:name="motricewebsite:string_" sv:type="String">
-            <sv:value>Klicka</sv:value>
-          </sv:property>
-          <sv:property sv:name="motricewebsite:string__" sv:type="String">
-            <sv:value>länka vidare</sv:value>
-          </sv:property>
           <sv:property sv:name="motricewebsite:summary" sv:type="String">
-            <sv:value>Detta är framtidens melodi</sv:value>
+            <sv:value>Summary Solar</sv:value>
           </sv:property>
           <sv:property sv:name="motricewebsite:title" sv:type="String">
-            <sv:value>Solpanelhuset</sv:value>
+            <sv:value>Solar Title</sv:value>
           </sv:property>
           <sv:node sv:name="motricewebsite:body">
             <sv:property sv:name="jcr:primaryType" sv:type="Name">
               <sv:value>hippostd:html</sv:value>
             </sv:property>
             <sv:property sv:name="hippostd:content" sv:type="String">
-              <sv:value>&lt;p&gt;Speciellt intressant &amp;auml;r det att se...&lt;/p&gt;</sv:value>
+              <sv:value>&lt;p&gt;Milj&amp;ouml;v&amp;auml;nligare kan det ej bli&lt;/p&gt;</sv:value>
             </sv:property>
           </sv:node>
           <sv:node sv:name="motricewebsite:icon">
@@ -2060,7 +1676,7 @@ e-post: info _at_ inherit.se&lt;/p&gt;
             <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
           </sv:node>
         </sv:node>
-        <sv:node sv:name="jhead-2">
+        <sv:node sv:name="chead2">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>motricewebsite:textimagedocument</sv:value>
           </sv:property>
@@ -2068,13 +1684,13 @@ e-post: info _at_ inherit.se&lt;/p&gt;
             <sv:value>mix:referenceable</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:uuid" sv:type="String">
-            <sv:value>8f0e03f9-620b-41e0-bd3a-3e9211914265</sv:value>
+            <sv:value>a7ed3da5-448d-4c67-8e9e-ef029ef801c8</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
             <sv:value>live</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-            <sv:value>common/home/jhead/jhead-2/jhead-2[2]</sv:value>
+            <sv:value>common/home/chead/chead2/chead2[2]</sv:value>
           </sv:property>
           <sv:property sv:name="hippostd:state" sv:type="String">
             <sv:value>published</sv:value>
@@ -2086,47 +1702,47 @@ e-post: info _at_ inherit.se&lt;/p&gt;
             <sv:value>admin</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
-            <sv:value>2014-09-08T17:32:31.448+02:00</sv:value>
+            <sv:value>2014-09-09T15:33:30.895+02:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2014-09-08T17:39:41.568+02:00</sv:value>
+            <sv:value>2014-09-09T15:34:24.295+02:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
             <sv:value>admin</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-            <sv:value>2014-09-08T17:48:51.108+02:00</sv:value>
+            <sv:value>2014-09-09T15:36:18.721+02:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippotranslation:id" sv:type="String">
-            <sv:value>d6053116-83af-4a85-a1ea-9ddbce141267</sv:value>
+            <sv:value>34b84589-23f5-46e4-85cc-3c1226cc19c5</sv:value>
           </sv:property>
           <sv:property sv:name="hippotranslation:locale" sv:type="String">
             <sv:value>sv</sv:value>
           </sv:property>
-          <sv:property sv:name="motricewebsite:long" sv:type="Long">
+          <sv:property sv:name="motricewebsite:buttonref" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="motricewebsite:buttontxt" sv:type="String">
+            <sv:value>Köp</sv:value>
+          </sv:property>
+          <sv:property sv:name="motricewebsite:imagecaption" sv:type="String">
+            <sv:value>solarcaption</sv:value>
+          </sv:property>
+          <sv:property sv:name="motricewebsite:seqnumber" sv:type="Long">
             <sv:value>0</sv:value>
           </sv:property>
-          <sv:property sv:name="motricewebsite:string" sv:type="String">
-            <sv:value>Miljövänllgt med solpaneler</sv:value>
-          </sv:property>
-          <sv:property sv:name="motricewebsite:string_" sv:type="String">
-            <sv:value>Klicka</sv:value>
-          </sv:property>
-          <sv:property sv:name="motricewebsite:string__" sv:type="String">
-            <sv:value>länka vidare</sv:value>
-          </sv:property>
           <sv:property sv:name="motricewebsite:summary" sv:type="String">
-            <sv:value>Detta är framtidens melodi</sv:value>
+            <sv:value>Summary Solar</sv:value>
           </sv:property>
           <sv:property sv:name="motricewebsite:title" sv:type="String">
-            <sv:value>Solpanelhuset</sv:value>
+            <sv:value>Solar Title</sv:value>
           </sv:property>
           <sv:node sv:name="motricewebsite:body">
             <sv:property sv:name="jcr:primaryType" sv:type="Name">
               <sv:value>hippostd:html</sv:value>
             </sv:property>
             <sv:property sv:name="hippostd:content" sv:type="String">
-              <sv:value>&lt;p&gt;Speciellt intressant &amp;auml;r det att se...&lt;/p&gt;</sv:value>
+              <sv:value>&lt;p&gt;Milj&amp;ouml;v&amp;auml;nligare kan det ej bli&lt;/p&gt;</sv:value>
             </sv:property>
           </sv:node>
           <sv:node sv:name="motricewebsite:icon">
@@ -2153,7 +1769,7 @@ e-post: info _at_ inherit.se&lt;/p&gt;
           </sv:node>
         </sv:node>
       </sv:node>
-      <sv:node sv:name="jhead-3">
+      <sv:node sv:name="chead3">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>hippo:handle</sv:value>
         </sv:property>
@@ -2162,9 +1778,9 @@ e-post: info _at_ inherit.se&lt;/p&gt;
           <sv:value>hippo:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
-          <sv:value>aeb634bf-d3e9-4542-9b96-f49878cf7e0c</sv:value>
+          <sv:value>4ca9bf30-c425-4110-903d-393b4c337170</sv:value>
         </sv:property>
-        <sv:node sv:name="jhead-3">
+        <sv:node sv:name="chead3">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>motricewebsite:textimagedocument</sv:value>
           </sv:property>
@@ -2172,12 +1788,12 @@ e-post: info _at_ inherit.se&lt;/p&gt;
             <sv:value>mix:referenceable</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:uuid" sv:type="String">
-            <sv:value>9ee1be20-f267-467f-93af-e26058032a26</sv:value>
+            <sv:value>30621659-c77e-4abd-a051-e72099b79317</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-            <sv:value>common/home/jhead/jhead-3/jhead-3[2]</sv:value>
-            <sv:value>common/home/jhead/jhead-3/jhead-3[3]</sv:value>
+            <sv:value>common/home/chead/chead3/chead3[2]</sv:value>
+            <sv:value>common/home/chead/chead3/chead3[3]</sv:value>
           </sv:property>
           <sv:property sv:name="hippostd:state" sv:type="String">
             <sv:value>draft</sv:value>
@@ -2189,44 +1805,44 @@ e-post: info _at_ inherit.se&lt;/p&gt;
             <sv:value>admin</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
-            <sv:value>2014-09-08T17:37:50.282+02:00</sv:value>
+            <sv:value>2014-09-09T15:35:25.983+02:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2014-09-08T17:37:50.386+02:00</sv:value>
+            <sv:value>2014-09-09T15:35:26.049+02:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
             <sv:value>admin</sv:value>
           </sv:property>
           <sv:property sv:name="hippotranslation:id" sv:type="String">
-            <sv:value>b9509285-cbf2-4c74-981f-e240b985d3c1</sv:value>
+            <sv:value>c4a17145-d589-4639-9939-2901c42eacf8</sv:value>
           </sv:property>
           <sv:property sv:name="hippotranslation:locale" sv:type="String">
             <sv:value>sv</sv:value>
           </sv:property>
-          <sv:property sv:name="motricewebsite:long" sv:type="Long">
-            <sv:value>3</sv:value>
+          <sv:property sv:name="motricewebsite:buttonref" sv:type="String">
+            <sv:value/>
           </sv:property>
-          <sv:property sv:name="motricewebsite:string" sv:type="String">
-            <sv:value>Vatten</sv:value>
+          <sv:property sv:name="motricewebsite:buttontxt" sv:type="String">
+            <sv:value>Drick</sv:value>
           </sv:property>
-          <sv:property sv:name="motricewebsite:string_" sv:type="String">
-            <sv:value>Klicka här</sv:value>
+          <sv:property sv:name="motricewebsite:imagecaption" sv:type="String">
+            <sv:value>imgcaption</sv:value>
           </sv:property>
-          <sv:property sv:name="motricewebsite:string__" sv:type="String">
-            <sv:value>gå till</sv:value>
+          <sv:property sv:name="motricewebsite:seqnumber" sv:type="Long">
+            <sv:value>0</sv:value>
           </sv:property>
           <sv:property sv:name="motricewebsite:summary" sv:type="String">
-            <sv:value>Det är gott med ett miljövänligt glas vatten</sv:value>
+            <sv:value>Water is tasty</sv:value>
           </sv:property>
           <sv:property sv:name="motricewebsite:title" sv:type="String">
-            <sv:value>Glas vatten</sv:value>
+            <sv:value>Title water</sv:value>
           </sv:property>
           <sv:node sv:name="motricewebsite:body">
             <sv:property sv:name="jcr:primaryType" sv:type="Name">
               <sv:value>hippostd:html</sv:value>
             </sv:property>
             <sv:property sv:name="hippostd:content" sv:type="String">
-              <sv:value>&lt;p&gt;Detta &amp;auml;r en ren lyx.&lt;/p&gt;</sv:value>
+              <sv:value>&lt;p&gt;Detta med vatten &amp;auml;r viktigt&lt;/p&gt;</sv:value>
             </sv:property>
           </sv:node>
           <sv:node sv:name="motricewebsite:icon">
@@ -2260,10 +1876,10 @@ e-post: info _at_ inherit.se&lt;/p&gt;
             <sv:value/>
           </sv:property>
           <sv:property sv:name="hippo:message" sv:type="String">
-            <sv:value>Jhead-3</sv:value>
+            <sv:value>Chead3</sv:value>
           </sv:property>
         </sv:node>
-        <sv:node sv:name="jhead-3">
+        <sv:node sv:name="chead3">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>motricewebsite:textimagedocument</sv:value>
           </sv:property>
@@ -2272,13 +1888,13 @@ e-post: info _at_ inherit.se&lt;/p&gt;
             <sv:value>mix:versionable</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:uuid" sv:type="String">
-            <sv:value>294a431b-839f-4ddc-953b-5a74da45e5fc</sv:value>
+            <sv:value>01ef15ff-3348-48e8-81d2-4f8121285505</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
             <sv:value>preview</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-            <sv:value>common/home/jhead/jhead-3/jhead-3[3]</sv:value>
+            <sv:value>common/home/chead/chead3/chead3[3]</sv:value>
           </sv:property>
           <sv:property sv:name="hippostd:state" sv:type="String">
             <sv:value>unpublished</sv:value>
@@ -2290,44 +1906,44 @@ e-post: info _at_ inherit.se&lt;/p&gt;
             <sv:value>admin</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
-            <sv:value>2014-09-08T17:37:50.282+02:00</sv:value>
+            <sv:value>2014-09-09T15:35:25.983+02:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2014-09-08T17:39:02.006+02:00</sv:value>
+            <sv:value>2014-09-09T15:36:10.811+02:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
             <sv:value>admin</sv:value>
           </sv:property>
           <sv:property sv:name="hippotranslation:id" sv:type="String">
-            <sv:value>b9509285-cbf2-4c74-981f-e240b985d3c1</sv:value>
+            <sv:value>c4a17145-d589-4639-9939-2901c42eacf8</sv:value>
           </sv:property>
           <sv:property sv:name="hippotranslation:locale" sv:type="String">
             <sv:value>sv</sv:value>
           </sv:property>
-          <sv:property sv:name="motricewebsite:long" sv:type="Long">
-            <sv:value>3</sv:value>
+          <sv:property sv:name="motricewebsite:buttonref" sv:type="String">
+            <sv:value/>
           </sv:property>
-          <sv:property sv:name="motricewebsite:string" sv:type="String">
-            <sv:value>Vatten</sv:value>
+          <sv:property sv:name="motricewebsite:buttontxt" sv:type="String">
+            <sv:value>Drick</sv:value>
           </sv:property>
-          <sv:property sv:name="motricewebsite:string_" sv:type="String">
-            <sv:value>Klicka här</sv:value>
+          <sv:property sv:name="motricewebsite:imagecaption" sv:type="String">
+            <sv:value>imgcaption</sv:value>
           </sv:property>
-          <sv:property sv:name="motricewebsite:string__" sv:type="String">
-            <sv:value>gå till</sv:value>
+          <sv:property sv:name="motricewebsite:seqnumber" sv:type="Long">
+            <sv:value>0</sv:value>
           </sv:property>
           <sv:property sv:name="motricewebsite:summary" sv:type="String">
-            <sv:value>Det är gott med ett miljövänligt glas vatten</sv:value>
+            <sv:value>Water is tasty</sv:value>
           </sv:property>
           <sv:property sv:name="motricewebsite:title" sv:type="String">
-            <sv:value>Glas vatten</sv:value>
+            <sv:value>Title water</sv:value>
           </sv:property>
           <sv:node sv:name="motricewebsite:body">
             <sv:property sv:name="jcr:primaryType" sv:type="Name">
               <sv:value>hippostd:html</sv:value>
             </sv:property>
             <sv:property sv:name="hippostd:content" sv:type="String">
-              <sv:value>&lt;p&gt;Detta &amp;auml;r en ren lyx.&lt;/p&gt;</sv:value>
+              <sv:value>&lt;p&gt;Detta med vatten &amp;auml;r viktigt&lt;/p&gt;</sv:value>
             </sv:property>
           </sv:node>
           <sv:node sv:name="motricewebsite:icon">
@@ -2353,7 +1969,7 @@ e-post: info _at_ inherit.se&lt;/p&gt;
             <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
           </sv:node>
         </sv:node>
-        <sv:node sv:name="jhead-3">
+        <sv:node sv:name="chead3">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>motricewebsite:textimagedocument</sv:value>
           </sv:property>
@@ -2361,13 +1977,13 @@ e-post: info _at_ inherit.se&lt;/p&gt;
             <sv:value>mix:referenceable</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:uuid" sv:type="String">
-            <sv:value>cfd96229-1ed6-474b-90b1-94a83a371f91</sv:value>
+            <sv:value>24fe8b1d-19be-42c4-b23b-ae73b0b133db</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
             <sv:value>live</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-            <sv:value>common/home/jhead/jhead-3/jhead-3[2]</sv:value>
+            <sv:value>common/home/chead/chead3/chead3[2]</sv:value>
           </sv:property>
           <sv:property sv:name="hippostd:state" sv:type="String">
             <sv:value>published</sv:value>
@@ -2379,47 +1995,47 @@ e-post: info _at_ inherit.se&lt;/p&gt;
             <sv:value>admin</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
-            <sv:value>2014-09-08T17:37:50.282+02:00</sv:value>
+            <sv:value>2014-09-09T15:35:25.983+02:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2014-09-08T17:39:02.006+02:00</sv:value>
+            <sv:value>2014-09-09T15:36:10.811+02:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
             <sv:value>admin</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-            <sv:value>2014-09-08T17:49:03.126+02:00</sv:value>
+            <sv:value>2014-09-09T15:36:14.096+02:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippotranslation:id" sv:type="String">
-            <sv:value>b9509285-cbf2-4c74-981f-e240b985d3c1</sv:value>
+            <sv:value>c4a17145-d589-4639-9939-2901c42eacf8</sv:value>
           </sv:property>
           <sv:property sv:name="hippotranslation:locale" sv:type="String">
             <sv:value>sv</sv:value>
           </sv:property>
-          <sv:property sv:name="motricewebsite:long" sv:type="Long">
-            <sv:value>3</sv:value>
+          <sv:property sv:name="motricewebsite:buttonref" sv:type="String">
+            <sv:value/>
           </sv:property>
-          <sv:property sv:name="motricewebsite:string" sv:type="String">
-            <sv:value>Vatten</sv:value>
+          <sv:property sv:name="motricewebsite:buttontxt" sv:type="String">
+            <sv:value>Drick</sv:value>
           </sv:property>
-          <sv:property sv:name="motricewebsite:string_" sv:type="String">
-            <sv:value>Klicka här</sv:value>
+          <sv:property sv:name="motricewebsite:imagecaption" sv:type="String">
+            <sv:value>imgcaption</sv:value>
           </sv:property>
-          <sv:property sv:name="motricewebsite:string__" sv:type="String">
-            <sv:value>gå till</sv:value>
+          <sv:property sv:name="motricewebsite:seqnumber" sv:type="Long">
+            <sv:value>0</sv:value>
           </sv:property>
           <sv:property sv:name="motricewebsite:summary" sv:type="String">
-            <sv:value>Det är gott med ett miljövänligt glas vatten</sv:value>
+            <sv:value>Water is tasty</sv:value>
           </sv:property>
           <sv:property sv:name="motricewebsite:title" sv:type="String">
-            <sv:value>Glas vatten</sv:value>
+            <sv:value>Title water</sv:value>
           </sv:property>
           <sv:node sv:name="motricewebsite:body">
             <sv:property sv:name="jcr:primaryType" sv:type="Name">
               <sv:value>hippostd:html</sv:value>
             </sv:property>
             <sv:property sv:name="hippostd:content" sv:type="String">
-              <sv:value>&lt;p&gt;Detta &amp;auml;r en ren lyx.&lt;/p&gt;</sv:value>
+              <sv:value>&lt;p&gt;Detta med vatten &amp;auml;r viktigt&lt;/p&gt;</sv:value>
             </sv:property>
           </sv:node>
           <sv:node sv:name="motricewebsite:icon">
@@ -2447,7 +2063,7 @@ e-post: info _at_ inherit.se&lt;/p&gt;
         </sv:node>
       </sv:node>
     </sv:node>
-    <sv:node sv:name="jhilights">
+    <sv:node sv:name="chilights">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>hippostd:folder</sv:value>
       </sv:property>
@@ -2469,6 +2085,592 @@ e-post: info _at_ inherit.se&lt;/p&gt;
       <sv:property sv:name="hippotranslation:locale" sv:type="String">
         <sv:value>sv</sv:value>
       </sv:property>
+      <sv:node sv:name="chilight2">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:handle</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:referenceable</sv:value>
+          <sv:value>hippo:translated</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>3a575f06-e693-46cb-b817-c228d3fcefb1</sv:value>
+        </sv:property>
+        <sv:node sv:name="chilight2">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>motricewebsite:textimagedocument</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>742e9b1d-0370-4b15-90e6-c0aa95e75d82</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>common/home/chilights/chilight2/chilight2[3]</sv:value>
+            <sv:value>common/home/chilights/chilight2/chilight2[2]</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>draft</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2014-09-09T15:38:38.972+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2014-09-09T15:38:39.063+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>d9f25e88-b2d6-401e-b6e0-a4fd3530a8ca</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>sv</sv:value>
+          </sv:property>
+          <sv:property sv:name="motricewebsite:buttonref" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="motricewebsite:buttontxt" sv:type="String">
+            <sv:value>Djupare</sv:value>
+          </sv:property>
+          <sv:property sv:name="motricewebsite:imagecaption" sv:type="String">
+            <sv:value>Arkiktektur caption</sv:value>
+          </sv:property>
+          <sv:property sv:name="motricewebsite:seqnumber" sv:type="Long">
+            <sv:value>0</sv:value>
+          </sv:property>
+          <sv:property sv:name="motricewebsite:summary" sv:type="String">
+            <sv:value>Arkitekturen kan sammanfattas...</sv:value>
+          </sv:property>
+          <sv:property sv:name="motricewebsite:title" sv:type="String">
+            <sv:value>Arkitektur titel</sv:value>
+          </sv:property>
+          <sv:node sv:name="motricewebsite:body">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p&gt;Hippos arkitektur &amp;auml;r...&lt;/p&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="motricewebsite:icon">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogallerypicker:imagelink</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+          <sv:node sv:name="motricewebsite:image">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogallerypicker:imagelink</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>acd3792c-fe1f-431a-bd38-1234af67aff5</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="hippo:translation">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:translation</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:language" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="hippo:message" sv:type="String">
+            <sv:value>Chilight2</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="chilight2">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>motricewebsite:textimagedocument</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:referenceable</sv:value>
+            <sv:value>mix:versionable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>3975809f-31be-409e-bb87-5fcb78c7db3a</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+            <sv:value>preview</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>common/home/chilights/chilight2/chilight2[3]</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>unpublished</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2014-09-09T15:38:38.972+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2014-09-09T15:39:31.915+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>d9f25e88-b2d6-401e-b6e0-a4fd3530a8ca</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>sv</sv:value>
+          </sv:property>
+          <sv:property sv:name="motricewebsite:buttonref" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="motricewebsite:buttontxt" sv:type="String">
+            <sv:value>Djupare</sv:value>
+          </sv:property>
+          <sv:property sv:name="motricewebsite:imagecaption" sv:type="String">
+            <sv:value>Arkiktektur caption</sv:value>
+          </sv:property>
+          <sv:property sv:name="motricewebsite:seqnumber" sv:type="Long">
+            <sv:value>0</sv:value>
+          </sv:property>
+          <sv:property sv:name="motricewebsite:summary" sv:type="String">
+            <sv:value>Arkitekturen kan sammanfattas...</sv:value>
+          </sv:property>
+          <sv:property sv:name="motricewebsite:title" sv:type="String">
+            <sv:value>Arkitektur titel</sv:value>
+          </sv:property>
+          <sv:node sv:name="motricewebsite:body">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p&gt;Hippos arkitektur &amp;auml;r...&lt;/p&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="motricewebsite:icon">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogallerypicker:imagelink</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+          <sv:node sv:name="motricewebsite:image">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogallerypicker:imagelink</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>acd3792c-fe1f-431a-bd38-1234af67aff5</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="chilight2">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>motricewebsite:textimagedocument</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>056efa70-9f03-4782-8587-cd0767d1c934</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>common/home/chilights/chilight2/chilight2[2]</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>published</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2014-09-09T15:38:38.972+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2014-09-09T15:39:31.915+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+            <sv:value>2014-09-09T15:39:46.222+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>d9f25e88-b2d6-401e-b6e0-a4fd3530a8ca</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>sv</sv:value>
+          </sv:property>
+          <sv:property sv:name="motricewebsite:buttonref" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="motricewebsite:buttontxt" sv:type="String">
+            <sv:value>Djupare</sv:value>
+          </sv:property>
+          <sv:property sv:name="motricewebsite:imagecaption" sv:type="String">
+            <sv:value>Arkiktektur caption</sv:value>
+          </sv:property>
+          <sv:property sv:name="motricewebsite:seqnumber" sv:type="Long">
+            <sv:value>0</sv:value>
+          </sv:property>
+          <sv:property sv:name="motricewebsite:summary" sv:type="String">
+            <sv:value>Arkitekturen kan sammanfattas...</sv:value>
+          </sv:property>
+          <sv:property sv:name="motricewebsite:title" sv:type="String">
+            <sv:value>Arkitektur titel</sv:value>
+          </sv:property>
+          <sv:node sv:name="motricewebsite:body">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p&gt;Hippos arkitektur &amp;auml;r...&lt;/p&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="motricewebsite:icon">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogallerypicker:imagelink</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+          <sv:node sv:name="motricewebsite:image">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogallerypicker:imagelink</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>acd3792c-fe1f-431a-bd38-1234af67aff5</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="chilight1">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:handle</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:referenceable</sv:value>
+          <sv:value>hippo:translated</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>679826c1-cf32-463a-acbb-76a21078a6e2</sv:value>
+        </sv:property>
+        <sv:node sv:name="chilight1">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>motricewebsite:textimagedocument</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>1e6a6b9d-6b4e-4483-9e39-570e753d3aa8</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>common/home/chilights/chilight1/chilight1[2]</sv:value>
+            <sv:value>common/home/chilights/chilight1/chilight1[3]</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>draft</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2014-09-09T15:37:08.545+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2014-09-09T15:37:08.609+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>a5240905-2c5f-4a07-9c9c-2f1ef714d318</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>sv</sv:value>
+          </sv:property>
+          <sv:property sv:name="motricewebsite:buttonref" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="motricewebsite:buttontxt" sv:type="String">
+            <sv:value>Vidare</sv:value>
+          </sv:property>
+          <sv:property sv:name="motricewebsite:imagecaption" sv:type="String">
+            <sv:value>Why H Caption</sv:value>
+          </sv:property>
+          <sv:property sv:name="motricewebsite:seqnumber" sv:type="Long">
+            <sv:value>0</sv:value>
+          </sv:property>
+          <sv:property sv:name="motricewebsite:summary" sv:type="String">
+            <sv:value>Why hippo summary</sv:value>
+          </sv:property>
+          <sv:property sv:name="motricewebsite:title" sv:type="String">
+            <sv:value>Why Hippo title</sv:value>
+          </sv:property>
+          <sv:node sv:name="motricewebsite:body">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p&gt;The reason we chose hippo is....&lt;/p&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="motricewebsite:icon">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogallerypicker:imagelink</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+          <sv:node sv:name="motricewebsite:image">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogallerypicker:imagelink</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>c7239400-70da-43fc-b54d-be8c17cc5993</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="hippo:translation">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:translation</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:language" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="hippo:message" sv:type="String">
+            <sv:value>Chilight1</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="chilight1">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>motricewebsite:textimagedocument</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:referenceable</sv:value>
+            <sv:value>mix:versionable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>00b2f5b8-a236-4d6a-9d7b-b9fb29570210</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+            <sv:value>preview</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>common/home/chilights/chilight1/chilight1[3]</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>unpublished</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2014-09-09T15:37:08.545+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2014-09-09T15:38:08.647+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>a5240905-2c5f-4a07-9c9c-2f1ef714d318</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>sv</sv:value>
+          </sv:property>
+          <sv:property sv:name="motricewebsite:buttonref" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="motricewebsite:buttontxt" sv:type="String">
+            <sv:value>Vidare</sv:value>
+          </sv:property>
+          <sv:property sv:name="motricewebsite:imagecaption" sv:type="String">
+            <sv:value>Why H Caption</sv:value>
+          </sv:property>
+          <sv:property sv:name="motricewebsite:seqnumber" sv:type="Long">
+            <sv:value>0</sv:value>
+          </sv:property>
+          <sv:property sv:name="motricewebsite:summary" sv:type="String">
+            <sv:value>Why hippo summary</sv:value>
+          </sv:property>
+          <sv:property sv:name="motricewebsite:title" sv:type="String">
+            <sv:value>Why Hippo title</sv:value>
+          </sv:property>
+          <sv:node sv:name="motricewebsite:body">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p&gt;The reason we chose hippo is....&lt;/p&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="motricewebsite:icon">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogallerypicker:imagelink</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+          <sv:node sv:name="motricewebsite:image">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogallerypicker:imagelink</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>c7239400-70da-43fc-b54d-be8c17cc5993</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="chilight1">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>motricewebsite:textimagedocument</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>1795528e-2071-4295-8d83-fbb9e47d4f8a</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>common/home/chilights/chilight1/chilight1[2]</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>published</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2014-09-09T15:37:08.545+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2014-09-09T15:38:08.647+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+            <sv:value>2014-09-09T17:30:21.740+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>a5240905-2c5f-4a07-9c9c-2f1ef714d318</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>sv</sv:value>
+          </sv:property>
+          <sv:property sv:name="motricewebsite:buttonref" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="motricewebsite:buttontxt" sv:type="String">
+            <sv:value>Vidare</sv:value>
+          </sv:property>
+          <sv:property sv:name="motricewebsite:imagecaption" sv:type="String">
+            <sv:value>Why H Caption</sv:value>
+          </sv:property>
+          <sv:property sv:name="motricewebsite:seqnumber" sv:type="Long">
+            <sv:value>0</sv:value>
+          </sv:property>
+          <sv:property sv:name="motricewebsite:summary" sv:type="String">
+            <sv:value>Why hippo summary</sv:value>
+          </sv:property>
+          <sv:property sv:name="motricewebsite:title" sv:type="String">
+            <sv:value>Why Hippo title</sv:value>
+          </sv:property>
+          <sv:node sv:name="motricewebsite:body">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p&gt;The reason we chose hippo is....&lt;/p&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="motricewebsite:icon">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogallerypicker:imagelink</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+          <sv:node sv:name="motricewebsite:image">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogallerypicker:imagelink</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>c7239400-70da-43fc-b54d-be8c17cc5993</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+        </sv:node>
+      </sv:node>
       <sv:node sv:name="hippo:translation">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>hippo:translation</sv:value>
@@ -2477,10 +2679,10 @@ e-post: info _at_ inherit.se&lt;/p&gt;
           <sv:value/>
         </sv:property>
         <sv:property sv:name="hippo:message" sv:type="String">
-          <sv:value>Jhilights</sv:value>
+          <sv:value>Chilights</sv:value>
         </sv:property>
       </sv:node>
-      <sv:node sv:name="chilight-1">
+      <sv:node sv:name="chilight3">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>hippo:handle</sv:value>
         </sv:property>
@@ -2489,393 +2691,9 @@ e-post: info _at_ inherit.se&lt;/p&gt;
           <sv:value>hippo:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
-          <sv:value>f8c998bf-4f30-471d-80d6-f5f31cec47c8</sv:value>
+          <sv:value>0f1cd33b-e8d7-40fa-a325-66a6bc235541</sv:value>
         </sv:property>
-        <sv:node sv:name="chilight-1">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>motricewebsite:textdocument</sv:value>
-          </sv:property>
-          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-            <sv:value>mix:referenceable</sv:value>
-            <sv:value>hippotranslation:translated</sv:value>
-          </sv:property>
-          <sv:property sv:name="jcr:uuid" sv:type="String">
-            <sv:value>b1d7aa57-df78-4eda-a09c-2da45836ad28</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
-          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-            <sv:value>common/home/jhilights/chilight-1/chilight-1[3]</sv:value>
-            <sv:value>common/home/jhilights/chilight-1/chilight-1[2]</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostd:state" sv:type="String">
-            <sv:value>draft</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
-            <sv:value>new</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
-            <sv:value>admin</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
-            <sv:value>2014-09-05T09:57:34.580+02:00</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2014-09-05T10:00:16.469+02:00</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
-            <sv:value>admin</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippotranslation:id" sv:type="String">
-            <sv:value>8af3bd94-76a4-413a-b05d-90ce8911b80f</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippotranslation:locale" sv:type="String">
-            <sv:value>sv</sv:value>
-          </sv:property>
-          <sv:property sv:name="motricewebsite:summary" sv:type="String">
-            <sv:value>Chilight nummer ett</sv:value>
-          </sv:property>
-          <sv:property sv:name="motricewebsite:title" sv:type="String">
-            <sv:value>Chilight1</sv:value>
-          </sv:property>
-          <sv:node sv:name="motricewebsite:body">
-            <sv:property sv:name="jcr:primaryType" sv:type="Name">
-              <sv:value>hippostd:html</sv:value>
-            </sv:property>
-            <sv:property sv:name="hippostd:content" sv:type="String">
-              <sv:value>&lt;html&gt;&lt;body/&gt;&lt;/html&gt;</sv:value>
-            </sv:property>
-          </sv:node>
-        </sv:node>
-        <sv:node sv:name="hippo:translation">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippo:translation</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:language" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippo:message" sv:type="String">
-            <sv:value>Chilight-1</sv:value>
-          </sv:property>
-        </sv:node>
-        <sv:node sv:name="chilight-1">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>motricewebsite:textdocument</sv:value>
-          </sv:property>
-          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-            <sv:value>mix:referenceable</sv:value>
-            <sv:value>hippotranslation:translated</sv:value>
-            <sv:value>mix:versionable</sv:value>
-          </sv:property>
-          <sv:property sv:name="jcr:uuid" sv:type="String">
-            <sv:value>a174ec03-c549-447d-ac9d-213115b8fd74</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
-            <sv:value>preview</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-            <sv:value>common/home/jhilights/chilight-1/chilight-1[3]</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostd:state" sv:type="String">
-            <sv:value>unpublished</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
-            <sv:value>new</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
-            <sv:value>admin</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
-            <sv:value>2014-09-05T09:57:34.580+02:00</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2014-09-05T10:00:58.143+02:00</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
-            <sv:value>admin</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippotranslation:id" sv:type="String">
-            <sv:value>8af3bd94-76a4-413a-b05d-90ce8911b80f</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippotranslation:locale" sv:type="String">
-            <sv:value>sv</sv:value>
-          </sv:property>
-          <sv:property sv:name="motricewebsite:summary" sv:type="String">
-            <sv:value>Chilight nummer ett</sv:value>
-          </sv:property>
-          <sv:property sv:name="motricewebsite:title" sv:type="String">
-            <sv:value>Chilight1</sv:value>
-          </sv:property>
-          <sv:node sv:name="motricewebsite:body">
-            <sv:property sv:name="jcr:primaryType" sv:type="Name">
-              <sv:value>hippostd:html</sv:value>
-            </sv:property>
-            <sv:property sv:name="hippostd:content" sv:type="String">
-              <sv:value>&lt;html&gt;&lt;body/&gt;&lt;/html&gt;</sv:value>
-            </sv:property>
-          </sv:node>
-        </sv:node>
-        <sv:node sv:name="chilight-1">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>motricewebsite:textdocument</sv:value>
-          </sv:property>
-          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-            <sv:value>mix:referenceable</sv:value>
-            <sv:value>hippotranslation:translated</sv:value>
-          </sv:property>
-          <sv:property sv:name="jcr:uuid" sv:type="String">
-            <sv:value>35b290ff-9914-4bb5-a45b-9bd6cbf51f50</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
-          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-            <sv:value>common/home/jhilights/chilight-1/chilight-1[2]</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostd:state" sv:type="String">
-            <sv:value>published</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
-            <sv:value>new</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
-            <sv:value>admin</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
-            <sv:value>2014-09-05T09:57:34.580+02:00</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2014-09-05T10:00:58.143+02:00</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
-            <sv:value>admin</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-            <sv:value>2014-09-08T15:48:22.524+02:00</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippotranslation:id" sv:type="String">
-            <sv:value>8af3bd94-76a4-413a-b05d-90ce8911b80f</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippotranslation:locale" sv:type="String">
-            <sv:value>sv</sv:value>
-          </sv:property>
-          <sv:property sv:name="motricewebsite:summary" sv:type="String">
-            <sv:value>Chilight nummer ett</sv:value>
-          </sv:property>
-          <sv:property sv:name="motricewebsite:title" sv:type="String">
-            <sv:value>Chilight1</sv:value>
-          </sv:property>
-          <sv:node sv:name="motricewebsite:body">
-            <sv:property sv:name="jcr:primaryType" sv:type="Name">
-              <sv:value>hippostd:html</sv:value>
-            </sv:property>
-            <sv:property sv:name="hippostd:content" sv:type="String">
-              <sv:value>&lt;html&gt;&lt;body/&gt;&lt;/html&gt;</sv:value>
-            </sv:property>
-          </sv:node>
-        </sv:node>
-      </sv:node>
-      <sv:node sv:name="chilight-2">
-        <sv:property sv:name="jcr:primaryType" sv:type="Name">
-          <sv:value>hippo:handle</sv:value>
-        </sv:property>
-        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-          <sv:value>mix:referenceable</sv:value>
-          <sv:value>hippo:translated</sv:value>
-        </sv:property>
-        <sv:property sv:name="jcr:uuid" sv:type="String">
-          <sv:value>bcf80ba6-fd9a-4917-afc2-183a632859bc</sv:value>
-        </sv:property>
-        <sv:node sv:name="chilight-2">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>motricewebsite:textdocument</sv:value>
-          </sv:property>
-          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-            <sv:value>mix:referenceable</sv:value>
-            <sv:value>hippotranslation:translated</sv:value>
-            <sv:value>mix:versionable</sv:value>
-          </sv:property>
-          <sv:property sv:name="jcr:uuid" sv:type="String">
-            <sv:value>d210436b-7c60-4ca9-b9c0-e1e6916b3681</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
-            <sv:value>preview</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-            <sv:value>common/home/jhilights/chilight-2/chilight-2[3]</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostd:state" sv:type="String">
-            <sv:value>unpublished</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
-            <sv:value>new</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
-            <sv:value>admin</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
-            <sv:value>2014-09-05T09:57:34.580+02:00</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2014-09-05T10:01:28.652+02:00</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
-            <sv:value>admin</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippotranslation:id" sv:type="String">
-            <sv:value>4eea9975-728d-4af2-b639-d9e5a797543f</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippotranslation:locale" sv:type="String">
-            <sv:value>sv</sv:value>
-          </sv:property>
-          <sv:property sv:name="motricewebsite:summary" sv:type="String">
-            <sv:value>Chilight nummer två</sv:value>
-          </sv:property>
-          <sv:property sv:name="motricewebsite:title" sv:type="String">
-            <sv:value>Chilight två</sv:value>
-          </sv:property>
-          <sv:node sv:name="motricewebsite:body">
-            <sv:property sv:name="jcr:primaryType" sv:type="Name">
-              <sv:value>hippostd:html</sv:value>
-            </sv:property>
-            <sv:property sv:name="hippostd:content" sv:type="String">
-              <sv:value>&lt;html&gt;&lt;body/&gt;&lt;/html&gt;</sv:value>
-            </sv:property>
-          </sv:node>
-        </sv:node>
-        <sv:node sv:name="hippo:translation">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippo:translation</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:language" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippo:message" sv:type="String">
-            <sv:value>Chilight-2</sv:value>
-          </sv:property>
-        </sv:node>
-        <sv:node sv:name="chilight-2">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>motricewebsite:textdocument</sv:value>
-          </sv:property>
-          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-            <sv:value>mix:referenceable</sv:value>
-            <sv:value>hippotranslation:translated</sv:value>
-          </sv:property>
-          <sv:property sv:name="jcr:uuid" sv:type="String">
-            <sv:value>9c29993d-d853-43f0-a3a5-0aff467505e9</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
-          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-            <sv:value>common/home/jhilights/chilight-2/chilight-2[3]</sv:value>
-            <sv:value>common/home/jhilights/chilight-2/chilight-2</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostd:state" sv:type="String">
-            <sv:value>draft</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
-            <sv:value>new</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
-            <sv:value>admin</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
-            <sv:value>2014-09-05T09:57:34.580+02:00</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2014-09-05T10:01:03.153+02:00</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
-            <sv:value>admin</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippotranslation:id" sv:type="String">
-            <sv:value>4eea9975-728d-4af2-b639-d9e5a797543f</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippotranslation:locale" sv:type="String">
-            <sv:value>sv</sv:value>
-          </sv:property>
-          <sv:property sv:name="motricewebsite:summary" sv:type="String">
-            <sv:value>Chilight nummer två</sv:value>
-          </sv:property>
-          <sv:property sv:name="motricewebsite:title" sv:type="String">
-            <sv:value>Chilight två</sv:value>
-          </sv:property>
-          <sv:node sv:name="motricewebsite:body">
-            <sv:property sv:name="jcr:primaryType" sv:type="Name">
-              <sv:value>hippostd:html</sv:value>
-            </sv:property>
-            <sv:property sv:name="hippostd:content" sv:type="String">
-              <sv:value>&lt;html&gt;&lt;body/&gt;&lt;/html&gt;</sv:value>
-            </sv:property>
-          </sv:node>
-        </sv:node>
-        <sv:node sv:name="chilight-2">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>motricewebsite:textdocument</sv:value>
-          </sv:property>
-          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-            <sv:value>mix:referenceable</sv:value>
-            <sv:value>hippotranslation:translated</sv:value>
-          </sv:property>
-          <sv:property sv:name="jcr:uuid" sv:type="String">
-            <sv:value>6c358c15-056c-4c52-8586-0224e6661b5f</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
-          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-            <sv:value>common/home/jhilights/chilight-2/chilight-2</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostd:state" sv:type="String">
-            <sv:value>published</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
-            <sv:value>new</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
-            <sv:value>admin</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
-            <sv:value>2014-09-05T09:57:34.580+02:00</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2014-09-05T10:01:28.652+02:00</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
-            <sv:value>admin</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-            <sv:value>2014-09-08T15:48:26.454+02:00</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippotranslation:id" sv:type="String">
-            <sv:value>4eea9975-728d-4af2-b639-d9e5a797543f</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippotranslation:locale" sv:type="String">
-            <sv:value>sv</sv:value>
-          </sv:property>
-          <sv:property sv:name="motricewebsite:summary" sv:type="String">
-            <sv:value>Chilight nummer två</sv:value>
-          </sv:property>
-          <sv:property sv:name="motricewebsite:title" sv:type="String">
-            <sv:value>Chilight två</sv:value>
-          </sv:property>
-          <sv:node sv:name="motricewebsite:body">
-            <sv:property sv:name="jcr:primaryType" sv:type="Name">
-              <sv:value>hippostd:html</sv:value>
-            </sv:property>
-            <sv:property sv:name="hippostd:content" sv:type="String">
-              <sv:value>&lt;html&gt;&lt;body/&gt;&lt;/html&gt;</sv:value>
-            </sv:property>
-          </sv:node>
-        </sv:node>
-      </sv:node>
-      <sv:node sv:name="jhilight-1">
-        <sv:property sv:name="jcr:primaryType" sv:type="Name">
-          <sv:value>hippo:handle</sv:value>
-        </sv:property>
-        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-          <sv:value>mix:referenceable</sv:value>
-          <sv:value>hippo:translated</sv:value>
-        </sv:property>
-        <sv:property sv:name="jcr:uuid" sv:type="String">
-          <sv:value>4b498471-06d3-461c-9c71-0b24c4c0d91d</sv:value>
-        </sv:property>
-        <sv:node sv:name="jhilight-1">
+        <sv:node sv:name="chilight3">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>motricewebsite:textimagedocument</sv:value>
           </sv:property>
@@ -2883,12 +2701,12 @@ e-post: info _at_ inherit.se&lt;/p&gt;
             <sv:value>mix:referenceable</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:uuid" sv:type="String">
-            <sv:value>5d821c7d-d9b2-4b47-a09e-57d3f5037c35</sv:value>
+            <sv:value>c73a564a-f803-4209-94ff-27566d957f6a</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-            <sv:value>common/home/jhilights/jhilight-1/jhilight-1[2]</sv:value>
-            <sv:value>common/home/jhilights/jhilight-1/jhilight-1[3]</sv:value>
+            <sv:value>common/home/chilights/chilight3/chilight3[2]</sv:value>
+            <sv:value>common/home/chilights/chilight3/chilight3[3]</sv:value>
           </sv:property>
           <sv:property sv:name="hippostd:state" sv:type="String">
             <sv:value>draft</sv:value>
@@ -2900,44 +2718,44 @@ e-post: info _at_ inherit.se&lt;/p&gt;
             <sv:value>admin</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
-            <sv:value>2014-09-08T17:42:26.827+02:00</sv:value>
+            <sv:value>2014-09-09T17:28:11.649+02:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2014-09-08T17:42:26.928+02:00</sv:value>
+            <sv:value>2014-09-09T17:28:11.984+02:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
             <sv:value>admin</sv:value>
           </sv:property>
           <sv:property sv:name="hippotranslation:id" sv:type="String">
-            <sv:value>86d8c599-6bab-4489-83c3-dd14e0173f21</sv:value>
+            <sv:value>8cba22a0-8dab-4e0b-9ff0-233ee1d489b3</sv:value>
           </sv:property>
           <sv:property sv:name="hippotranslation:locale" sv:type="String">
             <sv:value>sv</sv:value>
           </sv:property>
-          <sv:property sv:name="motricewebsite:long" sv:type="Long">
-            <sv:value>1</sv:value>
+          <sv:property sv:name="motricewebsite:buttonref" sv:type="String">
+            <sv:value/>
           </sv:property>
-          <sv:property sv:name="motricewebsite:string" sv:type="String">
-            <sv:value>Varför CMS</sv:value>
+          <sv:property sv:name="motricewebsite:buttontxt" sv:type="String">
+            <sv:value>Gå Vidare</sv:value>
           </sv:property>
-          <sv:property sv:name="motricewebsite:string_" sv:type="String">
-            <sv:value>Klicka</sv:value>
+          <sv:property sv:name="motricewebsite:imagecaption" sv:type="String">
+            <sv:value>profocaption</sv:value>
           </sv:property>
-          <sv:property sv:name="motricewebsite:string__" sv:type="String">
-            <sv:value>vidare</sv:value>
+          <sv:property sv:name="motricewebsite:seqnumber" sv:type="Long">
+            <sv:value>0</sv:value>
           </sv:property>
           <sv:property sv:name="motricewebsite:summary" sv:type="String">
-            <sv:value>Poängen med CMS är att....</sv:value>
+            <sv:value>Pro for you summary...</sv:value>
           </sv:property>
           <sv:property sv:name="motricewebsite:title" sv:type="String">
-            <sv:value>Figuren beskriver poängen med CMS</sv:value>
+            <sv:value>Pro Title</sv:value>
           </sv:property>
           <sv:node sv:name="motricewebsite:body">
             <sv:property sv:name="jcr:primaryType" sv:type="Name">
               <sv:value>hippostd:html</sv:value>
             </sv:property>
             <sv:property sv:name="hippostd:content" sv:type="String">
-              <sv:value>&lt;p&gt;Detta &amp;auml;r body sidan som beskriver po&amp;auml;ngen med cms&lt;/p&gt;</sv:value>
+              <sv:value>&lt;p&gt;Det st&amp;aring;r nu klart att pro4u...&lt;/p&gt;</sv:value>
             </sv:property>
           </sv:node>
           <sv:node sv:name="motricewebsite:icon">
@@ -2956,7 +2774,7 @@ e-post: info _at_ inherit.se&lt;/p&gt;
               <sv:value>hippogallerypicker:imagelink</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:docbase" sv:type="String">
-              <sv:value>c7239400-70da-43fc-b54d-be8c17cc5993</sv:value>
+              <sv:value>e65a7b61-4710-4d1a-ab78-d9c294921f84</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
             <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
@@ -2971,10 +2789,10 @@ e-post: info _at_ inherit.se&lt;/p&gt;
             <sv:value/>
           </sv:property>
           <sv:property sv:name="hippo:message" sv:type="String">
-            <sv:value>Jhilight-1</sv:value>
+            <sv:value>Chilight3</sv:value>
           </sv:property>
         </sv:node>
-        <sv:node sv:name="jhilight-1">
+        <sv:node sv:name="chilight3">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>motricewebsite:textimagedocument</sv:value>
           </sv:property>
@@ -2983,13 +2801,13 @@ e-post: info _at_ inherit.se&lt;/p&gt;
             <sv:value>mix:versionable</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:uuid" sv:type="String">
-            <sv:value>6eaf9d90-9946-46ed-b728-298e0ca8ed5f</sv:value>
+            <sv:value>272a1da4-eed8-40ab-926b-aa576e5dfc01</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
             <sv:value>preview</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-            <sv:value>common/home/jhilights/jhilight-1/jhilight-1[3]</sv:value>
+            <sv:value>common/home/chilights/chilight3/chilight3[3]</sv:value>
           </sv:property>
           <sv:property sv:name="hippostd:state" sv:type="String">
             <sv:value>unpublished</sv:value>
@@ -3001,44 +2819,44 @@ e-post: info _at_ inherit.se&lt;/p&gt;
             <sv:value>admin</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
-            <sv:value>2014-09-08T17:42:26.827+02:00</sv:value>
+            <sv:value>2014-09-09T17:28:11.649+02:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2014-09-08T17:44:38.604+02:00</sv:value>
+            <sv:value>2014-09-09T17:29:45.590+02:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
             <sv:value>admin</sv:value>
           </sv:property>
           <sv:property sv:name="hippotranslation:id" sv:type="String">
-            <sv:value>86d8c599-6bab-4489-83c3-dd14e0173f21</sv:value>
+            <sv:value>8cba22a0-8dab-4e0b-9ff0-233ee1d489b3</sv:value>
           </sv:property>
           <sv:property sv:name="hippotranslation:locale" sv:type="String">
             <sv:value>sv</sv:value>
           </sv:property>
-          <sv:property sv:name="motricewebsite:long" sv:type="Long">
-            <sv:value>1</sv:value>
+          <sv:property sv:name="motricewebsite:buttonref" sv:type="String">
+            <sv:value/>
           </sv:property>
-          <sv:property sv:name="motricewebsite:string" sv:type="String">
-            <sv:value>Varför CMS</sv:value>
+          <sv:property sv:name="motricewebsite:buttontxt" sv:type="String">
+            <sv:value>Gå Vidare</sv:value>
           </sv:property>
-          <sv:property sv:name="motricewebsite:string_" sv:type="String">
-            <sv:value>Klicka</sv:value>
+          <sv:property sv:name="motricewebsite:imagecaption" sv:type="String">
+            <sv:value>profocaption</sv:value>
           </sv:property>
-          <sv:property sv:name="motricewebsite:string__" sv:type="String">
-            <sv:value>vidare</sv:value>
+          <sv:property sv:name="motricewebsite:seqnumber" sv:type="Long">
+            <sv:value>0</sv:value>
           </sv:property>
           <sv:property sv:name="motricewebsite:summary" sv:type="String">
-            <sv:value>Poängen med CMS är att....</sv:value>
+            <sv:value>Pro for you summary...</sv:value>
           </sv:property>
           <sv:property sv:name="motricewebsite:title" sv:type="String">
-            <sv:value>Figuren beskriver poängen med CMS</sv:value>
+            <sv:value>Pro Title</sv:value>
           </sv:property>
           <sv:node sv:name="motricewebsite:body">
             <sv:property sv:name="jcr:primaryType" sv:type="Name">
               <sv:value>hippostd:html</sv:value>
             </sv:property>
             <sv:property sv:name="hippostd:content" sv:type="String">
-              <sv:value>&lt;p&gt;Detta &amp;auml;r body sidan som beskriver po&amp;auml;ngen med cms&lt;/p&gt;</sv:value>
+              <sv:value>&lt;p&gt;Det st&amp;aring;r nu klart att pro4u...&lt;/p&gt;</sv:value>
             </sv:property>
           </sv:node>
           <sv:node sv:name="motricewebsite:icon">
@@ -3057,14 +2875,14 @@ e-post: info _at_ inherit.se&lt;/p&gt;
               <sv:value>hippogallerypicker:imagelink</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:docbase" sv:type="String">
-              <sv:value>c7239400-70da-43fc-b54d-be8c17cc5993</sv:value>
+              <sv:value>e65a7b61-4710-4d1a-ab78-d9c294921f84</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
             <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
             <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
           </sv:node>
         </sv:node>
-        <sv:node sv:name="jhilight-1">
+        <sv:node sv:name="chilight3">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>motricewebsite:textimagedocument</sv:value>
           </sv:property>
@@ -3072,13 +2890,13 @@ e-post: info _at_ inherit.se&lt;/p&gt;
             <sv:value>mix:referenceable</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:uuid" sv:type="String">
-            <sv:value>bcf0497e-2e81-40c5-86a2-220845730bfd</sv:value>
+            <sv:value>60031805-1750-4e4b-8592-70963cb8323a</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
             <sv:value>live</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-            <sv:value>common/home/jhilights/jhilight-1/jhilight-1[2]</sv:value>
+            <sv:value>common/home/chilights/chilight3/chilight3[2]</sv:value>
           </sv:property>
           <sv:property sv:name="hippostd:state" sv:type="String">
             <sv:value>published</sv:value>
@@ -3090,47 +2908,47 @@ e-post: info _at_ inherit.se&lt;/p&gt;
             <sv:value>admin</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
-            <sv:value>2014-09-08T17:42:26.827+02:00</sv:value>
+            <sv:value>2014-09-09T17:28:11.649+02:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2014-09-08T17:44:38.604+02:00</sv:value>
+            <sv:value>2014-09-09T17:29:45.590+02:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
             <sv:value>admin</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-            <sv:value>2014-09-08T17:48:31.597+02:00</sv:value>
+            <sv:value>2014-09-09T17:29:55.454+02:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippotranslation:id" sv:type="String">
-            <sv:value>86d8c599-6bab-4489-83c3-dd14e0173f21</sv:value>
+            <sv:value>8cba22a0-8dab-4e0b-9ff0-233ee1d489b3</sv:value>
           </sv:property>
           <sv:property sv:name="hippotranslation:locale" sv:type="String">
             <sv:value>sv</sv:value>
           </sv:property>
-          <sv:property sv:name="motricewebsite:long" sv:type="Long">
-            <sv:value>1</sv:value>
+          <sv:property sv:name="motricewebsite:buttonref" sv:type="String">
+            <sv:value/>
           </sv:property>
-          <sv:property sv:name="motricewebsite:string" sv:type="String">
-            <sv:value>Varför CMS</sv:value>
+          <sv:property sv:name="motricewebsite:buttontxt" sv:type="String">
+            <sv:value>Gå Vidare</sv:value>
           </sv:property>
-          <sv:property sv:name="motricewebsite:string_" sv:type="String">
-            <sv:value>Klicka</sv:value>
+          <sv:property sv:name="motricewebsite:imagecaption" sv:type="String">
+            <sv:value>profocaption</sv:value>
           </sv:property>
-          <sv:property sv:name="motricewebsite:string__" sv:type="String">
-            <sv:value>vidare</sv:value>
+          <sv:property sv:name="motricewebsite:seqnumber" sv:type="Long">
+            <sv:value>0</sv:value>
           </sv:property>
           <sv:property sv:name="motricewebsite:summary" sv:type="String">
-            <sv:value>Poängen med CMS är att....</sv:value>
+            <sv:value>Pro for you summary...</sv:value>
           </sv:property>
           <sv:property sv:name="motricewebsite:title" sv:type="String">
-            <sv:value>Figuren beskriver poängen med CMS</sv:value>
+            <sv:value>Pro Title</sv:value>
           </sv:property>
           <sv:node sv:name="motricewebsite:body">
             <sv:property sv:name="jcr:primaryType" sv:type="Name">
               <sv:value>hippostd:html</sv:value>
             </sv:property>
             <sv:property sv:name="hippostd:content" sv:type="String">
-              <sv:value>&lt;p&gt;Detta &amp;auml;r body sidan som beskriver po&amp;auml;ngen med cms&lt;/p&gt;</sv:value>
+              <sv:value>&lt;p&gt;Det st&amp;aring;r nu klart att pro4u...&lt;/p&gt;</sv:value>
             </sv:property>
           </sv:node>
           <sv:node sv:name="motricewebsite:icon">
@@ -3149,300 +2967,7 @@ e-post: info _at_ inherit.se&lt;/p&gt;
               <sv:value>hippogallerypicker:imagelink</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:docbase" sv:type="String">
-              <sv:value>c7239400-70da-43fc-b54d-be8c17cc5993</sv:value>
-            </sv:property>
-            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
-            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
-            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
-          </sv:node>
-        </sv:node>
-      </sv:node>
-      <sv:node sv:name="jhilight-2">
-        <sv:property sv:name="jcr:primaryType" sv:type="Name">
-          <sv:value>hippo:handle</sv:value>
-        </sv:property>
-        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-          <sv:value>mix:referenceable</sv:value>
-          <sv:value>hippo:translated</sv:value>
-        </sv:property>
-        <sv:property sv:name="jcr:uuid" sv:type="String">
-          <sv:value>9c9b299c-b12d-417c-9d1e-2c7be235c54a</sv:value>
-        </sv:property>
-        <sv:node sv:name="jhilight-2">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>motricewebsite:textimagedocument</sv:value>
-          </sv:property>
-          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-            <sv:value>mix:referenceable</sv:value>
-          </sv:property>
-          <sv:property sv:name="jcr:uuid" sv:type="String">
-            <sv:value>56601768-1d39-404b-9f70-0745ac28d3ca</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
-          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-            <sv:value>common/home/jhilights/jhilight-2/jhilight-2[3]</sv:value>
-            <sv:value>common/home/jhilights/jhilight-2/jhilight-2[2]</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostd:state" sv:type="String">
-            <sv:value>draft</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
-            <sv:value>live</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
-            <sv:value>admin</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
-            <sv:value>2014-09-08T17:45:13.497+02:00</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2014-09-08T17:45:13.590+02:00</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
-            <sv:value>admin</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippotranslation:id" sv:type="String">
-            <sv:value>0036225b-c638-4b75-af0c-fa03da06cf66</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippotranslation:locale" sv:type="String">
-            <sv:value>sv</sv:value>
-          </sv:property>
-          <sv:property sv:name="motricewebsite:long" sv:type="Long">
-            <sv:value>2</sv:value>
-          </sv:property>
-          <sv:property sv:name="motricewebsite:string" sv:type="String">
-            <sv:value>Vi samarbetar med Inherit</sv:value>
-          </sv:property>
-          <sv:property sv:name="motricewebsite:string_" sv:type="String">
-            <sv:value>Klicka</sv:value>
-          </sv:property>
-          <sv:property sv:name="motricewebsite:string__" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="motricewebsite:summary" sv:type="String">
-            <sv:value>Inheritsummary</sv:value>
-          </sv:property>
-          <sv:property sv:name="motricewebsite:title" sv:type="String">
-            <sv:value>Inherit och andra företag i sfären</sv:value>
-          </sv:property>
-          <sv:node sv:name="motricewebsite:body">
-            <sv:property sv:name="jcr:primaryType" sv:type="Name">
-              <sv:value>hippostd:html</sv:value>
-            </sv:property>
-            <sv:property sv:name="hippostd:content" sv:type="String">
-              <sv:value>&lt;p&gt;Detta beskriver ett samarbetsf&amp;ouml;retag...&lt;/p&gt;</sv:value>
-            </sv:property>
-          </sv:node>
-          <sv:node sv:name="motricewebsite:icon">
-            <sv:property sv:name="jcr:primaryType" sv:type="Name">
-              <sv:value>hippogallerypicker:imagelink</sv:value>
-            </sv:property>
-            <sv:property sv:name="hippo:docbase" sv:type="String">
-              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
-            </sv:property>
-            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
-            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
-            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
-          </sv:node>
-          <sv:node sv:name="motricewebsite:image">
-            <sv:property sv:name="jcr:primaryType" sv:type="Name">
-              <sv:value>hippogallerypicker:imagelink</sv:value>
-            </sv:property>
-            <sv:property sv:name="hippo:docbase" sv:type="String">
-              <sv:value>eb916ba0-0a0f-4c7e-ad47-1237b281900e</sv:value>
-            </sv:property>
-            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
-            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
-            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
-          </sv:node>
-        </sv:node>
-        <sv:node sv:name="hippo:translation">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippo:translation</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:language" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippo:message" sv:type="String">
-            <sv:value>Jhilight-2</sv:value>
-          </sv:property>
-        </sv:node>
-        <sv:node sv:name="jhilight-2">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>motricewebsite:textimagedocument</sv:value>
-          </sv:property>
-          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-            <sv:value>mix:referenceable</sv:value>
-            <sv:value>mix:versionable</sv:value>
-          </sv:property>
-          <sv:property sv:name="jcr:uuid" sv:type="String">
-            <sv:value>a914fa53-7026-4fda-83d3-db1169554a50</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
-            <sv:value>preview</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-            <sv:value>common/home/jhilights/jhilight-2/jhilight-2[3]</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostd:state" sv:type="String">
-            <sv:value>unpublished</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
-            <sv:value>live</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
-            <sv:value>admin</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
-            <sv:value>2014-09-08T17:45:13.497+02:00</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2014-09-08T17:47:21.489+02:00</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
-            <sv:value>admin</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippotranslation:id" sv:type="String">
-            <sv:value>0036225b-c638-4b75-af0c-fa03da06cf66</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippotranslation:locale" sv:type="String">
-            <sv:value>sv</sv:value>
-          </sv:property>
-          <sv:property sv:name="motricewebsite:long" sv:type="Long">
-            <sv:value>2</sv:value>
-          </sv:property>
-          <sv:property sv:name="motricewebsite:string" sv:type="String">
-            <sv:value>Vi samarbetar med Inherit</sv:value>
-          </sv:property>
-          <sv:property sv:name="motricewebsite:string_" sv:type="String">
-            <sv:value>Klicka</sv:value>
-          </sv:property>
-          <sv:property sv:name="motricewebsite:string__" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="motricewebsite:summary" sv:type="String">
-            <sv:value>Inheritsummary</sv:value>
-          </sv:property>
-          <sv:property sv:name="motricewebsite:title" sv:type="String">
-            <sv:value>Inherit och andra företag i sfären</sv:value>
-          </sv:property>
-          <sv:node sv:name="motricewebsite:body">
-            <sv:property sv:name="jcr:primaryType" sv:type="Name">
-              <sv:value>hippostd:html</sv:value>
-            </sv:property>
-            <sv:property sv:name="hippostd:content" sv:type="String">
-              <sv:value>&lt;p&gt;Detta beskriver ett samarbetsf&amp;ouml;retag...&lt;/p&gt;</sv:value>
-            </sv:property>
-          </sv:node>
-          <sv:node sv:name="motricewebsite:icon">
-            <sv:property sv:name="jcr:primaryType" sv:type="Name">
-              <sv:value>hippogallerypicker:imagelink</sv:value>
-            </sv:property>
-            <sv:property sv:name="hippo:docbase" sv:type="String">
-              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
-            </sv:property>
-            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
-            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
-            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
-          </sv:node>
-          <sv:node sv:name="motricewebsite:image">
-            <sv:property sv:name="jcr:primaryType" sv:type="Name">
-              <sv:value>hippogallerypicker:imagelink</sv:value>
-            </sv:property>
-            <sv:property sv:name="hippo:docbase" sv:type="String">
-              <sv:value>eb916ba0-0a0f-4c7e-ad47-1237b281900e</sv:value>
-            </sv:property>
-            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
-            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
-            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
-          </sv:node>
-        </sv:node>
-        <sv:node sv:name="jhilight-2">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>motricewebsite:textimagedocument</sv:value>
-          </sv:property>
-          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-            <sv:value>mix:referenceable</sv:value>
-          </sv:property>
-          <sv:property sv:name="jcr:uuid" sv:type="String">
-            <sv:value>793cb88e-2bf2-443b-b104-f7a9d946ffd5</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
-            <sv:value>live</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-            <sv:value>common/home/jhilights/jhilight-2/jhilight-2[2]</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostd:state" sv:type="String">
-            <sv:value>published</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
-            <sv:value>live</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
-            <sv:value>admin</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
-            <sv:value>2014-09-08T17:45:13.497+02:00</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2014-09-08T17:47:21.489+02:00</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
-            <sv:value>admin</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-            <sv:value>2014-09-08T17:48:36.289+02:00</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippotranslation:id" sv:type="String">
-            <sv:value>0036225b-c638-4b75-af0c-fa03da06cf66</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippotranslation:locale" sv:type="String">
-            <sv:value>sv</sv:value>
-          </sv:property>
-          <sv:property sv:name="motricewebsite:long" sv:type="Long">
-            <sv:value>2</sv:value>
-          </sv:property>
-          <sv:property sv:name="motricewebsite:string" sv:type="String">
-            <sv:value>Vi samarbetar med Inherit</sv:value>
-          </sv:property>
-          <sv:property sv:name="motricewebsite:string_" sv:type="String">
-            <sv:value>Klicka</sv:value>
-          </sv:property>
-          <sv:property sv:name="motricewebsite:string__" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="motricewebsite:summary" sv:type="String">
-            <sv:value>Inheritsummary</sv:value>
-          </sv:property>
-          <sv:property sv:name="motricewebsite:title" sv:type="String">
-            <sv:value>Inherit och andra företag i sfären</sv:value>
-          </sv:property>
-          <sv:node sv:name="motricewebsite:body">
-            <sv:property sv:name="jcr:primaryType" sv:type="Name">
-              <sv:value>hippostd:html</sv:value>
-            </sv:property>
-            <sv:property sv:name="hippostd:content" sv:type="String">
-              <sv:value>&lt;p&gt;Detta beskriver ett samarbetsf&amp;ouml;retag...&lt;/p&gt;</sv:value>
-            </sv:property>
-          </sv:node>
-          <sv:node sv:name="motricewebsite:icon">
-            <sv:property sv:name="jcr:primaryType" sv:type="Name">
-              <sv:value>hippogallerypicker:imagelink</sv:value>
-            </sv:property>
-            <sv:property sv:name="hippo:docbase" sv:type="String">
-              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
-            </sv:property>
-            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
-            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
-            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
-          </sv:node>
-          <sv:node sv:name="motricewebsite:image">
-            <sv:property sv:name="jcr:primaryType" sv:type="Name">
-              <sv:value>hippogallerypicker:imagelink</sv:value>
-            </sv:property>
-            <sv:property sv:name="hippo:docbase" sv:type="String">
-              <sv:value>eb916ba0-0a0f-4c7e-ad47-1237b281900e</sv:value>
+              <sv:value>e65a7b61-4710-4d1a-ab78-d9c294921f84</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
             <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>

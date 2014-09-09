@@ -1,4 +1,14 @@
 
+
+/*
+
+and change 0.6s to the time you want. You also might want to edit time in the function call below:
+
+.emulateTransitionEnd(2000) 
+*/
+
+
+
 .thick_border {
 	size: 4px;
 }
@@ -13,3 +23,8 @@
 	vertical-align:baseline; 
 }
 
+img.resize{
+ /*   width:540px; you can use % */ 
+ width: 100%; 
+ height:100%;
+}

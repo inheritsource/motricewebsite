@@ -29,7 +29,7 @@ public class HomeHilight extends BaseComponent {
         	//HstQuery hstQuery = hstQueryManager.createQuery(scope,
         		//	TextDocument.class, true);
         	HstQuery hstQuery = hstQueryManager.
-        		createQuery((HippoBean) scope.getBean("jhilights"),TextImageDocument.class,true);
+        		createQuery((HippoBean) scope.getBean("chilights"),TextImageDocument.class,true);
 
         	result = hstQuery.execute();
 

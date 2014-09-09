@@ -30,7 +30,7 @@ public class HomeHead extends BaseComponent {
 //        	HstQuery hstQuery = hstQueryManager.createQuery(scope,
 //        			TextDocument.class, true);
         	HstQuery hstQuery = hstQueryManager.
-        	  createQuery((HippoBean) scope.getBean("jhead"),TextImageDocument.class,true);
+        	  createQuery((HippoBean) scope.getBean("chead"),TextImageDocument.class,true);
         	result = hstQuery.execute();
         }
         catch (Exception e) {

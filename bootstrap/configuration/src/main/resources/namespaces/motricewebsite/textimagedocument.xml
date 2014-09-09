@@ -28,7 +28,7 @@
         <sv:value>mix:referenceable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
-        <sv:value>45f9d52a-6967-49c9-980d-c36b9978a01b</sv:value>
+        <sv:value>014abd98-27f9-466b-b252-3b4405e81bcf</sv:value>
       </sv:property>
       <sv:property sv:name="hipposysedit:node" sv:type="Boolean">
         <sv:value>true</sv:value>
@@ -170,7 +170,7 @@
           <sv:value>false</sv:value>
         </sv:property>
         <sv:property sv:name="hipposysedit:path" sv:type="String">
-          <sv:value>motricewebsite:long</sv:value>
+          <sv:value>motricewebsite:seqnumber</sv:value>
         </sv:property>
         <sv:property sv:name="hipposysedit:primary" sv:type="Boolean">
           <sv:value>false</sv:value>
@@ -193,7 +193,7 @@
           <sv:value>false</sv:value>
         </sv:property>
         <sv:property sv:name="hipposysedit:path" sv:type="String">
-          <sv:value>motricewebsite:string</sv:value>
+          <sv:value>motricewebsite:imagecaption</sv:value>
         </sv:property>
         <sv:property sv:name="hipposysedit:primary" sv:type="Boolean">
           <sv:value>false</sv:value>
@@ -216,7 +216,7 @@
           <sv:value>false</sv:value>
         </sv:property>
         <sv:property sv:name="hipposysedit:path" sv:type="String">
-          <sv:value>motricewebsite:string_</sv:value>
+          <sv:value>motricewebsite:buttontxt</sv:value>
         </sv:property>
         <sv:property sv:name="hipposysedit:primary" sv:type="Boolean">
           <sv:value>false</sv:value>
@@ -239,7 +239,7 @@
           <sv:value>false</sv:value>
         </sv:property>
         <sv:property sv:name="hipposysedit:path" sv:type="String">
-          <sv:value>motricewebsite:string__</sv:value>
+          <sv:value>motricewebsite:buttonref</sv:value>
         </sv:property>
         <sv:property sv:name="hipposysedit:primary" sv:type="Boolean">
           <sv:value>false</sv:value>
@@ -262,7 +262,7 @@
         <sv:value>mix:referenceable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
-        <sv:value>c0b2a3b7-3e5a-43d0-bda7-9503a38adcb5</sv:value>
+        <sv:value>aa6a21b2-9006-4bc3-b0cf-9fb313e01e7e</sv:value>
       </sv:property>
       <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
       <sv:property sv:name="hippostd:holder" sv:type="String">
@@ -292,17 +292,17 @@
       <sv:property sv:name="hippotranslation:locale" sv:type="String">
         <sv:value>document-type-locale</sv:value>
       </sv:property>
-      <sv:property sv:name="motricewebsite:long" sv:type="Long">
+      <sv:property sv:name="motricewebsite:buttonref" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="motricewebsite:buttontxt" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="motricewebsite:imagecaption" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="motricewebsite:seqnumber" sv:type="Long">
         <sv:value>0</sv:value>
-      </sv:property>
-      <sv:property sv:name="motricewebsite:string" sv:type="String">
-        <sv:value/>
-      </sv:property>
-      <sv:property sv:name="motricewebsite:string_" sv:type="String">
-        <sv:value/>
-      </sv:property>
-      <sv:property sv:name="motricewebsite:string__" sv:type="String">
-        <sv:value/>
       </sv:property>
       <sv:property sv:name="motricewebsite:summary" sv:type="String">
         <sv:value/>
@@ -421,7 +421,7 @@
           </sv:property>
         </sv:node>
       </sv:node>
-      <sv:node sv:name="string">
+      <sv:node sv:name="imagecaption">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>frontend:plugin</sv:value>
         </sv:property>
@@ -554,7 +554,7 @@
           </sv:property>
         </sv:node>
       </sv:node>
-      <sv:node sv:name="long">
+      <sv:node sv:name="seqnumber">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>frontend:plugin</sv:value>
         </sv:property>
@@ -576,7 +576,7 @@
           </sv:property>
         </sv:node>
       </sv:node>
-      <sv:node sv:name="string_">
+      <sv:node sv:name="buttontxt">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>frontend:plugin</sv:value>
         </sv:property>
@@ -585,6 +585,9 @@
         </sv:property>
         <sv:property sv:name="field" sv:type="String">
           <sv:value>string_</sv:value>
+        </sv:property>
+        <sv:property sv:name="hint" sv:type="String">
+          <sv:value/>
         </sv:property>
         <sv:property sv:name="plugin.class" sv:type="String">
           <sv:value>org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin</sv:value>
@@ -598,7 +601,7 @@
           </sv:property>
         </sv:node>
       </sv:node>
-      <sv:node sv:name="string__">
+      <sv:node sv:name="buttonref">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>frontend:plugin</sv:value>
         </sv:property>

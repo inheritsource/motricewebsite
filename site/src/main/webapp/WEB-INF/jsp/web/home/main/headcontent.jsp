@@ -5,25 +5,15 @@
 <%@ taglib uri="http://www.hippoecm.org/jsp/hst/core" prefix='hst'%>
 
 <c:if test="${not empty document.title}">
-  <hst:element var="headTitle" name="title">
-    <c:out value="${document.title}"/>
-  </hst:element>
-  <hst:headContribution keyHint="headTitle" element="${headTitle}" />
+	<hst:element var="headTitle" name="title">
+		<c:out value="${document.title}" />
+	</hst:element>
+	<hst:headContribution keyHint="headTitle" element="${headTitle}" />
 </c:if>
-
-<!-- 
-<h2>${document.title}</h2>
-<p>I18n key example: <fmt:message key="home.title"/></p>
-<p>${document.summary}</p>
-  
-<div class="jumbotron">  
-<hst:html hippohtml="${document.html}"/> 
-</div>
- -->
 
 <!-- Carousel
     ================================================== -->
-<div id="myCarousel" class="carousel slide" data-ride="carousel">
+<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="8000" data-pause="hover">
 	<!-- Indicators -->
 	<ol class="carousel-indicators">
 		<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -46,16 +36,15 @@
 							}
 					%>
 					<hst:link var="img" hippobean="${item.image.original}" />
-					<p>
-						<img src="${img}" title="${item.title}" alt="${item.title}" />
-					</p>
+					<div style="height:300px;">
+						<img src="${img}" class="resize" title="${item.title}" alt="${item.title}" />
+					</div>
 					<div class="container">
 						<div class="carousel-caption">
 							<h1>${item.summary}</h1>
 							<hst:html hippohtml="${item.html}" />
 							<p>
-								<a class="btn btn-lg btn-primary" href="#" role="button">Sign
-									up today</a>
+								<a class="btn btn-lg btn-primary" href="#" role="button">${item.buttonTxt} &raquo;</a>
 							</p>
 						</div>
 					</div>
@@ -65,13 +54,7 @@
 			seen = false;
 		%>
 	</div>
-	<a class="left carousel-control" href="#myCarousel" role="button"
-		data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
-	<a class="right carousel-control" href="#myCarousel" role="button"
-		data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
-</div>
+	<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+	<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
 <!-- /.carousel -->
-
-<!--  <hst:html hippohtml="${document.html}"/> --> 
 </div>
-      
