@@ -11,6 +11,12 @@
 <hst:link var="link" path="/dist/css/bootstrap.css" />
 <link rel="stylesheet" href="${link}" type="text/css" />
 
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <hst:link var="emwlink" path="/assets/js/ie-emulation-modes-warning.js" />
+    <script src="${emwlink}"></script>
+
 <!-- Custom styles for this template -->
 <hst:link var="link2" path="/css/motrice_style.css" />
 <link rel="stylesheet" href="${link2}" type="text/css" />

@@ -1,23 +1,42 @@
 
+.carousel-inner > .item {
+  -webkit-transition: 1.6s ease-in-out left;
+       -o-transition: 1.6s ease-in-out left;
+          transition: 1.6s ease-in-out left;
+}
 
 /*
 
 and change 0.6s to the time you want. You also might want to edit time in the function call below:
 
 .emulateTransitionEnd(2000) 
+
 */
 
-
-
-.thick_border {
-	size: 4px;
+.separator_border {
+	/*
+	height: 4px;
+	border-top-color: #000000;
+	margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0; */
+    border-top: 1px solid #aaa;
+    width:100%;
 }
 
 /*
-.header {
-	background-color: red;
+div.container > div.header.div_color{
+  background-color: red;
+  border-style: solid;
+  height: 10px;
 }
 */
+
+div.header div {
+	margin-top: 28px;
+}
+
+div
 
 #front-logo-id {
 	vertical-align:baseline; 
