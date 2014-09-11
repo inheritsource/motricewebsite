@@ -30,7 +30,7 @@ public class HomeHilight extends BaseComponent {
         		//	TextDocument.class, true);
         	HstQuery hstQuery = hstQueryManager.
         		createQuery((HippoBean) scope.getBean("chilights"),TextImageDocument.class,true);
-
+        	hstQuery.addOrderByAscending("motricewebsite:seqnumber");
         	result = hstQuery.execute();
 
 

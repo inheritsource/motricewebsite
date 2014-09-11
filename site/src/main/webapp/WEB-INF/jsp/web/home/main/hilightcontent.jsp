@@ -13,7 +13,7 @@
 </c:if>
 -->
 
-<div class="container marketing" style="margin-top:30px;">
+<div class="container marketing">
 	<div class="row">
 		<c:forEach var="item" items="${result.hippoBeans}">
 			<hst:link var="link" hippobean="${item}" />

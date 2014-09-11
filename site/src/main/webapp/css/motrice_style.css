@@ -77,3 +77,11 @@ h3
   border-bottom-right-radius: 0px;
   border-bottom-left-radius: 0px;
 }
+
+/* Line 70 */
+.marketing .col-lg-4
+{
+  margin-top: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+}
