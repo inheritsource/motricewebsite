@@ -19,8 +19,10 @@
 		</c:forEach>
 	</ul>
 </div>
+
+<div><hr class="separator_border" /></div>
+
 <div class="header">
-    <div><hr class="separator_border" /></div>
 	<h3 class="text-muted">
 		<hst:link var="motrice_logo" path="/assets/motrice_logo.png" />
 		<img id="front-logo-id" src="${motrice_logo}" /><span>
