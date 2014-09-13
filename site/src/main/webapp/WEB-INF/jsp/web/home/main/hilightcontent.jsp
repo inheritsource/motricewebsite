@@ -28,7 +28,8 @@
 				<img class="img-circle" src="${img}" alt="hallo"
 					style="width: 140px; height: 140px;">
 				<h2>${item.title}</h2>
-				<hst:html hippohtml="${item.html}" fullyQualifiedLinks="true" />
+				<!-- <hst:html hippohtml="${item.html}" fullyQualifiedLinks="true" /> -->
+				<p>${item.summary}</p>
 				<p>
 					<a class="btn btn-default" href="#" role="button">${item.buttonTxt} &raquo;</a>
 				</p>
