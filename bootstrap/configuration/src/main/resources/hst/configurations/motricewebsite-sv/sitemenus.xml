@@ -222,7 +222,7 @@
         </sv:node>
       </sv:node>
     </sv:node>
-    <sv:node sv:name="Om Motrice">
+    <sv:node sv:name="Motrice AB">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>hst:sitemenuitem</sv:value>
       </sv:property>

@@ -4,7 +4,7 @@
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
 <%@ taglib uri="http://www.hippoecm.org/jsp/hst/core" prefix='hst'%>
 
-<!-- 
+<!--
  <c:if test="${not empty document.title}">
 	<hst:element var="headTitle" name="title">
 		<c:out value="${document.title}" />
@@ -28,8 +28,7 @@
 				<img class="img-circle" src="${img}" alt="hallo"
 					style="width: 140px; height: 140px;">
 				<h2>${item.title}</h2>
-				<!-- <hst:html hippohtml="${item.html}" fullyQualifiedLinks="true" /> -->
-				<p>${item.summary}</p>
+				<hst:html hippohtml="${item.html}" fullyQualifiedLinks="true" />
 				<p>
 					<a class="btn btn-default" href="#" role="button">${item.buttonTxt} &raquo;</a>
 				</p>
