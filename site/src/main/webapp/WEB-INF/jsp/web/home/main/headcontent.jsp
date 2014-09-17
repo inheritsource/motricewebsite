@@ -44,7 +44,7 @@
 							<h1>${item.summary}</h1>
 							<hst:html hippohtml="${item.html}" />
 							<p>
-								<a class="btn btn-lg btn-primary" href="#" role="button">${item.buttonTxt} &raquo;</a>
+								<a class="btn btn-lg btn-primary btn-carousel" href="#" role="button">${item.buttonTxt} &raquo;</a>
 							</p>
 						</div>
 					</div>

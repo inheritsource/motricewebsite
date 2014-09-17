@@ -1222,7 +1222,7 @@ e-post: info _at_ inherit.se&lt;/p&gt;
             <sv:value>2014-09-09T15:31:03.042+02:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2014-09-16T15:16:50.636+02:00</sv:value>
+            <sv:value>2014-09-17T17:45:21.101+02:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
             <sv:value>admin</sv:value>
@@ -1237,7 +1237,7 @@ e-post: info _at_ inherit.se&lt;/p&gt;
             <sv:value/>
           </sv:property>
           <sv:property sv:name="motricewebsite:buttontxt" sv:type="String">
-            <sv:value>Anslut nu</sv:value>
+            <sv:value>Mer</sv:value>
           </sv:property>
           <sv:property sv:name="motricewebsite:imagecaption" sv:type="String">
             <sv:value>Motrice processhantering</sv:value>
@@ -1276,7 +1276,7 @@ e-post: info _at_ inherit.se&lt;/p&gt;
               <sv:value>hippogallerypicker:imagelink</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:docbase" sv:type="String">
-              <sv:value>6974531d-9b1a-4408-b1aa-5da753747df8</sv:value>
+              <sv:value>85e52e05-5793-4627-9d7f-b6f32dd34bbb</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
             <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
@@ -1324,7 +1324,7 @@ e-post: info _at_ inherit.se&lt;/p&gt;
             <sv:value>2014-09-09T15:31:03.042+02:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2014-09-16T14:29:56.517+02:00</sv:value>
+            <sv:value>2014-09-17T17:45:36.337+02:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
             <sv:value>admin</sv:value>
@@ -1339,7 +1339,7 @@ e-post: info _at_ inherit.se&lt;/p&gt;
             <sv:value/>
           </sv:property>
           <sv:property sv:name="motricewebsite:buttontxt" sv:type="String">
-            <sv:value>Anslut nu</sv:value>
+            <sv:value>Mer</sv:value>
           </sv:property>
           <sv:property sv:name="motricewebsite:imagecaption" sv:type="String">
             <sv:value>Motrice processhantering</sv:value>
@@ -1378,7 +1378,7 @@ e-post: info _at_ inherit.se&lt;/p&gt;
               <sv:value>hippogallerypicker:imagelink</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:docbase" sv:type="String">
-              <sv:value>6974531d-9b1a-4408-b1aa-5da753747df8</sv:value>
+              <sv:value>85e52e05-5793-4627-9d7f-b6f32dd34bbb</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
             <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
@@ -1414,13 +1414,13 @@ e-post: info _at_ inherit.se&lt;/p&gt;
             <sv:value>2014-09-09T15:31:03.042+02:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2014-09-16T14:29:56.517+02:00</sv:value>
+            <sv:value>2014-09-17T17:45:36.337+02:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
             <sv:value>admin</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-            <sv:value>2014-09-16T15:17:12.454+02:00</sv:value>
+            <sv:value>2014-09-17T17:46:33.612+02:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippotranslation:id" sv:type="String">
             <sv:value>57e6b6aa-87f6-4167-a9a9-350d72a063a4</sv:value>
@@ -1432,7 +1432,7 @@ e-post: info _at_ inherit.se&lt;/p&gt;
             <sv:value/>
           </sv:property>
           <sv:property sv:name="motricewebsite:buttontxt" sv:type="String">
-            <sv:value>Anslut nu</sv:value>
+            <sv:value>Mer</sv:value>
           </sv:property>
           <sv:property sv:name="motricewebsite:imagecaption" sv:type="String">
             <sv:value>Motrice processhantering</sv:value>
@@ -1471,7 +1471,7 @@ e-post: info _at_ inherit.se&lt;/p&gt;
               <sv:value>hippogallerypicker:imagelink</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:docbase" sv:type="String">
-              <sv:value>6974531d-9b1a-4408-b1aa-5da753747df8</sv:value>
+              <sv:value>85e52e05-5793-4627-9d7f-b6f32dd34bbb</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
             <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
@@ -1518,7 +1518,7 @@ e-post: info _at_ inherit.se&lt;/p&gt;
             <sv:value>2014-09-09T15:33:30.895+02:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2014-09-16T14:40:43.908+02:00</sv:value>
+            <sv:value>2014-09-17T17:45:41.816+02:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
             <sv:value>admin</sv:value>
@@ -1533,7 +1533,7 @@ e-post: info _at_ inherit.se&lt;/p&gt;
             <sv:value/>
           </sv:property>
           <sv:property sv:name="motricewebsite:buttontxt" sv:type="String">
-            <sv:value>Köp</sv:value>
+            <sv:value>Mer</sv:value>
           </sv:property>
           <sv:property sv:name="motricewebsite:imagecaption" sv:type="String">
             <sv:value>Beskriv, Modellera, Kör</sv:value>
@@ -1572,7 +1572,7 @@ e-post: info _at_ inherit.se&lt;/p&gt;
               <sv:value>hippogallerypicker:imagelink</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:docbase" sv:type="String">
-              <sv:value>87e86b9d-c074-46e6-883d-b4a812d81428</sv:value>
+              <sv:value>85e52e05-5793-4627-9d7f-b6f32dd34bbb</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
             <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
@@ -1620,7 +1620,7 @@ e-post: info _at_ inherit.se&lt;/p&gt;
             <sv:value>2014-09-09T15:33:30.895+02:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2014-09-16T14:40:43.859+02:00</sv:value>
+            <sv:value>2014-09-17T17:45:51.462+02:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
             <sv:value>admin</sv:value>
@@ -1635,7 +1635,7 @@ e-post: info _at_ inherit.se&lt;/p&gt;
             <sv:value/>
           </sv:property>
           <sv:property sv:name="motricewebsite:buttontxt" sv:type="String">
-            <sv:value>Köp</sv:value>
+            <sv:value>Mer</sv:value>
           </sv:property>
           <sv:property sv:name="motricewebsite:imagecaption" sv:type="String">
             <sv:value>Beskriv, Modellera, Kör</sv:value>
@@ -1674,7 +1674,7 @@ e-post: info _at_ inherit.se&lt;/p&gt;
               <sv:value>hippogallerypicker:imagelink</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:docbase" sv:type="String">
-              <sv:value>87e86b9d-c074-46e6-883d-b4a812d81428</sv:value>
+              <sv:value>85e52e05-5793-4627-9d7f-b6f32dd34bbb</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
             <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
@@ -1710,13 +1710,13 @@ e-post: info _at_ inherit.se&lt;/p&gt;
             <sv:value>2014-09-09T15:33:30.895+02:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2014-09-16T14:40:43.859+02:00</sv:value>
+            <sv:value>2014-09-17T17:45:51.462+02:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
             <sv:value>admin</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-            <sv:value>2014-09-16T15:16:04.398+02:00</sv:value>
+            <sv:value>2014-09-17T17:46:33.538+02:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippotranslation:id" sv:type="String">
             <sv:value>34b84589-23f5-46e4-85cc-3c1226cc19c5</sv:value>
@@ -1728,7 +1728,7 @@ e-post: info _at_ inherit.se&lt;/p&gt;
             <sv:value/>
           </sv:property>
           <sv:property sv:name="motricewebsite:buttontxt" sv:type="String">
-            <sv:value>Köp</sv:value>
+            <sv:value>Mer</sv:value>
           </sv:property>
           <sv:property sv:name="motricewebsite:imagecaption" sv:type="String">
             <sv:value>Beskriv, Modellera, Kör</sv:value>
@@ -1767,7 +1767,7 @@ e-post: info _at_ inherit.se&lt;/p&gt;
               <sv:value>hippogallerypicker:imagelink</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:docbase" sv:type="String">
-              <sv:value>87e86b9d-c074-46e6-883d-b4a812d81428</sv:value>
+              <sv:value>85e52e05-5793-4627-9d7f-b6f32dd34bbb</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
             <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
@@ -1814,7 +1814,7 @@ e-post: info _at_ inherit.se&lt;/p&gt;
             <sv:value>2014-09-09T15:35:25.983+02:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2014-09-16T15:09:20.674+02:00</sv:value>
+            <sv:value>2014-09-17T17:45:56.138+02:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
             <sv:value>admin</sv:value>
@@ -1829,7 +1829,7 @@ e-post: info _at_ inherit.se&lt;/p&gt;
             <sv:value/>
           </sv:property>
           <sv:property sv:name="motricewebsite:buttontxt" sv:type="String">
-            <sv:value>Drick</sv:value>
+            <sv:value>Mer</sv:value>
           </sv:property>
           <sv:property sv:name="motricewebsite:imagecaption" sv:type="String">
             <sv:value>Enkla processer enkelt</sv:value>
@@ -1867,7 +1867,7 @@ e-post: info _at_ inherit.se&lt;/p&gt;
               <sv:value>hippogallerypicker:imagelink</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:docbase" sv:type="String">
-              <sv:value>28dc4940-7562-48da-9c91-34711124462f</sv:value>
+              <sv:value>85e52e05-5793-4627-9d7f-b6f32dd34bbb</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
             <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
@@ -1915,7 +1915,7 @@ e-post: info _at_ inherit.se&lt;/p&gt;
             <sv:value>2014-09-09T15:35:25.983+02:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2014-09-16T15:09:20.625+02:00</sv:value>
+            <sv:value>2014-09-17T17:46:07.112+02:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
             <sv:value>admin</sv:value>
@@ -1930,7 +1930,7 @@ e-post: info _at_ inherit.se&lt;/p&gt;
             <sv:value/>
           </sv:property>
           <sv:property sv:name="motricewebsite:buttontxt" sv:type="String">
-            <sv:value>Drick</sv:value>
+            <sv:value>Mer</sv:value>
           </sv:property>
           <sv:property sv:name="motricewebsite:imagecaption" sv:type="String">
             <sv:value>Enkla processer enkelt</sv:value>
@@ -1968,7 +1968,7 @@ e-post: info _at_ inherit.se&lt;/p&gt;
               <sv:value>hippogallerypicker:imagelink</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:docbase" sv:type="String">
-              <sv:value>28dc4940-7562-48da-9c91-34711124462f</sv:value>
+              <sv:value>85e52e05-5793-4627-9d7f-b6f32dd34bbb</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
             <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
@@ -2004,13 +2004,13 @@ e-post: info _at_ inherit.se&lt;/p&gt;
             <sv:value>2014-09-09T15:35:25.983+02:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2014-09-16T15:09:20.625+02:00</sv:value>
+            <sv:value>2014-09-17T17:46:07.112+02:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
             <sv:value>admin</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-            <sv:value>2014-09-16T15:16:04.243+02:00</sv:value>
+            <sv:value>2014-09-17T17:46:33.456+02:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippotranslation:id" sv:type="String">
             <sv:value>c4a17145-d589-4639-9939-2901c42eacf8</sv:value>
@@ -2022,7 +2022,7 @@ e-post: info _at_ inherit.se&lt;/p&gt;
             <sv:value/>
           </sv:property>
           <sv:property sv:name="motricewebsite:buttontxt" sv:type="String">
-            <sv:value>Drick</sv:value>
+            <sv:value>Mer</sv:value>
           </sv:property>
           <sv:property sv:name="motricewebsite:imagecaption" sv:type="String">
             <sv:value>Enkla processer enkelt</sv:value>
@@ -2060,7 +2060,7 @@ e-post: info _at_ inherit.se&lt;/p&gt;
               <sv:value>hippogallerypicker:imagelink</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:docbase" sv:type="String">
-              <sv:value>28dc4940-7562-48da-9c91-34711124462f</sv:value>
+              <sv:value>85e52e05-5793-4627-9d7f-b6f32dd34bbb</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
             <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
@@ -2130,7 +2130,7 @@ e-post: info _at_ inherit.se&lt;/p&gt;
             <sv:value>2014-09-09T15:37:08.545+02:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2014-09-16T17:27:38.992+02:00</sv:value>
+            <sv:value>2014-09-17T17:11:12.327+02:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
             <sv:value>admin</sv:value>
@@ -2167,7 +2167,8 @@ e-post: info _at_ inherit.se&lt;/p&gt;
               <sv:value>&lt;ul&gt; 
 &lt;li&gt;Inl&amp;aring;sningsfritt och framtidss&amp;auml;kert: &amp;Ouml;ppna standarder och &amp;ouml;ppen k&amp;auml;llkod&lt;/li&gt; 
 &lt;li&gt;Enkelt med enkla processer, st&amp;ouml;d f&amp;ouml;r komplexa processer&lt;/li&gt; 
-&lt;li&gt;Generellt verksamhetsst&amp;ouml;d &amp;mdash; vari ing&amp;aring;r e-tj&amp;auml;nster&lt;/li&gt; &lt;/ul&gt;</sv:value>
+&lt;li&gt;Generellt verksamhetsst&amp;ouml;d &amp;mdash; vari ing&amp;aring;r e-tj&amp;auml;nster&lt;/li&gt; 
+&lt;li&gt;Webb-baserat och plattformsoberoende&lt;/li&gt; &lt;/ul&gt;</sv:value>
             </sv:property>
           </sv:node>
           <sv:node sv:name="motricewebsite:icon">
@@ -2186,7 +2187,7 @@ e-post: info _at_ inherit.se&lt;/p&gt;
               <sv:value>hippogallerypicker:imagelink</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:docbase" sv:type="String">
-              <sv:value>c7239400-70da-43fc-b54d-be8c17cc5993</sv:value>
+              <sv:value>a9abda6a-49ca-4910-bbfc-075aefde1c3e</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
             <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
@@ -2234,7 +2235,7 @@ e-post: info _at_ inherit.se&lt;/p&gt;
             <sv:value>2014-09-09T15:37:08.545+02:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2014-09-16T17:27:38.940+02:00</sv:value>
+            <sv:value>2014-09-17T17:11:20.557+02:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
             <sv:value>admin</sv:value>
@@ -2271,7 +2272,8 @@ e-post: info _at_ inherit.se&lt;/p&gt;
               <sv:value>&lt;ul&gt; 
 &lt;li&gt;Inl&amp;aring;sningsfritt och framtidss&amp;auml;kert: &amp;Ouml;ppna standarder och &amp;ouml;ppen k&amp;auml;llkod&lt;/li&gt; 
 &lt;li&gt;Enkelt med enkla processer, st&amp;ouml;d f&amp;ouml;r komplexa processer&lt;/li&gt; 
-&lt;li&gt;Generellt verksamhetsst&amp;ouml;d &amp;mdash; vari ing&amp;aring;r e-tj&amp;auml;nster&lt;/li&gt; &lt;/ul&gt;</sv:value>
+&lt;li&gt;Generellt verksamhetsst&amp;ouml;d &amp;mdash; vari ing&amp;aring;r e-tj&amp;auml;nster&lt;/li&gt; 
+&lt;li&gt;Webb-baserat och plattformsoberoende&lt;/li&gt; &lt;/ul&gt;</sv:value>
             </sv:property>
           </sv:node>
           <sv:node sv:name="motricewebsite:icon">
@@ -2290,7 +2292,7 @@ e-post: info _at_ inherit.se&lt;/p&gt;
               <sv:value>hippogallerypicker:imagelink</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:docbase" sv:type="String">
-              <sv:value>c7239400-70da-43fc-b54d-be8c17cc5993</sv:value>
+              <sv:value>a9abda6a-49ca-4910-bbfc-075aefde1c3e</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
             <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
@@ -2326,13 +2328,13 @@ e-post: info _at_ inherit.se&lt;/p&gt;
             <sv:value>2014-09-09T15:37:08.545+02:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2014-09-16T17:27:38.940+02:00</sv:value>
+            <sv:value>2014-09-17T17:11:20.557+02:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
             <sv:value>admin</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-            <sv:value>2014-09-16T17:39:41.609+02:00</sv:value>
+            <sv:value>2014-09-17T17:13:24.347+02:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippotranslation:id" sv:type="String">
             <sv:value>a5240905-2c5f-4a07-9c9c-2f1ef714d318</sv:value>
@@ -2366,7 +2368,8 @@ e-post: info _at_ inherit.se&lt;/p&gt;
               <sv:value>&lt;ul&gt; 
 &lt;li&gt;Inl&amp;aring;sningsfritt och framtidss&amp;auml;kert: &amp;Ouml;ppna standarder och &amp;ouml;ppen k&amp;auml;llkod&lt;/li&gt; 
 &lt;li&gt;Enkelt med enkla processer, st&amp;ouml;d f&amp;ouml;r komplexa processer&lt;/li&gt; 
-&lt;li&gt;Generellt verksamhetsst&amp;ouml;d &amp;mdash; vari ing&amp;aring;r e-tj&amp;auml;nster&lt;/li&gt; &lt;/ul&gt;</sv:value>
+&lt;li&gt;Generellt verksamhetsst&amp;ouml;d &amp;mdash; vari ing&amp;aring;r e-tj&amp;auml;nster&lt;/li&gt; 
+&lt;li&gt;Webb-baserat och plattformsoberoende&lt;/li&gt; &lt;/ul&gt;</sv:value>
             </sv:property>
           </sv:node>
           <sv:node sv:name="motricewebsite:icon">
@@ -2385,7 +2388,7 @@ e-post: info _at_ inherit.se&lt;/p&gt;
               <sv:value>hippogallerypicker:imagelink</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:docbase" sv:type="String">
-              <sv:value>c7239400-70da-43fc-b54d-be8c17cc5993</sv:value>
+              <sv:value>a9abda6a-49ca-4910-bbfc-075aefde1c3e</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
             <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
@@ -2432,7 +2435,7 @@ e-post: info _at_ inherit.se&lt;/p&gt;
             <sv:value>2014-09-09T15:38:38.972+02:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2014-09-16T17:27:35.765+02:00</sv:value>
+            <sv:value>2014-09-17T17:30:45.294+02:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
             <sv:value>admin</sv:value>
@@ -2459,7 +2462,7 @@ e-post: info _at_ inherit.se&lt;/p&gt;
             <sv:value>Motrice funktioner</sv:value>
           </sv:property>
           <sv:property sv:name="motricewebsite:title" sv:type="String">
-            <sv:value>Motrice funktioner</sv:value>
+            <sv:value>Funktioner</sv:value>
           </sv:property>
           <sv:node sv:name="motricewebsite:body">
             <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -2467,10 +2470,11 @@ e-post: info _at_ inherit.se&lt;/p&gt;
             </sv:property>
             <sv:property sv:name="hippostd:content" sv:type="String">
               <sv:value>&lt;ul&gt; 
-&lt;li&gt;Datorst&amp;ouml;dd process: Modellera, installera och &amp;quot;k&amp;ouml;r&amp;quot; den med garanterad f&amp;ouml;ljsamhet mot den modellerade processen&lt;/li&gt; 
+&lt;li&gt;Modellera, installera och &amp;quot;k&amp;ouml;r&amp;quot; processen med verklighet och modell i harmoni.&lt;/li&gt; 
 &lt;li&gt;Autenticering och &amp;quot;Single Sign On&amp;quot; enligt standard&lt;/li&gt; 
-&lt;li&gt;&lt;em&gt;&amp;Ouml;msesidigt verifierbar&lt;/em&gt; ohc s&amp;auml;ker signering av formul&amp;auml;r och dokument&lt;/li&gt; 
-&lt;li&gt;Flexibilitet: Separat design av processdiagram och formul&amp;auml;r &amp;mdash; sammankoppling i admin-verktyg&lt;/li&gt; 
+&lt;li&gt;Funktioner f&amp;ouml;r fingranul&amp;auml;r beh&amp;ouml;righetskontroll&lt;/li&gt; 
+&lt;li&gt;&lt;em&gt;S&amp;auml;kra och &amp;ouml;msesidigt verifierbara&lt;/em&gt; signaturer&lt;/li&gt; 
+&lt;li&gt;Separat design av processdiagram och formul&amp;auml;r &amp;mdash; f&amp;ouml;r flexibilitet och &amp;aring;teranv&amp;auml;ndning&lt;/li&gt; 
 &lt;li&gt;St&amp;ouml;d f&amp;ouml;r full automatisering av processteg&lt;/li&gt; &lt;/ul&gt;</sv:value>
             </sv:property>
           </sv:node>
@@ -2479,7 +2483,7 @@ e-post: info _at_ inherit.se&lt;/p&gt;
               <sv:value>hippogallerypicker:imagelink</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:docbase" sv:type="String">
-              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+              <sv:value>623cd347-8e0a-45de-b244-240fbfe84ada</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
             <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
@@ -2490,7 +2494,7 @@ e-post: info _at_ inherit.se&lt;/p&gt;
               <sv:value>hippogallerypicker:imagelink</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:docbase" sv:type="String">
-              <sv:value>acd3792c-fe1f-431a-bd38-1234af67aff5</sv:value>
+              <sv:value>623cd347-8e0a-45de-b244-240fbfe84ada</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
             <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
@@ -2538,7 +2542,7 @@ e-post: info _at_ inherit.se&lt;/p&gt;
             <sv:value>2014-09-09T15:38:38.972+02:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2014-09-16T17:34:51.973+02:00</sv:value>
+            <sv:value>2014-09-17T17:30:57.096+02:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
             <sv:value>admin</sv:value>
@@ -2565,7 +2569,7 @@ e-post: info _at_ inherit.se&lt;/p&gt;
             <sv:value>Motrice funktioner</sv:value>
           </sv:property>
           <sv:property sv:name="motricewebsite:title" sv:type="String">
-            <sv:value>Motrice funktioner</sv:value>
+            <sv:value>Funktioner</sv:value>
           </sv:property>
           <sv:node sv:name="motricewebsite:body">
             <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -2573,10 +2577,11 @@ e-post: info _at_ inherit.se&lt;/p&gt;
             </sv:property>
             <sv:property sv:name="hippostd:content" sv:type="String">
               <sv:value>&lt;ul&gt; 
-&lt;li&gt;Datorst&amp;ouml;dd process: Modellera, installera och &amp;quot;k&amp;ouml;r&amp;quot; den med garanterad f&amp;ouml;ljsamhet mot den modellerade processen&lt;/li&gt; 
+&lt;li&gt;Modellera, installera och &amp;quot;k&amp;ouml;r&amp;quot; processen med verklighet och modell i harmoni.&lt;/li&gt; 
 &lt;li&gt;Autenticering och &amp;quot;Single Sign On&amp;quot; enligt standard&lt;/li&gt; 
-&lt;li&gt;&lt;em&gt;&amp;Ouml;msesidigt verifierbar&lt;/em&gt; ohc s&amp;auml;ker signering av formul&amp;auml;r och dokument&lt;/li&gt; 
-&lt;li&gt;Flexibilitet: Separat design av processdiagram och formul&amp;auml;r &amp;mdash; sammankoppling i admin-verktyg&lt;/li&gt; 
+&lt;li&gt;Funktioner f&amp;ouml;r fingranul&amp;auml;r beh&amp;ouml;righetskontroll&lt;/li&gt; 
+&lt;li&gt;&lt;em&gt;S&amp;auml;kra och &amp;ouml;msesidigt verifierbara&lt;/em&gt; signaturer&lt;/li&gt; 
+&lt;li&gt;Separat design av processdiagram och formul&amp;auml;r &amp;mdash; f&amp;ouml;r flexibilitet och &amp;aring;teranv&amp;auml;ndning&lt;/li&gt; 
 &lt;li&gt;St&amp;ouml;d f&amp;ouml;r full automatisering av processteg&lt;/li&gt; &lt;/ul&gt;</sv:value>
             </sv:property>
           </sv:node>
@@ -2585,7 +2590,7 @@ e-post: info _at_ inherit.se&lt;/p&gt;
               <sv:value>hippogallerypicker:imagelink</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:docbase" sv:type="String">
-              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+              <sv:value>623cd347-8e0a-45de-b244-240fbfe84ada</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
             <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
@@ -2596,7 +2601,7 @@ e-post: info _at_ inherit.se&lt;/p&gt;
               <sv:value>hippogallerypicker:imagelink</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:docbase" sv:type="String">
-              <sv:value>acd3792c-fe1f-431a-bd38-1234af67aff5</sv:value>
+              <sv:value>623cd347-8e0a-45de-b244-240fbfe84ada</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
             <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
@@ -2632,13 +2637,13 @@ e-post: info _at_ inherit.se&lt;/p&gt;
             <sv:value>2014-09-09T15:38:38.972+02:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2014-09-16T17:34:51.973+02:00</sv:value>
+            <sv:value>2014-09-17T17:30:57.096+02:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
             <sv:value>admin</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-            <sv:value>2014-09-16T17:39:41.681+02:00</sv:value>
+            <sv:value>2014-09-17T17:33:09.967+02:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippotranslation:id" sv:type="String">
             <sv:value>d9f25e88-b2d6-401e-b6e0-a4fd3530a8ca</sv:value>
@@ -2662,7 +2667,7 @@ e-post: info _at_ inherit.se&lt;/p&gt;
             <sv:value>Motrice funktioner</sv:value>
           </sv:property>
           <sv:property sv:name="motricewebsite:title" sv:type="String">
-            <sv:value>Motrice funktioner</sv:value>
+            <sv:value>Funktioner</sv:value>
           </sv:property>
           <sv:node sv:name="motricewebsite:body">
             <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -2670,10 +2675,11 @@ e-post: info _at_ inherit.se&lt;/p&gt;
             </sv:property>
             <sv:property sv:name="hippostd:content" sv:type="String">
               <sv:value>&lt;ul&gt; 
-&lt;li&gt;Datorst&amp;ouml;dd process: Modellera, installera och &amp;quot;k&amp;ouml;r&amp;quot; den med garanterad f&amp;ouml;ljsamhet mot den modellerade processen&lt;/li&gt; 
+&lt;li&gt;Modellera, installera och &amp;quot;k&amp;ouml;r&amp;quot; processen med verklighet och modell i harmoni.&lt;/li&gt; 
 &lt;li&gt;Autenticering och &amp;quot;Single Sign On&amp;quot; enligt standard&lt;/li&gt; 
-&lt;li&gt;&lt;em&gt;&amp;Ouml;msesidigt verifierbar&lt;/em&gt; ohc s&amp;auml;ker signering av formul&amp;auml;r och dokument&lt;/li&gt; 
-&lt;li&gt;Flexibilitet: Separat design av processdiagram och formul&amp;auml;r &amp;mdash; sammankoppling i admin-verktyg&lt;/li&gt; 
+&lt;li&gt;Funktioner f&amp;ouml;r fingranul&amp;auml;r beh&amp;ouml;righetskontroll&lt;/li&gt; 
+&lt;li&gt;&lt;em&gt;S&amp;auml;kra och &amp;ouml;msesidigt verifierbara&lt;/em&gt; signaturer&lt;/li&gt; 
+&lt;li&gt;Separat design av processdiagram och formul&amp;auml;r &amp;mdash; f&amp;ouml;r flexibilitet och &amp;aring;teranv&amp;auml;ndning&lt;/li&gt; 
 &lt;li&gt;St&amp;ouml;d f&amp;ouml;r full automatisering av processteg&lt;/li&gt; &lt;/ul&gt;</sv:value>
             </sv:property>
           </sv:node>
@@ -2682,7 +2688,7 @@ e-post: info _at_ inherit.se&lt;/p&gt;
               <sv:value>hippogallerypicker:imagelink</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:docbase" sv:type="String">
-              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+              <sv:value>623cd347-8e0a-45de-b244-240fbfe84ada</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
             <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
@@ -2693,7 +2699,7 @@ e-post: info _at_ inherit.se&lt;/p&gt;
               <sv:value>hippogallerypicker:imagelink</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:docbase" sv:type="String">
-              <sv:value>acd3792c-fe1f-431a-bd38-1234af67aff5</sv:value>
+              <sv:value>623cd347-8e0a-45de-b244-240fbfe84ada</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
             <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
@@ -2740,7 +2746,7 @@ e-post: info _at_ inherit.se&lt;/p&gt;
             <sv:value>2014-09-09T17:28:11.649+02:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2014-09-16T17:27:29.646+02:00</sv:value>
+            <sv:value>2014-09-17T17:11:53.009+02:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
             <sv:value>admin</sv:value>
@@ -2775,9 +2781,9 @@ e-post: info _at_ inherit.se&lt;/p&gt;
             </sv:property>
             <sv:property sv:name="hippostd:content" sv:type="String">
               <sv:value>&lt;ul&gt; 
-&lt;li&gt;Integration av ett antal avancerade k&amp;auml;llkods&amp;ouml;ppna komponenter&lt;/li&gt; 
-&lt;li&gt;Motrice merv&amp;auml;rde ligger i integrationen och dom&amp;auml;nanpassning mot processorienterade verksamhetssystem&lt;/li&gt; 
-&lt;li&gt;Webb-baserat och plattformsoberoende&lt;/li&gt; &lt;/ul&gt; 
+&lt;li&gt;Integration av k&amp;auml;llkods&amp;ouml;ppna, &amp;quot;state of the art&amp;quot;&amp;nbsp; komponenter med egenutvecklade moduler&lt;/li&gt; 
+&lt;li&gt;Resultat: System f&amp;ouml;r att konfigurera och skapa processorienterade verksamhetssystem&lt;/li&gt; 
+&lt;li&gt;&amp;quot;Magin&amp;quot; med &amp;ouml;ppen kod: Kombinera de b&amp;auml;sta generiska komponenterna och skapa dom&amp;auml;nspecifik l&amp;ouml;sning i division ett&lt;/li&gt; &lt;/ul&gt; 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;</sv:value>
             </sv:property>
           </sv:node>
@@ -2797,7 +2803,7 @@ e-post: info _at_ inherit.se&lt;/p&gt;
               <sv:value>hippogallerypicker:imagelink</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:docbase" sv:type="String">
-              <sv:value>e65a7b61-4710-4d1a-ab78-d9c294921f84</sv:value>
+              <sv:value>f10afead-b701-47a7-97f3-b167d59e5b65</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
             <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
@@ -2845,7 +2851,7 @@ e-post: info _at_ inherit.se&lt;/p&gt;
             <sv:value>2014-09-09T17:28:11.649+02:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2014-09-16T17:39:25.333+02:00</sv:value>
+            <sv:value>2014-09-17T17:11:57.719+02:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
             <sv:value>admin</sv:value>
@@ -2880,9 +2886,9 @@ e-post: info _at_ inherit.se&lt;/p&gt;
             </sv:property>
             <sv:property sv:name="hippostd:content" sv:type="String">
               <sv:value>&lt;ul&gt; 
-&lt;li&gt;Integration av ett antal avancerade k&amp;auml;llkods&amp;ouml;ppna komponenter&lt;/li&gt; 
-&lt;li&gt;Motrice merv&amp;auml;rde ligger i integrationen och dom&amp;auml;nanpassning mot processorienterade verksamhetssystem&lt;/li&gt; 
-&lt;li&gt;Webb-baserat och plattformsoberoende&lt;/li&gt; &lt;/ul&gt; 
+&lt;li&gt;Integration av k&amp;auml;llkods&amp;ouml;ppna, &amp;quot;state of the art&amp;quot;&amp;nbsp; komponenter med egenutvecklade moduler&lt;/li&gt; 
+&lt;li&gt;Resultat: System f&amp;ouml;r att konfigurera och skapa processorienterade verksamhetssystem&lt;/li&gt; 
+&lt;li&gt;&amp;quot;Magin&amp;quot; med &amp;ouml;ppen kod: Kombinera de b&amp;auml;sta generiska komponenterna och skapa dom&amp;auml;nspecifik l&amp;ouml;sning i division ett&lt;/li&gt; &lt;/ul&gt; 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;</sv:value>
             </sv:property>
           </sv:node>
@@ -2902,7 +2908,7 @@ e-post: info _at_ inherit.se&lt;/p&gt;
               <sv:value>hippogallerypicker:imagelink</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:docbase" sv:type="String">
-              <sv:value>e65a7b61-4710-4d1a-ab78-d9c294921f84</sv:value>
+              <sv:value>f10afead-b701-47a7-97f3-b167d59e5b65</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
             <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
@@ -2938,13 +2944,13 @@ e-post: info _at_ inherit.se&lt;/p&gt;
             <sv:value>2014-09-09T17:28:11.649+02:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2014-09-16T17:39:25.333+02:00</sv:value>
+            <sv:value>2014-09-17T17:11:57.719+02:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
             <sv:value>admin</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-            <sv:value>2014-09-16T17:39:41.763+02:00</sv:value>
+            <sv:value>2014-09-17T17:13:24.523+02:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippotranslation:id" sv:type="String">
             <sv:value>8cba22a0-8dab-4e0b-9ff0-233ee1d489b3</sv:value>
@@ -2976,9 +2982,9 @@ e-post: info _at_ inherit.se&lt;/p&gt;
             </sv:property>
             <sv:property sv:name="hippostd:content" sv:type="String">
               <sv:value>&lt;ul&gt; 
-&lt;li&gt;Integration av ett antal avancerade k&amp;auml;llkods&amp;ouml;ppna komponenter&lt;/li&gt; 
-&lt;li&gt;Motrice merv&amp;auml;rde ligger i integrationen och dom&amp;auml;nanpassning mot processorienterade verksamhetssystem&lt;/li&gt; 
-&lt;li&gt;Webb-baserat och plattformsoberoende&lt;/li&gt; &lt;/ul&gt; 
+&lt;li&gt;Integration av k&amp;auml;llkods&amp;ouml;ppna, &amp;quot;state of the art&amp;quot;&amp;nbsp; komponenter med egenutvecklade moduler&lt;/li&gt; 
+&lt;li&gt;Resultat: System f&amp;ouml;r att konfigurera och skapa processorienterade verksamhetssystem&lt;/li&gt; 
+&lt;li&gt;&amp;quot;Magin&amp;quot; med &amp;ouml;ppen kod: Kombinera de b&amp;auml;sta generiska komponenterna och skapa dom&amp;auml;nspecifik l&amp;ouml;sning i division ett&lt;/li&gt; &lt;/ul&gt; 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;</sv:value>
             </sv:property>
           </sv:node>
@@ -2998,7 +3004,7 @@ e-post: info _at_ inherit.se&lt;/p&gt;
               <sv:value>hippogallerypicker:imagelink</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:docbase" sv:type="String">
-              <sv:value>e65a7b61-4710-4d1a-ab78-d9c294921f84</sv:value>
+              <sv:value>f10afead-b701-47a7-97f3-b167d59e5b65</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
             <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
