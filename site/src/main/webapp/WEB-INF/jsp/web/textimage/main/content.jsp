@@ -13,19 +13,19 @@
   <hst:headContribution keyHint="headTitle" element="${headTitle}" />
 </c:if>
 
-<h1>${document.title}</h1>
-
-<c:if test="${hst:isReadable(document, 'summary') }">
-	<p class="summary">${document.summary}</p>
-</c:if>
-
 <c:if test="${hst:isReadable(document, 'image') }">
   <c:if test="${fn:length(fn:trim(document.image.original)) > 0 }">
 	  <hst:link var="img" hippobean="${document.image.original}"/>
 	  <p>
-	  <img src="${img}" title="${document.image.fileName}" alt="${document.image.fileName}"/>
+	  <img src="${img}" title="${document.image.fileName}" class="resize" alt="${document.image.fileName}"/>
 	  </p>
   </c:if>
+</c:if>
+
+<h1>${document.title}</h1>
+
+<c:if test="${hst:isReadable(document, 'summary') }">
+	<p class="summary">${document.summary}</p>
 </c:if>
 
 <hst:html hippohtml="${document.html}"/>

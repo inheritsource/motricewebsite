@@ -31,6 +31,7 @@ public class HomeHead extends BaseComponent {
 //        			TextDocument.class, true);
         	HstQuery hstQuery = hstQueryManager.
         	  createQuery((HippoBean) scope.getBean("chead"),TextImageDocument.class,true);
+        	hstQuery.addOrderByAscending("motricewebsite:seqnumber");
         	result = hstQuery.execute();
         }
         catch (Exception e) {

@@ -669,7 +669,7 @@
       <sv:value>hippo:handle</sv:value>
     </sv:property>
     <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-      <sv:value>hippo:hardhandle</sv:value>
+      <sv:value>mix:referenceable</sv:value>
       <sv:value>hippo:translated</sv:value>
     </sv:property>
     <sv:property sv:name="jcr:uuid" sv:type="String">
@@ -691,7 +691,7 @@
         <sv:value>motricewebsite:textimagedocument</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-        <sv:value>hippo:harddocument</sv:value>
+        <sv:value>mix:referenceable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>0f4294ac-53bc-4c60-809f-aac8d58ac267</sv:value>
@@ -977,7 +977,7 @@ Java och J2EE.&lt;/p&gt;
       <sv:value>hippo:handle</sv:value>
     </sv:property>
     <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-      <sv:value>hippo:hardhandle</sv:value>
+      <sv:value>mix:referenceable</sv:value>
       <sv:value>hippo:translated</sv:value>
     </sv:property>
     <sv:property sv:name="jcr:uuid" sv:type="String">
@@ -999,7 +999,7 @@ Java och J2EE.&lt;/p&gt;
         <sv:value>motricewebsite:textimagedocument</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-        <sv:value>hippo:harddocument</sv:value>
+        <sv:value>mix:referenceable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>1cbf4b1a-7f08-4d58-8cc4-003bacfa3215</sv:value>
