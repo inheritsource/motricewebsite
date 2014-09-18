@@ -1134,8 +1134,8 @@ e-post: info _at_ inherit.se&lt;/p&gt;
     </sv:property>
     <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
       <sv:value>hippotranslation:translated</sv:value>
-      <sv:value>mix:versionable</sv:value>
       <sv:value>hippo:translated</sv:value>
+      <sv:value>mix:versionable</sv:value>
     </sv:property>
     <sv:property sv:name="jcr:uuid" sv:type="String">
       <sv:value>51189ca1-77d6-47b6-9d3d-2d37eea35796</sv:value>
@@ -1156,8 +1156,8 @@ e-post: info _at_ inherit.se&lt;/p&gt;
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
         <sv:value>hippotranslation:translated</sv:value>
-        <sv:value>mix:versionable</sv:value>
         <sv:value>hippo:translated</sv:value>
+        <sv:value>mix:versionable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>44d15a5f-562b-4f56-bf78-e3c2db7ed6ff</sv:value>
@@ -2068,6 +2068,299 @@ e-post: info _at_ inherit.se&lt;/p&gt;
           </sv:node>
         </sv:node>
       </sv:node>
+      <sv:node sv:name="chead4">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:handle</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:referenceable</sv:value>
+          <sv:value>hippo:translated</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>4b7d3e96-afcb-422f-a336-5d6dcb7db6ec</sv:value>
+        </sv:property>
+        <sv:node sv:name="chead4">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>motricewebsite:textimagedocument</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:referenceable</sv:value>
+            <sv:value>mix:versionable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>2902f99b-d6dc-48a1-bade-f835a3257881</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+            <sv:value>preview</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>common/home/chead/chead4/chead4[3]</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>unpublished</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2014-09-09T15:35:25.983+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2014-09-18T11:36:29.638+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>58b6ca77-fff1-4ad2-9b1c-eb457dd6a112</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>sv</sv:value>
+          </sv:property>
+          <sv:property sv:name="motricewebsite:buttonref" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="motricewebsite:buttontxt" sv:type="String">
+            <sv:value>Mer</sv:value>
+          </sv:property>
+          <sv:property sv:name="motricewebsite:imagecaption" sv:type="String">
+            <sv:value>Samverkan och Ökk</sv:value>
+          </sv:property>
+          <sv:property sv:name="motricewebsite:seqnumber" sv:type="Long">
+            <sv:value>4</sv:value>
+          </sv:property>
+          <sv:property sv:name="motricewebsite:summary" sv:type="String">
+            <sv:value>Ta del av fördelarna med öppen källkod</sv:value>
+          </sv:property>
+          <sv:property sv:name="motricewebsite:title" sv:type="String">
+            <sv:value>Ta del av fördelarna med öppen källkod</sv:value>
+          </sv:property>
+          <sv:node sv:name="motricewebsite:body">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;h2&gt;Samverkan, synergi och &amp;ouml;ppenhet: Framtidss&amp;auml;kerhet och kostnadsreduktion&lt;/h2&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="motricewebsite:icon">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogallerypicker:imagelink</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+          <sv:node sv:name="motricewebsite:image">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogallerypicker:imagelink</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>85e52e05-5793-4627-9d7f-b6f32dd34bbb</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="hippo:translation">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:translation</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:language" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="hippo:message" sv:type="String">
+            <sv:value>Chead4</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="chead4">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>motricewebsite:textimagedocument</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>08c7734c-cd31-47f9-8fba-ebb9e0eb1eef</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>common/home/chead/chead4/chead4</sv:value>
+            <sv:value>common/home/chead/chead4/chead4[3]</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>draft</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2014-09-09T15:35:25.983+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2014-09-18T11:36:29.697+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>58b6ca77-fff1-4ad2-9b1c-eb457dd6a112</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>sv</sv:value>
+          </sv:property>
+          <sv:property sv:name="motricewebsite:buttonref" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="motricewebsite:buttontxt" sv:type="String">
+            <sv:value>Mer</sv:value>
+          </sv:property>
+          <sv:property sv:name="motricewebsite:imagecaption" sv:type="String">
+            <sv:value>Samverkan och Ökk</sv:value>
+          </sv:property>
+          <sv:property sv:name="motricewebsite:seqnumber" sv:type="Long">
+            <sv:value>4</sv:value>
+          </sv:property>
+          <sv:property sv:name="motricewebsite:summary" sv:type="String">
+            <sv:value>Ta del av fördelarna med öppen källkod</sv:value>
+          </sv:property>
+          <sv:property sv:name="motricewebsite:title" sv:type="String">
+            <sv:value>Ta del av fördelarna med öppen källkod</sv:value>
+          </sv:property>
+          <sv:node sv:name="motricewebsite:body">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;h2&gt;Samverkan, synergi och &amp;ouml;ppenhet: Framtidss&amp;auml;kerhet och kostnadsreduktion&lt;/h2&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="motricewebsite:icon">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogallerypicker:imagelink</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+          <sv:node sv:name="motricewebsite:image">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogallerypicker:imagelink</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>85e52e05-5793-4627-9d7f-b6f32dd34bbb</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="chead4">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>motricewebsite:textimagedocument</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>3fc1c5bc-3fb8-4813-93bf-a262bcb5b484</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>common/home/chead/chead4/chead4</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>published</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2014-09-09T15:35:25.983+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2014-09-18T11:36:29.638+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+            <sv:value>2014-09-18T12:02:44.547+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>58b6ca77-fff1-4ad2-9b1c-eb457dd6a112</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>sv</sv:value>
+          </sv:property>
+          <sv:property sv:name="motricewebsite:buttonref" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="motricewebsite:buttontxt" sv:type="String">
+            <sv:value>Mer</sv:value>
+          </sv:property>
+          <sv:property sv:name="motricewebsite:imagecaption" sv:type="String">
+            <sv:value>Samverkan och Ökk</sv:value>
+          </sv:property>
+          <sv:property sv:name="motricewebsite:seqnumber" sv:type="Long">
+            <sv:value>4</sv:value>
+          </sv:property>
+          <sv:property sv:name="motricewebsite:summary" sv:type="String">
+            <sv:value>Ta del av fördelarna med öppen källkod</sv:value>
+          </sv:property>
+          <sv:property sv:name="motricewebsite:title" sv:type="String">
+            <sv:value>Ta del av fördelarna med öppen källkod</sv:value>
+          </sv:property>
+          <sv:node sv:name="motricewebsite:body">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;h2&gt;Samverkan, synergi och &amp;ouml;ppenhet: Framtidss&amp;auml;kerhet och kostnadsreduktion&lt;/h2&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="motricewebsite:icon">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogallerypicker:imagelink</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+          <sv:node sv:name="motricewebsite:image">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogallerypicker:imagelink</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>85e52e05-5793-4627-9d7f-b6f32dd34bbb</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+        </sv:node>
+      </sv:node>
     </sv:node>
     <sv:node sv:name="chilights">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -2075,8 +2368,8 @@ e-post: info _at_ inherit.se&lt;/p&gt;
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
         <sv:value>hippotranslation:translated</sv:value>
-        <sv:value>mix:versionable</sv:value>
         <sv:value>hippo:translated</sv:value>
+        <sv:value>mix:versionable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>cad18be8-f890-49e5-9580-9b27d4b3487c</sv:value>
@@ -2130,7 +2423,7 @@ e-post: info _at_ inherit.se&lt;/p&gt;
             <sv:value>2014-09-09T15:37:08.545+02:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2014-09-17T17:11:12.327+02:00</sv:value>
+            <sv:value>2014-09-18T11:53:05.099+02:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
             <sv:value>admin</sv:value>
@@ -2165,9 +2458,13 @@ e-post: info _at_ inherit.se&lt;/p&gt;
             </sv:property>
             <sv:property sv:name="hippostd:content" sv:type="String">
               <sv:value>&lt;ul&gt; 
-&lt;li&gt;Inl&amp;aring;sningsfritt och framtidss&amp;auml;kert: &amp;Ouml;ppna standarder och &amp;ouml;ppen k&amp;auml;llkod&lt;/li&gt; 
-&lt;li&gt;Enkelt med enkla processer, st&amp;ouml;d f&amp;ouml;r komplexa processer&lt;/li&gt; 
 &lt;li&gt;Generellt verksamhetsst&amp;ouml;d &amp;mdash; vari ing&amp;aring;r e-tj&amp;auml;nster&lt;/li&gt; 
+&lt;li&gt;Ordning och reda i organisationens f&amp;ouml;r&amp;auml;ndringsbara arbetsfl&amp;ouml;den&lt;/li&gt; 
+&lt;li&gt;Harmoni mellan modellerade processer och verkligheten&lt;/li&gt; 
+&lt;li&gt;Enkla processer enkelt, men ocks&amp;aring; st&amp;ouml;d f&amp;ouml;r komplexitet&lt;/li&gt; 
+&lt;li&gt;Inl&amp;aring;sningsfritt och framtidss&amp;auml;kert: 
+&lt;em&gt;&amp;Ouml;ppna standarder&lt;/em&gt; och 
+&lt;em&gt;&amp;ouml;ppen k&amp;auml;llkod&lt;/em&gt;&lt;/li&gt; 
 &lt;li&gt;Webb-baserat och plattformsoberoende&lt;/li&gt; &lt;/ul&gt;</sv:value>
             </sv:property>
           </sv:node>
@@ -2235,7 +2532,7 @@ e-post: info _at_ inherit.se&lt;/p&gt;
             <sv:value>2014-09-09T15:37:08.545+02:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2014-09-17T17:11:20.557+02:00</sv:value>
+            <sv:value>2014-09-18T11:53:05.048+02:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
             <sv:value>admin</sv:value>
@@ -2270,9 +2567,13 @@ e-post: info _at_ inherit.se&lt;/p&gt;
             </sv:property>
             <sv:property sv:name="hippostd:content" sv:type="String">
               <sv:value>&lt;ul&gt; 
-&lt;li&gt;Inl&amp;aring;sningsfritt och framtidss&amp;auml;kert: &amp;Ouml;ppna standarder och &amp;ouml;ppen k&amp;auml;llkod&lt;/li&gt; 
-&lt;li&gt;Enkelt med enkla processer, st&amp;ouml;d f&amp;ouml;r komplexa processer&lt;/li&gt; 
 &lt;li&gt;Generellt verksamhetsst&amp;ouml;d &amp;mdash; vari ing&amp;aring;r e-tj&amp;auml;nster&lt;/li&gt; 
+&lt;li&gt;Ordning och reda i organisationens f&amp;ouml;r&amp;auml;ndringsbara arbetsfl&amp;ouml;den&lt;/li&gt; 
+&lt;li&gt;Harmoni mellan modellerade processer och verkligheten&lt;/li&gt; 
+&lt;li&gt;Enkla processer enkelt, men ocks&amp;aring; st&amp;ouml;d f&amp;ouml;r komplexitet&lt;/li&gt; 
+&lt;li&gt;Inl&amp;aring;sningsfritt och framtidss&amp;auml;kert: 
+&lt;em&gt;&amp;Ouml;ppna standarder&lt;/em&gt; och 
+&lt;em&gt;&amp;ouml;ppen k&amp;auml;llkod&lt;/em&gt;&lt;/li&gt; 
 &lt;li&gt;Webb-baserat och plattformsoberoende&lt;/li&gt; &lt;/ul&gt;</sv:value>
             </sv:property>
           </sv:node>
@@ -2328,13 +2629,13 @@ e-post: info _at_ inherit.se&lt;/p&gt;
             <sv:value>2014-09-09T15:37:08.545+02:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2014-09-17T17:11:20.557+02:00</sv:value>
+            <sv:value>2014-09-18T11:53:05.048+02:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
             <sv:value>admin</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-            <sv:value>2014-09-17T17:13:24.347+02:00</sv:value>
+            <sv:value>2014-09-18T12:02:06.813+02:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippotranslation:id" sv:type="String">
             <sv:value>a5240905-2c5f-4a07-9c9c-2f1ef714d318</sv:value>
@@ -2366,9 +2667,13 @@ e-post: info _at_ inherit.se&lt;/p&gt;
             </sv:property>
             <sv:property sv:name="hippostd:content" sv:type="String">
               <sv:value>&lt;ul&gt; 
-&lt;li&gt;Inl&amp;aring;sningsfritt och framtidss&amp;auml;kert: &amp;Ouml;ppna standarder och &amp;ouml;ppen k&amp;auml;llkod&lt;/li&gt; 
-&lt;li&gt;Enkelt med enkla processer, st&amp;ouml;d f&amp;ouml;r komplexa processer&lt;/li&gt; 
 &lt;li&gt;Generellt verksamhetsst&amp;ouml;d &amp;mdash; vari ing&amp;aring;r e-tj&amp;auml;nster&lt;/li&gt; 
+&lt;li&gt;Ordning och reda i organisationens f&amp;ouml;r&amp;auml;ndringsbara arbetsfl&amp;ouml;den&lt;/li&gt; 
+&lt;li&gt;Harmoni mellan modellerade processer och verkligheten&lt;/li&gt; 
+&lt;li&gt;Enkla processer enkelt, men ocks&amp;aring; st&amp;ouml;d f&amp;ouml;r komplexitet&lt;/li&gt; 
+&lt;li&gt;Inl&amp;aring;sningsfritt och framtidss&amp;auml;kert: 
+&lt;em&gt;&amp;Ouml;ppna standarder&lt;/em&gt; och 
+&lt;em&gt;&amp;ouml;ppen k&amp;auml;llkod&lt;/em&gt;&lt;/li&gt; 
 &lt;li&gt;Webb-baserat och plattformsoberoende&lt;/li&gt; &lt;/ul&gt;</sv:value>
             </sv:property>
           </sv:node>
@@ -2405,102 +2710,8 @@ e-post: info _at_ inherit.se&lt;/p&gt;
           <sv:value>hippo:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
-          <sv:value>3a575f06-e693-46cb-b817-c228d3fcefb1</sv:value>
+          <sv:value>0f1cd33b-e8d7-40fa-a325-66a6bc235541</sv:value>
         </sv:property>
-        <sv:node sv:name="chilight2">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>motricewebsite:textimagedocument</sv:value>
-          </sv:property>
-          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-            <sv:value>mix:referenceable</sv:value>
-          </sv:property>
-          <sv:property sv:name="jcr:uuid" sv:type="String">
-            <sv:value>742e9b1d-0370-4b15-90e6-c0aa95e75d82</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
-          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-            <sv:value>common/home/chilights/chilight2/chilight2[3]</sv:value>
-            <sv:value>common/home/chilights/chilight2/chilight2[2]</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostd:state" sv:type="String">
-            <sv:value>draft</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
-            <sv:value>live</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
-            <sv:value>admin</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
-            <sv:value>2014-09-09T15:38:38.972+02:00</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2014-09-17T17:30:45.294+02:00</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
-            <sv:value>admin</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippotranslation:id" sv:type="String">
-            <sv:value>d9f25e88-b2d6-401e-b6e0-a4fd3530a8ca</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippotranslation:locale" sv:type="String">
-            <sv:value>sv</sv:value>
-          </sv:property>
-          <sv:property sv:name="motricewebsite:buttonref" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="motricewebsite:buttontxt" sv:type="String">
-            <sv:value>Mer</sv:value>
-          </sv:property>
-          <sv:property sv:name="motricewebsite:imagecaption" sv:type="String">
-            <sv:value>Motrice funktioner</sv:value>
-          </sv:property>
-          <sv:property sv:name="motricewebsite:seqnumber" sv:type="Long">
-            <sv:value>3</sv:value>
-          </sv:property>
-          <sv:property sv:name="motricewebsite:summary" sv:type="String">
-            <sv:value>Motrice funktioner</sv:value>
-          </sv:property>
-          <sv:property sv:name="motricewebsite:title" sv:type="String">
-            <sv:value>Funktioner</sv:value>
-          </sv:property>
-          <sv:node sv:name="motricewebsite:body">
-            <sv:property sv:name="jcr:primaryType" sv:type="Name">
-              <sv:value>hippostd:html</sv:value>
-            </sv:property>
-            <sv:property sv:name="hippostd:content" sv:type="String">
-              <sv:value>&lt;ul&gt; 
-&lt;li&gt;Modellera, installera och &amp;quot;k&amp;ouml;r&amp;quot; processen med verklighet och modell i harmoni.&lt;/li&gt; 
-&lt;li&gt;Autenticering och &amp;quot;Single Sign On&amp;quot; enligt standard&lt;/li&gt; 
-&lt;li&gt;Funktioner f&amp;ouml;r fingranul&amp;auml;r beh&amp;ouml;righetskontroll&lt;/li&gt; 
-&lt;li&gt;&lt;em&gt;S&amp;auml;kra och &amp;ouml;msesidigt verifierbara&lt;/em&gt; signaturer&lt;/li&gt; 
-&lt;li&gt;Separat design av processdiagram och formul&amp;auml;r &amp;mdash; f&amp;ouml;r flexibilitet och &amp;aring;teranv&amp;auml;ndning&lt;/li&gt; 
-&lt;li&gt;St&amp;ouml;d f&amp;ouml;r full automatisering av processteg&lt;/li&gt; &lt;/ul&gt;</sv:value>
-            </sv:property>
-          </sv:node>
-          <sv:node sv:name="motricewebsite:icon">
-            <sv:property sv:name="jcr:primaryType" sv:type="Name">
-              <sv:value>hippogallerypicker:imagelink</sv:value>
-            </sv:property>
-            <sv:property sv:name="hippo:docbase" sv:type="String">
-              <sv:value>623cd347-8e0a-45de-b244-240fbfe84ada</sv:value>
-            </sv:property>
-            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
-            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
-            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
-          </sv:node>
-          <sv:node sv:name="motricewebsite:image">
-            <sv:property sv:name="jcr:primaryType" sv:type="Name">
-              <sv:value>hippogallerypicker:imagelink</sv:value>
-            </sv:property>
-            <sv:property sv:name="hippo:docbase" sv:type="String">
-              <sv:value>623cd347-8e0a-45de-b244-240fbfe84ada</sv:value>
-            </sv:property>
-            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
-            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
-            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
-          </sv:node>
-        </sv:node>
         <sv:node sv:name="hippo:translation">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippo:translation</sv:value>
@@ -2518,10 +2729,104 @@ e-post: info _at_ inherit.se&lt;/p&gt;
           </sv:property>
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>c73a564a-f803-4209-94ff-27566d957f6a</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>common/home/chilights/chilight2/chilight2[2]</sv:value>
+            <sv:value>common/home/chilights/chilight2/chilight2[3]</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>draft</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2014-09-09T17:28:11.649+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2014-09-18T13:26:20.948+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>8cba22a0-8dab-4e0b-9ff0-233ee1d489b3</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>sv</sv:value>
+          </sv:property>
+          <sv:property sv:name="motricewebsite:buttonref" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="motricewebsite:buttontxt" sv:type="String">
+            <sv:value>Mer</sv:value>
+          </sv:property>
+          <sv:property sv:name="motricewebsite:imagecaption" sv:type="String">
+            <sv:value>Hur?</sv:value>
+          </sv:property>
+          <sv:property sv:name="motricewebsite:seqnumber" sv:type="Long">
+            <sv:value>2</sv:value>
+          </sv:property>
+          <sv:property sv:name="motricewebsite:summary" sv:type="String">
+            <sv:value>Hur?</sv:value>
+          </sv:property>
+          <sv:property sv:name="motricewebsite:title" sv:type="String">
+            <sv:value>Hur?</sv:value>
+          </sv:property>
+          <sv:node sv:name="motricewebsite:body">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;ul&gt; 
+&lt;li&gt;Modellera, installera och &amp;quot;k&amp;ouml;r&amp;quot; processen med datorst&amp;ouml;d f&amp;ouml;r sortering och f&amp;ouml;rdelning av uppgifter&lt;/li&gt; 
+&lt;li&gt;Integration av k&amp;auml;llkods&amp;ouml;ppna, &amp;quot;state of the art&amp;quot;&amp;nbsp; komponenter med egenutvecklade moduler&lt;/li&gt; 
+&lt;li&gt;Samverkan med andra &amp;ouml;ppen-k&amp;auml;llkods-orienterade f&amp;ouml;retag och samf&amp;auml;lligheter&lt;/li&gt; 
+&lt;li&gt;Anv&amp;auml;nd 
+&lt;em&gt;&amp;ouml;ppen industristandard&lt;/em&gt; (BPMN 2.0) f&amp;ouml;r processhantering&lt;/li&gt; 
+&lt;li&gt;Resultat: Processhanteringsplattform i division ett&lt;/li&gt; &lt;/ul&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="motricewebsite:icon">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogallerypicker:imagelink</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+          <sv:node sv:name="motricewebsite:image">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogallerypicker:imagelink</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>f10afead-b701-47a7-97f3-b167d59e5b65</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="chilight2">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>motricewebsite:textimagedocument</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:referenceable</sv:value>
             <sv:value>mix:versionable</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:uuid" sv:type="String">
-            <sv:value>3975809f-31be-409e-bb87-5fcb78c7db3a</sv:value>
+            <sv:value>272a1da4-eed8-40ab-926b-aa576e5dfc01</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
             <sv:value>preview</sv:value>
@@ -2539,16 +2844,16 @@ e-post: info _at_ inherit.se&lt;/p&gt;
             <sv:value>admin</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
-            <sv:value>2014-09-09T15:38:38.972+02:00</sv:value>
+            <sv:value>2014-09-09T17:28:11.649+02:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2014-09-17T17:30:57.096+02:00</sv:value>
+            <sv:value>2014-09-18T13:26:20.912+02:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
             <sv:value>admin</sv:value>
           </sv:property>
           <sv:property sv:name="hippotranslation:id" sv:type="String">
-            <sv:value>d9f25e88-b2d6-401e-b6e0-a4fd3530a8ca</sv:value>
+            <sv:value>8cba22a0-8dab-4e0b-9ff0-233ee1d489b3</sv:value>
           </sv:property>
           <sv:property sv:name="hippotranslation:locale" sv:type="String">
             <sv:value>sv</sv:value>
@@ -2560,16 +2865,16 @@ e-post: info _at_ inherit.se&lt;/p&gt;
             <sv:value>Mer</sv:value>
           </sv:property>
           <sv:property sv:name="motricewebsite:imagecaption" sv:type="String">
-            <sv:value>Motrice funktioner</sv:value>
+            <sv:value>Hur?</sv:value>
           </sv:property>
           <sv:property sv:name="motricewebsite:seqnumber" sv:type="Long">
-            <sv:value>3</sv:value>
+            <sv:value>2</sv:value>
           </sv:property>
           <sv:property sv:name="motricewebsite:summary" sv:type="String">
-            <sv:value>Motrice funktioner</sv:value>
+            <sv:value>Hur?</sv:value>
           </sv:property>
           <sv:property sv:name="motricewebsite:title" sv:type="String">
-            <sv:value>Funktioner</sv:value>
+            <sv:value>Hur?</sv:value>
           </sv:property>
           <sv:node sv:name="motricewebsite:body">
             <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -2577,12 +2882,12 @@ e-post: info _at_ inherit.se&lt;/p&gt;
             </sv:property>
             <sv:property sv:name="hippostd:content" sv:type="String">
               <sv:value>&lt;ul&gt; 
-&lt;li&gt;Modellera, installera och &amp;quot;k&amp;ouml;r&amp;quot; processen med verklighet och modell i harmoni.&lt;/li&gt; 
-&lt;li&gt;Autenticering och &amp;quot;Single Sign On&amp;quot; enligt standard&lt;/li&gt; 
-&lt;li&gt;Funktioner f&amp;ouml;r fingranul&amp;auml;r beh&amp;ouml;righetskontroll&lt;/li&gt; 
-&lt;li&gt;&lt;em&gt;S&amp;auml;kra och &amp;ouml;msesidigt verifierbara&lt;/em&gt; signaturer&lt;/li&gt; 
-&lt;li&gt;Separat design av processdiagram och formul&amp;auml;r &amp;mdash; f&amp;ouml;r flexibilitet och &amp;aring;teranv&amp;auml;ndning&lt;/li&gt; 
-&lt;li&gt;St&amp;ouml;d f&amp;ouml;r full automatisering av processteg&lt;/li&gt; &lt;/ul&gt;</sv:value>
+&lt;li&gt;Modellera, installera och &amp;quot;k&amp;ouml;r&amp;quot; processen med datorst&amp;ouml;d f&amp;ouml;r sortering och f&amp;ouml;rdelning av uppgifter&lt;/li&gt; 
+&lt;li&gt;Integration av k&amp;auml;llkods&amp;ouml;ppna, &amp;quot;state of the art&amp;quot;&amp;nbsp; komponenter med egenutvecklade moduler&lt;/li&gt; 
+&lt;li&gt;Samverkan med andra &amp;ouml;ppen-k&amp;auml;llkods-orienterade f&amp;ouml;retag och samf&amp;auml;lligheter&lt;/li&gt; 
+&lt;li&gt;Anv&amp;auml;nd 
+&lt;em&gt;&amp;ouml;ppen industristandard&lt;/em&gt; (BPMN 2.0) f&amp;ouml;r processhantering&lt;/li&gt; 
+&lt;li&gt;Resultat: Processhanteringsplattform i division ett&lt;/li&gt; &lt;/ul&gt;</sv:value>
             </sv:property>
           </sv:node>
           <sv:node sv:name="motricewebsite:icon">
@@ -2590,7 +2895,7 @@ e-post: info _at_ inherit.se&lt;/p&gt;
               <sv:value>hippogallerypicker:imagelink</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:docbase" sv:type="String">
-              <sv:value>623cd347-8e0a-45de-b244-240fbfe84ada</sv:value>
+              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
             <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
@@ -2601,7 +2906,7 @@ e-post: info _at_ inherit.se&lt;/p&gt;
               <sv:value>hippogallerypicker:imagelink</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:docbase" sv:type="String">
-              <sv:value>623cd347-8e0a-45de-b244-240fbfe84ada</sv:value>
+              <sv:value>f10afead-b701-47a7-97f3-b167d59e5b65</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
             <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
@@ -2616,7 +2921,7 @@ e-post: info _at_ inherit.se&lt;/p&gt;
             <sv:value>mix:referenceable</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:uuid" sv:type="String">
-            <sv:value>056efa70-9f03-4782-8587-cd0767d1c934</sv:value>
+            <sv:value>60031805-1750-4e4b-8592-70963cb8323a</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
             <sv:value>live</sv:value>
@@ -2634,16 +2939,133 @@ e-post: info _at_ inherit.se&lt;/p&gt;
             <sv:value>admin</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
-            <sv:value>2014-09-09T15:38:38.972+02:00</sv:value>
+            <sv:value>2014-09-09T17:28:11.649+02:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2014-09-17T17:30:57.096+02:00</sv:value>
+            <sv:value>2014-09-18T13:26:20.912+02:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
             <sv:value>admin</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-            <sv:value>2014-09-17T17:33:09.967+02:00</sv:value>
+            <sv:value>2014-09-18T14:35:07.393+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>8cba22a0-8dab-4e0b-9ff0-233ee1d489b3</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>sv</sv:value>
+          </sv:property>
+          <sv:property sv:name="motricewebsite:buttonref" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="motricewebsite:buttontxt" sv:type="String">
+            <sv:value>Mer</sv:value>
+          </sv:property>
+          <sv:property sv:name="motricewebsite:imagecaption" sv:type="String">
+            <sv:value>Hur?</sv:value>
+          </sv:property>
+          <sv:property sv:name="motricewebsite:seqnumber" sv:type="Long">
+            <sv:value>2</sv:value>
+          </sv:property>
+          <sv:property sv:name="motricewebsite:summary" sv:type="String">
+            <sv:value>Hur?</sv:value>
+          </sv:property>
+          <sv:property sv:name="motricewebsite:title" sv:type="String">
+            <sv:value>Hur?</sv:value>
+          </sv:property>
+          <sv:node sv:name="motricewebsite:body">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;ul&gt; 
+&lt;li&gt;Modellera, installera och &amp;quot;k&amp;ouml;r&amp;quot; processen med datorst&amp;ouml;d f&amp;ouml;r sortering och f&amp;ouml;rdelning av uppgifter&lt;/li&gt; 
+&lt;li&gt;Integration av k&amp;auml;llkods&amp;ouml;ppna, &amp;quot;state of the art&amp;quot;&amp;nbsp; komponenter med egenutvecklade moduler&lt;/li&gt; 
+&lt;li&gt;Samverkan med andra &amp;ouml;ppen-k&amp;auml;llkods-orienterade f&amp;ouml;retag och samf&amp;auml;lligheter&lt;/li&gt; 
+&lt;li&gt;Anv&amp;auml;nd 
+&lt;em&gt;&amp;ouml;ppen industristandard&lt;/em&gt; (BPMN 2.0) f&amp;ouml;r processhantering&lt;/li&gt; 
+&lt;li&gt;Resultat: Processhanteringsplattform i division ett&lt;/li&gt; &lt;/ul&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="motricewebsite:icon">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogallerypicker:imagelink</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+          <sv:node sv:name="motricewebsite:image">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogallerypicker:imagelink</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>f10afead-b701-47a7-97f3-b167d59e5b65</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="chilight3">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:handle</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:referenceable</sv:value>
+          <sv:value>hippo:translated</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>3a575f06-e693-46cb-b817-c228d3fcefb1</sv:value>
+        </sv:property>
+        <sv:node sv:name="hippo:translation">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:translation</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:language" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="hippo:message" sv:type="String">
+            <sv:value>Chilight3</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="chilight3">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>motricewebsite:textimagedocument</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>742e9b1d-0370-4b15-90e6-c0aa95e75d82</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>common/home/chilights/chilight3/chilight3[3]</sv:value>
+            <sv:value>common/home/chilights/chilight3/chilight3[2]</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>draft</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2014-09-09T15:38:38.972+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2014-09-18T14:34:36.435+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
           </sv:property>
           <sv:property sv:name="hippotranslation:id" sv:type="String">
             <sv:value>d9f25e88-b2d6-401e-b6e0-a4fd3530a8ca</sv:value>
@@ -2675,12 +3097,13 @@ e-post: info _at_ inherit.se&lt;/p&gt;
             </sv:property>
             <sv:property sv:name="hippostd:content" sv:type="String">
               <sv:value>&lt;ul&gt; 
-&lt;li&gt;Modellera, installera och &amp;quot;k&amp;ouml;r&amp;quot; processen med verklighet och modell i harmoni.&lt;/li&gt; 
+&lt;li&gt;System f&amp;ouml;r att skapa och konfigurera 
+&lt;em&gt;processorienterade verksamhetssystem&lt;/em&gt;&lt;/li&gt; 
 &lt;li&gt;Autenticering och &amp;quot;Single Sign On&amp;quot; enligt standard&lt;/li&gt; 
 &lt;li&gt;Funktioner f&amp;ouml;r fingranul&amp;auml;r beh&amp;ouml;righetskontroll&lt;/li&gt; 
 &lt;li&gt;&lt;em&gt;S&amp;auml;kra och &amp;ouml;msesidigt verifierbara&lt;/em&gt; signaturer&lt;/li&gt; 
 &lt;li&gt;Separat design av processdiagram och formul&amp;auml;r &amp;mdash; f&amp;ouml;r flexibilitet och &amp;aring;teranv&amp;auml;ndning&lt;/li&gt; 
-&lt;li&gt;St&amp;ouml;d f&amp;ouml;r full automatisering av processteg&lt;/li&gt; &lt;/ul&gt;</sv:value>
+&lt;li&gt;St&amp;ouml;d f&amp;ouml;r full automatisering av processteg samt integration med omv&amp;auml;rldssystem&lt;/li&gt; &lt;/ul&gt;</sv:value>
             </sv:property>
           </sv:node>
           <sv:node sv:name="motricewebsite:icon">
@@ -2705,121 +3128,6 @@ e-post: info _at_ inherit.se&lt;/p&gt;
             <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
             <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
           </sv:node>
-        </sv:node>
-      </sv:node>
-      <sv:node sv:name="chilight3">
-        <sv:property sv:name="jcr:primaryType" sv:type="Name">
-          <sv:value>hippo:handle</sv:value>
-        </sv:property>
-        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-          <sv:value>mix:referenceable</sv:value>
-          <sv:value>hippo:translated</sv:value>
-        </sv:property>
-        <sv:property sv:name="jcr:uuid" sv:type="String">
-          <sv:value>0f1cd33b-e8d7-40fa-a325-66a6bc235541</sv:value>
-        </sv:property>
-        <sv:node sv:name="chilight3">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>motricewebsite:textimagedocument</sv:value>
-          </sv:property>
-          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-            <sv:value>mix:referenceable</sv:value>
-          </sv:property>
-          <sv:property sv:name="jcr:uuid" sv:type="String">
-            <sv:value>c73a564a-f803-4209-94ff-27566d957f6a</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
-          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-            <sv:value>common/home/chilights/chilight3/chilight3[2]</sv:value>
-            <sv:value>common/home/chilights/chilight3/chilight3[3]</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostd:state" sv:type="String">
-            <sv:value>draft</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
-            <sv:value>live</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
-            <sv:value>admin</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
-            <sv:value>2014-09-09T17:28:11.649+02:00</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2014-09-17T17:11:53.009+02:00</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
-            <sv:value>admin</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippotranslation:id" sv:type="String">
-            <sv:value>8cba22a0-8dab-4e0b-9ff0-233ee1d489b3</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippotranslation:locale" sv:type="String">
-            <sv:value>sv</sv:value>
-          </sv:property>
-          <sv:property sv:name="motricewebsite:buttonref" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="motricewebsite:buttontxt" sv:type="String">
-            <sv:value>Mer</sv:value>
-          </sv:property>
-          <sv:property sv:name="motricewebsite:imagecaption" sv:type="String">
-            <sv:value>Hur?</sv:value>
-          </sv:property>
-          <sv:property sv:name="motricewebsite:seqnumber" sv:type="Long">
-            <sv:value>2</sv:value>
-          </sv:property>
-          <sv:property sv:name="motricewebsite:summary" sv:type="String">
-            <sv:value>Hur?</sv:value>
-          </sv:property>
-          <sv:property sv:name="motricewebsite:title" sv:type="String">
-            <sv:value>Hur?</sv:value>
-          </sv:property>
-          <sv:node sv:name="motricewebsite:body">
-            <sv:property sv:name="jcr:primaryType" sv:type="Name">
-              <sv:value>hippostd:html</sv:value>
-            </sv:property>
-            <sv:property sv:name="hippostd:content" sv:type="String">
-              <sv:value>&lt;ul&gt; 
-&lt;li&gt;Integration av k&amp;auml;llkods&amp;ouml;ppna, &amp;quot;state of the art&amp;quot;&amp;nbsp; komponenter med egenutvecklade moduler&lt;/li&gt; 
-&lt;li&gt;Resultat: System f&amp;ouml;r att konfigurera och skapa processorienterade verksamhetssystem&lt;/li&gt; 
-&lt;li&gt;&amp;quot;Magin&amp;quot; med &amp;ouml;ppen kod: Kombinera de b&amp;auml;sta generiska komponenterna och skapa dom&amp;auml;nspecifik l&amp;ouml;sning i division ett&lt;/li&gt; &lt;/ul&gt; 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;</sv:value>
-            </sv:property>
-          </sv:node>
-          <sv:node sv:name="motricewebsite:icon">
-            <sv:property sv:name="jcr:primaryType" sv:type="Name">
-              <sv:value>hippogallerypicker:imagelink</sv:value>
-            </sv:property>
-            <sv:property sv:name="hippo:docbase" sv:type="String">
-              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
-            </sv:property>
-            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
-            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
-            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
-          </sv:node>
-          <sv:node sv:name="motricewebsite:image">
-            <sv:property sv:name="jcr:primaryType" sv:type="Name">
-              <sv:value>hippogallerypicker:imagelink</sv:value>
-            </sv:property>
-            <sv:property sv:name="hippo:docbase" sv:type="String">
-              <sv:value>f10afead-b701-47a7-97f3-b167d59e5b65</sv:value>
-            </sv:property>
-            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
-            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
-            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
-          </sv:node>
-        </sv:node>
-        <sv:node sv:name="hippo:translation">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippo:translation</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:language" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippo:message" sv:type="String">
-            <sv:value>Chilight3</sv:value>
-          </sv:property>
         </sv:node>
         <sv:node sv:name="chilight3">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -2830,7 +3138,7 @@ e-post: info _at_ inherit.se&lt;/p&gt;
             <sv:value>mix:versionable</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:uuid" sv:type="String">
-            <sv:value>272a1da4-eed8-40ab-926b-aa576e5dfc01</sv:value>
+            <sv:value>3975809f-31be-409e-bb87-5fcb78c7db3a</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
             <sv:value>preview</sv:value>
@@ -2848,16 +3156,16 @@ e-post: info _at_ inherit.se&lt;/p&gt;
             <sv:value>admin</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
-            <sv:value>2014-09-09T17:28:11.649+02:00</sv:value>
+            <sv:value>2014-09-09T15:38:38.972+02:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2014-09-17T17:11:57.719+02:00</sv:value>
+            <sv:value>2014-09-18T14:34:47.430+02:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
             <sv:value>admin</sv:value>
           </sv:property>
           <sv:property sv:name="hippotranslation:id" sv:type="String">
-            <sv:value>8cba22a0-8dab-4e0b-9ff0-233ee1d489b3</sv:value>
+            <sv:value>d9f25e88-b2d6-401e-b6e0-a4fd3530a8ca</sv:value>
           </sv:property>
           <sv:property sv:name="hippotranslation:locale" sv:type="String">
             <sv:value>sv</sv:value>
@@ -2869,16 +3177,16 @@ e-post: info _at_ inherit.se&lt;/p&gt;
             <sv:value>Mer</sv:value>
           </sv:property>
           <sv:property sv:name="motricewebsite:imagecaption" sv:type="String">
-            <sv:value>Hur?</sv:value>
+            <sv:value>Motrice funktioner</sv:value>
           </sv:property>
           <sv:property sv:name="motricewebsite:seqnumber" sv:type="Long">
-            <sv:value>2</sv:value>
+            <sv:value>3</sv:value>
           </sv:property>
           <sv:property sv:name="motricewebsite:summary" sv:type="String">
-            <sv:value>Hur?</sv:value>
+            <sv:value>Motrice funktioner</sv:value>
           </sv:property>
           <sv:property sv:name="motricewebsite:title" sv:type="String">
-            <sv:value>Hur?</sv:value>
+            <sv:value>Funktioner</sv:value>
           </sv:property>
           <sv:node sv:name="motricewebsite:body">
             <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -2886,10 +3194,13 @@ e-post: info _at_ inherit.se&lt;/p&gt;
             </sv:property>
             <sv:property sv:name="hippostd:content" sv:type="String">
               <sv:value>&lt;ul&gt; 
-&lt;li&gt;Integration av k&amp;auml;llkods&amp;ouml;ppna, &amp;quot;state of the art&amp;quot;&amp;nbsp; komponenter med egenutvecklade moduler&lt;/li&gt; 
-&lt;li&gt;Resultat: System f&amp;ouml;r att konfigurera och skapa processorienterade verksamhetssystem&lt;/li&gt; 
-&lt;li&gt;&amp;quot;Magin&amp;quot; med &amp;ouml;ppen kod: Kombinera de b&amp;auml;sta generiska komponenterna och skapa dom&amp;auml;nspecifik l&amp;ouml;sning i division ett&lt;/li&gt; &lt;/ul&gt; 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;</sv:value>
+&lt;li&gt;System f&amp;ouml;r att skapa och konfigurera 
+&lt;em&gt;processorienterade verksamhetssystem&lt;/em&gt;&lt;/li&gt; 
+&lt;li&gt;Autenticering och &amp;quot;Single Sign On&amp;quot; enligt standard&lt;/li&gt; 
+&lt;li&gt;Funktioner f&amp;ouml;r fingranul&amp;auml;r beh&amp;ouml;righetskontroll&lt;/li&gt; 
+&lt;li&gt;&lt;em&gt;S&amp;auml;kra och &amp;ouml;msesidigt verifierbara&lt;/em&gt; signaturer&lt;/li&gt; 
+&lt;li&gt;Separat design av processdiagram och formul&amp;auml;r &amp;mdash; f&amp;ouml;r flexibilitet och &amp;aring;teranv&amp;auml;ndning&lt;/li&gt; 
+&lt;li&gt;St&amp;ouml;d f&amp;ouml;r full automatisering av processteg samt integration med omv&amp;auml;rldssystem&lt;/li&gt; &lt;/ul&gt;</sv:value>
             </sv:property>
           </sv:node>
           <sv:node sv:name="motricewebsite:icon">
@@ -2897,7 +3208,7 @@ e-post: info _at_ inherit.se&lt;/p&gt;
               <sv:value>hippogallerypicker:imagelink</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:docbase" sv:type="String">
-              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+              <sv:value>623cd347-8e0a-45de-b244-240fbfe84ada</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
             <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
@@ -2908,7 +3219,7 @@ e-post: info _at_ inherit.se&lt;/p&gt;
               <sv:value>hippogallerypicker:imagelink</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:docbase" sv:type="String">
-              <sv:value>f10afead-b701-47a7-97f3-b167d59e5b65</sv:value>
+              <sv:value>623cd347-8e0a-45de-b244-240fbfe84ada</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
             <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
@@ -2923,7 +3234,7 @@ e-post: info _at_ inherit.se&lt;/p&gt;
             <sv:value>mix:referenceable</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:uuid" sv:type="String">
-            <sv:value>60031805-1750-4e4b-8592-70963cb8323a</sv:value>
+            <sv:value>056efa70-9f03-4782-8587-cd0767d1c934</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
             <sv:value>live</sv:value>
@@ -2941,19 +3252,19 @@ e-post: info _at_ inherit.se&lt;/p&gt;
             <sv:value>admin</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
-            <sv:value>2014-09-09T17:28:11.649+02:00</sv:value>
+            <sv:value>2014-09-09T15:38:38.972+02:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2014-09-17T17:11:57.719+02:00</sv:value>
+            <sv:value>2014-09-18T14:34:47.430+02:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
             <sv:value>admin</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-            <sv:value>2014-09-17T17:13:24.523+02:00</sv:value>
+            <sv:value>2014-09-18T14:34:53.094+02:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippotranslation:id" sv:type="String">
-            <sv:value>8cba22a0-8dab-4e0b-9ff0-233ee1d489b3</sv:value>
+            <sv:value>d9f25e88-b2d6-401e-b6e0-a4fd3530a8ca</sv:value>
           </sv:property>
           <sv:property sv:name="hippotranslation:locale" sv:type="String">
             <sv:value>sv</sv:value>
@@ -2965,16 +3276,16 @@ e-post: info _at_ inherit.se&lt;/p&gt;
             <sv:value>Mer</sv:value>
           </sv:property>
           <sv:property sv:name="motricewebsite:imagecaption" sv:type="String">
-            <sv:value>Hur?</sv:value>
+            <sv:value>Motrice funktioner</sv:value>
           </sv:property>
           <sv:property sv:name="motricewebsite:seqnumber" sv:type="Long">
-            <sv:value>2</sv:value>
+            <sv:value>3</sv:value>
           </sv:property>
           <sv:property sv:name="motricewebsite:summary" sv:type="String">
-            <sv:value>Hur?</sv:value>
+            <sv:value>Motrice funktioner</sv:value>
           </sv:property>
           <sv:property sv:name="motricewebsite:title" sv:type="String">
-            <sv:value>Hur?</sv:value>
+            <sv:value>Funktioner</sv:value>
           </sv:property>
           <sv:node sv:name="motricewebsite:body">
             <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -2982,10 +3293,13 @@ e-post: info _at_ inherit.se&lt;/p&gt;
             </sv:property>
             <sv:property sv:name="hippostd:content" sv:type="String">
               <sv:value>&lt;ul&gt; 
-&lt;li&gt;Integration av k&amp;auml;llkods&amp;ouml;ppna, &amp;quot;state of the art&amp;quot;&amp;nbsp; komponenter med egenutvecklade moduler&lt;/li&gt; 
-&lt;li&gt;Resultat: System f&amp;ouml;r att konfigurera och skapa processorienterade verksamhetssystem&lt;/li&gt; 
-&lt;li&gt;&amp;quot;Magin&amp;quot; med &amp;ouml;ppen kod: Kombinera de b&amp;auml;sta generiska komponenterna och skapa dom&amp;auml;nspecifik l&amp;ouml;sning i division ett&lt;/li&gt; &lt;/ul&gt; 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;</sv:value>
+&lt;li&gt;System f&amp;ouml;r att skapa och konfigurera 
+&lt;em&gt;processorienterade verksamhetssystem&lt;/em&gt;&lt;/li&gt; 
+&lt;li&gt;Autenticering och &amp;quot;Single Sign On&amp;quot; enligt standard&lt;/li&gt; 
+&lt;li&gt;Funktioner f&amp;ouml;r fingranul&amp;auml;r beh&amp;ouml;righetskontroll&lt;/li&gt; 
+&lt;li&gt;&lt;em&gt;S&amp;auml;kra och &amp;ouml;msesidigt verifierbara&lt;/em&gt; signaturer&lt;/li&gt; 
+&lt;li&gt;Separat design av processdiagram och formul&amp;auml;r &amp;mdash; f&amp;ouml;r flexibilitet och &amp;aring;teranv&amp;auml;ndning&lt;/li&gt; 
+&lt;li&gt;St&amp;ouml;d f&amp;ouml;r full automatisering av processteg samt integration med omv&amp;auml;rldssystem&lt;/li&gt; &lt;/ul&gt;</sv:value>
             </sv:property>
           </sv:node>
           <sv:node sv:name="motricewebsite:icon">
@@ -2993,7 +3307,7 @@ e-post: info _at_ inherit.se&lt;/p&gt;
               <sv:value>hippogallerypicker:imagelink</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:docbase" sv:type="String">
-              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+              <sv:value>623cd347-8e0a-45de-b244-240fbfe84ada</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
             <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
@@ -3004,7 +3318,7 @@ e-post: info _at_ inherit.se&lt;/p&gt;
               <sv:value>hippogallerypicker:imagelink</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:docbase" sv:type="String">
-              <sv:value>f10afead-b701-47a7-97f3-b167d59e5b65</sv:value>
+              <sv:value>623cd347-8e0a-45de-b244-240fbfe84ada</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
             <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
