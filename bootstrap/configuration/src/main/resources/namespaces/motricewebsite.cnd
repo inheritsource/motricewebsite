@@ -7,10 +7,13 @@
 [motricewebsite:basedocument] > hippo:document, hippostd:publishableSummary, hippostdpubwf:document
   orderable
 
-[motricewebsite:newsdocument] > hippostd:relaxed, motricewebsite:basedocument
+[motricewebsite:textdocument] > hippostd:relaxed, motricewebsite:basedocument
   orderable
 
-[motricewebsite:textdocument] > hippostd:relaxed, motricewebsite:basedocument
+[motricewebsite:jumbotrondocument] > hippostd:relaxed, hippotranslation:translated, motricewebsite:textdocument
+  orderable
+
+[motricewebsite:newsdocument] > hippostd:relaxed, motricewebsite:basedocument
   orderable
 
 [motricewebsite:textimagedocument] > hippostd:relaxed, hippotranslation:translated, motricewebsite:textdocument

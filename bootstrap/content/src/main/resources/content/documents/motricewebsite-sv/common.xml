@@ -330,9 +330,6 @@
         <sv:value>common/about-us/about-us</sv:value>
         <sv:value>common/about-us/about-us[2]</sv:value>
       </sv:property>
-      <sv:property sv:name="hippostd:holder" sv:type="String">
-        <sv:value>admin</sv:value>
-      </sv:property>
       <sv:property sv:name="hippostd:state" sv:type="String">
         <sv:value>draft</sv:value>
       </sv:property>
@@ -2858,7 +2855,7 @@ e-post: info _at_ inherit.se&lt;/p&gt;
       <sv:value>hippo:translated</sv:value>
     </sv:property>
     <sv:property sv:name="jcr:uuid" sv:type="String">
-      <sv:value>66556a7b-b2ee-458a-9090-c8e84d4c7826</sv:value>
+      <sv:value>3b27d7a8-4479-4706-adcf-81228ab943a1</sv:value>
     </sv:property>
     <sv:node sv:name="hippo:translation">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -2873,18 +2870,18 @@ e-post: info _at_ inherit.se&lt;/p&gt;
     </sv:node>
     <sv:node sv:name="contact">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
-        <sv:value>motricewebsite:textimagedocument</sv:value>
+        <sv:value>motricewebsite:jumbotrondocument</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
         <sv:value>mix:referenceable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
-        <sv:value>0a077ca1-cf1c-4c39-9ed5-310328a5b6f1</sv:value>
+        <sv:value>16050b15-5217-4e8a-b545-9674821db280</sv:value>
       </sv:property>
       <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
       <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-        <sv:value>common/contact/contact[3]</sv:value>
         <sv:value>common/contact/contact[2]</sv:value>
+        <sv:value>common/contact/contact[3]</sv:value>
       </sv:property>
       <sv:property sv:name="hippostd:state" sv:type="String">
         <sv:value>draft</sv:value>
@@ -2896,16 +2893,16 @@ e-post: info _at_ inherit.se&lt;/p&gt;
         <sv:value>admin</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
-        <sv:value>2014-09-18T16:24:45.678+02:00</sv:value>
+        <sv:value>2014-09-19T15:09:06.141+02:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-        <sv:value>2014-09-18T16:24:46.006+02:00</sv:value>
+        <sv:value>2014-09-19T16:58:45.814+02:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
         <sv:value>admin</sv:value>
       </sv:property>
       <sv:property sv:name="hippotranslation:id" sv:type="String">
-        <sv:value>7052b23a-3bdc-48ad-b4ca-ae1dc6992aac</sv:value>
+        <sv:value>b30fad0c-9f99-4bd0-a514-d3ea954f34ff</sv:value>
       </sv:property>
       <sv:property sv:name="hippotranslation:locale" sv:type="String">
         <sv:value>sv</sv:value>
@@ -2917,13 +2914,13 @@ e-post: info _at_ inherit.se&lt;/p&gt;
         <sv:value/>
       </sv:property>
       <sv:property sv:name="motricewebsite:imagecaption" sv:type="String">
-        <sv:value/>
+        <sv:value>Kontakt Caption</sv:value>
       </sv:property>
       <sv:property sv:name="motricewebsite:seqnumber" sv:type="Long">
-        <sv:value>1</sv:value>
+        <sv:value>0</sv:value>
       </sv:property>
       <sv:property sv:name="motricewebsite:summary" sv:type="String">
-        <sv:value/>
+        <sv:value>Kontakt summary...</sv:value>
       </sv:property>
       <sv:property sv:name="motricewebsite:title" sv:type="String">
         <sv:value>Kontakt</sv:value>
@@ -2945,7 +2942,8 @@ e-post: info _at_ inherit.se&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Bes&amp;ouml;ksadress: &amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;/strong&gt;&lt;/p&gt; 
 &lt;p&gt;Motrice AB&lt;/p&gt; 
 &lt;p&gt;J&amp;auml;rnv&amp;auml;gsg. 36&lt;/p&gt; 
-&lt;p&gt;131 54 NACKA&lt;/p&gt;</sv:value>
+&lt;p&gt;131 54 NACKA&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</sv:value>
         </sv:property>
       </sv:node>
       <sv:node sv:name="motricewebsite:icon">
@@ -2964,23 +2962,31 @@ e-post: info _at_ inherit.se&lt;/p&gt;
           <sv:value>hippogallerypicker:imagelink</sv:value>
         </sv:property>
         <sv:property sv:name="hippo:docbase" sv:type="String">
-          <sv:value>85e52e05-5793-4627-9d7f-b6f32dd34bbb</sv:value>
+          <sv:value>6974531d-9b1a-4408-b1aa-5da753747df8</sv:value>
         </sv:property>
         <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
         <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
         <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
       </sv:node>
+      <sv:node sv:name="motricewebsite:jumbotxt">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;p&gt;Kontakta Motrice&lt;/p&gt;</sv:value>
+        </sv:property>
+      </sv:node>
     </sv:node>
     <sv:node sv:name="contact">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
-        <sv:value>motricewebsite:textimagedocument</sv:value>
+        <sv:value>motricewebsite:jumbotrondocument</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
         <sv:value>mix:referenceable</sv:value>
         <sv:value>mix:versionable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
-        <sv:value>cd330673-2f15-43ff-82d4-cf21f2f5c1d4</sv:value>
+        <sv:value>4f6a40c0-34f1-4bca-ad33-83deb252a29f</sv:value>
       </sv:property>
       <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
         <sv:value>preview</sv:value>
@@ -2998,16 +3004,16 @@ e-post: info _at_ inherit.se&lt;/p&gt;
         <sv:value>admin</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
-        <sv:value>2014-09-18T16:24:45.678+02:00</sv:value>
+        <sv:value>2014-09-19T15:09:06.141+02:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-        <sv:value>2014-09-18T16:36:34.997+02:00</sv:value>
+        <sv:value>2014-09-19T17:01:13.288+02:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
         <sv:value>admin</sv:value>
       </sv:property>
       <sv:property sv:name="hippotranslation:id" sv:type="String">
-        <sv:value>7052b23a-3bdc-48ad-b4ca-ae1dc6992aac</sv:value>
+        <sv:value>b30fad0c-9f99-4bd0-a514-d3ea954f34ff</sv:value>
       </sv:property>
       <sv:property sv:name="hippotranslation:locale" sv:type="String">
         <sv:value>sv</sv:value>
@@ -3019,13 +3025,13 @@ e-post: info _at_ inherit.se&lt;/p&gt;
         <sv:value/>
       </sv:property>
       <sv:property sv:name="motricewebsite:imagecaption" sv:type="String">
-        <sv:value/>
+        <sv:value>Kontakt Caption</sv:value>
       </sv:property>
       <sv:property sv:name="motricewebsite:seqnumber" sv:type="Long">
-        <sv:value>1</sv:value>
+        <sv:value>0</sv:value>
       </sv:property>
       <sv:property sv:name="motricewebsite:summary" sv:type="String">
-        <sv:value/>
+        <sv:value>Kontakt summary...</sv:value>
       </sv:property>
       <sv:property sv:name="motricewebsite:title" sv:type="String">
         <sv:value>Kontakt</sv:value>
@@ -3047,7 +3053,8 @@ e-post: info _at_ inherit.se&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Bes&amp;ouml;ksadress: &amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;/strong&gt;&lt;/p&gt; 
 &lt;p&gt;Motrice AB&lt;/p&gt; 
 &lt;p&gt;J&amp;auml;rnv&amp;auml;gsg. 36&lt;/p&gt; 
-&lt;p&gt;131 54 NACKA&lt;/p&gt;</sv:value>
+&lt;p&gt;131 54 NACKA&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</sv:value>
         </sv:property>
       </sv:node>
       <sv:node sv:name="motricewebsite:icon">
@@ -3066,22 +3073,30 @@ e-post: info _at_ inherit.se&lt;/p&gt;
           <sv:value>hippogallerypicker:imagelink</sv:value>
         </sv:property>
         <sv:property sv:name="hippo:docbase" sv:type="String">
-          <sv:value>85e52e05-5793-4627-9d7f-b6f32dd34bbb</sv:value>
+          <sv:value>6974531d-9b1a-4408-b1aa-5da753747df8</sv:value>
         </sv:property>
         <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
         <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
         <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
       </sv:node>
+      <sv:node sv:name="motricewebsite:jumbotxt">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;p&gt;Kontakta Motrice&lt;/p&gt;</sv:value>
+        </sv:property>
+      </sv:node>
     </sv:node>
     <sv:node sv:name="contact">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
-        <sv:value>motricewebsite:textimagedocument</sv:value>
+        <sv:value>motricewebsite:jumbotrondocument</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
         <sv:value>mix:referenceable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
-        <sv:value>c39c1f77-290f-47ab-a5ea-3994abaa534f</sv:value>
+        <sv:value>cad3dfe6-8687-4e9f-8176-cd01bed4e4d0</sv:value>
       </sv:property>
       <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
         <sv:value>live</sv:value>
@@ -3099,19 +3114,19 @@ e-post: info _at_ inherit.se&lt;/p&gt;
         <sv:value>admin</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
-        <sv:value>2014-09-18T16:24:45.678+02:00</sv:value>
+        <sv:value>2014-09-19T15:09:06.141+02:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-        <sv:value>2014-09-18T16:36:34.997+02:00</sv:value>
+        <sv:value>2014-09-19T17:01:13.288+02:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
         <sv:value>admin</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-        <sv:value>2014-09-18T16:43:46.612+02:00</sv:value>
+        <sv:value>2014-09-19T17:01:27.991+02:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippotranslation:id" sv:type="String">
-        <sv:value>7052b23a-3bdc-48ad-b4ca-ae1dc6992aac</sv:value>
+        <sv:value>b30fad0c-9f99-4bd0-a514-d3ea954f34ff</sv:value>
       </sv:property>
       <sv:property sv:name="hippotranslation:locale" sv:type="String">
         <sv:value>sv</sv:value>
@@ -3123,13 +3138,13 @@ e-post: info _at_ inherit.se&lt;/p&gt;
         <sv:value/>
       </sv:property>
       <sv:property sv:name="motricewebsite:imagecaption" sv:type="String">
-        <sv:value/>
+        <sv:value>Kontakt Caption</sv:value>
       </sv:property>
       <sv:property sv:name="motricewebsite:seqnumber" sv:type="Long">
-        <sv:value>1</sv:value>
+        <sv:value>0</sv:value>
       </sv:property>
       <sv:property sv:name="motricewebsite:summary" sv:type="String">
-        <sv:value/>
+        <sv:value>Kontakt summary...</sv:value>
       </sv:property>
       <sv:property sv:name="motricewebsite:title" sv:type="String">
         <sv:value>Kontakt</sv:value>
@@ -3151,7 +3166,8 @@ e-post: info _at_ inherit.se&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Bes&amp;ouml;ksadress: &amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;/strong&gt;&lt;/p&gt; 
 &lt;p&gt;Motrice AB&lt;/p&gt; 
 &lt;p&gt;J&amp;auml;rnv&amp;auml;gsg. 36&lt;/p&gt; 
-&lt;p&gt;131 54 NACKA&lt;/p&gt;</sv:value>
+&lt;p&gt;131 54 NACKA&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</sv:value>
         </sv:property>
       </sv:node>
       <sv:node sv:name="motricewebsite:icon">
@@ -3170,11 +3186,19 @@ e-post: info _at_ inherit.se&lt;/p&gt;
           <sv:value>hippogallerypicker:imagelink</sv:value>
         </sv:property>
         <sv:property sv:name="hippo:docbase" sv:type="String">
-          <sv:value>85e52e05-5793-4627-9d7f-b6f32dd34bbb</sv:value>
+          <sv:value>6974531d-9b1a-4408-b1aa-5da753747df8</sv:value>
         </sv:property>
         <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
         <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
         <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+      </sv:node>
+      <sv:node sv:name="motricewebsite:jumbotxt">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;p&gt;Kontakta Motrice&lt;/p&gt;</sv:value>
+        </sv:property>
       </sv:node>
     </sv:node>
   </sv:node>
