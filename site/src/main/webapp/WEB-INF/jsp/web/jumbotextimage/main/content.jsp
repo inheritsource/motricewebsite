@@ -17,7 +17,7 @@
 	<c:if test="${fn:length(fn:trim(document.image.original)) > 0 }">
 		<hst:link var="img" hippobean="${document.image.original}" />
 		<!-- <img src="${img}" title="${document.image.fileName}" class="resize" alt="${document.image.fileName}"/>-->
-		<div class="jumbotron" style="background-image: url(${img})">
+		<div class="jumbotron" style="background-size: 100%; background-image: url(${img})">
 			<hst:html hippohtml="${document.jumboContent}" />
 		</div>
 	</c:if>
@@ -25,8 +25,10 @@
 
 <h1>${document.title}</h1>
 
+<!--
 <c:if test="${hst:isReadable(document, 'summary') }">
 	<p class="summary">${document.summary}</p>
 </c:if>
+-->
 
 <hst:html hippohtml="${document.html}" />

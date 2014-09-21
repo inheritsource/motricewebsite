@@ -13,49 +13,54 @@
 
 <!-- Carousel
     ================================================== -->
-<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="8000" data-pause="hover">
-	<!-- Indicators -->
-	<ol class="carousel-indicators">
-		<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-		<li data-target="#myCarousel" data-slide-to="1"></li>
-		<li data-target="#myCarousel" data-slide-to="2"></li>
-		<li data-target="#myCarousel" data-slide-to="3"></li>
-	</ol>
-	<div class="carousel-inner">
-		<%!Boolean seen = false;%>
-		<c:forEach var="item" items="${result.hippoBeans}">
-			<%
-				if (seen) {
-			%>
-			<div class="item">
+<div class="container">
+	<div id="myCarousel" class="carousel slide" data-ride="carousel"
+		data-interval="8000" data-pause="hover">
+		<!-- Indicators -->
+		<ol class="carousel-indicators">
+			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			<li data-target="#myCarousel" data-slide-to="1"></li>
+			<li data-target="#myCarousel" data-slide-to="2"></li>
+			<li data-target="#myCarousel" data-slide-to="3"></li>
+		</ol>
+		<div class="carousel-inner">
+			<%!Boolean seen = false;%>
+			<c:forEach var="item" items="${result.hippoBeans}">
 				<%
-					} else {
+					if (seen) {
 				%>
-				<div class="item active">
+				<div class="item">
 					<%
-						seen = true;
-							}
+						} else {
 					%>
-					<hst:link var="img" hippobean="${item.image.original}" />
-					<div style="height:300px;">
-						<img src="${img}" class="resize" title="${item.title}" alt="${item.title}" />
-					</div>
-					<div class="container">
-						<div class="carousel-caption">
-							<h1>${item.summary}</h1>
-							<hst:html hippohtml="${item.html}" />
-							<p>
-								<a class="btn btn-lg btn-primary btn-carousel" href="#" role="button">${item.buttonTxt} &raquo;</a>
-							</p>
+					<div class="item active">
+						<%
+							seen = true;
+								}
+						%>
+						<hst:link var="img" hippobean="${item.image.original}" />
+						<div style="height: 300px;">
+							<img src="${img}" class="resize" title="${item.title}"
+								alt="${item.title}" />
 						</div>
+							<div class="carousel-caption">
+								<h1>${item.summary}</h1>
+								<hst:html hippohtml="${item.html}" />
+								<p>
+									<a class="btn btn-lg btn-primary btn-carousel" href="#"
+										role="button">${item.buttonTxt} &raquo;</a>
+								</p>
+							</div>
 					</div>
-				</div>
-		</c:forEach>
-		<%
-			seen = false;
-		%>
+			</c:forEach>
+			<%
+				seen = false;
+			%>
+		</div>
+		<a class="left carousel-control" href="#myCarousel" role="button"
+			data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+		<a class="right carousel-control" href="#myCarousel" role="button"
+			data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+		<!-- /.carousel -->
 	</div>
-	<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
-	<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
-<!-- /.carousel -->
 </div>

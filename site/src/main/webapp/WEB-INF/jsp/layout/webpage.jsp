@@ -11,11 +11,11 @@
 <hst:link var="link" path="/dist/css/bootstrap.css" />
 <link rel="stylesheet" href="${link}" type="text/css" />
 
-    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+<!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+<!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
 
-    <hst:link var="emwlink" path="/assets/js/ie-emulation-modes-warning.js" />
-    <script src="${emwlink}"></script>
+<hst:link var="emwlink" path="/assets/js/ie-emulation-modes-warning.js" />
+<script src="${emwlink}"></script>
 
 <!-- Custom styles for this template -->
 <hst:link var="link2" path="/css/motrice_style.css" />
@@ -32,11 +32,9 @@
     <![endif]-->
 </head>
 <body>
-	<div class="container">
-		<hst:include ref="header" />
-		<hst:include ref="main" />
-		<hst:headContributions categoryIncludes="scripts" xhtml="true" />
-	</div>
+	<hst:include ref="header" />
+	<hst:include ref="main" />
+	<hst:headContributions categoryIncludes="scripts" xhtml="true" />
 	<!-- Bootstrap core JavaScript
     ================================================== -->
 	<!-- Placed at the end of the document so the pages load faster -->
@@ -46,6 +44,5 @@
 	<script src="/site/assets/js/docs.min.js"></script>
 	<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
 	<script src="/site/assets/js/ie10-viewport-bug-workaround.js"></script>
-
 </body>
 </html>
