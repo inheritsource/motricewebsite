@@ -39,7 +39,7 @@
 								}
 						%>
 						<hst:link var="img" hippobean="${item.image.original}" />
-						<div style="height: 300px;">
+						<div style="height: 250px;">
 							<img src="${img}" class="resize" title="${item.title}"
 								alt="${item.title}" />
 						</div>
@@ -47,7 +47,7 @@
 								<h1>${item.summary}</h1>
 								<hst:html hippohtml="${item.html}" />
 								<p>
-									<a class="btn btn-lg btn-primary btn-carousel" href="#"
+									<a style="display: none;" class="btn btn-lg btn-primary btn-carousel" href="#"
 										role="button">${item.buttonTxt} &raquo;</a>
 								</p>
 							</div>

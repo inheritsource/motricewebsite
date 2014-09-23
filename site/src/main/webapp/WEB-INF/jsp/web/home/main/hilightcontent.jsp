@@ -30,15 +30,16 @@
 				<h2>${item.title}</h2>
 				<hst:html hippohtml="${item.html}" fullyQualifiedLinks="true" />
 				<p>
-					<a class="btn btn-default" href="#" role="button">${item.buttonTxt} &raquo;</a>
+					<a style="display: none;" class="btn btn-default" href="#"
+						role="button">${item.buttonTxt} &raquo;</a>
 				</p>
 			</div>
 			<!-- /.col-lg-4 -->
 		</c:forEach>
 	</div>
 	<!-- /.row -->
+	<footer>
+		<p>&copy; Motrice AB 2014</p>
+	</footer>
 </div>
 
-<footer>
-	<p>&copy; Motrice AB 2014</p>
-</footer>

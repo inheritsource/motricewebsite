@@ -228,8 +228,8 @@ e-post: info _at_ inherit.se&lt;/p&gt;
     </sv:property>
     <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
       <sv:value>hippotranslation:translated</sv:value>
-      <sv:value>hippo:translated</sv:value>
       <sv:value>mix:versionable</sv:value>
+      <sv:value>hippo:translated</sv:value>
     </sv:property>
     <sv:property sv:name="jcr:uuid" sv:type="String">
       <sv:value>51189ca1-77d6-47b6-9d3d-2d37eea35796</sv:value>
@@ -250,8 +250,8 @@ e-post: info _at_ inherit.se&lt;/p&gt;
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
         <sv:value>hippotranslation:translated</sv:value>
-        <sv:value>hippo:translated</sv:value>
         <sv:value>mix:versionable</sv:value>
+        <sv:value>hippo:translated</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>44d15a5f-562b-4f56-bf78-e3c2db7ed6ff</sv:value>
@@ -316,7 +316,7 @@ e-post: info _at_ inherit.se&lt;/p&gt;
             <sv:value>2014-09-09T15:31:03.042+02:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2014-09-17T17:45:21.101+02:00</sv:value>
+            <sv:value>2014-09-22T16:59:56.285+02:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
             <sv:value>admin</sv:value>
@@ -1462,8 +1462,8 @@ e-post: info _at_ inherit.se&lt;/p&gt;
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
         <sv:value>hippotranslation:translated</sv:value>
-        <sv:value>hippo:translated</sv:value>
         <sv:value>mix:versionable</sv:value>
+        <sv:value>hippo:translated</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>cad18be8-f890-49e5-9580-9b27d4b3487c</sv:value>
@@ -2850,7 +2850,7 @@ e-post: info _at_ inherit.se&lt;/p&gt;
         <sv:value>2014-09-21T17:21:36.807+02:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-        <sv:value>2014-09-22T13:57:16.087+02:00</sv:value>
+        <sv:value>2014-09-23T18:03:17.570+02:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
         <sv:value>admin</sv:value>
@@ -2877,24 +2877,27 @@ e-post: info _at_ inherit.se&lt;/p&gt;
         <sv:value>Motrice - stöd för verksamhetens processer på verksamhetens villkor</sv:value>
       </sv:property>
       <sv:property sv:name="motricewebsite:title" sv:type="String">
-        <sv:value>Företaget</sv:value>
+        <sv:value>Motrice AB</sv:value>
       </sv:property>
       <sv:node sv:name="motricewebsite:body">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>hippostd:html</sv:value>
         </sv:property>
         <sv:property sv:name="hippostd:content" sv:type="String">
-          <sv:value>&lt;p&gt;Motrice AB &amp;auml;r ett it-f&amp;ouml;retag som grundades 2013 och som specialiserar sig p&amp;aring; utveckling av k&amp;auml;llkods&amp;ouml;ppna, systemst&amp;ouml;dda verksamhetsprocesser enligt BPMN2-standarden.&lt;/p&gt; 
+          <sv:value>&lt;p&gt;&lt;strong&gt;Motrice AB&lt;/strong&gt; &amp;auml;r ett it-f&amp;ouml;retag som grundades 2013 och som specialiserar sig p&amp;aring; utveckling av k&amp;auml;llkods&amp;ouml;ppna, systemst&amp;ouml;dda verksamhetsprocesser enligt BPMN2-standarden.&lt;/p&gt; 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt; 
 &lt;h2&gt;Aff&amp;auml;rsid&amp;eacute;&lt;/h2&gt; 
 &lt;p&gt;V&amp;aring;r aff&amp;auml;rsid&amp;eacute; &amp;auml;r att leverera kostnadseffektiva och verksamhetsst&amp;ouml;djande l&amp;ouml;sningar och tj&amp;auml;nster baserade p&amp;aring; den k&amp;auml;llkods&amp;ouml;ppna processplattformen Motrice BPM.&lt;/p&gt; 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt; 
 &lt;h2&gt;Om oss&lt;/h2&gt; 
-&lt;p&gt;&lt;strong&gt;Roland Hedayat&lt;/strong&gt; (M.Sc. i datavetenskap, Uppsala Univ.) har arbetat med IT i 30 &amp;aring;r , varav ca: 20 &amp;aring;r som frist&amp;aring;ende it-konsult. Roland har haft anst&amp;auml;llningar och uppdrag inom b&amp;aring;de privat och offentlig sektor. De senare &amp;aring;rens konsultuppdrag har haft anknytning till sjukv&amp;aring;rdsrelaterad it, med l&amp;ouml;sningar kring journalsystemintegration, infrastruktur och arkitektur.&lt;/p&gt; 
+&lt;p&gt;&lt;strong&gt;Roland Hedayat&lt;/strong&gt; (M.Sc. i datavetenskap, Uppsala Univ.) har arbetat med IT i 30 &amp;aring;r , varav ca: 20 &amp;aring;r som frist&amp;aring;ende it-konsult.&amp;nbsp; De senare &amp;aring;rens konsultuppdrag har haft anknytning till sjukv&amp;aring;rdsrelaterad it, med l&amp;ouml;sningar kring journalsystemintegration, infrastruktur och arkitektur.&lt;/p&gt; 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt; 
-&lt;p&gt;&lt;strong&gt;Bj&amp;ouml;rn Molin&lt;/strong&gt; (civilingenj&amp;ouml;r M.Sc.EE KTH) har gedigen erfarenhet av utveckling av IT-system f&amp;ouml;r h&amp;auml;lsov&amp;aring;rd och l&amp;auml;kemedel. Huvudsakligen har Bj&amp;ouml;rn arbetat i utvecklar- eller arkitektroll med databasn&amp;auml;ra programmering men &amp;auml;ven med anv&amp;auml;ndargr&amp;auml;nssnitt. Bj&amp;ouml;rn har varit anst&amp;auml;lld eller haft konsultuppdrag p&amp;aring; Stockholms L&amp;auml;ns Landsting, Inid AB och Inera AB d&amp;auml;r han har gjort l&amp;ouml;sningar som anv&amp;auml;nds av alla landsting.&lt;/p&gt; 
+&lt;p&gt;&lt;strong&gt;Bj&amp;ouml;rn Molin&lt;/strong&gt; (civilingenj&amp;ouml;r M.Sc.EE KTH) har l&amp;aring;ng erfarenhet av utveckling av IT-system f&amp;ouml;r h&amp;auml;lsov&amp;aring;rd och l&amp;auml;kemedel. Huvudsakligen har Bj&amp;ouml;rn arbetat i utvecklar- eller arkitektroll med databasn&amp;auml;ra programmering men &amp;auml;ven med anv&amp;auml;ndargr&amp;auml;nssnitt. Bj&amp;ouml;rn har varit anst&amp;auml;lld eller haft konsultuppdrag p&amp;aring; Stockholms L&amp;auml;ns Landsting, Inid AB och Inera AB d&amp;auml;r han har gjort l&amp;ouml;sningar som anv&amp;auml;nds av alla landsting.&lt;/p&gt; 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt; 
-&lt;p&gt;&lt;strong&gt;Thomas &amp;Ouml;stman&lt;/strong&gt; xxxxyyy&lt;/p&gt; 
+&lt;p&gt;&lt;strong&gt;Thomas &amp;Ouml;stman&lt;/strong&gt; (civilingenj&amp;ouml;r M.Sc.EE KTH, licentiat signalbehandling KTH) har l&amp;aring;ng erfarenhet fr&amp;aring;n arbete i halvledar- och telekomindustrin. D&amp;auml;r har Thomas fr&amp;auml;mst arbetat med&amp;nbsp; systemering, modellering och simulering&amp;nbsp; av kretsar och system.&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;&lt;strong&gt;H&amp;aring;kan S&amp;ouml;derstr&amp;ouml;m&lt;/strong&gt;&amp;nbsp;(civ.ing KTH) Har arbetat som it-konsult i &amp;ouml;ver 25 &amp;aring;r, bland annat inom elektronik-CAD och telekom. H&amp;aring;kan har l&amp;aring;ng erfarenhet fr&amp;aring;n arkitekturfr&amp;aring;gor och &amp;quot;server side&amp;quot;, databasn&amp;auml;ra programmering.&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt; 
 &lt;h2&gt;Uppdrag&lt;/h2&gt; 
 &lt;p&gt;Vi har haft flera omfattande uppdrag inom v&amp;aring;rd-IT vilket har gett oss v&amp;auml;rdefull erfarenhet och inte minst insikter om fallgropar som m&amp;aring;ste undvikas vid IT-utveckling i stora organisationer med komplexa milj&amp;ouml;er.&lt;/p&gt; 
@@ -2984,7 +2987,7 @@ e-post: info _at_ inherit.se&lt;/p&gt;
         <sv:value>2014-09-21T17:21:36.807+02:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-        <sv:value>2014-09-22T13:57:16.028+02:00</sv:value>
+        <sv:value>2014-09-23T18:03:17.513+02:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
         <sv:value>admin</sv:value>
@@ -3011,24 +3014,27 @@ e-post: info _at_ inherit.se&lt;/p&gt;
         <sv:value>Motrice - stöd för verksamhetens processer på verksamhetens villkor</sv:value>
       </sv:property>
       <sv:property sv:name="motricewebsite:title" sv:type="String">
-        <sv:value>Företaget</sv:value>
+        <sv:value>Motrice AB</sv:value>
       </sv:property>
       <sv:node sv:name="motricewebsite:body">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>hippostd:html</sv:value>
         </sv:property>
         <sv:property sv:name="hippostd:content" sv:type="String">
-          <sv:value>&lt;p&gt;Motrice AB &amp;auml;r ett it-f&amp;ouml;retag som grundades 2013 och som specialiserar sig p&amp;aring; utveckling av k&amp;auml;llkods&amp;ouml;ppna, systemst&amp;ouml;dda verksamhetsprocesser enligt BPMN2-standarden.&lt;/p&gt; 
+          <sv:value>&lt;p&gt;&lt;strong&gt;Motrice AB&lt;/strong&gt; &amp;auml;r ett it-f&amp;ouml;retag som grundades 2013 och som specialiserar sig p&amp;aring; utveckling av k&amp;auml;llkods&amp;ouml;ppna, systemst&amp;ouml;dda verksamhetsprocesser enligt BPMN2-standarden.&lt;/p&gt; 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt; 
 &lt;h2&gt;Aff&amp;auml;rsid&amp;eacute;&lt;/h2&gt; 
 &lt;p&gt;V&amp;aring;r aff&amp;auml;rsid&amp;eacute; &amp;auml;r att leverera kostnadseffektiva och verksamhetsst&amp;ouml;djande l&amp;ouml;sningar och tj&amp;auml;nster baserade p&amp;aring; den k&amp;auml;llkods&amp;ouml;ppna processplattformen Motrice BPM.&lt;/p&gt; 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt; 
 &lt;h2&gt;Om oss&lt;/h2&gt; 
-&lt;p&gt;&lt;strong&gt;Roland Hedayat&lt;/strong&gt; (M.Sc. i datavetenskap, Uppsala Univ.) har arbetat med IT i 30 &amp;aring;r , varav ca: 20 &amp;aring;r som frist&amp;aring;ende it-konsult. Roland har haft anst&amp;auml;llningar och uppdrag inom b&amp;aring;de privat och offentlig sektor. De senare &amp;aring;rens konsultuppdrag har haft anknytning till sjukv&amp;aring;rdsrelaterad it, med l&amp;ouml;sningar kring journalsystemintegration, infrastruktur och arkitektur.&lt;/p&gt; 
+&lt;p&gt;&lt;strong&gt;Roland Hedayat&lt;/strong&gt; (M.Sc. i datavetenskap, Uppsala Univ.) har arbetat med IT i 30 &amp;aring;r , varav ca: 20 &amp;aring;r som frist&amp;aring;ende it-konsult.&amp;nbsp; De senare &amp;aring;rens konsultuppdrag har haft anknytning till sjukv&amp;aring;rdsrelaterad it, med l&amp;ouml;sningar kring journalsystemintegration, infrastruktur och arkitektur.&lt;/p&gt; 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt; 
-&lt;p&gt;&lt;strong&gt;Bj&amp;ouml;rn Molin&lt;/strong&gt; (civilingenj&amp;ouml;r M.Sc.EE KTH) har gedigen erfarenhet av utveckling av IT-system f&amp;ouml;r h&amp;auml;lsov&amp;aring;rd och l&amp;auml;kemedel. Huvudsakligen har Bj&amp;ouml;rn arbetat i utvecklar- eller arkitektroll med databasn&amp;auml;ra programmering men &amp;auml;ven med anv&amp;auml;ndargr&amp;auml;nssnitt. Bj&amp;ouml;rn har varit anst&amp;auml;lld eller haft konsultuppdrag p&amp;aring; Stockholms L&amp;auml;ns Landsting, Inid AB och Inera AB d&amp;auml;r han har gjort l&amp;ouml;sningar som anv&amp;auml;nds av alla landsting.&lt;/p&gt; 
+&lt;p&gt;&lt;strong&gt;Bj&amp;ouml;rn Molin&lt;/strong&gt; (civilingenj&amp;ouml;r M.Sc.EE KTH) har l&amp;aring;ng erfarenhet av utveckling av IT-system f&amp;ouml;r h&amp;auml;lsov&amp;aring;rd och l&amp;auml;kemedel. Huvudsakligen har Bj&amp;ouml;rn arbetat i utvecklar- eller arkitektroll med databasn&amp;auml;ra programmering men &amp;auml;ven med anv&amp;auml;ndargr&amp;auml;nssnitt. Bj&amp;ouml;rn har varit anst&amp;auml;lld eller haft konsultuppdrag p&amp;aring; Stockholms L&amp;auml;ns Landsting, Inid AB och Inera AB d&amp;auml;r han har gjort l&amp;ouml;sningar som anv&amp;auml;nds av alla landsting.&lt;/p&gt; 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt; 
-&lt;p&gt;&lt;strong&gt;Thomas &amp;Ouml;stman&lt;/strong&gt; xxxxyyy&lt;/p&gt; 
+&lt;p&gt;&lt;strong&gt;Thomas &amp;Ouml;stman&lt;/strong&gt; (civilingenj&amp;ouml;r M.Sc.EE KTH, licentiat signalbehandling KTH) har l&amp;aring;ng erfarenhet fr&amp;aring;n arbete i halvledar- och telekomindustrin. D&amp;auml;r har Thomas fr&amp;auml;mst arbetat med&amp;nbsp; systemering, modellering och simulering&amp;nbsp; av kretsar och system.&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;&lt;strong&gt;H&amp;aring;kan S&amp;ouml;derstr&amp;ouml;m&lt;/strong&gt;&amp;nbsp;(civ.ing KTH) Har arbetat som it-konsult i &amp;ouml;ver 25 &amp;aring;r, bland annat inom elektronik-CAD och telekom. H&amp;aring;kan har l&amp;aring;ng erfarenhet fr&amp;aring;n arkitekturfr&amp;aring;gor och &amp;quot;server side&amp;quot;, databasn&amp;auml;ra programmering.&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt; 
 &lt;h2&gt;Uppdrag&lt;/h2&gt; 
 &lt;p&gt;Vi har haft flera omfattande uppdrag inom v&amp;aring;rd-IT vilket har gett oss v&amp;auml;rdefull erfarenhet och inte minst insikter om fallgropar som m&amp;aring;ste undvikas vid IT-utveckling i stora organisationer med komplexa milj&amp;ouml;er.&lt;/p&gt; 
@@ -3117,13 +3123,13 @@ e-post: info _at_ inherit.se&lt;/p&gt;
         <sv:value>2014-09-21T17:21:36.807+02:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-        <sv:value>2014-09-22T13:57:16.028+02:00</sv:value>
+        <sv:value>2014-09-23T18:03:17.513+02:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
         <sv:value>admin</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-        <sv:value>2014-09-22T13:58:29.285+02:00</sv:value>
+        <sv:value>2014-09-23T18:18:51.421+02:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippotranslation:id" sv:type="String">
         <sv:value>d8e06ec2-1eee-4ac0-b4b6-d8a669a1dbba</sv:value>
@@ -3147,24 +3153,27 @@ e-post: info _at_ inherit.se&lt;/p&gt;
         <sv:value>Motrice - stöd för verksamhetens processer på verksamhetens villkor</sv:value>
       </sv:property>
       <sv:property sv:name="motricewebsite:title" sv:type="String">
-        <sv:value>Företaget</sv:value>
+        <sv:value>Motrice AB</sv:value>
       </sv:property>
       <sv:node sv:name="motricewebsite:body">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>hippostd:html</sv:value>
         </sv:property>
         <sv:property sv:name="hippostd:content" sv:type="String">
-          <sv:value>&lt;p&gt;Motrice AB &amp;auml;r ett it-f&amp;ouml;retag som grundades 2013 och som specialiserar sig p&amp;aring; utveckling av k&amp;auml;llkods&amp;ouml;ppna, systemst&amp;ouml;dda verksamhetsprocesser enligt BPMN2-standarden.&lt;/p&gt; 
+          <sv:value>&lt;p&gt;&lt;strong&gt;Motrice AB&lt;/strong&gt; &amp;auml;r ett it-f&amp;ouml;retag som grundades 2013 och som specialiserar sig p&amp;aring; utveckling av k&amp;auml;llkods&amp;ouml;ppna, systemst&amp;ouml;dda verksamhetsprocesser enligt BPMN2-standarden.&lt;/p&gt; 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt; 
 &lt;h2&gt;Aff&amp;auml;rsid&amp;eacute;&lt;/h2&gt; 
 &lt;p&gt;V&amp;aring;r aff&amp;auml;rsid&amp;eacute; &amp;auml;r att leverera kostnadseffektiva och verksamhetsst&amp;ouml;djande l&amp;ouml;sningar och tj&amp;auml;nster baserade p&amp;aring; den k&amp;auml;llkods&amp;ouml;ppna processplattformen Motrice BPM.&lt;/p&gt; 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt; 
 &lt;h2&gt;Om oss&lt;/h2&gt; 
-&lt;p&gt;&lt;strong&gt;Roland Hedayat&lt;/strong&gt; (M.Sc. i datavetenskap, Uppsala Univ.) har arbetat med IT i 30 &amp;aring;r , varav ca: 20 &amp;aring;r som frist&amp;aring;ende it-konsult. Roland har haft anst&amp;auml;llningar och uppdrag inom b&amp;aring;de privat och offentlig sektor. De senare &amp;aring;rens konsultuppdrag har haft anknytning till sjukv&amp;aring;rdsrelaterad it, med l&amp;ouml;sningar kring journalsystemintegration, infrastruktur och arkitektur.&lt;/p&gt; 
+&lt;p&gt;&lt;strong&gt;Roland Hedayat&lt;/strong&gt; (M.Sc. i datavetenskap, Uppsala Univ.) har arbetat med IT i 30 &amp;aring;r , varav ca: 20 &amp;aring;r som frist&amp;aring;ende it-konsult.&amp;nbsp; De senare &amp;aring;rens konsultuppdrag har haft anknytning till sjukv&amp;aring;rdsrelaterad it, med l&amp;ouml;sningar kring journalsystemintegration, infrastruktur och arkitektur.&lt;/p&gt; 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt; 
-&lt;p&gt;&lt;strong&gt;Bj&amp;ouml;rn Molin&lt;/strong&gt; (civilingenj&amp;ouml;r M.Sc.EE KTH) har gedigen erfarenhet av utveckling av IT-system f&amp;ouml;r h&amp;auml;lsov&amp;aring;rd och l&amp;auml;kemedel. Huvudsakligen har Bj&amp;ouml;rn arbetat i utvecklar- eller arkitektroll med databasn&amp;auml;ra programmering men &amp;auml;ven med anv&amp;auml;ndargr&amp;auml;nssnitt. Bj&amp;ouml;rn har varit anst&amp;auml;lld eller haft konsultuppdrag p&amp;aring; Stockholms L&amp;auml;ns Landsting, Inid AB och Inera AB d&amp;auml;r han har gjort l&amp;ouml;sningar som anv&amp;auml;nds av alla landsting.&lt;/p&gt; 
+&lt;p&gt;&lt;strong&gt;Bj&amp;ouml;rn Molin&lt;/strong&gt; (civilingenj&amp;ouml;r M.Sc.EE KTH) har l&amp;aring;ng erfarenhet av utveckling av IT-system f&amp;ouml;r h&amp;auml;lsov&amp;aring;rd och l&amp;auml;kemedel. Huvudsakligen har Bj&amp;ouml;rn arbetat i utvecklar- eller arkitektroll med databasn&amp;auml;ra programmering men &amp;auml;ven med anv&amp;auml;ndargr&amp;auml;nssnitt. Bj&amp;ouml;rn har varit anst&amp;auml;lld eller haft konsultuppdrag p&amp;aring; Stockholms L&amp;auml;ns Landsting, Inid AB och Inera AB d&amp;auml;r han har gjort l&amp;ouml;sningar som anv&amp;auml;nds av alla landsting.&lt;/p&gt; 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt; 
-&lt;p&gt;&lt;strong&gt;Thomas &amp;Ouml;stman&lt;/strong&gt; xxxxyyy&lt;/p&gt; 
+&lt;p&gt;&lt;strong&gt;Thomas &amp;Ouml;stman&lt;/strong&gt; (civilingenj&amp;ouml;r M.Sc.EE KTH, licentiat signalbehandling KTH) har l&amp;aring;ng erfarenhet fr&amp;aring;n arbete i halvledar- och telekomindustrin. D&amp;auml;r har Thomas fr&amp;auml;mst arbetat med&amp;nbsp; systemering, modellering och simulering&amp;nbsp; av kretsar och system.&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;&lt;strong&gt;H&amp;aring;kan S&amp;ouml;derstr&amp;ouml;m&lt;/strong&gt;&amp;nbsp;(civ.ing KTH) Har arbetat som it-konsult i &amp;ouml;ver 25 &amp;aring;r, bland annat inom elektronik-CAD och telekom. H&amp;aring;kan har l&amp;aring;ng erfarenhet fr&amp;aring;n arkitekturfr&amp;aring;gor och &amp;quot;server side&amp;quot;, databasn&amp;auml;ra programmering.&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt; 
 &lt;h2&gt;Uppdrag&lt;/h2&gt; 
 &lt;p&gt;Vi har haft flera omfattande uppdrag inom v&amp;aring;rd-IT vilket har gett oss v&amp;auml;rdefull erfarenhet och inte minst insikter om fallgropar som m&amp;aring;ste undvikas vid IT-utveckling i stora organisationer med komplexa milj&amp;ouml;er.&lt;/p&gt; 

@@ -18,12 +18,12 @@
 		<hst:link var="img" hippobean="${document.image.original}" />
 		<!-- <img src="${img}" title="${document.image.fileName}" class="resize" alt="${document.image.fileName}"/>-->
 		<div class="jumbotron" style="background-size: 100%; background-image: url(${img})">
-			<hst:html hippohtml="${document.jumboContent}" />
+			<h1>${document.title}</h1>
+			<!-- <hst:html hippohtml="${document.jumboContent}" /> -->
 		</div>
 	</c:if>
 </c:if>
 
-<h1>${document.title}</h1>
 
 <!--
 <c:if test="${hst:isReadable(document, 'summary') }">

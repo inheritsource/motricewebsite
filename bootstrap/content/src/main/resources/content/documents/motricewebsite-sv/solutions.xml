@@ -26,7 +26,7 @@
       <sv:value>hippo:handle</sv:value>
     </sv:property>
     <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-      <sv:value>hippo:hardhandle</sv:value>
+      <sv:value>mix:referenceable</sv:value>
       <sv:value>hippo:translated</sv:value>
     </sv:property>
     <sv:property sv:name="jcr:uuid" sv:type="String">
@@ -48,17 +48,14 @@
         <sv:value>motricewebsite:textimagedocument</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-        <sv:value>hippo:harddocument</sv:value>
+        <sv:value>mix:referenceable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>446f078a-ee37-47ff-8175-632718cfc4a7</sv:value>
       </sv:property>
-      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
-        <sv:value>live</sv:value>
-        <sv:value>preview</sv:value>
-      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
       <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-        <sv:value>solutions/overview</sv:value>
+        <sv:value>solutions/overview/overview[2]</sv:value>
       </sv:property>
       <sv:property sv:name="hippostd:holder" sv:type="String">
         <sv:value>admin</sv:value>
@@ -67,7 +64,7 @@
         <sv:value>published</sv:value>
       </sv:property>
       <sv:property sv:name="hippostd:stateSummary" sv:type="String">
-        <sv:value>live</sv:value>
+        <sv:value>new</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
         <sv:value>rol</sv:value>
@@ -83,6 +80,150 @@
       </sv:property>
       <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
         <sv:value>2012-10-01T12:12:39.974+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>ffd07224-268b-4b90-827d-c689f788c975</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>sv</sv:value>
+      </sv:property>
+      <sv:property sv:name="motricewebsite:summary" sv:type="String">
+        <sv:value>Källkodsöppna lösningar baserade på välbeprövade komponenter och produkter för hög kundnytta och kvalité till låg livscykelkostnad</sv:value>
+      </sv:property>
+      <sv:property sv:name="motricewebsite:title" sv:type="String">
+        <sv:value>Lösningar</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippotranslation:translations">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippotranslation:translations</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="motricewebsite:body">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;html&gt;
+&lt;body&gt;
+
+&lt;p&gt;Gemensamt för våra lösningar är att de baserar sig på öppen källkod. Detta
+ger en &lt;a href="why-oss"&gt;rad fördelar&lt;/a&gt; för våra kunder. Med rätt strategi kan
+ett val om satsning på källkodsöppna lösningar leda till snabbare utveckling,
+ökad kvalitet och detta till en lägre livscykelkostnad. "Rätt strategi" kräver
+bland annat förståelse för drivkrafterna bakom källkodsöppen utveckling, lång
+erfarenhet, god teknisk förståelse och bevakning av prominenta källkodsöppna
+projekt.  Vi använder och specialiserar oss på välbeprövade och skalbara
+lösningar i "middleware"-skiktet (applikationsservrar och databaser) samt i det
+översta skiktet i IT-näringskedjan, det &lt;a href="oss-ecosystem"&gt;användarnära,
+verksamhetsstödjande skiktet&lt;/a&gt;. Här har vi speciellt fokus på
+&lt;a href="why-bpm"&gt;processhantering&lt;/a&gt; och
+&lt;a href="why-cms"&gt;innehållshantering&lt;/a&gt;.&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value>
+        </sv:property>
+        <sv:node sv:name="why-oss">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:facetselect</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>8605a129-fa8f-4525-ba84-e0dc1b121bf5</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+        <sv:node sv:name="oss-ecosystem">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:facetselect</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>d4e457ee-a1a4-4000-a9ce-592cd9c470ae</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+        <sv:node sv:name="why-bpm">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:facetselect</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>857ebfb5-65e9-4776-a22a-72b15d2c5ae6</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+        <sv:node sv:name="why-cms">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:facetselect</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>a16df0ea-fec7-4c24-9d18-c3342d1fb901</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="motricewebsite:image">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogallerypicker:imagelink</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>4e557532-98ff-4673-a2a9-5cdbb2822eed</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+      </sv:node>
+      <sv:node sv:name="motricewebsite:icon">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogallerypicker:imagelink</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>4e557532-98ff-4673-a2a9-5cdbb2822eed</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="overview">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>motricewebsite:textimagedocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+        <sv:value>mix:versionable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>2b362e2b-6fd5-4cb0-a7b5-6f133fb44350</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>solutions/overview/overview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>unpublished</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>new</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>rol</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2011-09-16T09:40:25.099+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2012-09-27T10:42:55.598+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
       </sv:property>
       <sv:property sv:name="hippotranslation:id" sv:type="String">
         <sv:value>ffd07224-268b-4b90-827d-c689f788c975</sv:value>
@@ -265,9 +406,7 @@ verksamhetsstödjande skiktet&lt;/a&gt;. Här har vi speciellt fokus på
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>4c728ef6-8c01-423b-900c-b5d0ba0788be</sv:value>
         </sv:property>
-        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
-          <sv:value>live</sv:value>
-        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
         <sv:property sv:name="hippo:related___pathreference" sv:type="String">
           <sv:value>solutions/bpm/why-bpm/why-bpm[3]</sv:value>
         </sv:property>
@@ -278,7 +417,7 @@ verksamhetsstödjande skiktet&lt;/a&gt;. Här har vi speciellt fokus på
           <sv:value>published</sv:value>
         </sv:property>
         <sv:property sv:name="hippostd:stateSummary" sv:type="String">
-          <sv:value>live</sv:value>
+          <sv:value>new</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
           <sv:value>admin</sv:value>
@@ -369,7 +508,7 @@ verksamhetsstödjande skiktet&lt;/a&gt;. Här har vi speciellt fokus på
           <sv:value>draft</sv:value>
         </sv:property>
         <sv:property sv:name="hippostd:stateSummary" sv:type="String">
-          <sv:value>live</sv:value>
+          <sv:value>new</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
           <sv:value>admin</sv:value>
@@ -459,7 +598,7 @@ verksamhetsstödjande skiktet&lt;/a&gt;. Här har vi speciellt fokus på
           <sv:value>unpublished</sv:value>
         </sv:property>
         <sv:property sv:name="hippostd:stateSummary" sv:type="String">
-          <sv:value>live</sv:value>
+          <sv:value>new</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
           <sv:value>admin</sv:value>
@@ -561,12 +700,9 @@ verksamhetsstödjande skiktet&lt;/a&gt;. Här har vi speciellt fokus på
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>8eb9eadb-a2b9-4969-9143-87291f910c2d</sv:value>
         </sv:property>
-        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
-          <sv:value>live</sv:value>
-          <sv:value>preview</sv:value>
-        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
         <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-          <sv:value>solutions/bpm/about-bpm</sv:value>
+          <sv:value>solutions/bpm/about-bpm/about-bpm[2]</sv:value>
         </sv:property>
         <sv:property sv:name="hippostd:holder" sv:type="String">
           <sv:value>rol</sv:value>
@@ -575,7 +711,7 @@ verksamhetsstödjande skiktet&lt;/a&gt;. Här har vi speciellt fokus på
           <sv:value>published</sv:value>
         </sv:property>
         <sv:property sv:name="hippostd:stateSummary" sv:type="String">
-          <sv:value>live</sv:value>
+          <sv:value>new</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
           <sv:value>admin</sv:value>
@@ -591,6 +727,166 @@ verksamhetsstödjande skiktet&lt;/a&gt;. Här har vi speciellt fokus på
         </sv:property>
         <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
           <sv:value>2011-09-27T11:26:37.541Z</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>0d28513f-5fe7-4459-841c-540325f05828</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>sv</sv:value>
+        </sv:property>
+        <sv:property sv:name="motricewebsite:summary" sv:type="String">
+          <sv:value>BPM tar ett heltäckande grepp om processhanteringen, och ser processutveckling som en kontinuerlig del av varje process livscykel. För att på ett smidigt sätt kunna optimera processerna krävs stöd för att analysera, testa, köra samt att ändra processerna. För detta krävs också goda integrationmöjligheter med kringliggande system. Processhantering generaliserar ärendehantering</sv:value>
+        </sv:property>
+        <sv:property sv:name="motricewebsite:title" sv:type="String">
+          <sv:value>BPM - från ärende till  process</sv:value>
+        </sv:property>
+        <sv:node sv:name="hippotranslation:translations">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippotranslation:translations</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="motricewebsite:body">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippostd:html</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:content" sv:type="String">
+            <sv:value>&lt;html&gt;
+&lt;body&gt;
+
+&lt;p&gt;Ett klassiskt ärendehanteringssystem är en &lt;em&gt;typ&lt;/em&gt; av
+processhanteringssystem. Ett ärende "flyter" igenom ett nätverk av aktiviteter,
+och tar i detta olika vägar beroende på vissa händelser/företeelser under
+ärendets gång. För varje utförd aktivitet ändrar ärendet status på vägen mot
+sitt fullförande.&lt;/p&gt;
+
+&lt;p&gt;Ett processhanteringssystem (BPM - Business Process Management) generaliserar
+detta till att gälla alla sorters processer i en organisation, inte bara
+"ärenden" och utökar också funktionaliteten som typiskt kan innehålla följande:
+&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Grafisk specifikaton och konstruktion av processer i ett modelleringsverktyg
+&lt;/p&gt;
+
+&lt;p&gt;Detta är dock mer än att "rita" processerna, eftersom det utförs i en
+formaliserad notation som medför att processen kan simuleras och exekveras
+(utföras) i ett senare skede&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Ett körsystem för simulering och exekvering av processen&lt;/p&gt;
+
+&lt;p&gt;Exekvering innebär på samma sätt som i ett ärendehanteringssystem att en
+serie aktiviteter utförs enligt specifikationen i tidigare steg. Aktiviteterna
+kan vara manuella (tex utföra vissa manuella operationer och sedan fylla i ett
+rapportformulär), eller automatiserade (tex skicka ett mail eller ett "tweet" om
+att ett visst tillstånd i processen har nåtts, med tillhörande statusdata&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Simulering av en process&lt;/p&gt;
+
+&lt;p&gt;Att "torrsimma" genom processen för att se hur den beter sig, och för att tex
+identifiera flaskhalsar i den. Indata i olika processsteg kan antingen komma
+från tidigare körningar, eller tas fram genom statistiska metoder och ad hoc
+beräkningar&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Mekanismer för att integrera med befintliga informationssystem i
+organisationen&lt;/p&gt;
+
+&lt;p&gt;I Bonita görs detta med sk "connectorer". Det finns ett antal hyllfärdiga
+connectorer för koppling mot email, databaser etc., men också en väldokumenterad
+anvisning om hur man skapar sina egna skräddarsydda connectorer eller hur man
+modifierar en av de befintliga&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Mekanismer för att följa och monitorera processer&lt;/p&gt;
+
+&lt;p&gt;Detta kan t.ex innebära identifikation av aktiviteter som har stannat upp,
+och som blockerar processens fortskridande, insamling av statistik etc.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Det kan möjligtvis vara ett högre insteg med ett generellt BPM än med ett
+specialiserat ärendehanteringssystem. Fördelen är emellertid att eftersom det
+förra är en generalisering, så har det generellt sett högre flexibilitet och
+bättre stöd för integration med befintliga system. Om man gör den initiala
+kompetensinvesteringen kan man sedan använda det i många andra sammanhang för
+analys och förbättring av sina processer.&lt;/p&gt;
+
+&lt;p&gt;För mer information om BPM, Workflow (Ärendehantering) och relationen mellan
+dessa, se [1],[2],[3].&lt;/p&gt;
+
+&lt;p&gt;[1]
+&lt;a title="Wikipedia - BPM definition" href="http://en.wikipedia.org/wiki/Business_process_management"&gt;http://en.wikipedia.org/wiki/Business_process_management&lt;/a&gt;
+&lt;br/&gt;
+[2]&lt;a title="Wikipedia om workflow" href="http://en.wikipedia.org/wiki/Workflow"&gt;
+http://en.wikipedia.org/wiki/Workflow&lt;/a&gt; &lt;br/&gt;
+[3]
+&lt;a title="BPM versus Workflow" href="http://www.bpmvsworkflow.com/bpm-vs-workflow.html"&gt;http://www.bpmvsworkflow.com/bpm-vs-workflow.html&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="motricewebsite:image">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogallerypicker:imagelink</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>4e557532-98ff-4673-a2a9-5cdbb2822eed</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+        <sv:node sv:name="motricewebsite:icon">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogallerypicker:imagelink</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>4e557532-98ff-4673-a2a9-5cdbb2822eed</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="about-bpm">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>motricewebsite:textimagedocument</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:referenceable</sv:value>
+          <sv:value>mix:versionable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>ca49600d-f73d-4276-8402-9ce264ee080b</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>solutions/bpm/about-bpm/about-bpm</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>unpublished</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>new</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2011-09-06T12:23:18.680Z</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2011-09-27T11:26:33.538Z</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>rol</sv:value>
         </sv:property>
         <sv:property sv:name="hippotranslation:id" sv:type="String">
           <sv:value>0d28513f-5fe7-4459-841c-540325f05828</sv:value>
@@ -1317,7 +1613,7 @@ av flera tusen användare&lt;/li&gt;
           <sv:value>published</sv:value>
         </sv:property>
         <sv:property sv:name="hippostd:stateSummary" sv:type="String">
-          <sv:value>live</sv:value>
+          <sv:value>changed</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
           <sv:value>admin</sv:value>
@@ -1411,7 +1707,7 @@ av flera tusen användare&lt;/li&gt;
           <sv:value>unpublished</sv:value>
         </sv:property>
         <sv:property sv:name="hippostd:stateSummary" sv:type="String">
-          <sv:value>live</sv:value>
+          <sv:value>changed</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
           <sv:value>admin</sv:value>
@@ -1420,7 +1716,7 @@ av flera tusen användare&lt;/li&gt;
           <sv:value>2012-09-18T16:10:03.575+02:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-          <sv:value>2012-10-01T17:40:02.148+02:00</sv:value>
+          <sv:value>2014-09-22T16:48:47.170+02:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
           <sv:value>admin</sv:value>
@@ -1430,6 +1726,18 @@ av flera tusen användare&lt;/li&gt;
         </sv:property>
         <sv:property sv:name="hippotranslation:locale" sv:type="String">
           <sv:value>sv</sv:value>
+        </sv:property>
+        <sv:property sv:name="motricewebsite:buttonref" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="motricewebsite:buttontxt" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="motricewebsite:imagecaption" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="motricewebsite:seqnumber" sv:type="Long">
+          <sv:value>0</sv:value>
         </sv:property>
         <sv:property sv:name="motricewebsite:summary" sv:type="String">
           <sv:value>BPM overview summary</sv:value>
@@ -1447,13 +1755,7 @@ av flera tusen användare&lt;/li&gt;
             <sv:value>hippostd:html</sv:value>
           </sv:property>
           <sv:property sv:name="hippostd:content" sv:type="String">
-            <sv:value>&lt;html&gt;
-&lt;body&gt;
-
-&lt;p&gt;BPM overview body&lt;/p&gt;
-
-&lt;/body&gt;
-&lt;/html&gt;</sv:value>
+            <sv:value>&lt;p&gt;BPM overview body&lt;/p&gt;</sv:value>
           </sv:property>
         </sv:node>
         <sv:node sv:name="motricewebsite:image">
@@ -1498,7 +1800,7 @@ av flera tusen användare&lt;/li&gt;
           <sv:value>draft</sv:value>
         </sv:property>
         <sv:property sv:name="hippostd:stateSummary" sv:type="String">
-          <sv:value>live</sv:value>
+          <sv:value>changed</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
           <sv:value>admin</sv:value>
@@ -1507,7 +1809,7 @@ av flera tusen användare&lt;/li&gt;
           <sv:value>2012-09-18T16:10:03.575+02:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-          <sv:value>2012-10-01T17:40:02.148+02:00</sv:value>
+          <sv:value>2014-09-22T16:48:47.170+02:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
           <sv:value>admin</sv:value>
@@ -1517,6 +1819,18 @@ av flera tusen användare&lt;/li&gt;
         </sv:property>
         <sv:property sv:name="hippotranslation:locale" sv:type="String">
           <sv:value>sv</sv:value>
+        </sv:property>
+        <sv:property sv:name="motricewebsite:buttonref" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="motricewebsite:buttontxt" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="motricewebsite:imagecaption" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="motricewebsite:seqnumber" sv:type="Long">
+          <sv:value>0</sv:value>
         </sv:property>
         <sv:property sv:name="motricewebsite:summary" sv:type="String">
           <sv:value>BPM overview summary</sv:value>
@@ -1534,13 +1848,7 @@ av flera tusen användare&lt;/li&gt;
             <sv:value>hippostd:html</sv:value>
           </sv:property>
           <sv:property sv:name="hippostd:content" sv:type="String">
-            <sv:value>&lt;html&gt;
-&lt;body&gt;
-
-&lt;p&gt;BPM overview body&lt;/p&gt;
-
-&lt;/body&gt;
-&lt;/html&gt;</sv:value>
+            <sv:value>&lt;p&gt;BPM overview body&lt;/p&gt;</sv:value>
           </sv:property>
         </sv:node>
         <sv:node sv:name="motricewebsite:image">
@@ -1588,9 +1896,7 @@ av flera tusen användare&lt;/li&gt;
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>5481c5a1-8860-45eb-ad9d-443cdf196ccf</sv:value>
         </sv:property>
-        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
-          <sv:value>live</sv:value>
-        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
         <sv:property sv:name="hippo:related___pathreference" sv:type="String">
           <sv:value>solutions/bpm/activiti/activiti[2]</sv:value>
         </sv:property>
@@ -1601,7 +1907,7 @@ av flera tusen användare&lt;/li&gt;
           <sv:value>published</sv:value>
         </sv:property>
         <sv:property sv:name="hippostd:stateSummary" sv:type="String">
-          <sv:value>live</sv:value>
+          <sv:value>new</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
           <sv:value>admin</sv:value>
@@ -1688,7 +1994,7 @@ av flera tusen användare&lt;/li&gt;
           <sv:value>unpublished</sv:value>
         </sv:property>
         <sv:property sv:name="hippostd:stateSummary" sv:type="String">
-          <sv:value>live</sv:value>
+          <sv:value>new</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
           <sv:value>admin</sv:value>
@@ -1781,7 +2087,7 @@ av flera tusen användare&lt;/li&gt;
           <sv:value>draft</sv:value>
         </sv:property>
         <sv:property sv:name="hippostd:stateSummary" sv:type="String">
-          <sv:value>live</sv:value>
+          <sv:value>new</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
           <sv:value>admin</sv:value>
@@ -1874,7 +2180,7 @@ av flera tusen användare&lt;/li&gt;
         <sv:value>hippo:handle</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-        <sv:value>hippo:hardhandle</sv:value>
+        <sv:value>mix:referenceable</sv:value>
         <sv:value>hippo:translated</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
@@ -1896,17 +2202,14 @@ av flera tusen användare&lt;/li&gt;
           <sv:value>motricewebsite:textimagedocument</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-          <sv:value>hippo:harddocument</sv:value>
+          <sv:value>mix:referenceable</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>a10e649b-91db-4852-8657-d2230483d8a6</sv:value>
         </sv:property>
-        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
-          <sv:value>live</sv:value>
-          <sv:value>preview</sv:value>
-        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
         <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-          <sv:value>solutions/cms/why-cms</sv:value>
+          <sv:value>solutions/cms/why-cms/why-cms[2]</sv:value>
         </sv:property>
         <sv:property sv:name="hippostd:holder" sv:type="String">
           <sv:value>rol</sv:value>
@@ -1915,7 +2218,7 @@ av flera tusen användare&lt;/li&gt;
           <sv:value>published</sv:value>
         </sv:property>
         <sv:property sv:name="hippostd:stateSummary" sv:type="String">
-          <sv:value>live</sv:value>
+          <sv:value>new</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
           <sv:value>admin</sv:value>
@@ -2023,13 +2326,139 @@ optimerar stöd för webbpublicering.&lt;/p&gt;
           <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
         </sv:node>
       </sv:node>
+      <sv:node sv:name="why-cms">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>motricewebsite:textimagedocument</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:referenceable</sv:value>
+          <sv:value>mix:versionable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>4ee1ba88-3c56-48fe-8a32-bee3323f24e4</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>solutions/cms/why-cms/why-cms</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>unpublished</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>new</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2011-09-06T17:08:10.127Z</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2011-09-27T13:19:37.208Z</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>rol</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>1b75fc7a-be7c-4c54-8b9f-56deb4d0bf76</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>sv</sv:value>
+        </sv:property>
+        <sv:property sv:name="motricewebsite:summary" sv:type="String">
+          <sv:value>Content Management innebär att tillhandahålla funktioner och processstöd för en organisations hantering av dokument och digitala "innehåll" genom hela dess livscykel</sv:value>
+        </sv:property>
+        <sv:property sv:name="motricewebsite:title" sv:type="String">
+          <sv:value>Varför CMS</sv:value>
+        </sv:property>
+        <sv:node sv:name="hippotranslation:translations">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippotranslation:translations</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="motricewebsite:body">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippostd:html</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:content" sv:type="String">
+            <sv:value>&lt;html&gt;
+&lt;body&gt;
+
+&lt;p&gt;För att en organisation skall mästra bördan att hålla ordning i sitt
+"innehåll" (formulär, dokument, bilder, multimedia strömmar etc.) krävs det
+någonting mer än att kunna lagra dem för gemensam åtkomst.  Databaser eller
+filservrar är nödvändiga, men inte tillräckliga, de fångar inte dynamiken i
+skapandet och ändrandet av innehåll. Det krävs typiskt funktioner för
+kollaboration, åtkomstkontroll, fritextsökning, semantisk sökning, editering,
+versionskontroll etc.&lt;/p&gt;
+
+&lt;p&gt;Content management (CM) handlar om &lt;strong&gt;funktioner&lt;/strong&gt; och
+&lt;strong&gt;processtöd &lt;/strong&gt; för hantering av (digitalt) innehåll. Detta stöd
+omfattar organisationens innehåll  över hela dess livscykel:  från insamling,
+redigering och publicering till arkivering.&lt;/p&gt;
+
+&lt;p&gt;Processaspekten på innehållshantering innebär beröringspunkter med BPM.&lt;/p&gt;
+
+&lt;p&gt;CM delas ofta upp i två kategorier, &lt;strong&gt;Enterprise Content
+Management&lt;/strong&gt; (ECM) och &lt;strong&gt;Web Content Management&lt;/strong&gt; (WCM).
+Denna uppdelning  är mer av historisk än av funktionell art, då det tidigt
+uppkom verktyg optimerade mot företagens interna dokumenthantering respektive
+mot dokumenthantering optimerad för publicering på webben. Funktionellt är de
+klart överlappande, och man skulle också kunna se WCM som en underkategori till
+ECM, med speciellt fokus på olika aspekter relaterade till webbpublicering.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Enterprise Content Management&lt;/p&gt;
+
+&lt;p&gt;ECM relaterar till ett processorienterat sätt att stödja en organisations
+innehållshantering genom innehållets hela livscykel&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Web Content Management&lt;/p&gt;
+
+&lt;p&gt;WCM — innehållshantering optimerat för webbpublicering. Utöver de generella
+funktionerna som tillhandahålls genom ECM-egenskaperna finns funktioner som
+optimerar stöd för webbpublicering.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="motricewebsite:image">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogallerypicker:imagelink</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+        <sv:node sv:name="motricewebsite:icon">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogallerypicker:imagelink</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>4e557532-98ff-4673-a2a9-5cdbb2822eed</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+      </sv:node>
     </sv:node>
     <sv:node sv:name="hippo-cms">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>hippo:handle</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-        <sv:value>hippo:hardhandle</sv:value>
+        <sv:value>mix:referenceable</sv:value>
         <sv:value>hippo:translated</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
@@ -2051,17 +2480,14 @@ optimerar stöd för webbpublicering.&lt;/p&gt;
           <sv:value>motricewebsite:textimagedocument</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-          <sv:value>hippo:harddocument</sv:value>
+          <sv:value>mix:referenceable</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>e5573e07-1bc5-4bc5-a6bc-30f24f662432</sv:value>
         </sv:property>
-        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
-          <sv:value>live</sv:value>
-          <sv:value>preview</sv:value>
-        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
         <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-          <sv:value>solutions/cms/hippo-cms</sv:value>
+          <sv:value>solutions/cms/hippo-cms/hippo-cms[2]</sv:value>
         </sv:property>
         <sv:property sv:name="hippostd:holder" sv:type="String">
           <sv:value>rol</sv:value>
@@ -2070,7 +2496,7 @@ optimerar stöd för webbpublicering.&lt;/p&gt;
           <sv:value>published</sv:value>
         </sv:property>
         <sv:property sv:name="hippostd:stateSummary" sv:type="String">
-          <sv:value>live</sv:value>
+          <sv:value>new</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
           <sv:value>admin</sv:value>
@@ -2086,6 +2512,145 @@ optimerar stöd för webbpublicering.&lt;/p&gt;
         </sv:property>
         <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
           <sv:value>2011-09-27T16:05:32.662Z</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>46239887-efbd-40ab-97d8-b824260e13fe</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>sv</sv:value>
+        </sv:property>
+        <sv:property sv:name="motricewebsite:summary" sv:type="String">
+          <sv:value>Mobila webben, mobila app:ar, läsplattor och sociala media förändrar vårt beteende och ställer nya krav på hur vi konsumerar information. För större organisationer ökar kraven på att erbjuda samma innehåll på flera språk.Hippo, med sin starka separation av innehåll och presentation, är designat från grunden för att vara "Multi site, multi kanal, multi språk".</sv:value>
+        </sv:property>
+        <sv:property sv:name="motricewebsite:title" sv:type="String">
+          <sv:value>Varför Hippo CMS</sv:value>
+        </sv:property>
+        <sv:node sv:name="hippotranslation:translations">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippotranslation:translations</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="motricewebsite:body">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippostd:html</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:content" sv:type="String">
+            <sv:value>&lt;html&gt;
+&lt;body&gt;
+&lt;h2&gt;Hippo CMS: Empower your Audience  &lt;/h2&gt;
+&lt;p&gt; Mobila webben, mobila app:ar, läsplattor och sociala media förändrar vårt
+beteende och ställer nya krav på hur vi konsumerar information. För större
+organisationer ökar kraven på att erbjuda samma innehåll på flera språk.  Det
+blir därför allt viktigare att använda innehållshanteringssystem som tydligt
+separerar &lt;strong&gt;innehåll &lt;/strong&gt;från &lt;strong&gt;presentation&lt;/strong&gt;. Vidare
+är standardiserad öppen åtkomst av innehåll är av största vikt för att förhindra
+inlåsningseffekter eftersom morgondagens krav, lösningar och leverantörer är
+okända.&lt;/p&gt;
+
+&lt;p&gt;För att möta dessa krav behövs ett innehållshanteringssystem som har eleganta
+lösningar och strategier för att takla kravet:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Samma innehåll&lt;/strong&gt; - till &lt;strong&gt;många&lt;/strong&gt;
+&lt;strong&gt;kanaler&lt;/strong&gt;, och &lt;strong&gt;många&lt;/strong&gt; &lt;strong&gt;språk. &lt;/strong&gt;Då
+bör man välja ett system som har dessa egenskaper inbyggda i sin design. &lt;/p&gt;
+
+&lt;p&gt;Utöver ovanstående centrala egenskaper har Hippo CMS också bl.a. följande
+funktioner och egenskaper:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Webbaserad innehållshantering&lt;/p&gt;
+
+&lt;p&gt;Innehållet hanteras från en vanlig webbläsare&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Flera användare&lt;/p&gt;
+
+&lt;p&gt;Flera användare kan arbeta med samma dokument, bild, etc.  Det går att
+tilldela olika rättigheter för olika användare&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Avancerade sökmöjligheter&lt;/p&gt;
+
+&lt;p&gt;Avancerade sökningar erbjuds både med fritextsök och s.k. faceted search&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Ändringshistorik&lt;/p&gt;
+
+&lt;p&gt;Sparade dokument versionshateras. Det ger möjlighet att spåra ändringar eller
+återgå till tidigare versioner&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Strukturerad information&lt;/p&gt;
+
+&lt;p&gt;Det är naturligt att arbeta mer strukturerat med information när man använder
+Hippo CMS. Hippo CMS säkerställer att all information som fylls på passar in i
+innehållstrukturen. Följaktligen blir organisationens  samlade information
+strukturerad och sökbar. Den kan med lätthet användas av andra system&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="motricewebsite:image">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogallerypicker:imagelink</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>c7239400-70da-43fc-b54d-be8c17cc5993</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+        <sv:node sv:name="motricewebsite:icon">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogallerypicker:imagelink</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>4e557532-98ff-4673-a2a9-5cdbb2822eed</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="hippo-cms">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>motricewebsite:textimagedocument</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:referenceable</sv:value>
+          <sv:value>mix:versionable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>49051870-89b5-40af-ba67-8c2435bda6f5</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>solutions/cms/hippo-cms/hippo-cms</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>unpublished</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>new</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2011-09-06T17:13:51.128Z</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2011-09-27T16:05:16.245Z</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>rol</sv:value>
         </sv:property>
         <sv:property sv:name="hippotranslation:id" sv:type="String">
           <sv:value>46239887-efbd-40ab-97d8-b824260e13fe</sv:value>
@@ -2224,12 +2789,9 @@ strukturerad och sökbar. Den kan med lätthet användas av andra system&lt;/p&g
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>12a54a0e-080d-4811-8976-ed8d7e30c3aa</sv:value>
         </sv:property>
-        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
-          <sv:value>live</sv:value>
-          <sv:value>preview</sv:value>
-        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
         <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-          <sv:value>solutions/cms/hippo-architecture</sv:value>
+          <sv:value>solutions/cms/hippo-architecture/hippo-architecture[2]</sv:value>
         </sv:property>
         <sv:property sv:name="hippostd:holder" sv:type="String">
           <sv:value>admin</sv:value>
@@ -2238,7 +2800,7 @@ strukturerad och sökbar. Den kan med lätthet användas av andra system&lt;/p&g
           <sv:value>published</sv:value>
         </sv:property>
         <sv:property sv:name="hippostd:stateSummary" sv:type="String">
-          <sv:value>live</sv:value>
+          <sv:value>new</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
           <sv:value>admin</sv:value>
@@ -2328,13 +2890,121 @@ Jetspeed&lt;/a&gt; och implementerar
           <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
         </sv:node>
       </sv:node>
+      <sv:node sv:name="hippo-architecture">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>motricewebsite:textimagedocument</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:referenceable</sv:value>
+          <sv:value>mix:versionable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>ba4e300c-e34a-4e9e-bdb0-119da0d17b17</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>solutions/cms/hippo-architecture/hippo-architecture</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>unpublished</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>new</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2011-09-06T17:20:22.064Z</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2011-09-08T07:40:14.793Z</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>b8cb613d-fb3b-4ca9-89fa-0213216005bb</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>sv</sv:value>
+        </sv:property>
+        <sv:property sv:name="motricewebsite:summary" sv:type="String">
+          <sv:value>Hippo består av ett antal komponenter som är integrerade genom ett standard Java Content Repository. Den modulära arkitekturen tillåter maximal skalbarhet, interoperabilitet och tillägg av plug-in:er.</sv:value>
+        </sv:property>
+        <sv:property sv:name="motricewebsite:title" sv:type="String">
+          <sv:value>Hippos Arkitektur</sv:value>
+        </sv:property>
+        <sv:node sv:name="hippotranslation:translations">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippotranslation:translations</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="motricewebsite:body">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippostd:html</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:content" sv:type="String">
+            <sv:value>&lt;html&gt;
+&lt;body&gt;
+&lt;h3&gt;Hippo Repository &lt;/h3&gt;
+&lt;p&gt;Hippo Repository är hjärtat i Hippo CMS. Där lagras allt innehåll och även
+konfiguration av sajter. All information i Hippo Repository är åtkomligt via
+standardgränssnittet Java Content Repository (JSR-170). Det gör Hippo lätt att
+integrera andra applikationer. Implementationen av Hippo Repository är baserad
+på Apache Jackrabbit. Apache Lucene används för fritextsökningar.&lt;/p&gt;
+&lt;h3&gt;Hippo CMS &lt;/h3&gt;
+&lt;p&gt;Hippo CMS är en webbapplikation för inmatning av innehåll. Hippo CMS är
+anpassningsbar med en plugin arkitektur och är baserat på Apache Wicket.&lt;/p&gt;
+&lt;h3&gt;Hippo Site Toolkit &lt;/h3&gt;
+&lt;p&gt;Hippo Site Toolkit är verktygslådan för att snabbt bygga sajter med Hippo.
+&lt;/p&gt;
+&lt;h3&gt;Hippo Portal &lt;/h3&gt;
+&lt;p&gt;Hippo Portal gör det möjligt att hantera inloggningar och rättigheter t.ex.
+med Single Sign On lösningar. Vidare är det en hjälp för att skapa anpassade
+vyer för olika användare utifrån roll, sammanhang, plats, etc. Hippo Portal är
+baserad på
+&lt;a title="Apache Jetspeed" target="_blank" href="http://portals.apache.org/jetspeed-2/"&gt;Apache
+Jetspeed&lt;/a&gt; och implementerar
+&lt;a title="JSR 286" target="_blank" href="http://www.jcp.org/en/jsr/detail?id=286"&gt;JSR
+286&lt;/a&gt;: Portlet Specification 2.0.&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="motricewebsite:image">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogallerypicker:imagelink</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>acd3792c-fe1f-431a-bd38-1234af67aff5</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+        <sv:node sv:name="motricewebsite:icon">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogallerypicker:imagelink</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>4e557532-98ff-4673-a2a9-5cdbb2822eed</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+      </sv:node>
     </sv:node>
     <sv:node sv:name="hippo-integration">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>hippo:handle</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-        <sv:value>hippo:hardhandle</sv:value>
+        <sv:value>mix:referenceable</sv:value>
         <sv:value>hippo:translated</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
@@ -2345,17 +3015,14 @@ Jetspeed&lt;/a&gt; och implementerar
           <sv:value>motricewebsite:textimagedocument</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-          <sv:value>hippo:harddocument</sv:value>
+          <sv:value>mix:referenceable</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>b50cf22b-1130-4dc8-a9c3-a5df686e7329</sv:value>
         </sv:property>
-        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
-          <sv:value>live</sv:value>
-          <sv:value>preview</sv:value>
-        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
         <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-          <sv:value>solutions/cms/hippo-integration</sv:value>
+          <sv:value>solutions/cms/hippo-integration/hippo-integration[2]</sv:value>
         </sv:property>
         <sv:property sv:name="hippostd:holder" sv:type="String">
           <sv:value>admin</sv:value>
@@ -2364,7 +3031,7 @@ Jetspeed&lt;/a&gt; och implementerar
           <sv:value>published</sv:value>
         </sv:property>
         <sv:property sv:name="hippostd:stateSummary" sv:type="String">
-          <sv:value>live</sv:value>
+          <sv:value>new</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
           <sv:value>admin</sv:value>
@@ -2460,13 +3127,116 @@ Enterprise Content Management system.&lt;/li&gt;
           <sv:value>Hippo Integration</sv:value>
         </sv:property>
       </sv:node>
+      <sv:node sv:name="hippo-integration">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>motricewebsite:textimagedocument</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:referenceable</sv:value>
+          <sv:value>mix:versionable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>21a701a5-6852-4cbb-ba5e-db54f0267e2c</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>solutions/cms/hippo-integration/hippo-integration</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>unpublished</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>new</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2011-09-06T17:23:32.273Z</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2011-09-06T17:27:04.036Z</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>b8cc3b8d-24a2-4369-a252-075c8498d1b2</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>sv</sv:value>
+        </sv:property>
+        <sv:property sv:name="motricewebsite:summary" sv:type="String">
+          <sv:value>Hippo integreras enkelt med andra system med standardtekniker och öppna gränssnitt.</sv:value>
+        </sv:property>
+        <sv:property sv:name="motricewebsite:title" sv:type="String">
+          <sv:value>Utveckling, Integration och interoperabilitet</sv:value>
+        </sv:property>
+        <sv:node sv:name="hippotranslation:translations">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippotranslation:translations</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="motricewebsite:body">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippostd:html</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:content" sv:type="String">
+            <sv:value>&lt;html&gt;
+&lt;body&gt;
+
+&lt;p&gt;Hippo integreras med andra system med  standardiserade tekniklösningar:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;JCR (JSR-170) Java Content Repository för standardiserad åtkomst av
+innehåll. Det gör det enkelt för applikationsutvecklare att använda innehållet i
+andra applikationer och system.&lt;/li&gt;
+&lt;li&gt;Stöd för utvecklingsverktyg med Java, Spring och Javascript&lt;/li&gt;
+&lt;li&gt;Portal integration med Java Portlet JSR 168/286 - optimerad för Apache
+Jetspeed 2.2&lt;/li&gt;
+&lt;li&gt;Oberoende av webbramverk. Stöd för JSP, Wicket, Spring MVC, JSF, Freemarker,
+Portlets och Gadgets.&lt;/li&gt;
+&lt;li&gt;Stöd för REST, RSS, JSON, WebDAV och XML&lt;/li&gt;
+&lt;li&gt;CMIS för standardiserad integration och interoperabilitet med andra
+Enterprise Content Management system.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="motricewebsite:image">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogallerypicker:imagelink</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>4e557532-98ff-4673-a2a9-5cdbb2822eed</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+        <sv:node sv:name="motricewebsite:icon">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogallerypicker:imagelink</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>4e557532-98ff-4673-a2a9-5cdbb2822eed</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+      </sv:node>
     </sv:node>
     <sv:node sv:name="open-source-and-standards">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>hippo:handle</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-        <sv:value>hippo:hardhandle</sv:value>
+        <sv:value>mix:referenceable</sv:value>
         <sv:value>hippo:translated</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
@@ -2488,17 +3258,14 @@ Enterprise Content Management system.&lt;/li&gt;
           <sv:value>motricewebsite:textimagedocument</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-          <sv:value>hippo:harddocument</sv:value>
+          <sv:value>mix:referenceable</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>76fd20a5-c916-4305-9a2e-ec922507c976</sv:value>
         </sv:property>
-        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
-          <sv:value>live</sv:value>
-          <sv:value>preview</sv:value>
-        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
         <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-          <sv:value>solutions/cms/open-source-and-standards</sv:value>
+          <sv:value>solutions/cms/open-source-and-standards/open-source-and-standards[2]</sv:value>
         </sv:property>
         <sv:property sv:name="hippostd:holder" sv:type="String">
           <sv:value>bjorn</sv:value>
@@ -2507,7 +3274,7 @@ Enterprise Content Management system.&lt;/li&gt;
           <sv:value>published</sv:value>
         </sv:property>
         <sv:property sv:name="hippostd:stateSummary" sv:type="String">
-          <sv:value>live</sv:value>
+          <sv:value>new</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
           <sv:value>admin</sv:value>
@@ -2523,6 +3290,140 @@ Enterprise Content Management system.&lt;/li&gt;
         </sv:property>
         <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
           <sv:value>2011-09-26T17:09:30.616Z</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>6f72a822-0d7e-451a-a24f-324f2433c139</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>sv</sv:value>
+        </sv:property>
+        <sv:property sv:name="motricewebsite:summary" sv:type="String">
+          <sv:value>Det är essentiellt i valet av innehållshanteringsystem att det kan kommunicera med andra system. Hippo är helt källkodsöppen och deltar aktivt i utvecklingen av öppna standarder.</sv:value>
+        </sv:property>
+        <sv:property sv:name="motricewebsite:title" sv:type="String">
+          <sv:value>100% öppen källkod och öppna standarder</sv:value>
+        </sv:property>
+        <sv:node sv:name="hippotranslation:translations">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippotranslation:translations</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="motricewebsite:body">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippostd:html</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:content" sv:type="String">
+            <sv:value>&lt;html&gt;
+&lt;body&gt;
+&lt;h2&gt;Standarder och öppenhet är viktigt  &lt;/h2&gt;
+&lt;p&gt;Innehåll kostar mycket att producera och underhålla. Samtidigt sker en
+utveckling i omvärlden som gör att man inte vet vilka krav som ställs imorgon.
+De senaste åren har t.ex. kopplingar till sociala media och mobila enheter
+kommit starkt. Ifall man sitter i ett "inlåst" innehållshanteringsystem så
+sitter man i knät på leverantören och kan bara hoppas att ens egna önskningar
+får gehör i leverantörens planer för vidareutveckling. Vidare blir man bunden
+till den leverantören i köp av utvecklingstjänster.&lt;/p&gt;
+
+&lt;p&gt;Ett strategiskt val där innehåll placeras i ett system som kan kommunicera
+via öppna standarder motverkar inlåsning och möjliggör påbyggnad oberoende av
+leverantör. Att systemet är källkodsöppet ger en ännu starkare garanti mot
+inlåsning.&lt;/p&gt;
+&lt;h2&gt;Öppen källkod med professionell support &lt;/h2&gt;
+&lt;p&gt;Hippo är 100% öppen källkod - inga hemligheter - vilket bidrar till ett
+levande community där produkten utvecklas. Det Hippo säljer är
+supportprenumerationer med garanterad svarstid, utvecklarassistens,
+konsulttjänster, utbildning och molntjänster. Fördelen för köpare är att man kan
+använda produkten fritt utan begränsande överraskingar i licensvillkoren och
+betalar för den supportnivå som önskas.&lt;/p&gt;
+&lt;h2&gt;Java &amp;amp; Web Standarder &lt;/h2&gt;
+&lt;p&gt;Hippo är med som Expert Group Member i specifikationsarbetet av
+&lt;a title="JSR 283" target="_blank" href="http://jcp.org/en/jsr/detail?id=283"&gt;JSR
+283&lt;/a&gt;,
+&lt;a title="JSR 286" target="_blank" href="http://jcp.org/en/jsr/detail?id=286"&gt;JSR
+286&lt;/a&gt;,
+&lt;a title="JSR 301" target="_blank" href="http://jcp.org/en/jsr/detail?id=301"&gt;JSR
+301&lt;/a&gt; and
+&lt;a title="JSR 329" target="_blank" href="http://jcp.org/en/jsr/detail?id=329"&gt;JSR
+329&lt;/a&gt;. Vidare implementerar Hippo Portal och Hippo CMS JSR standarderna. Hippo
+CMS kan driftsättas i vanliga J2EE applikationsservrar t.ex.
+&lt;a title="Apache Tomcat" target="_blank" href="http://tomcat.apache.org"&gt;Apache
+Tomcat&lt;/a&gt;,
+&lt;a title="JOnAS" target="_blank" href="http://jonas.ow2.org"&gt;JOnAS&lt;/a&gt; eller
+&lt;a title="JBoss Application Server" target="_blank" href="http://www.jboss.org/jbossas"&gt;JBoss
+Application Server&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;CMIS &lt;/h2&gt;
+&lt;p&gt;Hippo använder
+&lt;a title="CMIS" target="_blank" href="http://en.wikipedia.org/wiki/Content_Management_Interoperability_Services"&gt;Content
+Management Interoperability Services&lt;/a&gt; (CMIS) som är en standard för
+integration och interoperabilitet mellan ECM system.&lt;/p&gt;
+&lt;h2&gt;REST &lt;/h2&gt;
+&lt;p&gt;Hippo stödjer även Web Services standarder som
+&lt;a title="RSS" target="_blank" href="http://en.wikipedia.org/wiki/RSS"&gt;RSS&lt;/a&gt;,
+&lt;a title="JSON" target="_blank" href="http://www.json.org/"&gt;JSON&lt;/a&gt; och
+&lt;a title="REST Wikipedia" target="_blank" href="http://en.wikipedia.org/wiki/Representational_state_transfer"&gt;REST&lt;/a&gt;.
+&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="motricewebsite:image">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogallerypicker:imagelink</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>4e557532-98ff-4673-a2a9-5cdbb2822eed</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+        <sv:node sv:name="motricewebsite:icon">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogallerypicker:imagelink</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>4e557532-98ff-4673-a2a9-5cdbb2822eed</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="open-source-and-standards">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>motricewebsite:textimagedocument</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:referenceable</sv:value>
+          <sv:value>mix:versionable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>0402ed3a-8132-4be9-b9bc-256a55e2491f</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>solutions/cms/open-source-and-standards/open-source-and-standards</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>unpublished</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>new</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2011-09-06T17:28:16.278Z</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2011-09-22T10:08:50.125Z</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>bjorn</sv:value>
         </sv:property>
         <sv:property sv:name="hippotranslation:id" sv:type="String">
           <sv:value>6f72a822-0d7e-451a-a24f-324f2433c139</sv:value>
@@ -2645,7 +3546,7 @@ integration och interoperabilitet mellan ECM system.&lt;/p&gt;
         <sv:value>hippo:handle</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-        <sv:value>hippo:hardhandle</sv:value>
+        <sv:value>mix:referenceable</sv:value>
         <sv:value>hippo:translated</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
@@ -2667,23 +3568,20 @@ integration och interoperabilitet mellan ECM system.&lt;/p&gt;
           <sv:value>motricewebsite:textimagedocument</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-          <sv:value>hippo:harddocument</sv:value>
+          <sv:value>mix:referenceable</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>d412f992-86b6-4918-9cc8-6c34dc92cbb3</sv:value>
         </sv:property>
-        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
-          <sv:value>live</sv:value>
-          <sv:value>preview</sv:value>
-        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
         <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-          <sv:value>solutions/cms/overview</sv:value>
+          <sv:value>solutions/cms/overview/overview[2]</sv:value>
         </sv:property>
         <sv:property sv:name="hippostd:state" sv:type="String">
           <sv:value>published</sv:value>
         </sv:property>
         <sv:property sv:name="hippostd:stateSummary" sv:type="String">
-          <sv:value>live</sv:value>
+          <sv:value>new</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
           <sv:value>admin</sv:value>
@@ -2699,6 +3597,64 @@ integration och interoperabilitet mellan ECM system.&lt;/p&gt;
         </sv:property>
         <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
           <sv:value>2012-10-01T12:14:11.394+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>e710f841-42c1-44cc-ad2b-3d46522a1cc1</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>sv</sv:value>
+        </sv:property>
+        <sv:property sv:name="motricewebsite:title" sv:type="String">
+          <sv:value>Många källor, många kanaler och många språk</sv:value>
+        </sv:property>
+        <sv:node sv:name="hippotranslation:translations">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippotranslation:translations</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="motricewebsite:body">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippostd:html</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:content" sv:type="String">
+            <sv:value>&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;</sv:value>
+          </sv:property>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="overview">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>motricewebsite:textimagedocument</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:referenceable</sv:value>
+          <sv:value>mix:versionable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>2da0e4db-d4b3-4664-8a70-819c66541c60</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>solutions/cms/overview/overview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>unpublished</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>new</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2012-09-18T16:11:34.643+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2012-09-18T16:11:38.649+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
         </sv:property>
         <sv:property sv:name="hippotranslation:id" sv:type="String">
           <sv:value>e710f841-42c1-44cc-ad2b-3d46522a1cc1</sv:value>
@@ -2753,7 +3709,7 @@ integration och interoperabilitet mellan ECM system.&lt;/p&gt;
         <sv:value>hippo:handle</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-        <sv:value>hippo:hardhandle</sv:value>
+        <sv:value>mix:referenceable</sv:value>
         <sv:value>hippo:translated</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
@@ -2775,17 +3731,14 @@ integration och interoperabilitet mellan ECM system.&lt;/p&gt;
           <sv:value>motricewebsite:textimagedocument</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-          <sv:value>hippo:harddocument</sv:value>
+          <sv:value>mix:referenceable</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>b485dcb9-318b-4897-85e5-01aa070febdc</sv:value>
         </sv:property>
-        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
-          <sv:value>live</sv:value>
-          <sv:value>preview</sv:value>
-        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
         <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-          <sv:value>solutions/open-source/why-oss</sv:value>
+          <sv:value>solutions/open-source/why-oss/why-oss[2]</sv:value>
         </sv:property>
         <sv:property sv:name="hippostd:holder" sv:type="String">
           <sv:value>admin</sv:value>
@@ -2794,7 +3747,7 @@ integration och interoperabilitet mellan ECM system.&lt;/p&gt;
           <sv:value>published</sv:value>
         </sv:property>
         <sv:property sv:name="hippostd:stateSummary" sv:type="String">
-          <sv:value>live</sv:value>
+          <sv:value>new</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
           <sv:value>bjorn</sv:value>
@@ -2878,13 +3831,115 @@ skapade programmen så som de är skapade av en männ...&lt;/p&gt;
           <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
         </sv:node>
       </sv:node>
+      <sv:node sv:name="why-oss">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>motricewebsite:textimagedocument</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:referenceable</sv:value>
+          <sv:value>mix:versionable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>7e09a091-e8ee-4faf-8854-e5f06f9c6437</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>solutions/open-source/why-oss/why-oss</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>unpublished</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>new</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>bjorn</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2011-09-12T16:56:29.523+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2012-09-27T10:40:56.083+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>12828a5a-a009-4a50-9df0-b0d75d4c6464</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>sv</sv:value>
+        </sv:property>
+        <sv:property sv:name="motricewebsite:summary" sv:type="String">
+          <sv:value>Öppen källkod innebär att resultatet av den intellektuella processen som programskapande innebär görs fritt tillgänglig. Detta leder ofta till snabb programutveckling, ökad innovation och högre kvalité på programvaran.  Öppen källkod har omdefinierat spelreglerna för utveckling och användande av program - till användarnas fördel.</sv:value>
+        </sv:property>
+        <sv:property sv:name="motricewebsite:title" sv:type="String">
+          <sv:value>Varför källkodsöppna lösningar</sv:value>
+        </sv:property>
+        <sv:node sv:name="hippotranslation:translations">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippotranslation:translations</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="motricewebsite:body">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippostd:html</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:content" sv:type="String">
+            <sv:value>&lt;html&gt;
+&lt;body&gt;
+
+&lt;p&gt;Programskapande är en intellektuell process.&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt;Program skapas av människor i ett programmeringsspråk. Resultatet av denna
+process är källprogram. Ett källprogram kan översättas till ett maskinprogram
+för att köras i en dator. En annan viktig egenskap är att källprogrammet är
+läsbart och förståeligt för en annan människa som kan programmerinsspråket som
+har använts, och som&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt;.att det intellektuella resultat av programmeringen görs öppet  av människor
+skapade programmen så som de är skapade av en männ...&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="motricewebsite:image">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogallerypicker:imagelink</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>4e557532-98ff-4673-a2a9-5cdbb2822eed</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+        <sv:node sv:name="motricewebsite:icon">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogallerypicker:imagelink</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>4e557532-98ff-4673-a2a9-5cdbb2822eed</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+      </sv:node>
     </sv:node>
     <sv:node sv:name="why-oss-in-pubsect">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>hippo:handle</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-        <sv:value>hippo:hardhandle</sv:value>
+        <sv:value>mix:referenceable</sv:value>
         <sv:value>hippo:translated</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
@@ -2906,17 +3961,14 @@ skapade programmen så som de är skapade av en männ...&lt;/p&gt;
           <sv:value>motricewebsite:textimagedocument</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-          <sv:value>hippo:harddocument</sv:value>
+          <sv:value>mix:referenceable</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>f1d2cbd9-aa3f-4f7a-b01a-34053c267484</sv:value>
         </sv:property>
-        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
-          <sv:value>live</sv:value>
-          <sv:value>preview</sv:value>
-        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
         <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-          <sv:value>solutions/open-source/why-oss-in-pubsect</sv:value>
+          <sv:value>solutions/open-source/why-oss-in-pubsect/why-oss-in-pubsect[2]</sv:value>
         </sv:property>
         <sv:property sv:name="hippostd:holder" sv:type="String">
           <sv:value>admin</sv:value>
@@ -2925,7 +3977,7 @@ skapade programmen så som de är skapade av en männ...&lt;/p&gt;
           <sv:value>published</sv:value>
         </sv:property>
         <sv:property sv:name="hippostd:stateSummary" sv:type="String">
-          <sv:value>live</sv:value>
+          <sv:value>new</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
           <sv:value>bjorn</sv:value>
@@ -3040,13 +4092,146 @@ Samverkan
           <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
         </sv:node>
       </sv:node>
+      <sv:node sv:name="why-oss-in-pubsect">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>motricewebsite:textimagedocument</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:referenceable</sv:value>
+          <sv:value>mix:versionable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>dc5b967f-5f90-4972-b78f-0b924f8b30d0</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>solutions/open-source/why-oss-in-pubsect/why-oss-in-pubsect</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>unpublished</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>new</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>bjorn</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2011-09-12T14:56:29.523Z</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2012-01-03T17:57:39.970Z</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>c310de17-179b-4a67-a242-817b5094074b</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>sv</sv:value>
+        </sv:property>
+        <sv:property sv:name="motricewebsite:summary" sv:type="String">
+          <sv:value>Den öppna förvaltningens uppdrag att effektivisera genom samverkanslösningar gör öppen källkod speciellt lämpad eftersom denna modell för utveckling tar samverkan till sin spets. Utöver detta underlättar öppen teknologi en neutral och inlåsningsfri kommunikation/interaktion med medborgare och företag.</sv:value>
+        </sv:property>
+        <sv:property sv:name="motricewebsite:title" sv:type="String">
+          <sv:value>Öppen källkod&amp;#151;en offentlig angelägenhet</sv:value>
+        </sv:property>
+        <sv:node sv:name="hippotranslation:translations">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippotranslation:translations</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="motricewebsite:body">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippostd:html</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:content" sv:type="String">
+            <sv:value>&lt;p&gt; Utöver de generella fördelarna med öppen källkod finns det särskilda skäl för offentlig sektor att använda fri och öppen programvara.
+&lt;/p&gt;
+&lt;h3&gt;Kostnadseffektivitet och Flexibilitet genom återanvändning och samverkan
+&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+  &lt;p&gt;
+Återanvändning
+  &lt;/p&gt;
+&lt;p&gt;
+Öppenheten inbjuder till återanvändning. Ett landsting eller en kommun kan återanvända en befintlig lösning och anpassa den till egna behov.
+&lt;/p&gt;
+&lt;/li&gt;
+  &lt;li&gt;
+  &lt;p&gt;
+Samverkan
+ &lt;/p&gt;
+&lt;p&gt;
+Återanvändning av lösningar mellan offentliga enheter inbjuder i sin tur till samverkan som ökar incitamentet för gemensamma lösningar
+&lt;/p&gt;
+&lt;/li&gt;
+  &lt;li&gt;
+  &lt;p&gt; Utökade möjligheter till kvalitetssäkring
+  &lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Inlåsningsfri interaktion med medborgare och företag
+&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+  &lt;p&gt; Konkurrensneutralitet och ingen inlåsning i sluten teknologi
+  &lt;/p&gt;
+  &lt;p&gt; Den digitala kommunikationen mellan förvaltningen och medborgarna/företagen måste kunna äga rum utan att detta medför inlåsning i specifik sluten teknologi för dessa. Därmed ökar också konkurrensneutraliteten mellan företagen. Detta är ett krav som måste kunna ställas på en öppen förvaltning, och som har följande innebörd:
+  &lt;/p&gt;
+  &lt;ul&gt;
+    &lt;li&gt;
+    &lt;p&gt; Plattformsoberoende
+    &lt;/p&gt;
+    &lt;p&gt; Förvaltningen måste kunna kommunicera med medborgarna utan att förutsätta användandet av en specifik hårdvara/plattform.
+    &lt;/p&gt;&lt;/li&gt;
+    &lt;li&gt;
+    &lt;p&gt; Programoberoende
+    &lt;/p&gt;
+    &lt;p&gt; Förvaltningen måste kunna kommunicera med medborgarna utan att förutsätta användandet av sluten programvara för ändamålet. Kommunikationen måste kunna äga rum med hjälp av öppna och standariserade dataformat som stöds av fritt tillgänglig programvara.
+    &lt;/p&gt;&lt;/li&gt;
+  &lt;/ul&gt;&lt;/li&gt;
+  &lt;li&gt;
+  &lt;p&gt; Transparens/Insyn
+  &lt;/p&gt;
+  &lt;p&gt; Om specifik programvara används för att fatta ekonomiska eller juridiska beslut som har relevans för medborgare och företag så bör denna programvara vara tillgänglig för insyn.
+  &lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="motricewebsite:image">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogallerypicker:imagelink</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>4e557532-98ff-4673-a2a9-5cdbb2822eed</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+        <sv:node sv:name="motricewebsite:icon">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogallerypicker:imagelink</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>4e557532-98ff-4673-a2a9-5cdbb2822eed</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+      </sv:node>
     </sv:node>
     <sv:node sv:name="oss-ecosystem">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>hippo:handle</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-        <sv:value>hippo:hardhandle</sv:value>
+        <sv:value>mix:referenceable</sv:value>
         <sv:value>hippo:translated</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
@@ -3068,17 +4253,14 @@ Samverkan
           <sv:value>motricewebsite:textimagedocument</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-          <sv:value>hippo:harddocument</sv:value>
+          <sv:value>mix:referenceable</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>2c77b107-10c6-424b-86c0-03e2e1e678e6</sv:value>
         </sv:property>
-        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
-          <sv:value>live</sv:value>
-          <sv:value>preview</sv:value>
-        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
         <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-          <sv:value>solutions/open-source/oss-ecosystem</sv:value>
+          <sv:value>solutions/open-source/oss-ecosystem/oss-ecosystem[3]</sv:value>
         </sv:property>
         <sv:property sv:name="hippostd:holder" sv:type="String">
           <sv:value>rol</sv:value>
@@ -3087,7 +4269,7 @@ Samverkan
           <sv:value>published</sv:value>
         </sv:property>
         <sv:property sv:name="hippostd:stateSummary" sv:type="String">
-          <sv:value>live</sv:value>
+          <sv:value>new</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
           <sv:value>admin</sv:value>
@@ -3182,7 +4364,7 @@ utmanar nu på allvar motsvarande slutna lösningar.&lt;/p&gt;
           <sv:value>motricewebsite:textimagedocument</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-          <sv:value>hippo:harddocument</sv:value>
+          <sv:value>mix:referenceable</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>62d90fe5-cf2f-4cc9-a7da-96e53c990359</sv:value>
@@ -3190,16 +4372,13 @@ utmanar nu på allvar motsvarande slutna lösningar.&lt;/p&gt;
         <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
         <sv:property sv:name="hippo:related___pathreference" sv:type="String">
           <sv:value>solutions/open-source/oss-ecosystem/oss-ecosystem</sv:value>
-          <sv:value>solutions/open-source/oss-ecosystem</sv:value>
-        </sv:property>
-        <sv:property sv:name="hippostd:holder" sv:type="String">
-          <sv:value>rol</sv:value>
+          <sv:value>solutions/open-source/oss-ecosystem/oss-ecosystem[3]</sv:value>
         </sv:property>
         <sv:property sv:name="hippostd:state" sv:type="String">
           <sv:value>draft</sv:value>
         </sv:property>
         <sv:property sv:name="hippostd:stateSummary" sv:type="String">
-          <sv:value>live</sv:value>
+          <sv:value>new</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
           <sv:value>admin</sv:value>
@@ -3218,6 +4397,138 @@ utmanar nu på allvar motsvarande slutna lösningar.&lt;/p&gt;
         </sv:property>
         <sv:property sv:name="hippotranslation:locale" sv:type="String">
           <sv:value>sv</sv:value>
+        </sv:property>
+        <sv:property sv:name="motricewebsite:buttonref" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="motricewebsite:buttontxt" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="motricewebsite:imagecaption" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="motricewebsite:seqnumber" sv:type="Long">
+          <sv:value>0</sv:value>
+        </sv:property>
+        <sv:property sv:name="motricewebsite:summary" sv:type="String">
+          <sv:value>Under senare år har det växt fram öppna komponener och system högst upp i   "näringskedjan" dvs med tydlig verksamhetsinriktning. Många av dessa har   nått en mognad och kvalitet där de på allvar utmanar dyra, slutna lösningar. Vi ser framväxten av fria och öppna "it-ekosystem" som täcker hela mjukvarustacken.</sv:value>
+        </sv:property>
+        <sv:property sv:name="motricewebsite:title" sv:type="String">
+          <sv:value>Ett fritt och öppet "it-ekosystem"</sv:value>
+        </sv:property>
+        <sv:node sv:name="hippotranslation:translations">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippotranslation:translations</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="motricewebsite:body">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippostd:html</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:content" sv:type="String">
+            <sv:value>&lt;html&gt;
+&lt;body&gt;
+
+&lt;p&gt;Programvara kan klassificeras enligt dess plats i "näringskedjan": Närmast
+maskinen ligger systemprogram som kommunicerar direkt med hårdvaran, utanför det
+ligger operativsystem som nyttjas av infrastrukturprogramvara ("middleware"),
+databaser och ramverk. Överst i kedjan exponeras tillämpningarna för användarna
+i olika form. Utvecklingsprocesserna stöds i sin tur av programutvecklings- och
+stödverktyg.&lt;/p&gt;
+
+&lt;p&gt;Denna beroendekedja återspeglas i utvecklingen av av källkodsöppna program.
+Först kom programutvecklingsverktyg, sedan utvecklades leden i "näringskedjan"
+successivt. Öppna komponenter och delsystem på högre nivå har växt fram över
+tid, allt eftersom element längre ner i "näringskedjan" har blivit tillgängliga.
+Dessa underliggande komponenter utsätts å sin sida för ett "survival of the
+fittest" tryck — de bästa vinner, och dessa når så småningom hög mognad och
+kvalitet.&lt;/p&gt;
+
+&lt;p&gt;Under senare år har det växt fram komponenter och system högst upp i
+"näringskedjan", med tydlig slutanvändar- och verksamhetsinriktning. Dessa
+utmanar nu på allvar motsvarande slutna lösningar.&lt;/p&gt;
+
+&lt;p&gt;Ett fritt och öppet "it-ekosystem" håller på att växa fram.&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="motricewebsite:image">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogallerypicker:imagelink</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>4e557532-98ff-4673-a2a9-5cdbb2822eed</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+        <sv:node sv:name="motricewebsite:icon">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogallerypicker:imagelink</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>4e557532-98ff-4673-a2a9-5cdbb2822eed</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="oss-ecosystem">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>motricewebsite:textimagedocument</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:referenceable</sv:value>
+          <sv:value>mix:versionable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>8ad7df8f-7f61-49e9-855d-b000ebe5181a</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>solutions/open-source/oss-ecosystem/oss-ecosystem</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>unpublished</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>new</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2011-09-16T09:37:00.767Z</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2014-09-22T16:47:26.763+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>a8ce0628-d46c-47e2-99d9-a5071c1023d2</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>sv</sv:value>
+        </sv:property>
+        <sv:property sv:name="motricewebsite:buttonref" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="motricewebsite:buttontxt" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="motricewebsite:imagecaption" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="motricewebsite:seqnumber" sv:type="Long">
+          <sv:value>0</sv:value>
         </sv:property>
         <sv:property sv:name="motricewebsite:summary" sv:type="String">
           <sv:value>Under senare år har det växt fram öppna komponener och system högst upp i   "näringskedjan" dvs med tydlig verksamhetsinriktning. Många av dessa har   nått en mognad och kvalitet där de på allvar utmanar dyra, slutna lösningar. Vi ser framväxten av fria och öppna "it-ekosystem" som täcker hela mjukvarustacken.</sv:value>
@@ -3308,7 +4619,7 @@ utmanar nu på allvar motsvarande slutna lösningar.&lt;/p&gt;
         <sv:value>hippo:handle</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-        <sv:value>hippo:hardhandle</sv:value>
+        <sv:value>mix:referenceable</sv:value>
         <sv:value>hippo:translated</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
@@ -3330,17 +4641,14 @@ utmanar nu på allvar motsvarande slutna lösningar.&lt;/p&gt;
           <sv:value>motricewebsite:textimagedocument</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-          <sv:value>hippo:harddocument</sv:value>
+          <sv:value>mix:referenceable</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>2ad33fcb-8983-4767-b154-40def6dda829</sv:value>
         </sv:property>
-        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
-          <sv:value>live</sv:value>
-          <sv:value>preview</sv:value>
-        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
         <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-          <sv:value>solutions/open-source/overview</sv:value>
+          <sv:value>solutions/open-source/overview/overview[2]</sv:value>
         </sv:property>
         <sv:property sv:name="hippostd:holder" sv:type="String">
           <sv:value>admin</sv:value>
@@ -3349,7 +4657,7 @@ utmanar nu på allvar motsvarande slutna lösningar.&lt;/p&gt;
           <sv:value>published</sv:value>
         </sv:property>
         <sv:property sv:name="hippostd:stateSummary" sv:type="String">
-          <sv:value>live</sv:value>
+          <sv:value>new</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
           <sv:value>admin</sv:value>
@@ -3365,6 +4673,131 @@ utmanar nu på allvar motsvarande slutna lösningar.&lt;/p&gt;
         </sv:property>
         <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
           <sv:value>2012-10-01T12:16:00.614+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>9e054a2a-e772-4629-b59c-20390c6ec720</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>sv</sv:value>
+        </sv:property>
+        <sv:property sv:name="motricewebsite:summary" sv:type="String">
+          <sv:value>Den största attraktiviteten med öppen källkod är inte att den är "gratis", utan de värdefulla egenskaperna som följer av öppenheten: Användarkontroll över programvaran, snabbare utveckling, tendens mot hög kvalitet, ökad säkerhet och enklare integration. Dessa egenskaper leder också till att programutvecklare som regel föredrar öppen kod, vilket ytterligare ökar framtidssäkerheten till källkodsöppna program.</sv:value>
+        </sv:property>
+        <sv:property sv:name="motricewebsite:title" sv:type="String">
+          <sv:value>Öppen källkod för användarkontroll, återanvändning och synergi</sv:value>
+        </sv:property>
+        <sv:node sv:name="hippotranslation:translations">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippotranslation:translations</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="motricewebsite:body">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippostd:html</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:content" sv:type="String">
+            <sv:value>&lt;p&gt; Källkodsöppna program (OSS—Open Source Software) förknippas ofta med gratis programvara, och gratis-egenskapen betraktas som den största fördelen med OSS. Detta är en förenkling som överskuggar de verkligt stora fördelarna med öppen programvara.
+&lt;/p&gt;
+&lt;p&gt; Det ligger förvisso i öppenhetens natur att licenskostnaderna för källkodsöppna program är obefintliga. Det är klart en fördel, men de flesta är överens om att licenskostnader för program utgör en mindre del av den totala livscykelkostnaden för ett system.
+&lt;/p&gt;
+&lt;p&gt; Det är andra konsekvenser av öppenheten och friheten som är avgörande och som kastar om spelreglerna i mjukvaruindustrin:
+&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+  &lt;p&gt; Användarkontroll
+  &lt;/p&gt;
+  &lt;p&gt; En sluten modell för produktion och distribution av mjukvara innebär att leverantörerna av program har kontroll och sätter villkoren för användning, support, uppdatering etc.. En öppen modell ger användarna kontroll över mjukvaran, och därmed friheten att använda denna på det sätt som bäst passar för verksamheten. Underhåll av öppna program kan konkurrensutsättas i högre grad än för sluten programvara. Eftersom källkoden för programmen finns tillgänglig, spelar alla aktörer på mer lika villkor.
+  &lt;/p&gt;&lt;/li&gt;
+  &lt;li&gt;
+  &lt;p&gt; Snabbare utveckling—med bibehållen hög kvalitet
+  &lt;/p&gt;
+  &lt;ul&gt;
+    &lt;li&gt;
+    &lt;p&gt; En ständigt ökande arsenal av öppna komponenter att bygga vidare på.
+    &lt;/p&gt;
+    &lt;p&gt; Utveckling av specialiserade applikationer baserar sig på mer generiska programkomponenter, som tenderar att hålla hög kvalitet, eftersom de ständigt testas och konkurrensutsätts av andra öppna programvaror. Tillgång till en arsenal av öppna komponenter av hög kvalitet accelererar utvecklingen.
+    &lt;/p&gt;&lt;/li&gt;
+    &lt;li&gt;
+    &lt;p&gt; Öppen källkod leder till uppkomst av såkallade "community"-bidrag. Testning, felrättning, kvalitetssäkring och övriga förslag till förbättringar blir ett gemensamt åtagande.
+    &lt;/p&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;
+  &lt;/p&gt;&lt;/li&gt;
+  &lt;li&gt;
+  &lt;p&gt; Snabbare felrättning—ökad säkerhet
+  &lt;/p&gt;
+  &lt;p&gt; Källkodsöppna program brukar ha en mycket kortare "release"-cykel än slutna, proprietära program, och säkerhetsluckor som upptäcks leder oftast snabbt till släppandet av en ny release som löser problemet.
+  &lt;/p&gt;&lt;/li&gt;
+  &lt;li&gt;
+  &lt;p&gt; Enklare integration
+  &lt;/p&gt;
+  &lt;p&gt; Skälen för detta är delvis att öppna program oftast är konstruerade som en integration av en serie öppna komponenter, och att de därmed har öppenhet mot omvärlden inbyggt i sin design. Vid svårare integrationer är tillgängligheten av källkoden en stor fördel, då denna utgör den "ultimata" förklaringen på hur programmet är uppbyggt.
+  &lt;/p&gt;&lt;/li&gt;
+  &lt;li&gt;
+  &lt;p&gt; Appellerar till utvecklare—ökad innovationskraft
+  &lt;/p&gt;
+  &lt;p&gt; Mjukvarukonstruktion är en intellektuell process, och tankar "trivs bäst i öppna landskap". OSS ger programmeraren möjligheten att studera, analysera, felrätta och förbättra befintliga program. Man behöver inte återuppfinna hjulet gång efter annan. Därför föredrar de flesta utvecklare att arbeta med OSS. Därmed uppstår en "win/win"-situation mellan programutvecklare och användare, vilket ytterligare ökar dynamiken i utvecklingen.
+  &lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="motricewebsite:image">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogallerypicker:imagelink</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>4e557532-98ff-4673-a2a9-5cdbb2822eed</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+        <sv:node sv:name="motricewebsite:icon">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogallerypicker:imagelink</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>4e557532-98ff-4673-a2a9-5cdbb2822eed</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="overview">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>motricewebsite:textimagedocument</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:referenceable</sv:value>
+          <sv:value>mix:versionable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>8149a7dd-40ab-4beb-a1ae-5aaa9dfa84ca</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>solutions/open-source/overview/overview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>unpublished</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>new</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2012-09-18T16:08:12.065+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2012-09-27T10:40:16.517+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
         </sv:property>
         <sv:property sv:name="hippotranslation:id" sv:type="String">
           <sv:value>9e054a2a-e772-4629-b59c-20390c6ec720</sv:value>
@@ -3502,7 +4935,7 @@ utmanar nu på allvar motsvarande slutna lösningar.&lt;/p&gt;
         <sv:value>hippo:handle</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-        <sv:value>hippo:hardhandle</sv:value>
+        <sv:value>mix:referenceable</sv:value>
         <sv:value>hippo:translated</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
@@ -3524,17 +4957,14 @@ utmanar nu på allvar motsvarande slutna lösningar.&lt;/p&gt;
           <sv:value>motricewebsite:textimagedocument</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-          <sv:value>hippo:harddocument</sv:value>
+          <sv:value>mix:referenceable</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>1cd3382c-8c47-4e1e-8853-2131e1cd372b</sv:value>
         </sv:property>
-        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
-          <sv:value>live</sv:value>
-          <sv:value>preview</sv:value>
-        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
         <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-          <sv:value>solutions/public-sector/oss-stack</sv:value>
+          <sv:value>solutions/public-sector/oss-stack/oss-stack[2]</sv:value>
         </sv:property>
         <sv:property sv:name="hippostd:holder" sv:type="String">
           <sv:value>rol</sv:value>
@@ -3543,7 +4973,7 @@ utmanar nu på allvar motsvarande slutna lösningar.&lt;/p&gt;
           <sv:value>published</sv:value>
         </sv:property>
         <sv:property sv:name="hippostd:stateSummary" sv:type="String">
-          <sv:value>live</sv:value>
+          <sv:value>new</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
           <sv:value>rol</sv:value>
@@ -3733,13 +5163,221 @@ Tomcat&lt;/a&gt;,
           <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
         </sv:node>
       </sv:node>
+      <sv:node sv:name="oss-stack">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>motricewebsite:textimagedocument</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:referenceable</sv:value>
+          <sv:value>mix:versionable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>fef4ad51-16a3-4822-bab2-2396256a2eb6</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>solutions/public-sector/oss-stack/oss-stack</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>unpublished</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>new</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>rol</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2012-01-04T16:53:25.705Z</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2012-01-06T19:33:59.924Z</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>rol</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>7126a7f9-1611-4e61-8c5b-f4a939d0a7b4</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>sv</sv:value>
+        </sv:property>
+        <sv:property sv:name="motricewebsite:summary" sv:type="String">
+          <sv:value>På mindre än femton år har Linux gått från att betraktas som ett  hobbysystem till att vara operativsystemet som körs i 90% av världens 500 snabbaste superdatorer. Utvecklingen av öppen källkod har spridit sig över hela "it-näringskedjan"  och täcker nu hela stacken av programvara som behövs i en kommun eller offentlig förvaltning.</sv:value>
+        </sv:property>
+        <sv:property sv:name="motricewebsite:title" sv:type="String">
+          <sv:value>En öppen kommunal it-stack</sv:value>
+        </sv:property>
+        <sv:node sv:name="hippotranslation:translations">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippotranslation:translations</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="motricewebsite:body">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippostd:html</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:content" sv:type="String">
+            <sv:value>&lt;html&gt;
+&lt;body&gt;
+
+&lt;p&gt;Fri och öppen programvara utgör en enorm potential för kommunerna i sin
+organisations- och tjänsteutveckling.&lt;/p&gt;
+
+&lt;p&gt;Öppen programvara har genomgått en häpnadsväckande utveckling under senare
+år. För tio till femton år sedan förknippades fri/öppen programvara först och
+främst med &lt;em&gt;Linux&lt;/em&gt;, och fenomentet togs inte på allvar i större
+organisationer och i företagen.&lt;/p&gt;
+
+&lt;p&gt;Vem skulle trott för tio år sedan att man i dag skulle använda linux som
+operativsystem i mer än
+&lt;a title="Linux i superdatorer" href="http://www.tuxmachines.org/node/45558"&gt;90%
+av världens 500 snabbaste superdatorer&lt;/a&gt;, och att den
+&lt;a title="Tianhe-1" href="http://www.cbc.ca/technology/story/2010/10/28/technology-china-fastest-supercomputer.html"&gt;kinesiska,
+linux-baserade Tianhe-1&lt;/a&gt; skulle inta förstaplatsen bland världens
+superdatorer.&lt;/p&gt;
+
+&lt;p&gt;Men än viktigare är att fenomenet med fri och öppen programvara har spridit
+sig till alla segment i "it-näringskedjan":&lt;/p&gt;
+
+&lt;p&gt;Det är nu fullt möjligt för en kommun att täcka den allt övervägande delen av
+sitt it-behov enbart med fri och öppen programvara. Detta ger som vi har belyst
+stora &lt;a title="Varför öppen källkod" href="why-oss"&gt;generella fördelar&lt;/a&gt;, men
+den öppna modellen medför utöver detta också en rad
+&lt;a title="Varför öppen källkod i offentlig sektor" href="why-oss-in-pubsect"&gt;specifika
+fördelar&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;Exempel på en öppen programvarustack för kommunal it &lt;/h2&gt;
+&lt;p&gt;Följande stack är menad just som ett exempel. I varje lager kan det finns
+andra varianter eller alternativ, och en viktig uppgift vid migrering till en
+öppen stack är genomförandet av en förstudie i syfte att optimera valet av
+programvara och komponenter utifrån behov och strategi.&lt;/p&gt;
+
+&lt;p&gt;Utöver det axplock som nämns nedan finns mängder av öppna progarmbibliotek,
+ramverk för programutveckling, versions- och konfigurationshantering, test och
+kvalitetssäkring samt vertikala tillämpningar.&lt;/p&gt;
+&lt;h3&gt;Operativsystem &lt;/h3&gt;
+&lt;p&gt; &lt;a title="Ubuntu OS" href="http://www.ubuntu.com"&gt;Ubuntu Linux&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;Databaser och "middleware" &lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Databaser:
+&lt;a title="PostgreSQL" href="http://www.postgresql.org"&gt;PostgreSQL&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Katalog/Directory:
+&lt;a title="OpenLDAP" href="http://www.openldap.org"&gt;openLDAP&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Medelvara/Infrastruktur:&lt;/p&gt;
+
+&lt;p&gt;JEE: &lt;a title="Apache Tomcat" href="http://tomcat.apache.org"&gt;Apache
+Tomcat&lt;/a&gt;,
+&lt;a title="JOnAS Application Server" href="http://wiki.jonas.ow2.org/xwiki/bin/view/Main/WebHome"&gt;JOnAS&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p&gt;"Cloud"-programvara:
+&lt;a title="OpenStack Open Source Cloud Computing" href="http://openstack.org/"&gt;OpenStack&lt;/a&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Applikationsramverk &lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+ &lt;a title="Spring Java Application Development Framework" href="http://www.springsource.org/"&gt;Spring&lt;/a&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a title="Apache Wicket" href="http://wicket.apache.org/"&gt;Apache Wicket&lt;/a&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Verksamhetsstödjande "Enterprise" programvara &lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Processhantering (BPM—Business Process Management):
+&lt;a title="Bonita Open Solution" href="http://www.bonitasoft.com"&gt;Bonita&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Dokument- och Innehållshantering (ECM—Enterprise Content Management):
+&lt;a title="Open Source Content Management Platform" href="http://www.nuxeo.com"&gt;Nuxeo&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Flexibelt, anpassningsbart dokumenthanteringssytem med e-arkiv funktioner.
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Webbpublicering (WCM—Web Content Management):
+&lt;a title="Context Aware Content Management" href="http://www.onehippo.com"&gt;Hippo&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Webbpubliceringssystem som bl.a driver samtliga regeringssiter i Holland&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;"Business Intelligence":
+&lt;a title="100% Open Source Business Intelligence Suite" href="http://www.spagoworld.org/xwiki/bin/view/SpagoBI"&gt;SpagoBI&lt;/a&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value>
+          </sv:property>
+          <sv:node sv:name="why-oss">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:facetselect</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>8605a129-fa8f-4525-ba84-e0dc1b121bf5</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+          <sv:node sv:name="why-oss-in-pubsect">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:facetselect</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>a0cc287e-8829-4bfa-a484-a8e0bca36ef2</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="motricewebsite:image">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogallerypicker:imagelink</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>4e557532-98ff-4673-a2a9-5cdbb2822eed</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+        <sv:node sv:name="motricewebsite:icon">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogallerypicker:imagelink</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>4e557532-98ff-4673-a2a9-5cdbb2822eed</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+      </sv:node>
     </sv:node>
     <sv:node sv:name="dokument--och-arendehantering">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>hippo:handle</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-        <sv:value>hippo:hardhandle</sv:value>
+        <sv:value>mix:referenceable</sv:value>
         <sv:value>hippo:translated</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
@@ -3761,17 +5399,14 @@ Tomcat&lt;/a&gt;,
           <sv:value>motricewebsite:textimagedocument</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-          <sv:value>hippo:harddocument</sv:value>
+          <sv:value>mix:referenceable</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>ce6e9c64-48fb-41b0-bdd3-c85a8c45bd60</sv:value>
         </sv:property>
-        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
-          <sv:value>live</sv:value>
-          <sv:value>preview</sv:value>
-        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
         <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-          <sv:value>solutions/public-sector/dokument--och-arendehantering</sv:value>
+          <sv:value>solutions/public-sector/dokument--och-arendehantering/dokument--och-arendehantering[2]</sv:value>
         </sv:property>
         <sv:property sv:name="hippostd:holder" sv:type="String">
           <sv:value>rol</sv:value>
@@ -3780,7 +5415,7 @@ Tomcat&lt;/a&gt;,
           <sv:value>published</sv:value>
         </sv:property>
         <sv:property sv:name="hippostd:stateSummary" sv:type="String">
-          <sv:value>live</sv:value>
+          <sv:value>new</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
           <sv:value>rol</sv:value>
@@ -3928,13 +5563,179 @@ något att titta närmare på.&lt;/p&gt;
           <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
         </sv:node>
       </sv:node>
+      <sv:node sv:name="dokument--och-arendehantering">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>motricewebsite:textimagedocument</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:referenceable</sv:value>
+          <sv:value>mix:versionable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>a4f1da06-79f9-463a-88e6-9128cf9f2304</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>solutions/public-sector/dokument--och-arendehantering/dokument--och-arendehantering</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>unpublished</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>new</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>rol</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2012-01-04T17:00:44.114Z</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2012-01-07T18:10:27.102Z</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>rol</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>ce828675-4389-435a-af7f-1196ff4a83fc</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>sv</sv:value>
+        </sv:property>
+        <sv:property sv:name="motricewebsite:summary" sv:type="String">
+          <sv:value>Funktionaliteten som krävs för offentlig ärendehantering täcks i dag upp på ett mer flexibelt, anpassningsbart och förändringsbart sätt av ett modernt BPM-system. Det finns också kraftfulla, skalbara och anpassningsbara öppna dokumenthanteringssystem som lämpar sig för offentlig verksamhets krav på dokumentförvaltning</sv:value>
+        </sv:property>
+        <sv:property sv:name="motricewebsite:title" sv:type="String">
+          <sv:value>Dokument- och Ärendehantering</sv:value>
+        </sv:property>
+        <sv:node sv:name="hippotranslation:translations">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippotranslation:translations</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="motricewebsite:body">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippostd:html</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:content" sv:type="String">
+            <sv:value>&lt;html&gt;
+&lt;body&gt;
+&lt;h2&gt;Ärendehantering versus Processhantering &lt;/h2&gt;
+&lt;p&gt;Att behandla ett ärende är en process. Processhantering är en generalisering
+av ärendehantering. Ett processhanteringssystem med anpassningar för
+ärendehantering är ett ärendehanteringssystem.&lt;/p&gt;
+
+&lt;p&gt;I en
+&lt;a title="Ärendehantering versus Processhantering" href="http://arkiv.edelegationen.se/verva/ramavtal-och-upphandling/anvand/hitta-i-ramavtalen/vagledningen-informationsforsorjning-2005/produktbeskrivningar/arendehantering/index.html"&gt;arkiverad&lt;/a&gt;
+version (från 31 dec 2008) av Verket för förvaltningsutvecklings (VERVA)
+webbplats hittar vi följande karakterisering av ärendehantering vs.
+processhantering:&lt;/p&gt;
+&lt;h4&gt;&lt;em&gt;System för ärendehantering &lt;/em&gt; &lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Program som uppfyller minst de legala kraven på att registrera allmänna
+handlingar, inkommande och upprättade, och övriga händelser i myndighetens
+ärendehandläggning enligt exempelvis offentlighetsprincipen, sekretesslagen,
+arkivlagen och PUL.&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Lösningen ska klara att registrera inkommande och upprättade
+elektroniska handlingar, t.ex. inkommande och utgående e-post, eventuellt även
+elektroniskt identifierad och underskriven, i sin elektroniska originalform och
+inte som en utskriven papperskopia.&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Har stödfunktioner för ärendeprocessen som till exempel bevakning,
+loggning och styrning av ärende- och dokumentstatus.&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;&lt;em&gt;Workflow / process management &lt;/em&gt; &lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Workflow- eller process managementfunktioner skapas med särskilda
+programverktyg som kan definiera och förprogrammera regler och villkor som styr
+dokument-, händelse- och rollbaserade ärendeflöden.&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Workflow- och document managementverktyg kan ibland ersätta ett
+traditionellt ärendehanteringsprograms roll som IT-stöd för ärendeprocessen.
+&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Den arkiverade sidan är tre år gammal men fångar poängen att ett avancerat
+processhanteringssystem kan konfigureras och anpassas till att anta ett
+ärendehanterinssystems funktion och skepnad.&lt;/p&gt;
+&lt;h2&gt;BPM vs Workflow—vad är skillnaden? &lt;/h2&gt;
+&lt;p&gt;Verva gjorde däremot ingen skillnad på Workflow och processhantering i
+definitionen/karakteristiken ovan. Det är missvisande.Workflow är en
+delfunktionalitet i BPM som har att göra med att säkra "schedulering" (ordning i
+tid och sekvens) och "routing" (beräkning av färdväg i ett flödesdigagram) av
+aktiviteter och tilldelning av dessa till personer i organisationen.&lt;/p&gt;
+
+&lt;p&gt;BPM utvidgar detta till att också omfatta&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;processmodellering&lt;/li&gt;
+&lt;li&gt;applikationsintegration&lt;/li&gt;
+&lt;li&gt;processövervakning/monitorering&lt;/li&gt;
+&lt;li&gt;process-optimering och process-simulering&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Framtidssäkrad plattform för Dokument- och Ärendehantering &lt;/h2&gt;
+&lt;p&gt;Med "framtidssäkrad" menas i detta sammanhang ett system vars uppgift och
+funktionalitet kan växa och ändras över tid. Det kräver en plattform med
+delsystem som&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;är modulärt uppbyggda&lt;/li&gt;
+&lt;li&gt;följer etablerade, leverantörsneutrala standarder för integration och
+datautväxling&lt;/li&gt;
+&lt;li&gt;har möjlighet till utökad funktionalitet i form av "plug-ins" inbyggt "by
+design"&lt;/li&gt;
+&lt;li&gt;har kraftfulla mekanismer för integration med andra system&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Med denna kravlista står sig källkodsöppna system väl i konkurrensen,
+eftersom öppenheten underlättar för den önskade flexibiliteten.  Sannolikt är en
+BPM-lösning som integrerar ett kraftfullt och anpassningsbart
+dokumenthanteringssystem den mest moderna och  framtidssäkra strategin i dag när
+kommunerna skall utreda införskaffande av nästa generations Dokument- och
+ärendehanteringssystem, se t.ex.
+&lt;a title="Samarbete nytt Systemstöd DÄHS" href="http://sambruk.se/ovrigt/nyhetsarkiv/nyanyhetsarkivet/samarbetenyttsystemstoddahs.5.34b66006132ea9e960980008803.html#.Tt4R29FteOc.twitter"&gt;DÄHS&lt;/a&gt;.
+Här borde kombinationen av
+&lt;a title="Bonita Open Solution" href="bonita"&gt;Bonita&lt;/a&gt; och
+&lt;a title="Nuxeo Document management" href="http://www.nuxeo.com"&gt;Nuxeo&lt;/a&gt; vara
+något att titta närmare på.&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+&lt;br/&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="motricewebsite:image">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogallerypicker:imagelink</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>4e557532-98ff-4673-a2a9-5cdbb2822eed</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+        <sv:node sv:name="motricewebsite:icon">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogallerypicker:imagelink</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>4e557532-98ff-4673-a2a9-5cdbb2822eed</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+      </sv:node>
     </sv:node>
     <sv:node sv:name="overview">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>hippo:handle</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-        <sv:value>hippo:hardhandle</sv:value>
+        <sv:value>mix:referenceable</sv:value>
         <sv:value>hippo:translated</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
@@ -3956,17 +5757,14 @@ något att titta närmare på.&lt;/p&gt;
           <sv:value>motricewebsite:textimagedocument</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-          <sv:value>hippo:harddocument</sv:value>
+          <sv:value>mix:referenceable</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>b5889c12-3834-4558-ac4e-66246c19d634</sv:value>
         </sv:property>
-        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
-          <sv:value>live</sv:value>
-          <sv:value>preview</sv:value>
-        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
         <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-          <sv:value>solutions/public-sector/overview</sv:value>
+          <sv:value>solutions/public-sector/overview/overview[2]</sv:value>
         </sv:property>
         <sv:property sv:name="hippostd:holder" sv:type="String">
           <sv:value>admin</sv:value>
@@ -3975,7 +5773,7 @@ något att titta närmare på.&lt;/p&gt;
           <sv:value>published</sv:value>
         </sv:property>
         <sv:property sv:name="hippostd:stateSummary" sv:type="String">
-          <sv:value>live</sv:value>
+          <sv:value>new</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
           <sv:value>admin</sv:value>
@@ -3991,6 +5789,100 @@ något att titta närmare på.&lt;/p&gt;
         </sv:property>
         <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
           <sv:value>2012-10-01T12:15:34.000+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>af040371-618d-444d-ac98-d150946644fd</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>sv</sv:value>
+        </sv:property>
+        <sv:property sv:name="motricewebsite:title" sv:type="String">
+          <sv:value>Offentlig sektor - Översikt</sv:value>
+        </sv:property>
+        <sv:node sv:name="hippotranslation:translations">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippotranslation:translations</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="motricewebsite:body">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippostd:html</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:content" sv:type="String">
+            <sv:value>&lt;html&gt;
+&lt;body&gt;
+
+&lt;p&gt;Våra lösningar baserar sig på öppen källkod, som generellt medför
+&lt;a href="why-oss"&gt;stora fördelar&lt;/a&gt; i förhållande till slutna, proprietära
+lösningar. Drivkrafterna och principerna för öppen källkod och transparensen som
+naturligt kommer med öppen källkod
+&lt;a title="Varför öppen kod i offentlig förvaltning" href="why-oss-in-pubsect"&gt;passar
+dessutom utmärkt för den öppna förvaltningen&lt;/a&gt;, både för att det leder till
+synergieffekter mellan olika enheter och organisationer inom den offentliga
+förvaltningen, men också för att det underlättar en fri och konkurrensneutral
+digital interaktion med medborgarna.&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value>
+          </sv:property>
+          <sv:node sv:name="why-oss-in-pubsect">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:facetselect</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>a0cc287e-8829-4bfa-a484-a8e0bca36ef2</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+          <sv:node sv:name="why-oss">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:facetselect</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>8605a129-fa8f-4525-ba84-e0dc1b121bf5</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="overview">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>motricewebsite:textimagedocument</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:referenceable</sv:value>
+          <sv:value>mix:versionable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>5f1ad64b-b968-4bdb-8e25-a41698cbe65d</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>solutions/public-sector/overview/overview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>unpublished</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>new</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2012-09-18T16:13:59.334+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2012-09-18T16:16:41.047+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
         </sv:property>
         <sv:property sv:name="hippotranslation:id" sv:type="String">
           <sv:value>af040371-618d-444d-ac98-d150946644fd</sv:value>
@@ -4108,7 +6000,7 @@ digital interaktion med medborgarna.&lt;/p&gt;
         <sv:value>2014-09-22T14:08:00.108+02:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-        <sv:value>2014-09-22T14:08:00.188+02:00</sv:value>
+        <sv:value>2014-09-23T18:17:29.707+02:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
         <sv:value>admin</sv:value>
@@ -4135,14 +6027,63 @@ digital interaktion med medborgarna.&lt;/p&gt;
         <sv:value/>
       </sv:property>
       <sv:property sv:name="motricewebsite:title" sv:type="String">
-        <sv:value>Lösningar</sv:value>
+        <sv:value>Motrice BPM</sv:value>
       </sv:property>
       <sv:node sv:name="motricewebsite:body">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>hippostd:html</sv:value>
         </sv:property>
         <sv:property sv:name="hippostd:content" sv:type="String">
-          <sv:value>&lt;p&gt;xxx&lt;/p&gt;</sv:value>
+          <sv:value>&lt;p&gt;&lt;strong&gt;Motrice BPM&lt;/strong&gt; &amp;auml;r k&amp;auml;rnan i v&amp;aring;rt erbjudande, och &amp;auml;r en 100% k&amp;auml;llkods&amp;ouml;ppen och standard (BPMN 2.0)-konform plattform f&amp;ouml;r hantering av processer fr&amp;aring;n 
+&lt;em&gt;modell till k&amp;ouml;rbara processinstanser.&lt;/em&gt;&lt;/p&gt; 
+&lt;p&gt;Plattformen har f&amp;ouml;ljande funktionalitet:&lt;/p&gt; 
+&lt;ul&gt; 
+&lt;li&gt;System f&amp;ouml;r att skapa och konfigurera 
+&lt;em&gt;processorienterade verksamhetssystem&lt;/em&gt;&lt;br /&gt; En processmodell beskriver i huvudsak ett arbetsfl&amp;ouml;de, (formul&amp;auml;r) funktioner f&amp;ouml;r att f&amp;ouml;r&amp;auml;dla data i manuella arbetssteg samt kopplingar till omv&amp;auml;rldssystem. Detta paradigm kan ocks&amp;aring; anv&amp;auml;ndas p&amp;aring; ett specifikt verksamhetssystem, men d&amp;aring; &amp;auml;r fl&amp;ouml;det och funktionerna best&amp;auml;mda. S&amp;aring;lunda kan man beskriva och definiera de allra flesta sorters verksamhetssystem med BPMN 2
+&lt;br /&gt; &amp;nbsp;&lt;/li&gt; 
+&lt;li&gt;Autenticering och &amp;quot;Single Sign On&amp;quot; enligt standard
+&lt;br /&gt; Federerad inloggning tillhandah&amp;aring;lls, s&amp;aring; systemet kan samleva med andra i en web-infrastruktur
+&lt;br /&gt; &amp;nbsp;&lt;/li&gt; 
+&lt;li&gt;Funktioner f&amp;ouml;r fingranul&amp;auml;r beh&amp;ouml;righetskontroll
+&lt;br /&gt; &amp;Aring;tkomstkontroll kan definieras ner till den enskilde individ
+&lt;br /&gt; &amp;nbsp;&lt;/li&gt; 
+&lt;li&gt;&lt;em&gt;S&amp;auml;kra och &amp;ouml;msesidigt verifierbara&lt;/em&gt; signaturer
+&lt;br /&gt; Med detta menas att systemet tillhandah&amp;aring;ller funktioner f&amp;ouml;r signering av PDF-A dokument p&amp;aring; ett s&amp;aring;dant s&amp;auml;tt att b&amp;aring;da parter (signat&amp;auml;ren och den som kr&amp;auml;ver signatur) kan tillhandah&amp;aring;lla en 
+&lt;em&gt;validerbar&lt;/em&gt; signerad utg&amp;aring;va av den signerade handlingen (och ordningen blir d&amp;auml;rmed som i pappersv&amp;auml;rlden, d&amp;auml;r b&amp;aring;da parter tar var sitt ex. av den signerade handlingen)
+&lt;br /&gt; &amp;nbsp;&lt;/li&gt; 
+&lt;li&gt;Separat design av processdiagram och formul&amp;auml;r &amp;mdash; f&amp;ouml;r flexibilitet och &amp;aring;teranv&amp;auml;ndning
+&lt;br /&gt; Processfl&amp;ouml;den &amp;auml;r ofta generiska &amp;mdash; samma arbetsfl&amp;ouml;de g&amp;aring;r igen i olika sammanhang. D&amp;aring; &amp;auml;r det f&amp;ouml;rdelaktigt och tidsbesparande att kunna &amp;aring;teranv&amp;auml;nda samma processfl&amp;ouml;de, men att kunna koppla olika data till det
+&lt;br /&gt; &amp;nbsp;&lt;/li&gt; 
+&lt;li&gt;St&amp;ouml;d f&amp;ouml;r full automatisering av processteg samt integration med omv&amp;auml;rldssystem
+&lt;br /&gt; BPMN 2.0 skiljer p&amp;aring; automatiska aktiviteter och anv&amp;auml;ndaraktiviteter. I den m&amp;aring;n ett omv&amp;auml;rldssystem erbjuder ett programmeringsgr&amp;auml;nssnitt f&amp;ouml;r vissa &amp;ouml;nskade funktioner s&amp;aring; kan data eller funktioner fr&amp;aring;n detta system n&amp;aring;s varp&amp;aring; integration eller automatisering av ett aktivitetssteg kan uppn&amp;aring;s
+&lt;br /&gt; &amp;nbsp;&lt;/li&gt; &lt;/ul&gt; 
+&lt;p&gt;&lt;strong&gt;Motrice BPM&lt;/strong&gt; verkar i all huvudsak i ett Java EE &amp;quot;ekosytem&amp;quot; och integrerar v&amp;auml;lbepr&amp;ouml;vade system fr&amp;aring;n &amp;quot;Open Source-hyllan&amp;quot; med egenutvecklade moduler f&amp;ouml;r att tillsammans utg&amp;ouml;ra en kraftfull och flexibel BPM-plattform.&lt;/p&gt; 
+&lt;p&gt;Ur Motrice BPM:s synvinkel betraktas nedanst&amp;aring;ende system som systemkomponenter som tillhandah&amp;aring;ller specialiserade tj&amp;auml;nster. Dess sammanfogas med Motrice-komponenter i ett integrationslager. Genom att f&amp;aring; alla best&amp;aring;ndsdelar att samspela som en organisk helhet blir resultatet ett avancerat BPM-system.&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;ul&gt; 
+&lt;li&gt;Activiti processmotor
+&lt;br /&gt; &amp;nbsp;&lt;/li&gt; 
+&lt;li&gt;Activiti Designer
+&lt;br /&gt; F&amp;ouml;r modellering och skapande av grafiska BPMN 2-diagram
+&lt;br /&gt; &amp;nbsp;&lt;/li&gt; 
+&lt;li&gt;Hippo CMS
+&lt;br /&gt; Inneh&amp;aring;llshantering och web-utvecklingsmilj&amp;ouml;
+&lt;br /&gt; &amp;nbsp;&lt;/li&gt; 
+&lt;li&gt;Orbeon Forms
+&lt;br /&gt; Avancerad webformul&amp;auml;r-hanterare
+&lt;br /&gt; &amp;nbsp;&lt;/li&gt; 
+&lt;li&gt;Shibboleth
+&lt;br /&gt; SAML baserad Autenticering
+&lt;br /&gt; &amp;nbsp;&lt;/li&gt; 
+&lt;li&gt;PostgreSQL
+&lt;br /&gt; Databas &amp;quot;back end&amp;quot;
+&lt;br /&gt; &amp;nbsp;&lt;/li&gt; 
+&lt;li&gt;OpenLDAP
+&lt;br /&gt; Katalog f&amp;ouml;r anv&amp;auml;ndar och grupphantering
+&lt;br /&gt; &amp;nbsp;&lt;/li&gt; 
+&lt;li&gt;Apache2 / Apache Tomcat
+&lt;br /&gt; JEE server och Web-proxy&lt;/li&gt; &lt;/ul&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</sv:value>
         </sv:property>
       </sv:node>
       <sv:node sv:name="motricewebsite:icon">
@@ -4172,7 +6113,7 @@ digital interaktion med medborgarna.&lt;/p&gt;
           <sv:value>hippostd:html</sv:value>
         </sv:property>
         <sv:property sv:name="hippostd:content" sv:type="String">
-          <sv:value>&lt;h1&gt;L&amp;ouml;sningar&lt;/h1&gt;</sv:value>
+          <sv:value>&lt;h1&gt;Motrice BPM&lt;/h1&gt;</sv:value>
         </sv:property>
       </sv:node>
     </sv:node>
@@ -4217,7 +6158,7 @@ digital interaktion med medborgarna.&lt;/p&gt;
         <sv:value>2014-09-22T14:08:00.108+02:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-        <sv:value>2014-09-22T14:08:49.465+02:00</sv:value>
+        <sv:value>2014-09-23T18:17:29.665+02:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
         <sv:value>admin</sv:value>
@@ -4244,14 +6185,63 @@ digital interaktion med medborgarna.&lt;/p&gt;
         <sv:value/>
       </sv:property>
       <sv:property sv:name="motricewebsite:title" sv:type="String">
-        <sv:value>Lösningar</sv:value>
+        <sv:value>Motrice BPM</sv:value>
       </sv:property>
       <sv:node sv:name="motricewebsite:body">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>hippostd:html</sv:value>
         </sv:property>
         <sv:property sv:name="hippostd:content" sv:type="String">
-          <sv:value>&lt;p&gt;xxx&lt;/p&gt;</sv:value>
+          <sv:value>&lt;p&gt;&lt;strong&gt;Motrice BPM&lt;/strong&gt; &amp;auml;r k&amp;auml;rnan i v&amp;aring;rt erbjudande, och &amp;auml;r en 100% k&amp;auml;llkods&amp;ouml;ppen och standard (BPMN 2.0)-konform plattform f&amp;ouml;r hantering av processer fr&amp;aring;n 
+&lt;em&gt;modell till k&amp;ouml;rbara processinstanser.&lt;/em&gt;&lt;/p&gt; 
+&lt;p&gt;Plattformen har f&amp;ouml;ljande funktionalitet:&lt;/p&gt; 
+&lt;ul&gt; 
+&lt;li&gt;System f&amp;ouml;r att skapa och konfigurera 
+&lt;em&gt;processorienterade verksamhetssystem&lt;/em&gt;&lt;br /&gt; En processmodell beskriver i huvudsak ett arbetsfl&amp;ouml;de, (formul&amp;auml;r) funktioner f&amp;ouml;r att f&amp;ouml;r&amp;auml;dla data i manuella arbetssteg samt kopplingar till omv&amp;auml;rldssystem. Detta paradigm kan ocks&amp;aring; anv&amp;auml;ndas p&amp;aring; ett specifikt verksamhetssystem, men d&amp;aring; &amp;auml;r fl&amp;ouml;det och funktionerna best&amp;auml;mda. S&amp;aring;lunda kan man beskriva och definiera de allra flesta sorters verksamhetssystem med BPMN 2
+&lt;br /&gt; &amp;nbsp;&lt;/li&gt; 
+&lt;li&gt;Autenticering och &amp;quot;Single Sign On&amp;quot; enligt standard
+&lt;br /&gt; Federerad inloggning tillhandah&amp;aring;lls, s&amp;aring; systemet kan samleva med andra i en web-infrastruktur
+&lt;br /&gt; &amp;nbsp;&lt;/li&gt; 
+&lt;li&gt;Funktioner f&amp;ouml;r fingranul&amp;auml;r beh&amp;ouml;righetskontroll
+&lt;br /&gt; &amp;Aring;tkomstkontroll kan definieras ner till den enskilde individ
+&lt;br /&gt; &amp;nbsp;&lt;/li&gt; 
+&lt;li&gt;&lt;em&gt;S&amp;auml;kra och &amp;ouml;msesidigt verifierbara&lt;/em&gt; signaturer
+&lt;br /&gt; Med detta menas att systemet tillhandah&amp;aring;ller funktioner f&amp;ouml;r signering av PDF-A dokument p&amp;aring; ett s&amp;aring;dant s&amp;auml;tt att b&amp;aring;da parter (signat&amp;auml;ren och den som kr&amp;auml;ver signatur) kan tillhandah&amp;aring;lla en 
+&lt;em&gt;validerbar&lt;/em&gt; signerad utg&amp;aring;va av den signerade handlingen (och ordningen blir d&amp;auml;rmed som i pappersv&amp;auml;rlden, d&amp;auml;r b&amp;aring;da parter tar var sitt ex. av den signerade handlingen)
+&lt;br /&gt; &amp;nbsp;&lt;/li&gt; 
+&lt;li&gt;Separat design av processdiagram och formul&amp;auml;r &amp;mdash; f&amp;ouml;r flexibilitet och &amp;aring;teranv&amp;auml;ndning
+&lt;br /&gt; Processfl&amp;ouml;den &amp;auml;r ofta generiska &amp;mdash; samma arbetsfl&amp;ouml;de g&amp;aring;r igen i olika sammanhang. D&amp;aring; &amp;auml;r det f&amp;ouml;rdelaktigt och tidsbesparande att kunna &amp;aring;teranv&amp;auml;nda samma processfl&amp;ouml;de, men att kunna koppla olika data till det
+&lt;br /&gt; &amp;nbsp;&lt;/li&gt; 
+&lt;li&gt;St&amp;ouml;d f&amp;ouml;r full automatisering av processteg samt integration med omv&amp;auml;rldssystem
+&lt;br /&gt; BPMN 2.0 skiljer p&amp;aring; automatiska aktiviteter och anv&amp;auml;ndaraktiviteter. I den m&amp;aring;n ett omv&amp;auml;rldssystem erbjuder ett programmeringsgr&amp;auml;nssnitt f&amp;ouml;r vissa &amp;ouml;nskade funktioner s&amp;aring; kan data eller funktioner fr&amp;aring;n detta system n&amp;aring;s varp&amp;aring; integration eller automatisering av ett aktivitetssteg kan uppn&amp;aring;s
+&lt;br /&gt; &amp;nbsp;&lt;/li&gt; &lt;/ul&gt; 
+&lt;p&gt;&lt;strong&gt;Motrice BPM&lt;/strong&gt; verkar i all huvudsak i ett Java EE &amp;quot;ekosytem&amp;quot; och integrerar v&amp;auml;lbepr&amp;ouml;vade system fr&amp;aring;n &amp;quot;Open Source-hyllan&amp;quot; med egenutvecklade moduler f&amp;ouml;r att tillsammans utg&amp;ouml;ra en kraftfull och flexibel BPM-plattform.&lt;/p&gt; 
+&lt;p&gt;Ur Motrice BPM:s synvinkel betraktas nedanst&amp;aring;ende system som systemkomponenter som tillhandah&amp;aring;ller specialiserade tj&amp;auml;nster. Dess sammanfogas med Motrice-komponenter i ett integrationslager. Genom att f&amp;aring; alla best&amp;aring;ndsdelar att samspela som en organisk helhet blir resultatet ett avancerat BPM-system.&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;ul&gt; 
+&lt;li&gt;Activiti processmotor
+&lt;br /&gt; &amp;nbsp;&lt;/li&gt; 
+&lt;li&gt;Activiti Designer
+&lt;br /&gt; F&amp;ouml;r modellering och skapande av grafiska BPMN 2-diagram
+&lt;br /&gt; &amp;nbsp;&lt;/li&gt; 
+&lt;li&gt;Hippo CMS
+&lt;br /&gt; Inneh&amp;aring;llshantering och web-utvecklingsmilj&amp;ouml;
+&lt;br /&gt; &amp;nbsp;&lt;/li&gt; 
+&lt;li&gt;Orbeon Forms
+&lt;br /&gt; Avancerad webformul&amp;auml;r-hanterare
+&lt;br /&gt; &amp;nbsp;&lt;/li&gt; 
+&lt;li&gt;Shibboleth
+&lt;br /&gt; SAML baserad Autenticering
+&lt;br /&gt; &amp;nbsp;&lt;/li&gt; 
+&lt;li&gt;PostgreSQL
+&lt;br /&gt; Databas &amp;quot;back end&amp;quot;
+&lt;br /&gt; &amp;nbsp;&lt;/li&gt; 
+&lt;li&gt;OpenLDAP
+&lt;br /&gt; Katalog f&amp;ouml;r anv&amp;auml;ndar och grupphantering
+&lt;br /&gt; &amp;nbsp;&lt;/li&gt; 
+&lt;li&gt;Apache2 / Apache Tomcat
+&lt;br /&gt; JEE server och Web-proxy&lt;/li&gt; &lt;/ul&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</sv:value>
         </sv:property>
       </sv:node>
       <sv:node sv:name="motricewebsite:icon">
@@ -4281,7 +6271,7 @@ digital interaktion med medborgarna.&lt;/p&gt;
           <sv:value>hippostd:html</sv:value>
         </sv:property>
         <sv:property sv:name="hippostd:content" sv:type="String">
-          <sv:value>&lt;h1&gt;L&amp;ouml;sningar&lt;/h1&gt;</sv:value>
+          <sv:value>&lt;h1&gt;Motrice BPM&lt;/h1&gt;</sv:value>
         </sv:property>
       </sv:node>
     </sv:node>
@@ -4314,13 +6304,13 @@ digital interaktion med medborgarna.&lt;/p&gt;
         <sv:value>2014-09-22T14:08:00.108+02:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-        <sv:value>2014-09-22T14:08:49.465+02:00</sv:value>
+        <sv:value>2014-09-23T18:17:29.665+02:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
         <sv:value>admin</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-        <sv:value>2014-09-22T14:09:00.719+02:00</sv:value>
+        <sv:value>2014-09-23T18:17:53.082+02:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippotranslation:id" sv:type="String">
         <sv:value>d50cb077-0f9e-45ec-853d-6687f3e8ea30</sv:value>
@@ -4344,14 +6334,63 @@ digital interaktion med medborgarna.&lt;/p&gt;
         <sv:value/>
       </sv:property>
       <sv:property sv:name="motricewebsite:title" sv:type="String">
-        <sv:value>Lösningar</sv:value>
+        <sv:value>Motrice BPM</sv:value>
       </sv:property>
       <sv:node sv:name="motricewebsite:body">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>hippostd:html</sv:value>
         </sv:property>
         <sv:property sv:name="hippostd:content" sv:type="String">
-          <sv:value>&lt;p&gt;xxx&lt;/p&gt;</sv:value>
+          <sv:value>&lt;p&gt;&lt;strong&gt;Motrice BPM&lt;/strong&gt; &amp;auml;r k&amp;auml;rnan i v&amp;aring;rt erbjudande, och &amp;auml;r en 100% k&amp;auml;llkods&amp;ouml;ppen och standard (BPMN 2.0)-konform plattform f&amp;ouml;r hantering av processer fr&amp;aring;n 
+&lt;em&gt;modell till k&amp;ouml;rbara processinstanser.&lt;/em&gt;&lt;/p&gt; 
+&lt;p&gt;Plattformen har f&amp;ouml;ljande funktionalitet:&lt;/p&gt; 
+&lt;ul&gt; 
+&lt;li&gt;System f&amp;ouml;r att skapa och konfigurera 
+&lt;em&gt;processorienterade verksamhetssystem&lt;/em&gt;&lt;br /&gt; En processmodell beskriver i huvudsak ett arbetsfl&amp;ouml;de, (formul&amp;auml;r) funktioner f&amp;ouml;r att f&amp;ouml;r&amp;auml;dla data i manuella arbetssteg samt kopplingar till omv&amp;auml;rldssystem. Detta paradigm kan ocks&amp;aring; anv&amp;auml;ndas p&amp;aring; ett specifikt verksamhetssystem, men d&amp;aring; &amp;auml;r fl&amp;ouml;det och funktionerna best&amp;auml;mda. S&amp;aring;lunda kan man beskriva och definiera de allra flesta sorters verksamhetssystem med BPMN 2
+&lt;br /&gt; &amp;nbsp;&lt;/li&gt; 
+&lt;li&gt;Autenticering och &amp;quot;Single Sign On&amp;quot; enligt standard
+&lt;br /&gt; Federerad inloggning tillhandah&amp;aring;lls, s&amp;aring; systemet kan samleva med andra i en web-infrastruktur
+&lt;br /&gt; &amp;nbsp;&lt;/li&gt; 
+&lt;li&gt;Funktioner f&amp;ouml;r fingranul&amp;auml;r beh&amp;ouml;righetskontroll
+&lt;br /&gt; &amp;Aring;tkomstkontroll kan definieras ner till den enskilde individ
+&lt;br /&gt; &amp;nbsp;&lt;/li&gt; 
+&lt;li&gt;&lt;em&gt;S&amp;auml;kra och &amp;ouml;msesidigt verifierbara&lt;/em&gt; signaturer
+&lt;br /&gt; Med detta menas att systemet tillhandah&amp;aring;ller funktioner f&amp;ouml;r signering av PDF-A dokument p&amp;aring; ett s&amp;aring;dant s&amp;auml;tt att b&amp;aring;da parter (signat&amp;auml;ren och den som kr&amp;auml;ver signatur) kan tillhandah&amp;aring;lla en 
+&lt;em&gt;validerbar&lt;/em&gt; signerad utg&amp;aring;va av den signerade handlingen (och ordningen blir d&amp;auml;rmed som i pappersv&amp;auml;rlden, d&amp;auml;r b&amp;aring;da parter tar var sitt ex. av den signerade handlingen)
+&lt;br /&gt; &amp;nbsp;&lt;/li&gt; 
+&lt;li&gt;Separat design av processdiagram och formul&amp;auml;r &amp;mdash; f&amp;ouml;r flexibilitet och &amp;aring;teranv&amp;auml;ndning
+&lt;br /&gt; Processfl&amp;ouml;den &amp;auml;r ofta generiska &amp;mdash; samma arbetsfl&amp;ouml;de g&amp;aring;r igen i olika sammanhang. D&amp;aring; &amp;auml;r det f&amp;ouml;rdelaktigt och tidsbesparande att kunna &amp;aring;teranv&amp;auml;nda samma processfl&amp;ouml;de, men att kunna koppla olika data till det
+&lt;br /&gt; &amp;nbsp;&lt;/li&gt; 
+&lt;li&gt;St&amp;ouml;d f&amp;ouml;r full automatisering av processteg samt integration med omv&amp;auml;rldssystem
+&lt;br /&gt; BPMN 2.0 skiljer p&amp;aring; automatiska aktiviteter och anv&amp;auml;ndaraktiviteter. I den m&amp;aring;n ett omv&amp;auml;rldssystem erbjuder ett programmeringsgr&amp;auml;nssnitt f&amp;ouml;r vissa &amp;ouml;nskade funktioner s&amp;aring; kan data eller funktioner fr&amp;aring;n detta system n&amp;aring;s varp&amp;aring; integration eller automatisering av ett aktivitetssteg kan uppn&amp;aring;s
+&lt;br /&gt; &amp;nbsp;&lt;/li&gt; &lt;/ul&gt; 
+&lt;p&gt;&lt;strong&gt;Motrice BPM&lt;/strong&gt; verkar i all huvudsak i ett Java EE &amp;quot;ekosytem&amp;quot; och integrerar v&amp;auml;lbepr&amp;ouml;vade system fr&amp;aring;n &amp;quot;Open Source-hyllan&amp;quot; med egenutvecklade moduler f&amp;ouml;r att tillsammans utg&amp;ouml;ra en kraftfull och flexibel BPM-plattform.&lt;/p&gt; 
+&lt;p&gt;Ur Motrice BPM:s synvinkel betraktas nedanst&amp;aring;ende system som systemkomponenter som tillhandah&amp;aring;ller specialiserade tj&amp;auml;nster. Dess sammanfogas med Motrice-komponenter i ett integrationslager. Genom att f&amp;aring; alla best&amp;aring;ndsdelar att samspela som en organisk helhet blir resultatet ett avancerat BPM-system.&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;ul&gt; 
+&lt;li&gt;Activiti processmotor
+&lt;br /&gt; &amp;nbsp;&lt;/li&gt; 
+&lt;li&gt;Activiti Designer
+&lt;br /&gt; F&amp;ouml;r modellering och skapande av grafiska BPMN 2-diagram
+&lt;br /&gt; &amp;nbsp;&lt;/li&gt; 
+&lt;li&gt;Hippo CMS
+&lt;br /&gt; Inneh&amp;aring;llshantering och web-utvecklingsmilj&amp;ouml;
+&lt;br /&gt; &amp;nbsp;&lt;/li&gt; 
+&lt;li&gt;Orbeon Forms
+&lt;br /&gt; Avancerad webformul&amp;auml;r-hanterare
+&lt;br /&gt; &amp;nbsp;&lt;/li&gt; 
+&lt;li&gt;Shibboleth
+&lt;br /&gt; SAML baserad Autenticering
+&lt;br /&gt; &amp;nbsp;&lt;/li&gt; 
+&lt;li&gt;PostgreSQL
+&lt;br /&gt; Databas &amp;quot;back end&amp;quot;
+&lt;br /&gt; &amp;nbsp;&lt;/li&gt; 
+&lt;li&gt;OpenLDAP
+&lt;br /&gt; Katalog f&amp;ouml;r anv&amp;auml;ndar och grupphantering
+&lt;br /&gt; &amp;nbsp;&lt;/li&gt; 
+&lt;li&gt;Apache2 / Apache Tomcat
+&lt;br /&gt; JEE server och Web-proxy&lt;/li&gt; &lt;/ul&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</sv:value>
         </sv:property>
       </sv:node>
       <sv:node sv:name="motricewebsite:icon">
@@ -4381,7 +6420,7 @@ digital interaktion med medborgarna.&lt;/p&gt;
           <sv:value>hippostd:html</sv:value>
         </sv:property>
         <sv:property sv:name="hippostd:content" sv:type="String">
-          <sv:value>&lt;h1&gt;L&amp;ouml;sningar&lt;/h1&gt;</sv:value>
+          <sv:value>&lt;h1&gt;Motrice BPM&lt;/h1&gt;</sv:value>
         </sv:property>
       </sv:node>
     </sv:node>
