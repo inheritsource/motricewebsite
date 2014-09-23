@@ -150,6 +150,8 @@ html > body > div.container > div.container.marketing > div.row > div.col-lg-4 >
   padding-bottom: 20px;
   */
   color: #fc9200;
+/*  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.6);*/
+  text-shadow: 3px 2px 2px rgba(0, 0, 0, 0.8);
   /*text-align: center;
   text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.6); */
 }
@@ -194,4 +196,10 @@ html > body > div.container > div#myCarousel.carousel.slide > div.carousel-inner
   border-bottom-color: #000000;
   border-left-color: #000000;
   */
+}
+
+div.jumbotron > h1{
+	color: #fc9200;
+    font-weight: bold;
+    text-shadow: 3px 2px 2px rgba(0, 0, 0, 0.8);
 }

@@ -5,7 +5,7 @@
   <parent>
     <groupId>org.onehippo.cms7</groupId>
     <artifactId>hippo-cms7-release</artifactId>
-    <version>7.9.1</version>
+    <version>7.9.2</version>
   </parent>
 
   <name>Motrice Web Site</name>
@@ -61,6 +61,7 @@
   <properties>
 
     <!-- ***START temporary override of versions*** -->
+    <hippo.cms.version>2.26.07</hippo.cms.version>
     <!-- ***END temporary override of versions*** -->
 
     <jsp-api.version>2.1</jsp-api.version>
