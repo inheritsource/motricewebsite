@@ -460,9 +460,6 @@
         <sv:value>services/bpm/bpm[3]</sv:value>
         <sv:value>services/bpm/bpm</sv:value>
       </sv:property>
-      <sv:property sv:name="hippostd:holder" sv:type="String">
-        <sv:value>admin</sv:value>
-      </sv:property>
       <sv:property sv:name="hippostd:state" sv:type="String">
         <sv:value>draft</sv:value>
       </sv:property>
@@ -596,7 +593,7 @@
         <sv:value>2011-09-13T14:48:42.871Z</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-        <sv:value>2014-08-26T18:10:36.466+02:00</sv:value>
+        <sv:value>2014-09-26T10:02:34.068+02:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
         <sv:value>admin</sv:value>
@@ -606,6 +603,18 @@
       </sv:property>
       <sv:property sv:name="hippotranslation:locale" sv:type="String">
         <sv:value>sv</sv:value>
+      </sv:property>
+      <sv:property sv:name="motricewebsite:buttonref" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="motricewebsite:buttontxt" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="motricewebsite:imagecaption" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="motricewebsite:seqnumber" sv:type="Long">
+        <sv:value>0</sv:value>
       </sv:property>
       <sv:property sv:name="motricewebsite:summary" sv:type="String">
         <sv:value>Kör verksamhetsprocesserna på riktigt! Vi har verktyg och lösningar för att ta steget från att rita processer på whiteboard och post-it lappar till att verkligen köra dem skarpt i verksamheten.</sv:value>
@@ -1516,7 +1525,7 @@ för kända misstag.&lt;/p&gt;
         <sv:value>2014-09-22T14:02:04.615+02:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-        <sv:value>2014-09-23T13:51:53.922+02:00</sv:value>
+        <sv:value>2014-09-26T10:03:24.740+02:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
         <sv:value>admin</sv:value>
@@ -1565,9 +1574,6 @@ för kända misstag.&lt;/p&gt;
 &lt;p&gt;En genomt&amp;auml;nkt processdesign kan fungera som ett nav som koordinerar andra it-system i organisationen. D&amp;aring; kr&amp;auml;vs det integration med dessa. Vi genomf&amp;ouml;r integrationer av de modellerade processerna med organisationers existerande informationssystem&lt;/p&gt; &lt;/li&gt; 
 &lt;li&gt; 
 &lt;p&gt;&lt;strong&gt;Automatisering&lt;/strong&gt;&lt;br /&gt; En process kan inneh&amp;aring;lla s&amp;aring;v&amp;auml;l manuella som automatiska moment.&amp;nbsp; Vi bist&amp;aring;r med att identifiera manuella processteg som kan automatiseras och erbjuder programmeringssst&amp;ouml;d f&amp;ouml;r att genomf&amp;ouml;ra detta&lt;/p&gt; &lt;/li&gt; 
-&lt;li&gt; 
-&lt;p&gt;&lt;strong&gt;Simulering&lt;/strong&gt;&lt;br /&gt; Vi erbjuder m&amp;ouml;jligheten att 
-&lt;em&gt;simulera&lt;/em&gt; processer innan verkst&amp;auml;llande/drifts&amp;auml;ttning f&amp;ouml;r att i f&amp;ouml;rv&amp;auml;g identifiera flaskhalsar i processfl&amp;ouml;det.&lt;/p&gt; &lt;/li&gt; 
 &lt;li&gt;&lt;strong&gt;Drifts&amp;auml;ttning&lt;/strong&gt; 
 &lt;p&gt;Implementation och drifts&amp;auml;ttning av system f&amp;ouml;r att ladda och k&amp;ouml;ra processinstanser&lt;/p&gt; &lt;/li&gt; 
 &lt;li&gt;&lt;strong&gt;Processdrift och &amp;ouml;vervakning&lt;/strong&gt;&lt;br /&gt; Driftsatta processer &amp;auml;r verksamhetskritiska och beh&amp;ouml;ver de &amp;ouml;vervakas och rutiner f&amp;ouml;r backup, &amp;aring;terst&amp;auml;llande etc m&amp;aring;ste finnas och fungera. Vi kan ta ett helhetsansvar f&amp;ouml;r driften av processer i kundens eller en hostad milj&amp;ouml;
@@ -1664,7 +1670,7 @@ för kända misstag.&lt;/p&gt;
         <sv:value>2014-09-22T14:02:04.615+02:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-        <sv:value>2014-09-23T13:51:53.807+02:00</sv:value>
+        <sv:value>2014-09-26T10:04:12.478+02:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
         <sv:value>admin</sv:value>
@@ -1713,9 +1719,6 @@ för kända misstag.&lt;/p&gt;
 &lt;p&gt;En genomt&amp;auml;nkt processdesign kan fungera som ett nav som koordinerar andra it-system i organisationen. D&amp;aring; kr&amp;auml;vs det integration med dessa. Vi genomf&amp;ouml;r integrationer av de modellerade processerna med organisationers existerande informationssystem&lt;/p&gt; &lt;/li&gt; 
 &lt;li&gt; 
 &lt;p&gt;&lt;strong&gt;Automatisering&lt;/strong&gt;&lt;br /&gt; En process kan inneh&amp;aring;lla s&amp;aring;v&amp;auml;l manuella som automatiska moment.&amp;nbsp; Vi bist&amp;aring;r med att identifiera manuella processteg som kan automatiseras och erbjuder programmeringssst&amp;ouml;d f&amp;ouml;r att genomf&amp;ouml;ra detta&lt;/p&gt; &lt;/li&gt; 
-&lt;li&gt; 
-&lt;p&gt;&lt;strong&gt;Simulering&lt;/strong&gt;&lt;br /&gt; Vi erbjuder m&amp;ouml;jligheten att 
-&lt;em&gt;simulera&lt;/em&gt; processer innan verkst&amp;auml;llande/drifts&amp;auml;ttning f&amp;ouml;r att i f&amp;ouml;rv&amp;auml;g identifiera flaskhalsar i processfl&amp;ouml;det.&lt;/p&gt; &lt;/li&gt; 
 &lt;li&gt;&lt;strong&gt;Drifts&amp;auml;ttning&lt;/strong&gt; 
 &lt;p&gt;Implementation och drifts&amp;auml;ttning av system f&amp;ouml;r att ladda och k&amp;ouml;ra processinstanser&lt;/p&gt; &lt;/li&gt; 
 &lt;li&gt;&lt;strong&gt;Processdrift och &amp;ouml;vervakning&lt;/strong&gt;&lt;br /&gt; Driftsatta processer &amp;auml;r verksamhetskritiska och beh&amp;ouml;ver de &amp;ouml;vervakas och rutiner f&amp;ouml;r backup, &amp;aring;terst&amp;auml;llande etc m&amp;aring;ste finnas och fungera. Vi kan ta ett helhetsansvar f&amp;ouml;r driften av processer i kundens eller en hostad milj&amp;ouml;
@@ -1800,13 +1803,13 @@ för kända misstag.&lt;/p&gt;
         <sv:value>2014-09-22T14:02:04.615+02:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-        <sv:value>2014-09-23T13:51:53.807+02:00</sv:value>
+        <sv:value>2014-09-26T10:04:12.478+02:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
         <sv:value>admin</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-        <sv:value>2014-09-23T18:18:21.466+02:00</sv:value>
+        <sv:value>2014-09-26T10:05:01.174+02:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippotranslation:id" sv:type="String">
         <sv:value>4ace0bdb-716e-4096-a6de-2e32af5a3a1c</sv:value>
@@ -1852,9 +1855,6 @@ för kända misstag.&lt;/p&gt;
 &lt;p&gt;En genomt&amp;auml;nkt processdesign kan fungera som ett nav som koordinerar andra it-system i organisationen. D&amp;aring; kr&amp;auml;vs det integration med dessa. Vi genomf&amp;ouml;r integrationer av de modellerade processerna med organisationers existerande informationssystem&lt;/p&gt; &lt;/li&gt; 
 &lt;li&gt; 
 &lt;p&gt;&lt;strong&gt;Automatisering&lt;/strong&gt;&lt;br /&gt; En process kan inneh&amp;aring;lla s&amp;aring;v&amp;auml;l manuella som automatiska moment.&amp;nbsp; Vi bist&amp;aring;r med att identifiera manuella processteg som kan automatiseras och erbjuder programmeringssst&amp;ouml;d f&amp;ouml;r att genomf&amp;ouml;ra detta&lt;/p&gt; &lt;/li&gt; 
-&lt;li&gt; 
-&lt;p&gt;&lt;strong&gt;Simulering&lt;/strong&gt;&lt;br /&gt; Vi erbjuder m&amp;ouml;jligheten att 
-&lt;em&gt;simulera&lt;/em&gt; processer innan verkst&amp;auml;llande/drifts&amp;auml;ttning f&amp;ouml;r att i f&amp;ouml;rv&amp;auml;g identifiera flaskhalsar i processfl&amp;ouml;det.&lt;/p&gt; &lt;/li&gt; 
 &lt;li&gt;&lt;strong&gt;Drifts&amp;auml;ttning&lt;/strong&gt; 
 &lt;p&gt;Implementation och drifts&amp;auml;ttning av system f&amp;ouml;r att ladda och k&amp;ouml;ra processinstanser&lt;/p&gt; &lt;/li&gt; 
 &lt;li&gt;&lt;strong&gt;Processdrift och &amp;ouml;vervakning&lt;/strong&gt;&lt;br /&gt; Driftsatta processer &amp;auml;r verksamhetskritiska och beh&amp;ouml;ver de &amp;ouml;vervakas och rutiner f&amp;ouml;r backup, &amp;aring;terst&amp;auml;llande etc m&amp;aring;ste finnas och fungera. Vi kan ta ett helhetsansvar f&amp;ouml;r driften av processer i kundens eller en hostad milj&amp;ouml;

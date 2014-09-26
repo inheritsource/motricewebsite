@@ -40,9 +40,17 @@
 	<!-- Placed at the end of the document so the pages load faster -->
 	<script
 		src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-	<script src="/site/dist/js/bootstrap.min.js"></script>
-	<script src="/site/assets/js/docs.min.js"></script>
+	<!-- <script src="/site/dist/js/bootstrap.min.js"></script> -->
+        <hst:link var="bootstrap_min" path="/dist/js/bootstrap.min.js"/>
+        <script type="text/javascript" src="${bootstrap_min}"></script>
+
+	<!-- <script src="/site/assets/js/docs.min.js"></script> -->
+        <hst:link var="docs_min" path="/assets/js/docs.min.js"/>
+        <script type="text/javascript" src="${docs_min}"></script>
+
 	<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-	<script src="/site/assets/js/ie10-viewport-bug-workaround.js"></script>
+	<!-- <script src="/site/assets/js/ie10-viewport-bug-workaround.js"></script> -->
+        <hst:link var="ie10_vp_bug_wa" path="/assets/js/ie10-viewport-bug-workaround.js"/>
+        <script type="text/javascript" src="${ie10_vp_bug_wa}"></script>
 </body>
 </html>
