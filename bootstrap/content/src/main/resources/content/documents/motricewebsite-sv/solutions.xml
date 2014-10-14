@@ -5991,7 +5991,7 @@ digital interaktion med medborgarna.&lt;/p&gt;
         <sv:value>draft</sv:value>
       </sv:property>
       <sv:property sv:name="hippostd:stateSummary" sv:type="String">
-        <sv:value>live</sv:value>
+        <sv:value>changed</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
         <sv:value>admin</sv:value>
@@ -6000,7 +6000,7 @@ digital interaktion med medborgarna.&lt;/p&gt;
         <sv:value>2014-09-22T14:08:00.108+02:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-        <sv:value>2014-09-23T18:17:29.707+02:00</sv:value>
+        <sv:value>2014-10-14T13:30:39.322+02:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
         <sv:value>admin</sv:value>
@@ -6034,28 +6034,50 @@ digital interaktion med medborgarna.&lt;/p&gt;
           <sv:value>hippostd:html</sv:value>
         </sv:property>
         <sv:property sv:name="hippostd:content" sv:type="String">
-          <sv:value>&lt;p&gt;&lt;strong&gt;Motrice BPM&lt;/strong&gt; &amp;auml;r k&amp;auml;rnan i v&amp;aring;rt erbjudande, och &amp;auml;r en 100% k&amp;auml;llkods&amp;ouml;ppen och standard (BPMN 2.0)-konform plattform f&amp;ouml;r hantering av processer fr&amp;aring;n 
-&lt;em&gt;modell till k&amp;ouml;rbara processinstanser.&lt;/em&gt;&lt;/p&gt; 
+          <sv:value>&lt;p&gt;&lt;strong&gt;Motrice BPM&lt;/strong&gt; &amp;auml;r k&amp;auml;rnan i v&amp;aring;rt erbjudande, och &amp;auml;r ett k&amp;auml;llkods&amp;ouml;ppet system f&amp;ouml;r att skapa och konfigurera 
+&lt;em&gt;processorienterade verksamhetssystem.&lt;/em&gt;&amp;nbsp; Systemet baserar sig p&amp;aring; den &amp;ouml;ppna industristandarden, 
+&lt;a href="http://www.bpmn.org"&gt;BPMN 2.0&lt;/a&gt; f&amp;ouml;r hantering av verksamhetsprocesser med st&amp;ouml;d fr&amp;aring;n fr&amp;aring;n 
+&lt;em&gt;modell till k&amp;ouml;rbara processinstanser&lt;/em&gt;, (v.g. se 
+&lt;a href="http://en.wikipedia.org/wiki/Business_Process_Model_and_Notation"&gt;Wikipedia artikel&lt;/a&gt;).&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;En processmodell beskriver en process som ett arbetsfl&amp;ouml;de d&amp;auml;r olika akt&amp;ouml;rer samverkar med varandra och med automatiska arbetssteg f&amp;ouml;r att n&amp;aring; ett specifikt verkamhetsm&amp;aring;l. BPMN skiljer inte i sig mellan externa akt&amp;ouml;rer (medborgare) och interna akt&amp;ouml;rer (anst&amp;auml;llda inom verksamheten). D&amp;auml;remot kan man skilja p&amp;aring; dessa genom s&amp;auml;ttet de &amp;auml;r autenticerade mot systemet, vilket &amp;auml;r en fr&amp;aring;ga om systemkonfiguration. Enligt detta synss&amp;auml;tt &amp;auml;r e-tj&amp;auml;nster - i den sn&amp;auml;va bem&amp;auml;rkelsen elektroniska tj&amp;auml;nster exponerade mot medborgarna, enbart ett specialfall. Man kan generellt beskriva och definiera de allra flesta sorters verksamhetssystem med hj&amp;auml;lp av BPMN2-standarden.&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
 &lt;p&gt;Plattformen har f&amp;ouml;ljande funktionalitet:&lt;/p&gt; 
 &lt;ul&gt; 
 &lt;li&gt;System f&amp;ouml;r att skapa och konfigurera 
 &lt;em&gt;processorienterade verksamhetssystem&lt;/em&gt;&lt;br /&gt; En processmodell beskriver i huvudsak ett arbetsfl&amp;ouml;de, (formul&amp;auml;r) funktioner f&amp;ouml;r att f&amp;ouml;r&amp;auml;dla data i manuella arbetssteg samt kopplingar till omv&amp;auml;rldssystem. Detta paradigm kan ocks&amp;aring; anv&amp;auml;ndas p&amp;aring; ett specifikt verksamhetssystem, men d&amp;aring; &amp;auml;r fl&amp;ouml;det och funktionerna best&amp;auml;mda. S&amp;aring;lunda kan man beskriva och definiera de allra flesta sorters verksamhetssystem med BPMN 2
 &lt;br /&gt; &amp;nbsp;&lt;/li&gt; 
-&lt;li&gt;Autenticering och &amp;quot;Single Sign On&amp;quot; enligt standard
-&lt;br /&gt; Federerad inloggning tillhandah&amp;aring;lls, s&amp;aring; systemet kan samleva med andra i en web-infrastruktur
+&lt;li&gt;Autenticering enligt flera metoder, och &amp;quot;Single Sign On&amp;quot; enligt (SAML)-standard.
+&lt;br /&gt; Systemet har anv&amp;auml;nts med CGI-funktionstj&amp;auml;nster, Portwise och Svensk e-identitet
+&lt;br /&gt; Autenticering och &amp;quot;Single Sign On&amp;quot; enligt standard
 &lt;br /&gt; &amp;nbsp;&lt;/li&gt; 
-&lt;li&gt;Funktioner f&amp;ouml;r fingranul&amp;auml;r beh&amp;ouml;righetskontroll
-&lt;br /&gt; &amp;Aring;tkomstkontroll kan definieras ner till den enskilde individ
+&lt;li&gt;Funktioner f&amp;ouml;r fingranul&amp;auml;r s&amp;aring;v&amp;auml;l som rollbaserad &amp;aring;tkomstkontroll
+&lt;br /&gt; &amp;Aring;tkomstkontroll kan definieras ner till den enskilde individ, men en grupp individer kan ocks&amp;aring; tilldelas en roll med vissa r&amp;auml;ttigheter. Beh&amp;ouml;righetskontroll kan &amp;auml;ga rum p&amp;aring; aktivitetsniv&amp;aring;, s&amp;aring;lunda kan vissa aktiviteter exponeras enbart f&amp;ouml;r en autenticerad individ (t.ex. en medborgare), medan andra enbart g&amp;ouml;rs tillg&amp;auml;ngliga t.ex. f&amp;ouml;r anst&amp;auml;llda i en specifik roll.
 &lt;br /&gt; &amp;nbsp;&lt;/li&gt; 
 &lt;li&gt;&lt;em&gt;S&amp;auml;kra och &amp;ouml;msesidigt verifierbara&lt;/em&gt; signaturer
 &lt;br /&gt; Med detta menas att systemet tillhandah&amp;aring;ller funktioner f&amp;ouml;r signering av PDF-A dokument p&amp;aring; ett s&amp;aring;dant s&amp;auml;tt att b&amp;aring;da parter (signat&amp;auml;ren och den som kr&amp;auml;ver signatur) kan tillhandah&amp;aring;lla en 
 &lt;em&gt;validerbar&lt;/em&gt; signerad utg&amp;aring;va av den signerade handlingen (och ordningen blir d&amp;auml;rmed som i pappersv&amp;auml;rlden, d&amp;auml;r b&amp;aring;da parter tar var sitt ex. av den signerade handlingen)
 &lt;br /&gt; &amp;nbsp;&lt;/li&gt; 
-&lt;li&gt;Separat design av processdiagram och formul&amp;auml;r &amp;mdash; f&amp;ouml;r flexibilitet och &amp;aring;teranv&amp;auml;ndning
-&lt;br /&gt; Processfl&amp;ouml;den &amp;auml;r ofta generiska &amp;mdash; samma arbetsfl&amp;ouml;de g&amp;aring;r igen i olika sammanhang. D&amp;aring; &amp;auml;r det f&amp;ouml;rdelaktigt och tidsbesparande att kunna &amp;aring;teranv&amp;auml;nda samma processfl&amp;ouml;de, men att kunna koppla olika data till det
+&lt;li&gt;Verktyg f&amp;ouml;r design av BPMN2 processdiagram
+&lt;br /&gt; Med hj&amp;auml;lp av denna funktion ritas diagram. F&amp;ouml;r att &amp;ldquo;k&amp;ouml;ra&amp;rdquo; processen, installeras diagrammet sedan i processmotorn med hj&amp;auml;lp av ett administrations-verktyg
+&lt;br /&gt; &amp;nbsp;&lt;/li&gt; 
+&lt;li&gt;Verktyg f&amp;ouml;r design av &amp;nbsp;web-formul&amp;auml;r som kopplas till processdiagrammet. Formul&amp;auml;r kan knytas s&amp;aring;v&amp;auml;l till starten av fl&amp;ouml;det (t.ex. ans&amp;ouml;kansformul&amp;auml;r) och till specifika aktivitetssteg.
+&lt;br /&gt; Den separata designen av processdiagram och formul&amp;auml;r medger flexibilitet och &amp;aring;teranv&amp;auml;ndning. Processfl&amp;ouml;den &amp;auml;r ofta generiska &amp;mdash; samma arbetsfl&amp;ouml;de g&amp;aring;r igen i olika sammanhang. D&amp;aring; &amp;auml;r det f&amp;ouml;rdelaktigt och tidsbesparande att kunna &amp;aring;teranv&amp;auml;nda samma processfl&amp;ouml;de, men att kunna koppla olika data (formul&amp;auml;r) till det
+&lt;br /&gt; &amp;nbsp;&lt;/li&gt; 
+&lt;li&gt;Versionshantering
+&lt;br /&gt; B&amp;aring;de formul&amp;auml;r och processdiagram &amp;auml;r underlagda versionskontroll. Systemet kan hantera att flera versioner av formul&amp;auml;r och processer k&amp;ouml;rs samtidigt. S&amp;aring;lunda beh&amp;ouml;ver inte l&amp;aring;nglivade processer som k&amp;ouml;rs i en &amp;auml;ldre version st&amp;ouml;ras av att nyare versioner installeras i processmotorn
 &lt;br /&gt; &amp;nbsp;&lt;/li&gt; 
 &lt;li&gt;St&amp;ouml;d f&amp;ouml;r full automatisering av processteg samt integration med omv&amp;auml;rldssystem
 &lt;br /&gt; BPMN 2.0 skiljer p&amp;aring; automatiska aktiviteter och anv&amp;auml;ndaraktiviteter. I den m&amp;aring;n ett omv&amp;auml;rldssystem erbjuder ett programmeringsgr&amp;auml;nssnitt f&amp;ouml;r vissa &amp;ouml;nskade funktioner s&amp;aring; kan data eller funktioner fr&amp;aring;n detta system n&amp;aring;s varp&amp;aring; integration eller automatisering av ett aktivitetssteg kan uppn&amp;aring;s
+&lt;br /&gt; &amp;nbsp;&lt;/li&gt; 
+&lt;li&gt;Administrativt verktyg
+&lt;br /&gt; Med hj&amp;auml;lp av det adminsitrativa verktyget kopplas formul&amp;auml;r till processer och till aktivitetssteg och versionshanterade processer installeras i server-maskinen
+&lt;br /&gt; &amp;nbsp;&lt;/li&gt; 
+&lt;li&gt;Ingen installation
+&lt;br /&gt; Systemet &amp;auml;r web-baserat och k&amp;ouml;rbart i alla moderna browsers utan &amp;ldquo;plug-in&amp;rdquo;-er eller &amp;ouml;vrig till&amp;auml;ggsinstallation
+&lt;br /&gt; &amp;nbsp;&lt;/li&gt; 
+&lt;li&gt;Kameleontisk &amp;quot;look and feel&amp;quot;
+&lt;br /&gt; Systemets &amp;ldquo;look and feel&amp;rdquo; kan helt anpassas till de omgivande sidor i vilket det skall k&amp;ouml;ras
 &lt;br /&gt; &amp;nbsp;&lt;/li&gt; &lt;/ul&gt; 
 &lt;p&gt;&lt;strong&gt;Motrice BPM&lt;/strong&gt; verkar i all huvudsak i ett Java EE &amp;quot;ekosytem&amp;quot; och integrerar v&amp;auml;lbepr&amp;ouml;vade system fr&amp;aring;n &amp;quot;Open Source-hyllan&amp;quot; med egenutvecklade moduler f&amp;ouml;r att tillsammans utg&amp;ouml;ra en kraftfull och flexibel BPM-plattform.&lt;/p&gt; 
 &lt;p&gt;Ur Motrice BPM:s synvinkel betraktas nedanst&amp;aring;ende system som systemkomponenter som tillhandah&amp;aring;ller specialiserade tj&amp;auml;nster. Dess sammanfogas med Motrice-komponenter i ett integrationslager. Genom att f&amp;aring; alla best&amp;aring;ndsdelar att samspela som en organisk helhet blir resultatet ett avancerat BPM-system.&lt;/p&gt; 
@@ -6149,7 +6171,7 @@ digital interaktion med medborgarna.&lt;/p&gt;
         <sv:value>unpublished</sv:value>
       </sv:property>
       <sv:property sv:name="hippostd:stateSummary" sv:type="String">
-        <sv:value>live</sv:value>
+        <sv:value>changed</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
         <sv:value>admin</sv:value>
@@ -6158,7 +6180,7 @@ digital interaktion med medborgarna.&lt;/p&gt;
         <sv:value>2014-09-22T14:08:00.108+02:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-        <sv:value>2014-09-23T18:17:29.665+02:00</sv:value>
+        <sv:value>2014-10-14T14:08:55.118+02:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
         <sv:value>admin</sv:value>
@@ -6192,28 +6214,50 @@ digital interaktion med medborgarna.&lt;/p&gt;
           <sv:value>hippostd:html</sv:value>
         </sv:property>
         <sv:property sv:name="hippostd:content" sv:type="String">
-          <sv:value>&lt;p&gt;&lt;strong&gt;Motrice BPM&lt;/strong&gt; &amp;auml;r k&amp;auml;rnan i v&amp;aring;rt erbjudande, och &amp;auml;r en 100% k&amp;auml;llkods&amp;ouml;ppen och standard (BPMN 2.0)-konform plattform f&amp;ouml;r hantering av processer fr&amp;aring;n 
-&lt;em&gt;modell till k&amp;ouml;rbara processinstanser.&lt;/em&gt;&lt;/p&gt; 
+          <sv:value>&lt;p&gt;&lt;strong&gt;Motrice BPM&lt;/strong&gt; &amp;auml;r k&amp;auml;rnan i v&amp;aring;rt erbjudande, och &amp;auml;r ett k&amp;auml;llkods&amp;ouml;ppet system f&amp;ouml;r att skapa och konfigurera 
+&lt;em&gt;processorienterade verksamhetssystem.&lt;/em&gt;&amp;nbsp; Systemet baserar sig p&amp;aring; den &amp;ouml;ppna industristandarden, 
+&lt;a href="http://www.bpmn.org"&gt;BPMN 2.0&lt;/a&gt; f&amp;ouml;r hantering av verksamhetsprocesser med st&amp;ouml;d fr&amp;aring;n fr&amp;aring;n 
+&lt;em&gt;modell till k&amp;ouml;rbara processinstanser&lt;/em&gt;, (v.g. se 
+&lt;a href="http://en.wikipedia.org/wiki/Business_Process_Model_and_Notation"&gt;Wikipedia artikel&lt;/a&gt;).&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;En processmodell beskriver en process som ett arbetsfl&amp;ouml;de d&amp;auml;r olika akt&amp;ouml;rer samverkar med varandra och med automatiska arbetssteg f&amp;ouml;r att n&amp;aring; ett specifikt verkamhetsm&amp;aring;l. BPMN skiljer inte i sig mellan externa akt&amp;ouml;rer (medborgare) och interna akt&amp;ouml;rer (anst&amp;auml;llda inom verksamheten). D&amp;auml;remot kan man skilja p&amp;aring; dessa genom s&amp;auml;ttet de &amp;auml;r autenticerade mot systemet, vilket &amp;auml;r en fr&amp;aring;ga om systemkonfiguration. Enligt detta synss&amp;auml;tt &amp;auml;r e-tj&amp;auml;nster - i den sn&amp;auml;va bem&amp;auml;rkelsen elektroniska tj&amp;auml;nster exponerade mot medborgarna, enbart ett specialfall. Man kan generellt beskriva och definiera de allra flesta sorters verksamhetssystem med hj&amp;auml;lp av BPMN2-standarden.&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
 &lt;p&gt;Plattformen har f&amp;ouml;ljande funktionalitet:&lt;/p&gt; 
 &lt;ul&gt; 
 &lt;li&gt;System f&amp;ouml;r att skapa och konfigurera 
 &lt;em&gt;processorienterade verksamhetssystem&lt;/em&gt;&lt;br /&gt; En processmodell beskriver i huvudsak ett arbetsfl&amp;ouml;de, (formul&amp;auml;r) funktioner f&amp;ouml;r att f&amp;ouml;r&amp;auml;dla data i manuella arbetssteg samt kopplingar till omv&amp;auml;rldssystem. Detta paradigm kan ocks&amp;aring; anv&amp;auml;ndas p&amp;aring; ett specifikt verksamhetssystem, men d&amp;aring; &amp;auml;r fl&amp;ouml;det och funktionerna best&amp;auml;mda. S&amp;aring;lunda kan man beskriva och definiera de allra flesta sorters verksamhetssystem med BPMN 2
 &lt;br /&gt; &amp;nbsp;&lt;/li&gt; 
-&lt;li&gt;Autenticering och &amp;quot;Single Sign On&amp;quot; enligt standard
-&lt;br /&gt; Federerad inloggning tillhandah&amp;aring;lls, s&amp;aring; systemet kan samleva med andra i en web-infrastruktur
+&lt;li&gt;Autenticering enligt flera metoder, och &amp;quot;Single Sign On&amp;quot; enligt (SAML)-standard.
+&lt;br /&gt; Systemet har anv&amp;auml;nts med CGI-funktionstj&amp;auml;nster, Portwise och Svensk e-identitet
+&lt;br /&gt; Autenticering och &amp;quot;Single Sign On&amp;quot; enligt standard
 &lt;br /&gt; &amp;nbsp;&lt;/li&gt; 
-&lt;li&gt;Funktioner f&amp;ouml;r fingranul&amp;auml;r beh&amp;ouml;righetskontroll
-&lt;br /&gt; &amp;Aring;tkomstkontroll kan definieras ner till den enskilde individ
+&lt;li&gt;Funktioner f&amp;ouml;r fingranul&amp;auml;r s&amp;aring;v&amp;auml;l som rollbaserad &amp;aring;tkomstkontroll
+&lt;br /&gt; &amp;Aring;tkomstkontroll kan definieras ner till den enskilde individ, men en grupp individer kan ocks&amp;aring; tilldelas en roll med vissa r&amp;auml;ttigheter. Beh&amp;ouml;righetskontroll kan &amp;auml;ga rum p&amp;aring; aktivitetsniv&amp;aring;, s&amp;aring;lunda kan vissa aktiviteter exponeras enbart f&amp;ouml;r en autenticerad individ (t.ex. en medborgare), medan andra enbart g&amp;ouml;rs tillg&amp;auml;ngliga t.ex. f&amp;ouml;r anst&amp;auml;llda i en specifik roll.
 &lt;br /&gt; &amp;nbsp;&lt;/li&gt; 
 &lt;li&gt;&lt;em&gt;S&amp;auml;kra och &amp;ouml;msesidigt verifierbara&lt;/em&gt; signaturer
 &lt;br /&gt; Med detta menas att systemet tillhandah&amp;aring;ller funktioner f&amp;ouml;r signering av PDF-A dokument p&amp;aring; ett s&amp;aring;dant s&amp;auml;tt att b&amp;aring;da parter (signat&amp;auml;ren och den som kr&amp;auml;ver signatur) kan tillhandah&amp;aring;lla en 
 &lt;em&gt;validerbar&lt;/em&gt; signerad utg&amp;aring;va av den signerade handlingen (och ordningen blir d&amp;auml;rmed som i pappersv&amp;auml;rlden, d&amp;auml;r b&amp;aring;da parter tar var sitt ex. av den signerade handlingen)
 &lt;br /&gt; &amp;nbsp;&lt;/li&gt; 
-&lt;li&gt;Separat design av processdiagram och formul&amp;auml;r &amp;mdash; f&amp;ouml;r flexibilitet och &amp;aring;teranv&amp;auml;ndning
-&lt;br /&gt; Processfl&amp;ouml;den &amp;auml;r ofta generiska &amp;mdash; samma arbetsfl&amp;ouml;de g&amp;aring;r igen i olika sammanhang. D&amp;aring; &amp;auml;r det f&amp;ouml;rdelaktigt och tidsbesparande att kunna &amp;aring;teranv&amp;auml;nda samma processfl&amp;ouml;de, men att kunna koppla olika data till det
+&lt;li&gt;Verktyg f&amp;ouml;r design av BPMN2 processdiagram
+&lt;br /&gt; Med hj&amp;auml;lp av denna funktion ritas diagram. F&amp;ouml;r att &amp;ldquo;k&amp;ouml;ra&amp;rdquo; processen, installeras diagrammet sedan i processmotorn med hj&amp;auml;lp av ett administrations-verktyg
+&lt;br /&gt; &amp;nbsp;&lt;/li&gt; 
+&lt;li&gt;Verktyg f&amp;ouml;r design av &amp;nbsp;web-formul&amp;auml;r som kopplas till processdiagrammet. Formul&amp;auml;r kan knytas s&amp;aring;v&amp;auml;l till starten av fl&amp;ouml;det (t.ex. ans&amp;ouml;kansformul&amp;auml;r) och till specifika aktivitetssteg.
+&lt;br /&gt; Den separata designen av processdiagram och formul&amp;auml;r medger flexibilitet och &amp;aring;teranv&amp;auml;ndning. Processfl&amp;ouml;den &amp;auml;r ofta generiska &amp;mdash; samma arbetsfl&amp;ouml;de g&amp;aring;r igen i olika sammanhang. D&amp;aring; &amp;auml;r det f&amp;ouml;rdelaktigt och tidsbesparande att kunna &amp;aring;teranv&amp;auml;nda samma processfl&amp;ouml;de, men att kunna koppla olika data (formul&amp;auml;r) till det
+&lt;br /&gt; &amp;nbsp;&lt;/li&gt; 
+&lt;li&gt;Versionshantering
+&lt;br /&gt; B&amp;aring;de formul&amp;auml;r och processdiagram &amp;auml;r underlagda versionskontroll. Systemet kan hantera att flera versioner av formul&amp;auml;r och processer k&amp;ouml;rs samtidigt. S&amp;aring;lunda beh&amp;ouml;ver inte l&amp;aring;nglivade processer som k&amp;ouml;rs i en &amp;auml;ldre version st&amp;ouml;ras av att nyare versioner installeras i processmotorn
 &lt;br /&gt; &amp;nbsp;&lt;/li&gt; 
 &lt;li&gt;St&amp;ouml;d f&amp;ouml;r full automatisering av processteg samt integration med omv&amp;auml;rldssystem
 &lt;br /&gt; BPMN 2.0 skiljer p&amp;aring; automatiska aktiviteter och anv&amp;auml;ndaraktiviteter. I den m&amp;aring;n ett omv&amp;auml;rldssystem erbjuder ett programmeringsgr&amp;auml;nssnitt f&amp;ouml;r vissa &amp;ouml;nskade funktioner s&amp;aring; kan data eller funktioner fr&amp;aring;n detta system n&amp;aring;s varp&amp;aring; integration eller automatisering av ett aktivitetssteg kan uppn&amp;aring;s
+&lt;br /&gt; &amp;nbsp;&lt;/li&gt; 
+&lt;li&gt;Administrativt verktyg
+&lt;br /&gt; Med hj&amp;auml;lp av det adminsitrativa verktyget kopplas formul&amp;auml;r till processer och till aktivitetssteg och versionshanterade processer installeras i server-maskinen
+&lt;br /&gt; &amp;nbsp;&lt;/li&gt; 
+&lt;li&gt;Ingen installation
+&lt;br /&gt; Systemet &amp;auml;r web-baserat och k&amp;ouml;rbart i alla moderna browsers utan &amp;ldquo;plug-in&amp;rdquo;-er eller &amp;ouml;vrig till&amp;auml;ggsinstallation
+&lt;br /&gt; &amp;nbsp;&lt;/li&gt; 
+&lt;li&gt;Kameleontisk &amp;quot;look and feel&amp;quot;
+&lt;br /&gt; Systemets &amp;ldquo;look and feel&amp;rdquo; kan helt anpassas till de omgivande sidor i vilket det skall k&amp;ouml;ras
 &lt;br /&gt; &amp;nbsp;&lt;/li&gt; &lt;/ul&gt; 
 &lt;p&gt;&lt;strong&gt;Motrice BPM&lt;/strong&gt; verkar i all huvudsak i ett Java EE &amp;quot;ekosytem&amp;quot; och integrerar v&amp;auml;lbepr&amp;ouml;vade system fr&amp;aring;n &amp;quot;Open Source-hyllan&amp;quot; med egenutvecklade moduler f&amp;ouml;r att tillsammans utg&amp;ouml;ra en kraftfull och flexibel BPM-plattform.&lt;/p&gt; 
 &lt;p&gt;Ur Motrice BPM:s synvinkel betraktas nedanst&amp;aring;ende system som systemkomponenter som tillhandah&amp;aring;ller specialiserade tj&amp;auml;nster. Dess sammanfogas med Motrice-komponenter i ett integrationslager. Genom att f&amp;aring; alla best&amp;aring;ndsdelar att samspela som en organisk helhet blir resultatet ett avancerat BPM-system.&lt;/p&gt; 
@@ -6295,7 +6339,7 @@ digital interaktion med medborgarna.&lt;/p&gt;
         <sv:value>published</sv:value>
       </sv:property>
       <sv:property sv:name="hippostd:stateSummary" sv:type="String">
-        <sv:value>live</sv:value>
+        <sv:value>changed</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
         <sv:value>admin</sv:value>

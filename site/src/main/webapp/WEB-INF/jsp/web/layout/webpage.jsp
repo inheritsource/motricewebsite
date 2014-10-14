@@ -14,25 +14,25 @@
   <head>
 	    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 	    <hst:headContributions categoryExcludes="scripts,hippoPagecomposer" />
-	    
+
 	    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
-	    <script language="javascript" src="<hst:link path="/js/jquery.tweet.js"/>" type="text/javascript"></script> 
-	    <script type="text/javascript" src="<hst:link path="/js/tweets.js"/>"></script>	    
+	    <script language="javascript" src="<hst:link path="/js/jquery.tweet.js"/>" type="text/javascript"></script>
+	    <script type="text/javascript" src="<hst:link path="/js/tweets.js"/>"></script>
 	    <script type="text/javascript" src="<hst:link path="/js/modernizr.js"/>"></script>
 	    <script src="//platform.twitter.com/widgets.js" type="text/javascript"></script>
-	    
+
 	    <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.4.0/build/cssreset/reset-min.css"/>
 	    <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.4.0/build/cssfonts/fonts-min.css"/>
 	    <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.4.0/build/cssbase/base-min.css"/>
 	    <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.4.0/build/cssgrids/grids-min.css"/>
 		<link rel="stylesheet" href="<hst:link path="/css/inherit_style.css"/>" type="text/css"/>
-		
-		<!-- google analytics -->
+
+		<!-- old analytics script
 		<script type="text/javascript">
 			var _gaq = _gaq || [];
 			_gaq.push([ '_setAccount', 'UA-27121379-1' ]);
 			_gaq.push([ '_trackPageview' ]);
-		
+
 			(function() {
 				var ga = document.createElement('script');
 				ga.type = 'text/javascript';
@@ -43,7 +43,7 @@
 				var s = document.getElementsByTagName('script')[0];
 				s.parentNode.insertBefore(ga, s);
 			})();
-		</script>
+		</script> -->
 </head>
 	<body>
 		<div id="top-bar">
@@ -51,19 +51,19 @@
 				<hst:include ref="header" />
 			</div>
 		</div>
-	
+
 		<hst:include ref="main" />
 
-<!-- 	
+<!--
 		<div id="footer">
 			<div class="content">
-                
+
                 <div id="footer-line"><br/></div>
-                
+
 				<div class="footer-item-label">
 					<b><fmt:message key="address"/></b>
 				</div>
-				
+
 				<div class="footer-item">
 					Inherit S AB<br/>
 					Långsjövägen 8<br/>
@@ -78,8 +78,8 @@
 
 			</div>
 		</div>
- -->	
-	
+ -->
+
 		<hst:headContributions categoryIncludes="scripts" />
 		<hst:headContributions categoryIncludes="hippoPagecomposer" />
 	</body>
